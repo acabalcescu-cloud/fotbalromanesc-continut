@@ -9,9 +9,20 @@
 
 defined( 'ABSPATH' ) || exit;
 
+/**
+ * E activ un modul SEO care chiar scrie titlurile și meta-datele? (Nu doar o constantă definită de un modul înrudit.)
+ */
 function fr_modul_seo_activ() {
-	return defined( 'WPSEO_VERSION' ) || defined( 'RANK_MATH_VERSION' ) || defined( 'SEOPRESS_VERSION' ) || defined( 'AIOSEO_VERSION' );
+	return ( defined( 'WPSEO_VERSION' ) && class_exists( 'WPSEO_Options' ) && function_exists( 'YoastSEO' ) )
+		|| ( defined( 'RANK_MATH_VERSION' ) && class_exists( 'RankMath' ) )
+		|| ( defined( 'SEOPRESS_VERSION' ) && function_exists( 'seopress_init' ) )
+		|| ( defined( 'AIOSEO_VERSION' ) && function_exists( 'aioseo' ) );
 }
+
+// /news-sitemap.xml fără „/” la final.
+add_filter( 'redirect_canonical', function ( $redirect ) {
+	return get_query_var( 'fr_news_sitemap' ) ? false : $redirect;
+} );
 
 /* ---------- Adrese curate: /competitie/liga-2/clasament/, /club/x/meciuri/ ---------- */
 

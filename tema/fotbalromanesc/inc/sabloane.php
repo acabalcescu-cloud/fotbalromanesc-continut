@@ -309,7 +309,7 @@ function fr_fila_curenta( $permise, $implicit ) {
  */
 add_action( 'wp_head', 'fr_meta_sociale', 5 );
 function fr_meta_sociale() {
-	if ( defined( 'WPSEO_VERSION' ) || defined( 'RANK_MATH_VERSION' ) || defined( 'SEOPRESS_VERSION' ) || defined( 'AIOSEO_VERSION' ) ) {
+	if ( fr_modul_seo_activ() ) {
 		return;
 	}
 	$titlu = wp_get_document_title();

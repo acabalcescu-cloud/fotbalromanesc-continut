@@ -132,7 +132,8 @@ function fr_rute_tema() {
 			'permission_callback' => '__return_true',
 			'callback'            => function () {
 				$info = fr_info_tema_depozit( true );
-				return array( 'instalata' => fr_versiune_instalata(), 'in_depozit' => $info['versiune'] ?? null );
+				$seo = array_values( array_filter( array( 'WPSEO_VERSION', 'RANK_MATH_VERSION', 'SEOPRESS_VERSION', 'AIOSEO_VERSION' ), 'defined' ) );
+				return array( 'instalata' => fr_versiune_instalata(), 'in_depozit' => $info['versiune'] ?? null, 'constante_seo' => $seo, 'modul_seo_activ' => fr_modul_seo_activ() );
 			},
 		),
 		array(
