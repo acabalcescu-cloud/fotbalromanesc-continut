@@ -332,6 +332,13 @@ add_action( 'rest_api_init', function () {
 		'callback'            => function ( $req ) {
 			$id    = (int) $req['id'];
 			$retea = in_array( $req->get_param( 'retea' ), array( 'fb', 'ig' ), true ) ? $req->get_param( 'retea' ) : '';
+			// ?peste=<minute>: postarea se programează (pe rețelele active), nu se face acum.
+			$peste = (int) $req->get_param( 'peste' );
+			if ( $peste > 0 && 'publish' === get_post_status( $id ) ) {
+				$cand = time() + $peste * MINUTE_IN_SECONDS;
+				wp_schedule_single_event( $cand, 'fr_social_publica', array( $id ) );
+				return array( 'programat' => wp_date( 'Y-m-d H:i', $cand ), 'articol' => get_the_title( $id ) );
+			}
 			fr_social_ruleaza( $id, $retea, true );
 			return array(
 				'fb' => get_post_meta( $id, '_fr_fb_id', true ) ?: get_post_meta( $id, '_fr_fb_eroare', true ),
