@@ -444,7 +444,8 @@ h1, h2, h3 { line-height: 1.15; }
 	.fr-antet__rand { flex-wrap: wrap; min-height: 0; padding-top: 12px; gap: 0 12px; }
 	.fr-logo { flex: 1 1 auto; }
 	.fr-nav { order: 3; flex: 1 1 100%; }
-	.fr-meniu a { padding: 12px 0 10px; }
+	.fr-meniu { flex-wrap: wrap; overflow: visible; gap: 0 20px; padding-bottom: 4px; }
+	.fr-meniu a { padding: 10px 0 8px; }
 	.fr-titlu-mare { font-size: 36px; }
 	.fr-articol--mare .fr-articol__coperta, .fr-articol--mare .fr-articol__suprapus { aspect-ratio: 4 / 3; }
 	.fr-articol--mare .fr-articol__suprapus { padding: 20px; }
