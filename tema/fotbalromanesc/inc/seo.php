@@ -37,6 +37,10 @@ function fr_reguli_adrese() {
 	if ( get_option( 'fr_reguli_versiune' ) !== FR_VERSIUNE ) {
 		update_option( 'fr_reguli_versiune', FR_VERSIUNE, false );
 		flush_rewrite_rules( false );
+		// LiteSpeed Cache poate ține redirecționări vechi: golim paginile pe care le-am schimbat.
+		do_action( 'litespeed_purge_url', home_url( '/news-sitemap.xml' ) );
+		do_action( 'litespeed_purge_url', home_url( '/news-sitemap.xml/' ) );
+		do_action( 'litespeed_purge_url', home_url( '/robots.txt' ) );
 	}
 }
 
@@ -276,6 +280,9 @@ add_action( 'template_redirect', function () {
 		return;
 	}
 	$posts = get_posts( array( 'numberposts' => 1000, 'date_query' => array( array( 'after' => '48 hours ago' ) ) ) );
+	// Google News vrea articolele noi repede: cache de cel mult 10 minute.
+	do_action( 'litespeed_control_set_ttl', 600 );
+	do_action( 'litespeed_tag_add', 'fr_news' );
 	header( 'Content-Type: application/xml; charset=UTF-8' );
 	echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
 	echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">' . "\n";
@@ -307,3 +314,9 @@ add_filter( 'robots_txt', function ( $txt, $public ) {
 	}
 	return $txt;
 }, 10, 2 );
+
+add_action( 'transition_post_status', function ( $nou, $vechi, $post ) {
+	if ( 'publish' === $nou && 'post' === $post->post_type ) {
+		do_action( 'litespeed_purge', 'fr_news' );
+	}
+}, 10, 3 );

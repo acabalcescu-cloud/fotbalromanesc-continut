@@ -39,13 +39,17 @@ function fr_sezon( $sep = '/' ) {
  * Creează sau actualizează câte un club pentru fiecare echipă din clasamentele competițiilor cu date.
  * Întoarce câte cluburi au fost create.
  */
-function fr_sincronizeaza_cluburi() {
+function fr_sincronizeaza_cluburi( $max_sigle = 40 ) {
 	$create = 0;
+	$sigle  = 0;
 	foreach ( fr_competitii_cu_date() as $t ) {
 		if ( get_term_meta( $t->term_id, 'fr_echipa_livescore', true ) ) {
 			continue; // naționalele nu au cluburi
 		}
 		$d = fr_date_competitie( $t->term_id );
+		if ( is_array( $d ) && 'LiveScore' === ( $d['sursa'] ?? '' ) && ! isset( $d['sigle'] ) ) {
+			$d = fr_incarca_date( $t->term_id ); // copie veche, fără steme
+		}
 		if ( ! $d || empty( $d['clasament'] ) ) {
 			continue;
 		}
@@ -73,16 +77,23 @@ function fr_sincronizeaza_cluburi() {
 			// Competiția curentă (se schimbă la promovare sau retrogradare).
 			update_term_meta( $club->term_id, 'fr_competitie', $t->term_id );
 			// Stema, o singură dată, descărcată pe site.
-			if ( $din_livescore && ! get_term_meta( $club->term_id, 'fr_sigla', true ) && ! empty( $d['sigle'][ $brut ] ) ) {
+			if ( $din_livescore && $sigle < $max_sigle && ! get_term_meta( $club->term_id, 'fr_sigla', true ) && ! empty( $d['sigle'][ $brut ] ) ) {
 				$url = fr_descarca_sigla( FR_SIGLE_LIVESCORE . ltrim( $d['sigle'][ $brut ], '/' ), $club->name );
+				$sigle++;
 				if ( $url ) {
 					update_term_meta( $club->term_id, 'fr_sigla', $url );
+				} else {
+					update_option( 'fr_sigla_eroare', $club->name . ': ' . get_option( 'fr_sigla_ultima_eroare', '' ), false );
 				}
 			}
 		}
 	}
 	// Static cache din fr_club_dupa_nume_date nu mai e valabil după creări; nimic altceva de golit.
 	update_option( 'fr_cluburi_sincronizat', time(), false );
+	if ( $sigle >= $max_sigle ) {
+		// Au rămas steme de descărcat: încă o tură peste 2 minute.
+		wp_schedule_single_event( time() + 120, 'fr_sincronizare_cluburi' );
+	}
 	return $create;
 }
 
@@ -92,10 +103,12 @@ function fr_descarca_sigla( $url, $nume ) {
 	require_once ABSPATH . 'wp-admin/includes/image.php';
 	$tmp = download_url( $url, 30 );
 	if ( is_wp_error( $tmp ) ) {
+		update_option( 'fr_sigla_ultima_eroare', $tmp->get_error_message(), false );
 		return '';
 	}
 	$id = media_handle_sideload( array( 'name' => sanitize_title( $nume ) . '-stema.png', 'tmp_name' => $tmp ), 0, 'Stema ' . $nume );
 	if ( is_wp_error( $id ) ) {
+		update_option( 'fr_sigla_ultima_eroare', $id->get_error_message(), false );
 		wp_delete_file( $tmp );
 		return '';
 	}
@@ -206,6 +219,24 @@ add_action( 'rest_api_init', function () {
 				);
 			}
 			return $out;
+		},
+	) );
+	// POST /wp-json/fr/v1/cluburi – sincronizarea acum (cheia X-Fr-Key, ca la actualizarea temei).
+	register_rest_route( 'fr/v1', '/cluburi', array(
+		'methods'             => 'POST',
+		'permission_callback' => function ( $req ) {
+			$cheie = (string) $req->get_header( 'x_fr_key' );
+			return current_user_can( 'manage_options' ) || ( '' !== $cheie && hash_equals( fr_cheie_actualizare(), $cheie ) );
+		},
+		'callback'            => function () {
+			$create = fr_sincronizeaza_cluburi( 25 );
+			$total  = 0;
+			$cu     = 0;
+			foreach ( get_terms( array( 'taxonomy' => 'club', 'hide_empty' => false ) ) as $c ) {
+				$total++;
+				$cu += get_term_meta( $c->term_id, 'fr_sigla', true ) ? 1 : 0;
+			}
+			return array( 'create' => $create, 'cluburi' => $total, 'cu_stema' => $cu, 'ultima_eroare' => get_option( 'fr_sigla_eroare', '' ) );
 		},
 	) );
 } );
