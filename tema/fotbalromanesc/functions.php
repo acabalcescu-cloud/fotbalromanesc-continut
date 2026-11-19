@@ -16,7 +16,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'FR_VERSIUNE', '1.2.8' );
+define( 'FR_VERSIUNE', '1.3.0' );
 define( 'FR_DIR', get_template_directory() );
 define( 'FR_URI', get_template_directory_uri() );
 
@@ -95,11 +95,18 @@ function fr_preconnect( $urls, $tip ) {
 
 // Cu logo încărcat (Aspect › Personalizează › Identitatea site-ului), antetul devine alb, ca logoul să se vadă.
 add_filter( 'body_class', function ( $c ) {
-	if ( has_custom_logo() ) {
-		$c[] = 'fr-cu-logo';
-	}
+	$c[] = 'fr-cu-logo'; // logoul (al temei sau cel încărcat) e gândit pe fundal alb
 	return $c;
 } );
+
+// Iconița site-ului: logoul pătrat, dacă în Aspect › Personalizează nu e setată alta.
+add_action( 'wp_head', function () {
+	if ( has_site_icon() ) {
+		return;
+	}
+	$u = FR_URI . '/assets/logo/';
+	printf( '<link rel="icon" type="image/png" sizes="32x32" href="%1$sfavicon-32.png">' . "\n" . '<link rel="icon" type="image/png" sizes="192x192" href="%1$sicon-192.png">' . "\n" . '<link rel="apple-touch-icon" href="%1$sapple-touch-icon.png">' . "\n", esc_url( $u ) );
+}, 2 );
 
 add_filter( 'excerpt_length', fn() => 28 );
 add_filter( 'excerpt_more', fn() => '…' );

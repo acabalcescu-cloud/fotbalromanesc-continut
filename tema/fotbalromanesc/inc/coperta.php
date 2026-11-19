@@ -105,8 +105,26 @@ function fr_lipeste_imagine( $im, $post_id, $x, $y, $w, $h ) {
 	// trecere spre fundal, în partea de jos a imaginii
 	for ( $i = 0; $i < 220; $i++ ) {
 		$alfa = (int) round( 127 - 127 * ( $i / 220 ) );
-		imagefilledrectangle( $im, $x, $y + $h - 220 + $i, $x + $w, $y + $h - 220 + $i, fr_culoare( $im, '0B1F3A', max( 0, $alfa ) ) );
+		imagefilledrectangle( $im, $x, $y + $h - 220 + $i, $x + $w, $y + $h - 220 + $i, fr_culoare( $im, '010E33', max( 0, $alfa ) ) );
 	}
+	return true;
+}
+
+/**
+ * Lipește un logo din assets/logo/ la ($x, $y). Cu $w = 0, lățimea se calculează din înălțimea $h.
+ */
+function fr_lipeste_logo( $im, $fisier, $x, $y, $w, $h ) {
+	$cale = get_template_directory() . '/assets/logo/' . $fisier;
+	$logo = file_exists( $cale ) ? imagecreatefrompng( $cale ) : false;
+	if ( ! $logo ) {
+		return false;
+	}
+	$lw = imagesx( $logo );
+	$lh = imagesy( $logo );
+	$w  = $w ?: (int) round( $lw * $h / $lh );
+	imagealphablending( $im, true );
+	imagecopyresampled( $im, $logo, $x, $y, 0, 0, $w, $h, $lw, $lh );
+	imagedestroy( $logo );
 	return true;
 }
 
@@ -119,8 +137,8 @@ function fr_deseneaza_coperta( $post_id, $format ) {
 	list( $W, $H ) = 'og' === $format ? array( 1200, 630 ) : array( 1080, 1350 );
 	$im = imagecreatetruecolor( $W, $H );
 	imagealphablending( $im, true );
-	$navy   = fr_culoare( $im, '0B1F3A' );
-	$navy2  = fr_culoare( $im, '13294A' );
+	$navy   = fr_culoare( $im, '010E33' ); // nuanța fundalului din logoul pătrat, ca logoul să se îmbine
+	$navy2  = fr_culoare( $im, '0E1E4A' );
 	$galben = fr_culoare( $im, 'F5B700' );
 	$alb    = fr_culoare( $im, 'FFFFFF' );
 	$gri    = fr_culoare( $im, 'C9D3E3' );
@@ -137,20 +155,19 @@ function fr_deseneaza_coperta( $post_id, $format ) {
 	$etich  = $comp ? mb_strtoupper( fr_eticheta_competitie( $comp ), 'UTF-8' ) : '';
 	$cu_poza = 'ig' === $format && fr_lipeste_imagine( $im, $post_id, 0, 0, $W, 620 );
 
-	// Sigla-text, sus (nu peste fotografie: atunci site-ul apare doar jos).
-	if ( ! $cu_poza ) {
-		$fs_s    = 'og' === $format ? 30 : 36;
-		$y_sigla = 'og' === $format ? 92 : 118;
-		$b       = imagettftext( $im, $fs_s, 0, $m, $y_sigla, $alb, $bold, 'fotbalromanesc' );
-		imagettftext( $im, $fs_s, 0, $b[2] + 1, $y_sigla, $galben, $bold, '.ro' );
+	// Logoul: pe Facebook, orizontal pe o bandă albă; pe Instagram, pătrat (sus, sau jos dacă sus e fotografia).
+	if ( 'og' === $format ) {
+		imagefilledrectangle( $im, 0, 0, $W, 118, $alb );
+		fr_lipeste_logo( $im, 'logo-orizontal-90.png', $m - 6, 14, 0, 90 );
+		$sus = 160; $jos = $H - 50;
+	} elseif ( $cu_poza ) {
+		fr_lipeste_logo( $im, 'logo-patrat-240.png', $W - $m - 170 + 18, $H - 200, 170, 170 );
+		$sus = 660; $jos = $H - 150;
+	} else {
+		fr_lipeste_logo( $im, 'logo-patrat-240.png', $m - 28, 24, 240, 240 );
+		$sus = 300; $jos = $H - 150;
 	}
 
-	// Zona titlului.
-	if ( 'og' === $format ) {
-		$sus = 150; $jos = $H - 70;
-	} else {
-		$sus = $cu_poza ? 660 : 300; $jos = $H - 150;
-	}
 	// Eticheta competiției.
 	if ( $etich ) {
 		$fs = 'og' === $format ? 24 : 30;

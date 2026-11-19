@@ -23,15 +23,8 @@ defined( 'ABSPATH' ) || exit;
 		<?php if ( has_custom_logo() ) : ?>
 			<div class="fr-logo"><?php the_custom_logo(); ?></div>
 		<?php else : ?>
-			<a class="fr-logo fr-logo--text" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<?php
-				$nume = get_bloginfo( 'name' );
-				if ( preg_match( '/^(.*)(\.[a-z]{2,4})$/i', $nume, $m ) ) {
-					echo esc_html( $m[1] ) . '<span>' . esc_html( $m[2] ) . '</span>';
-				} else {
-					echo esc_html( $nume );
-				}
-				?>
+			<a class="fr-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+				<img src="<?php echo esc_url( FR_URI . '/assets/logo/logo-orizontal.png' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" width="787" height="120">
 			</a>
 		<?php endif; ?>
 

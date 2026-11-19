@@ -68,7 +68,7 @@ h1, h2, h3 { line-height: 1.15; }
 
 /* Antetul alb, când site-ul are logo (logoul e gândit pe fundal alb) */
 .fr-cu-logo .fr-antet { background: var(--fr-alb); color: var(--fr-text); border-bottom: 1px solid var(--fr-linie); }
-.fr-cu-logo .fr-logo img { max-height: 44px; }
+.fr-cu-logo .fr-logo img { height: 44px; width: auto; max-height: none; }
 .fr-cu-logo .fr-meniu a { color: var(--fr-navy); }
 .fr-cu-logo .fr-meniu a:hover { color: #0033CC; }
 .fr-cu-logo .fr-meniu .current-menu-item > a, .fr-cu-logo .fr-meniu .current-menu-ancestor > a, .fr-cu-logo .fr-meniu a[aria-current] { color: #0033CC; border-bottom-color: var(--fr-galben); }
@@ -76,7 +76,7 @@ h1, h2, h3 { line-height: 1.15; }
 .fr-cu-logo .fr-antet .fr-buton-icon:hover, .fr-cu-logo .fr-antet .fr-buton-icon[aria-expanded="true"] { background: var(--fr-fundal); }
 .fr-cu-logo .fr-cautare { background: var(--fr-fundal); border-top: 1px solid var(--fr-linie); }
 @media (max-width: 760px) {
-	.fr-cu-logo .fr-logo img { max-height: 34px; }
+	.fr-cu-logo .fr-logo img { height: 32px; }
 }
 
 /* Titluri de secțiune */
