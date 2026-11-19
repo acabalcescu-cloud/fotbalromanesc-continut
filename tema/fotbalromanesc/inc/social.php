@@ -330,7 +330,13 @@ function fr_social_salveaza_formular() {
 		fr_social_deconecteaza();
 		return 'Conexiunea cu Facebook și Instagram a fost ștearsă.';
 	}
-	$t = trim( sanitize_text_field( wp_unslash( $_POST['fr_meta_token'] ?? '' ) ) ); // phpcs:ignore WordPress.Security.NonceVerification
+	$t = (string) wp_unslash( $_POST['fr_meta_token'] ?? '' ); // phpcs:ignore WordPress.Security.NonceVerification
+	// Un token Meta are doar litere și cifre (EAA…): scoatem spațiile, rândurile noi și orice text lipit în plus.
+	if ( preg_match( '/EAA[A-Za-z0-9]{40,}/', $t, $gasit ) ) {
+		$t = $gasit[0];
+	} else {
+		$t = preg_replace( '/[^A-Za-z0-9]/', '', $t );
+	}
 	$mesaj = '';
 	if ( '' !== $t ) {
 		$rez = fr_social_descopera( $t );
@@ -342,7 +348,7 @@ function fr_social_salveaza_formular() {
 			update_option( 'fr_ig_nume', $rez['ig_nume'], false );
 			$mesaj = 'Pagina găsită: ' . $rez['nume'] . ( $rez['ig_nume'] ? '; Instagram: @' . $rez['ig_nume'] : '; niciun cont de Instagram legat de pagină' ) . '.';
 		} else {
-			$mesaj = 'Nu am putut folosi tokenul. ' . ( $rez['mesaj'] ?? '' );
+			$mesaj = 'Nu am putut folosi tokenul (' . strlen( $t ) . ' caractere). ' . ( $rez['mesaj'] ?? '' );
 		}
 	}
 	if ( '' === $t && '' === $mesaj && ! get_option( 'fr_meta_token' ) ) {
