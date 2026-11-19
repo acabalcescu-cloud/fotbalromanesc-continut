@@ -124,10 +124,17 @@ $fr_rand_meci = function ( $m ) use ( $fr_nume, $fr_rezultat ) {
 			<h2 class="fr-eticheta-mare" id="fr-forma-t">Forma echipei</h2>
 			<div class="fr-cifre">
 				<div class="fr-cifra"><b><?php echo (int) $fr_bilant['meciuri']; ?></b><span>Meciuri jucate</span></div>
-				<div class="fr-cifra"><b><?php echo (int) $fr_bilant['v']; ?></b><span>Victorii</span></div>
-				<div class="fr-cifra"><b><?php echo (int) $fr_bilant['e']; ?></b><span>Egaluri</span></div>
-				<div class="fr-cifra"><b><?php echo (int) $fr_bilant['i']; ?></b><span>Înfrângeri</span></div>
-				<div class="fr-cifra"><b><?php echo null === $fr_bilant['gm'] ? '—' : (int) $fr_bilant['gm'] . '-' . (int) $fr_bilant['gp']; ?></b><span>Golaveraj</span></div>
+				<?php if ( null !== $fr_bilant['v'] && null !== $fr_bilant['e'] && null !== $fr_bilant['i'] ) : ?>
+					<div class="fr-cifra"><b><?php echo (int) $fr_bilant['v']; ?></b><span>Victorii</span></div>
+					<div class="fr-cifra"><b><?php echo (int) $fr_bilant['e']; ?></b><span>Egaluri</span></div>
+					<div class="fr-cifra"><b><?php echo (int) $fr_bilant['i']; ?></b><span>Înfrângeri</span></div>
+				<?php else : ?>
+					<div class="fr-cifra"><b><?php echo (int) $fr_bilant['loc']; ?></b><span>Locul</span></div>
+					<div class="fr-cifra"><b><?php echo (int) $fr_bilant['pct']; ?></b><span>Puncte</span></div>
+				<?php endif; ?>
+				<?php if ( null !== $fr_bilant['gm'] && null !== $fr_bilant['gp'] ) : ?>
+					<div class="fr-cifra"><b><?php echo (int) $fr_bilant['gm'] . '-' . (int) $fr_bilant['gp']; ?></b><span>Golaveraj</span></div>
+				<?php endif; ?>
 			</div>
 			<?php if ( $fr_terminate ) : ?>
 				<p class="fr-ultimele-meciuri">Ultimele meciuri: <?php echo fr_sir_forma( array_map( $fr_rezultat, array_slice( $fr_terminate, -5 ) ) ); // phpcs:ignore WordPress.Security.EscapeOutput ?></p>

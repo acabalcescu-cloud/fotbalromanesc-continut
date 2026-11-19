@@ -60,6 +60,9 @@ function fr_tabel_clasament( $date, $opt = array() ) {
 		$randuri = array_slice( $randuri, 0, $opt['max'] );
 	}
 	$forma = fr_forma( $date );
+	// Coloanele pe care sursa nu le are deloc (de exemplu V/E/Î în Liga 3) nu se afișează.
+	$are_vei = (bool) array_filter( $randuri, fn( $r ) => null !== $r['v'] );
+	$are_gol = (bool) array_filter( $randuri, fn( $r ) => null !== $r['gm'] );
 	ob_start();
 	?>
 	<div class="fr-tabel-cutie">
@@ -69,12 +72,18 @@ function fr_tabel_clasament( $date, $opt = array() ) {
 			<th scope="col" class="fr-echipa-col">Echipa</th>
 			<?php if ( $opt['complet'] ) : ?>
 				<th scope="col"><abbr title="Meciuri jucate">M</abbr></th>
-				<th scope="col"><abbr title="Victorii">V</abbr></th>
-				<th scope="col"><abbr title="Egaluri">E</abbr></th>
-				<th scope="col"><abbr title="Înfrângeri">Î</abbr></th>
-				<th scope="col">Goluri</th>
+				<?php if ( $are_vei ) : ?>
+					<th scope="col"><abbr title="Victorii">V</abbr></th>
+					<th scope="col"><abbr title="Egaluri">E</abbr></th>
+					<th scope="col"><abbr title="Înfrângeri">Î</abbr></th>
+				<?php endif; ?>
+				<?php if ( $are_gol ) : ?>
+					<th scope="col">Goluri</th>
+				<?php endif; ?>
 			<?php endif; ?>
-			<th scope="col"><abbr title="Golaveraj">GD</abbr></th>
+			<?php if ( $are_gol ) : ?>
+				<th scope="col"><abbr title="Golaveraj">GD</abbr></th>
+			<?php endif; ?>
 			<th scope="col"><abbr title="Puncte">Pct</abbr></th>
 			<th scope="col" class="fr-forma-col">Forma</th>
 		</tr></thead>
@@ -85,12 +94,18 @@ function fr_tabel_clasament( $date, $opt = array() ) {
 				<td class="fr-echipa-col"><?php echo fr_echipa( $r['echipa'] ); // phpcs:ignore WordPress.Security.EscapeOutput ?></td>
 				<?php if ( $opt['complet'] ) : ?>
 					<td><?php echo (int) $r['meciuri']; ?></td>
-					<td><?php echo (int) $r['v']; ?></td>
-					<td><?php echo (int) $r['e']; ?></td>
-					<td><?php echo (int) $r['i']; ?></td>
-					<td><?php echo null === $r['gm'] ? '—' : (int) $r['gm'] . '-' . (int) $r['gp']; ?></td>
+					<?php if ( $are_vei ) : ?>
+						<td><?php echo null === $r['v'] ? '—' : (int) $r['v']; ?></td>
+						<td><?php echo null === $r['e'] ? '—' : (int) $r['e']; ?></td>
+						<td><?php echo null === $r['i'] ? '—' : (int) $r['i']; ?></td>
+					<?php endif; ?>
+					<?php if ( $are_gol ) : ?>
+						<td><?php echo null === $r['gm'] ? '—' : (int) $r['gm'] . '-' . (int) $r['gp']; ?></td>
+					<?php endif; ?>
 				<?php endif; ?>
-				<td><?php echo esc_html( fr_gd( $r ) ); ?></td>
+				<?php if ( $are_gol ) : ?>
+					<td><?php echo esc_html( fr_gd( $r ) ); ?></td>
+				<?php endif; ?>
 				<td class="fr-pct"><?php echo (int) $r['pct']; ?></td>
 				<td class="fr-forma-col"><?php echo fr_sir_forma( $forma[ $r['echipa'] ] ?? array() ); // phpcs:ignore WordPress.Security.EscapeOutput ?></td>
 			</tr>

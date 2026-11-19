@@ -278,7 +278,7 @@ h1, h2, h3 { line-height: 1.15; }
 .fr-club { display: flex; flex-direction: column; gap: 28px; padding-top: 28px; padding-bottom: 40px; }
 .fr-eticheta-mare { display: inline-block; margin: 0 0 12px; padding: 8px 46px 8px 22px; background: linear-gradient(90deg, var(--fr-navy) 70%, #12408F); color: var(--fr-alb); font: 700 18px var(--fr-titlu); text-transform: uppercase; letter-spacing: .5px; border-radius: 0 22px 22px 0; }
 .fr-cap-sectiune .fr-eticheta-mare { margin-bottom: 0; }
-.fr-cifre { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.fr-cifre { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 12px; }
 .fr-cifra { background: var(--fr-alb); border: 1px solid var(--fr-linie); border-radius: var(--fr-raza); padding: 22px 12px; text-align: center; display: flex; flex-direction: column; gap: 6px; }
 .fr-cifra b { font: 700 46px/1 var(--fr-titlu); color: var(--fr-navy); }
 .fr-cifra span { font-size: 14px; font-weight: 600; color: var(--fr-text-2); }
@@ -320,7 +320,7 @@ h1, h2, h3 { line-height: 1.15; }
 @media (max-width: 760px) {
 	.fr-club-erou__titlu { font-size: 34px; }
 	.fr-club-erou__stema { width: 72px; height: 72px; }
-	.fr-cifre { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+	.fr-cifre { grid-auto-flow: row; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 	.fr-cifra b { font-size: 34px; }
 	.fr-doua { grid-template-columns: minmax(0, 1fr); }
 	.fr-rand-meci { grid-template-columns: 64px minmax(0, 1fr) 50px minmax(0, 1fr); font-size: 14px; }

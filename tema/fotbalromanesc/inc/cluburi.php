@@ -184,7 +184,20 @@ function fr_text_club( $club, $comp, $bilant, $profil ) {
 	$sezon = fr_sezon();
 	$ce    = $comp ? fr_eticheta_competitie( $comp ) : 'campionat';
 	$txt   = array();
-	if ( $bilant ) {
+	if ( $bilant && ( null === $bilant['v'] || null === $bilant['e'] || null === $bilant['i'] ) ) {
+		$txt[] = sprintf(
+			'În sezonul %1$s din %2$s, %3$s a jucat până acum %4$d %5$s%6$s și ocupă locul %7$d, cu %8$d %9$s.',
+			$sezon,
+			$ce,
+			$club->name,
+			$bilant['meciuri'],
+			1 === $bilant['meciuri'] ? 'meci' : 'de meciuri',
+			null !== $bilant['gm'] && null !== $bilant['gp'] ? sprintf( ', cu %d goluri marcate și %d primite,', $bilant['gm'], $bilant['gp'] ) : '',
+			$bilant['loc'],
+			$bilant['pct'],
+			1 === $bilant['pct'] ? 'punct' : 'de puncte'
+		);
+	} elseif ( $bilant ) {
 		$txt[] = sprintf(
 			'În sezonul %1$s din %2$s, %3$s a jucat până acum %4$d %5$s: %6$d %7$s, %8$d %9$s și %10$d %11$s, cu %12$s goluri marcate și %13$s primite, și ocupă locul %14$d, cu %15$d %16$s.',
 			$sezon,

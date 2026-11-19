@@ -339,9 +339,10 @@ function fr_date_din_json( $url ) {
 			'loc'     => (int) ( $r['loc'] ?? $i + 1 ),
 			'echipa'  => sanitize_text_field( $r['echipa'] ),
 			'meciuri' => (int) ( $r['meciuri'] ?? 0 ),
-			'v'       => (int) ( $r['v'] ?? 0 ),
-			'e'       => (int) ( $r['e'] ?? 0 ),
-			'i'       => (int) ( $r['i'] ?? 0 ),
+			// Lipsă din sursă = necunoscut (null), nu 0.
+			'v'       => isset( $r['v'] ) ? (int) $r['v'] : null,
+			'e'       => isset( $r['e'] ) ? (int) $r['e'] : null,
+			'i'       => isset( $r['i'] ) ? (int) $r['i'] : null,
 			'gm'      => isset( $r['gm'] ) ? (int) $r['gm'] : null,
 			'gp'      => isset( $r['gp'] ) ? (int) $r['gp'] : null,
 			'pct'     => (int) ( $r['pct'] ?? 0 ),
