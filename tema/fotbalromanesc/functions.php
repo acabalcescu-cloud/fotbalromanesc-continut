@@ -16,7 +16,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'FR_VERSIUNE', '1.3.2' );
+define( 'FR_VERSIUNE', '1.3.3' );
 define( 'FR_DIR', get_template_directory() );
 define( 'FR_URI', get_template_directory_uri() );
 
@@ -105,8 +105,27 @@ add_action( 'wp_head', function () {
 		return;
 	}
 	$u = FR_URI . '/assets/logo/';
+	printf( '<link rel="icon" href="%sfavicon.ico" sizes="any">' . "\n", esc_url( $u ) );
 	printf( '<link rel="icon" type="image/png" sizes="32x32" href="%1$sfavicon-32.png">' . "\n" . '<link rel="icon" type="image/png" sizes="192x192" href="%1$sicon-192.png">' . "\n" . '<link rel="apple-touch-icon" href="%1$sapple-touch-icon.png">' . "\n", esc_url( $u ) );
 }, 2 );
+
+/**
+ * /favicon.ico la rădăcina site-ului (unele browsere, cititoare RSS și motoare de căutare îl cer direct).
+ * Se copiază din temă o singură dată pe versiune și doar dacă la rădăcină nu există deja un favicon.ico pus de altcineva.
+ */
+add_action( 'init', function () {
+	if ( get_option( 'fr_favicon_versiune' ) === FR_VERSIUNE ) {
+		return;
+	}
+	update_option( 'fr_favicon_versiune', FR_VERSIUNE, false );
+	$dest = ABSPATH . 'favicon.ico';
+	$src  = FR_DIR . '/assets/logo/favicon.ico';
+	if ( ( ! file_exists( $dest ) || get_option( 'fr_favicon_al_temei' ) ) && is_writable( ABSPATH ) && file_exists( $src ) ) {
+		if ( copy( $src, $dest ) ) {
+			update_option( 'fr_favicon_al_temei', 1, false );
+		}
+	}
+} );
 
 add_filter( 'excerpt_length', fn() => 28 );
 add_filter( 'excerpt_more', fn() => '…' );
