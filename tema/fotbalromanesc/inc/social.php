@@ -187,6 +187,28 @@ function fr_publica_facebook( $post_id ) {
 	return ! empty( $r['id'] ) ? $r['id'] : new WP_Error( 'fr_fb', (string) ( $r['error']['message'] ?? 'răspuns necunoscut' ) );
 }
 
+/**
+ * Coperta pentru Instagram la o adresă fără parametri (Instagram refuză uneori adresele cu „?v=…”):
+ * o copie cu data în nume, <id>-ig-<timp>.jpg; copiile vechi se șterg.
+ */
+function fr_coperta_ig_fara_parametri( $post_id ) {
+	$url = fr_coperta_url( $post_id, 'ig', true );
+	if ( ! $url ) {
+		return '';
+	}
+	$up  = wp_upload_dir();
+	$dir = trailingslashit( $up['basedir'] ) . 'fr-social/';
+	$src = $dir . (int) $post_id . '-ig.jpg';
+	foreach ( (array) glob( $dir . (int) $post_id . '-ig-*.jpg' ) as $vechi ) {
+		wp_delete_file( $vechi );
+	}
+	$nume = (int) $post_id . '-ig-' . time() . '.jpg';
+	if ( ! copy( $src, $dir . $nume ) ) {
+		return strtok( $url, '?' );
+	}
+	return trailingslashit( $up['baseurl'] ) . 'fr-social/' . $nume;
+}
+
 function fr_publica_instagram( $post_id ) {
 	$c = fr_social_cont();
 	if ( ! $c['token'] || ! $c['ig'] ) {
@@ -196,13 +218,14 @@ function fr_publica_instagram( $post_id ) {
 	if ( (int) ( $lim['data'][0]['quota_usage'] ?? 0 ) >= 45 ) {
 		return new WP_Error( 'fr_ig', 'Sărit: aproape de limita Instagram de 50 de postări pe zi.' );
 	}
-	$img = fr_coperta_url( $post_id, 'ig', true );
+	$img = fr_coperta_ig_fara_parametri( $post_id );
 	if ( ! $img ) {
 		return new WP_Error( 'fr_ig', 'Nu am putut genera coperta.' );
 	}
 	$cont = fr_graph( 'POST', rawurlencode( $c['ig'] ) . '/media', array( 'image_url' => $img, 'caption' => fr_text_social( $post_id, 'ig' ), 'access_token' => $c['token'] ) );
 	if ( empty( $cont['id'] ) ) {
-		return new WP_Error( 'fr_ig', 'Container: ' . (string) ( $cont['error']['message'] ?? 'răspuns necunoscut' ) );
+		$e = (array) ( $cont['error'] ?? array() );
+		return new WP_Error( 'fr_ig', 'Container: ' . (string) ( $e['message'] ?? 'răspuns necunoscut' ) . ' [cod ' . ( $e['code'] ?? '?' ) . '/' . ( $e['error_subcode'] ?? '-' ) . '] · imagine: ' . $img );
 	}
 	for ( $i = 0; $i < 10; $i++ ) {
 		$s = fr_graph( 'GET', rawurlencode( $cont['id'] ), array( 'fields' => 'status_code', 'access_token' => $c['token'] ) );
