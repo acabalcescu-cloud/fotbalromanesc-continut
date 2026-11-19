@@ -1,0 +1,318 @@
+{
+ "actualizat": "2026-11-19 18:24",
+ "surse": [
+  "https://www.criticarad.ro/liga-3-seria-7-etapa-13/",
+  "https://www.sportarad.ro/2026/11/14/liga-a-iii-a-seria-7-a-etapa-a-14-a-liderul-castiga-si-derby-ul-judetean-cu-blajul-cealalta-echipa-din-alba-iulia-da-lovitura-la-cermei/",
+  "https://www.sportarad.ro/2026/11/13/live-text-liga-iii-a-seria-a-7-a-etapa-a-13-a-ora-13-politehnica-timisoara-ii-progresul-pecica/",
+  "https://www.sportarad.ro/2026/11/14/live-text-liga-3-a-seria-a-vii-a-etapa-a-13-a-ora-14-viitorul-cs-u-alba-iulia-bogodint-santana/",
+  "https://ziarulunirea.ro/csm-unirea-alba-iulia-cil-blaj-2-1-0-0-derby-de-alba-onorat-pe-cetate-pustai-balan-omul-potrivit-la-locul-potrivit-tatar-n-1019654/",
+  "https://ziarulunirea.ro/liga-3-seria-7-liderul-csm-unirea-alba-iulia-hop-important-la-ghiroda-metalurgistul-cugir-meci-complicat-la-sag-csu-alba-iulia-si-cil-blaj-acasa-cu-codasele-1020136/",
+  "https://alba24.ro/metalurgistul-cugir-csc-ghiroda-si-giarmata-vii-vineri-in-liga-3-cugirenii-cauta-victoria-dupa-esecul-de-la-blaj-1167413.html",
+  "https://alba24.ro/derby-de-alba-in-liga-a-iii-a-csm-unirea-alba-iulia-cil-blaj-sambata-pe-cetate-liderul-vrea-revansa-1167157.html"
+ ],
+ "clasament": [
+  {
+   "loc": 1,
+   "echipa": "CSM Unirea Alba Iulia",
+   "meciuri": 13,
+   "pct": 32
+  },
+  {
+   "loc": 2,
+   "echipa": "Timișul Șag",
+   "meciuri": 13,
+   "pct": 27
+  },
+  {
+   "loc": 3,
+   "echipa": "Viitorul Arad",
+   "meciuri": 13,
+   "pct": 24
+  },
+  {
+   "loc": 4,
+   "echipa": "CSM Deva",
+   "meciuri": 13,
+   "pct": 22
+  },
+  {
+   "loc": 4,
+   "echipa": "CIL Blaj",
+   "meciuri": 13,
+   "pct": 22
+  },
+  {
+   "loc": 4,
+   "echipa": "CSC Ghiroda și Giarmata Vii",
+   "meciuri": 13,
+   "pct": 22
+  },
+  {
+   "loc": 7,
+   "echipa": "Unirea Sântana",
+   "meciuri": 13,
+   "pct": 20
+  },
+  {
+   "loc": 8,
+   "echipa": "Progresul Pecica",
+   "meciuri": 13,
+   "pct": 14
+  },
+  {
+   "loc": 9,
+   "echipa": "Metalurgistul Cugir",
+   "meciuri": 13,
+   "pct": 13
+  },
+  {
+   "loc": 10,
+   "echipa": "CSU Alba Iulia",
+   "meciuri": 13,
+   "pct": 10
+  },
+  {
+   "loc": 11,
+   "echipa": "Politehnica Timișoara 2",
+   "meciuri": 13,
+   "pct": 8
+  },
+  {
+   "loc": 12,
+   "echipa": "Nera Bogodinț",
+   "meciuri": 13,
+   "pct": 2
+  }
+ ],
+ "meciuri": [
+  {
+   "id": "s7r13a",
+   "data": "2026-11-13T13:00:00+02:00",
+   "runda": "13",
+   "gazde": "Politehnica Timișoara 2",
+   "oaspeti": "Progresul Pecica",
+   "scor": [
+    1,
+    1
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Marincu",
+      "minut": "10",
+      "tip": ""
+     }
+    ],
+    "oaspeti": [
+     {
+      "nume": "Pamfile",
+      "minut": "73",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s7r13b",
+   "data": "2026-11-13T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "Metalurgistul Cugir",
+   "oaspeti": "CSC Ghiroda și Giarmata Vii",
+   "scor": [
+    0,
+    3
+   ],
+   "marcatori": {
+    "gazde": [],
+    "oaspeti": [
+     {
+      "nume": "Ardel",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Mancaș",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Rîpă",
+      "minut": "",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s7r13c",
+   "data": "2026-11-13T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "CSM Deva",
+   "oaspeti": "Timișul Șag",
+   "scor": [
+    1,
+    1
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Kelemen",
+      "minut": "74",
+      "tip": ""
+     }
+    ],
+    "oaspeti": [
+     {
+      "nume": "Olaru",
+      "minut": "82",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s7r13d",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "CSM Unirea Alba Iulia",
+   "oaspeti": "CIL Blaj",
+   "scor": [
+    2,
+    1
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Bălan",
+      "minut": "63",
+      "tip": ""
+     },
+     {
+      "nume": "Amidu",
+      "minut": "84",
+      "tip": ""
+     }
+    ],
+    "oaspeti": [
+     {
+      "nume": "Beza",
+      "minut": "88",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s7r13e",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "Viitorul Arad",
+   "oaspeti": "CSU Alba Iulia",
+   "scor": [
+    1,
+    2
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Butar",
+      "minut": "54",
+      "tip": ""
+     }
+    ],
+    "oaspeti": [
+     {
+      "nume": "Stănilă",
+      "minut": "22",
+      "tip": ""
+     },
+     {
+      "nume": "Pandor",
+      "minut": "45+1",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s7r13f",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "Nera Bogodinț",
+   "oaspeti": "Unirea Sântana",
+   "scor": [
+    1,
+    2
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Omoh",
+      "minut": "8",
+      "tip": ""
+     }
+    ],
+    "oaspeti": [
+     {
+      "nume": "C. Rus",
+      "minut": "49",
+      "tip": ""
+     },
+     {
+      "nume": "Jinga",
+      "minut": "52",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s7r14a",
+   "data": "2026-11-20T13:00:00+02:00",
+   "runda": "14",
+   "gazde": "Progresul Pecica",
+   "oaspeti": "CSM Deva",
+   "scor": null
+  },
+  {
+   "id": "s7r14b",
+   "data": "2026-11-20T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Timișul Șag",
+   "oaspeti": "Metalurgistul Cugir",
+   "scor": null
+  },
+  {
+   "id": "s7r14c",
+   "data": "2026-11-20T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "CSC Ghiroda și Giarmata Vii",
+   "oaspeti": "CSM Unirea Alba Iulia",
+   "scor": null
+  },
+  {
+   "id": "s7r14d",
+   "data": "2026-11-20T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "CSU Alba Iulia",
+   "oaspeti": "Politehnica Timișoara 2",
+   "scor": null
+  },
+  {
+   "id": "s7r14e",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "CIL Blaj",
+   "oaspeti": "Nera Bogodinț",
+   "scor": null
+  },
+  {
+   "id": "s7r14f",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Unirea Sântana",
+   "oaspeti": "Viitorul Arad",
+   "scor": null
+  }
+ ]
+}
