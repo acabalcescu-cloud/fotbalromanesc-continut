@@ -306,6 +306,19 @@ h1, h2, h3 { line-height: 1.15; }
 .fr-subsol__mic { font-size: 12px; }
 .fr-meniu-subsol, .fr-sociale { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
 
+/* Bara rețelelor, sus în subsol */
+.fr-retele { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 12px 20px; padding: 28px 0 24px; border-bottom: 1px solid var(--fr-navy-2); }
+.fr-retele__text { font: 700 20px var(--fr-titlu); text-transform: uppercase; letter-spacing: 0.5px; color: var(--fr-alb); }
+.fr-retele ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 12px; }
+.fr-retea { width: 48px; height: 48px; border-radius: 24px; display: flex; align-items: center; justify-content: center; background: var(--fr-alb); color: var(--fr-navy); transition: transform .15s ease; }
+.fr-subsol .fr-retea { color: var(--fr-navy); }
+.fr-retea:hover { transform: translateY(-2px); }
+.fr-subsol .fr-retea--facebook:hover { color: #1877F2; }
+.fr-subsol .fr-retea--instagram:hover { color: #C13584; }
+.fr-subsol .fr-retea--youtube:hover { color: #FF0000; }
+.fr-subsol .fr-retea--tiktok:hover { color: #000000; }
+@media (prefers-reduced-motion: reduce) { .fr-retea { transition: none; } .fr-retea:hover { transform: none; } }
+
 /* Meniul de jos și panoul cu ligi (telefon) */
 .fr-jos { display: none; }
 .fr-ligi { position: fixed; inset: 0; z-index: 50; background: rgba(11, 31, 58, 0.5); display: flex; align-items: flex-end; justify-content: center; }

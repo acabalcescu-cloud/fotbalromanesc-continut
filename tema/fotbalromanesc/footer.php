@@ -10,6 +10,7 @@ defined( 'ABSPATH' ) || exit;
 $fr_program = fr_url_program();
 ?>
 <footer class="fr-subsol">
+	<div class="fr-container"><?php echo fr_bara_retele(); // phpcs:ignore WordPress.Security.EscapeOutput ?></div>
 	<div class="fr-container fr-subsol__rand">
 		<div>
 			<p class="fr-subsol__nume"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></p>
@@ -27,11 +28,6 @@ $fr_program = fr_url_program();
 		) );
 		?>
 		<ul class="fr-sociale">
-			<?php foreach ( array( 'facebook' => 'Facebook', 'instagram' => 'Instagram', 'youtube' => 'YouTube', 'tiktok' => 'TikTok' ) as $k => $n ) : ?>
-				<?php if ( fr_setare( $k ) ) : ?>
-					<li><a href="<?php echo esc_url( fr_setare( $k ) ); ?>" rel="noopener" target="_blank"><?php echo esc_html( $n ); ?></a></li>
-				<?php endif; ?>
-			<?php endforeach; ?>
 			<li><a href="<?php echo esc_url( get_feed_link() ); ?>">RSS</a></li>
 			<?php if ( is_email( fr_setare( 'email' ) ) ) : ?>
 				<li><a href="mailto:<?php echo esc_attr( antispambot( fr_setare( 'email' ) ) ); ?>"><?php echo esc_html( antispambot( fr_setare( 'email' ) ) ); ?></a></li>
