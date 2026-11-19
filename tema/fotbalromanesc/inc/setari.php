@@ -22,7 +22,23 @@ function fr_setari_implicite() {
 
 function fr_setare( $cheie ) {
 	$s = wp_parse_args( (array) get_option( 'fr_setari', array() ), fr_setari_implicite() );
+	if ( 'repo' === $cheie ) {
+		return fr_curata_repo( $s['repo'] );
+	}
 	return $s[ $cheie ] ?? '';
+}
+
+/**
+ * „proprietar/nume” din orice formă: proprietar/nume, https://github.com/proprietar/nume(.git), git@github.com:proprietar/nume.git.
+ */
+function fr_curata_repo( $v ) {
+	$v = trim( (string) $v );
+	$v = preg_replace( '~^(https?:?/+)?(www\.)?github\.com[/:]~i', '', $v );
+	$v = preg_replace( '~^git@github\.com:~i', '', $v );
+	$v = preg_replace( '~\.git$~i', '', trim( $v, '/ ' ) );
+	$parti = array_slice( explode( '/', $v ), 0, 2 );
+	$v = implode( '/', $parti );
+	return preg_match( '~^[A-Za-z0-9_.\-]+/[A-Za-z0-9_.\-]+$~', $v ) ? $v : '';
 }
 
 add_action( 'admin_menu', 'fr_meniu_setari' );
@@ -38,7 +54,7 @@ function fr_inregistreaza_setari() {
 function fr_curata_setari( $in ) {
 	$in  = (array) $in;
 	$out = fr_setari_implicite();
-	$out['repo']        = preg_replace( '~[^A-Za-z0-9_.\-/]~', '', trim( (string) ( $in['repo'] ?? '' ), '/ ' ) );
+	$out['repo']        = fr_curata_repo( $in['repo'] ?? '' );
 	$out['ramura']      = preg_replace( '~[^A-Za-z0-9_.\-/]~', '', (string) ( $in['ramura'] ?? 'main' ) ) ?: 'main';
 	$out['sponsor']     = sanitize_text_field( $in['sponsor'] ?? '' );
 	$out['text_subsol'] = sanitize_text_field( $in['text_subsol'] ?? '' );
