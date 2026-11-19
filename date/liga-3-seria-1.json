@@ -1,0 +1,238 @@
+{
+ "actualizat": "2026-11-15 10:00",
+ "surse": [
+  "https://www.desteptarea.ro/fotbal-liga-3-aerostar-castiga-la-scor-fc-bacau-2-si-viitorul-onesti-pierd-la-limita/",
+  "https://www.svnews.ro/fotbal-liga-a-iii-a-bradul-putna-s-a-impus-in-meciul-cu-ceahlaul-piatra-neamt/574092/",
+  "https://vremeanoua.ro/fara-inspiratie-csm-vaslui-pierde-surprinzator-acasa/",
+  "https://vestea.net/ceahlaul-s-a-inchinat-la-putna-fotbal-de-post-si-clopote-de-inmormantare/"
+ ],
+ "clasament": [
+  {
+   "loc": 1,
+   "echipa": "CSM Vaslui",
+   "meciuri": 13,
+   "pct": 30
+  },
+  {
+   "loc": 2,
+   "echipa": "USV CSM Iași",
+   "meciuri": 13,
+   "pct": 25
+  },
+  {
+   "loc": 3,
+   "echipa": "Bradul Putna",
+   "meciuri": 13,
+   "gm": 32,
+   "gp": 19,
+   "pct": 24
+  },
+  {
+   "loc": 4,
+   "echipa": "KSE Târgu Secuiesc",
+   "meciuri": 13,
+   "gm": 26,
+   "gp": 19,
+   "pct": 24
+  },
+  {
+   "loc": 5,
+   "echipa": "CSM Adjud",
+   "meciuri": 13,
+   "gm": 24,
+   "gp": 15,
+   "pct": 21
+  },
+  {
+   "loc": 6,
+   "echipa": "Aerostar Bacău",
+   "meciuri": 13,
+   "gm": 22,
+   "gp": 16,
+   "pct": 21
+  },
+  {
+   "loc": 7,
+   "echipa": "AFC Odorheiu Secuiesc",
+   "meciuri": 13,
+   "pct": 20
+  },
+  {
+   "loc": 8,
+   "echipa": "FC Bacău 2",
+   "meciuri": 13,
+   "pct": 15
+  },
+  {
+   "loc": 9,
+   "echipa": "Viitorul Onești",
+   "meciuri": 13,
+   "gm": 19,
+   "gp": 23,
+   "pct": 10
+  },
+  {
+   "loc": 10,
+   "echipa": "CSM Pașcani",
+   "meciuri": 13,
+   "gm": 17,
+   "gp": 29,
+   "pct": 10
+  },
+  {
+   "loc": 11,
+   "echipa": "CS Gheorgheni",
+   "meciuri": 13,
+   "pct": 9
+  },
+  {
+   "loc": 12,
+   "echipa": "Ceahlăul Piatra Neamț",
+   "meciuri": 13,
+   "gm": 8,
+   "gp": 29,
+   "pct": 4
+  }
+ ],
+ "meciuri": [
+  {
+   "id": "s1r13a",
+   "data": "2026-11-13T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "FC Bacău 2",
+   "oaspeti": "KSE Târgu Secuiesc",
+   "scor": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "s1r13b",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "Bradul Putna",
+   "oaspeti": "Ceahlăul Piatra Neamț",
+   "scor": [
+    4,
+    2
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Hopulele",
+      "minut": "1",
+      "tip": ""
+     },
+     {
+      "nume": "Stoian",
+      "minut": "77",
+      "tip": ""
+     },
+     {
+      "nume": "Stoian",
+      "minut": "79",
+      "tip": ""
+     }
+    ],
+    "oaspeti": [
+     {
+      "nume": "Filip",
+      "minut": "52",
+      "tip": ""
+     },
+     {
+      "nume": "Bor",
+      "minut": "69",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1r13c",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "CSM Adjud",
+   "oaspeti": "CSM Pașcani",
+   "scor": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "s1r13d",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "CSM Vaslui",
+   "oaspeti": "AFC Odorheiu Secuiesc",
+   "scor": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "s1r13e",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "USV CSM Iași",
+   "oaspeti": "Viitorul Onești",
+   "scor": [
+    2,
+    1
+   ]
+  },
+  {
+   "id": "s1r13f",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "CS Gheorgheni",
+   "oaspeti": "Aerostar Bacău",
+   "scor": [
+    0,
+    3
+   ]
+  },
+  {
+   "id": "s1r14a",
+   "data": "2026-11-20T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Aerostar Bacău",
+   "oaspeti": "CSM Vaslui"
+  },
+  {
+   "id": "s1r14b",
+   "data": "2026-11-20T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "CSM Pașcani",
+   "oaspeti": "CS Gheorgheni"
+  },
+  {
+   "id": "s1r14c",
+   "data": "2026-11-20T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "AFC Odorheiu Secuiesc",
+   "oaspeti": "Bradul Putna"
+  },
+  {
+   "id": "s1r14d",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Viitorul Onești",
+   "oaspeti": "FC Bacău 2"
+  },
+  {
+   "id": "s1r14e",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Ceahlăul Piatra Neamț",
+   "oaspeti": "USV CSM Iași"
+  },
+  {
+   "id": "s1r14f",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "KSE Târgu Secuiesc",
+   "oaspeti": "CSM Adjud"
+  }
+ ]
+}

@@ -1,0 +1,339 @@
+/* fotbalromanesc – stilurile temei. Paleta: tabelă de stadion (albastru-închis + galben). */
+
+:root {
+	--fr-navy: #0B1F3A;
+	--fr-navy-2: #2B4166;
+	--fr-galben: #F5B700;
+	--fr-text: #14171C;
+	--fr-text-2: #3A414C;
+	--fr-gri: #5B6472;
+	--fr-linie: #E3E6EB;
+	--fr-linie-2: #F0F2F5;
+	--fr-fundal: #F4F5F7;
+	--fr-alb: #FFFFFF;
+	--fr-verde: #12704E;
+	--fr-rosu: #B42318;
+	--fr-portocaliu: #B54708;
+	--fr-egal: #D5D9E0;
+	--fr-lumina: #FFF6D6;
+	--fr-raza: 12px;
+	--fr-titlu: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+	--fr-corp: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--fr-fundal); color: var(--fr-text); font: 16px/1.5 var(--fr-corp); }
+img { max-width: 100%; height: auto; }
+a { color: var(--fr-navy); }
+a:hover { color: var(--fr-verde); }
+:focus-visible { outline: 3px solid var(--fr-galben); outline-offset: 2px; }
+h1, h2, h3 { line-height: 1.15; }
+
+.fr-ascuns, .screen-reader-text { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); white-space: nowrap; }
+.fr-sari { position: absolute; left: 12px; top: -60px; z-index: 100; background: var(--fr-galben); color: var(--fr-navy); padding: 10px 16px; border-radius: 6px; font-weight: 700; }
+.fr-sari:focus { top: 12px; }
+
+.fr-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.fr-icon { flex: none; }
+
+/* Butoane */
+.fr-buton { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 20px; border-radius: 22px; border: 1px solid var(--fr-navy); background: var(--fr-navy); color: var(--fr-alb); font: 600 15px var(--fr-corp); text-decoration: none; cursor: pointer; }
+.fr-buton:hover { background: var(--fr-navy-2); color: var(--fr-alb); }
+.fr-buton .fr-icon { width: 18px; height: 18px; }
+.fr-buton--contur { background: var(--fr-alb); color: var(--fr-text); border-color: #C9CED6; }
+.fr-buton--contur:hover { background: var(--fr-fundal); color: var(--fr-text); }
+.fr-buton-icon { width: 44px; height: 44px; border-radius: 22px; border: 1px solid var(--fr-navy-2); background: transparent; color: var(--fr-alb); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; flex: none; }
+.fr-buton-icon:hover, .fr-buton-icon[aria-expanded="true"] { background: var(--fr-navy-2); }
+.fr-buton-icon--deschis { color: var(--fr-text); border-color: #C9CED6; }
+.fr-buton-icon--deschis:hover { background: var(--fr-fundal); }
+
+/* Antet */
+.fr-antet { background: var(--fr-navy); color: var(--fr-alb); position: relative; z-index: 20; }
+.fr-antet__rand { display: flex; align-items: center; gap: 12px 32px; min-height: 72px; }
+.fr-logo--text { font: 700 30px/1 var(--fr-titlu); letter-spacing: 0.5px; color: var(--fr-alb); text-decoration: none; white-space: nowrap; }
+.fr-logo--text span { color: var(--fr-galben); }
+.fr-logo--text:hover { color: var(--fr-alb); }
+.fr-logo img { max-height: 48px; width: auto; display: block; }
+.fr-nav { flex: 1 1 auto; min-width: 0; }
+.fr-meniu { list-style: none; margin: 0; padding: 0; display: flex; gap: 4px 24px; overflow-x: auto; scrollbar-width: none; }
+.fr-meniu::-webkit-scrollbar { display: none; }
+.fr-meniu a { display: block; padding: 24px 0 21px; color: var(--fr-alb); text-decoration: none; font-weight: 600; font-size: 15px; white-space: nowrap; border-bottom: 3px solid transparent; }
+.fr-meniu a:hover { color: var(--fr-galben); }
+.fr-meniu .current-menu-item > a, .fr-meniu .current-menu-ancestor > a, .fr-meniu a[aria-current] { color: var(--fr-galben); border-bottom-color: var(--fr-galben); }
+.fr-cautare { background: var(--fr-navy-2); padding: 16px 0; }
+.fr-form-cautare { display: flex; gap: 8px; max-width: 640px; }
+.fr-form-cautare input[type="search"] { flex: 1 1 auto; min-width: 0; min-height: 44px; padding: 0 16px; border-radius: 22px; border: 1px solid #C9CED6; font: 16px var(--fr-corp); color: var(--fr-text); background: var(--fr-alb); }
+.fr-cautare .fr-buton { background: var(--fr-galben); border-color: var(--fr-galben); color: var(--fr-navy); }
+
+/* Titluri de secțiune */
+.fr-titlu-mare { margin: 0; font: 700 44px/1.05 var(--fr-titlu); }
+.fr-titlu-sectiune { margin: 0; font: 700 22px/1.1 var(--fr-titlu); text-transform: uppercase; letter-spacing: 0.4px; }
+.fr-titlu-card { margin: 8px 0; font: 700 24px/1.1 var(--fr-titlu); }
+.fr-cap-sectiune { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+.fr-link-sectiune { font-size: 14px; font-weight: 600; white-space: nowrap; }
+.fr-nota { margin: 10px 0 0; font-size: 12px; color: var(--fr-gri); }
+.fr-gol { margin: 0; color: var(--fr-gri); }
+
+/* Banda de meciuri */
+.fr-banda { background: var(--fr-alb); border-bottom: 1px solid var(--fr-linie); padding: 16px 0 20px; }
+.fr-banda__lista { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 6px; scroll-snap-type: x proximity; }
+.fr-banda__lista .fr-meci { flex: 0 0 236px; scroll-snap-align: start; }
+
+/* Cardul de meci */
+.fr-meci { display: flex; flex-direction: column; gap: 8px; padding: 12px 14px; border: 1px solid var(--fr-linie); border-radius: 10px; background: var(--fr-alb); }
+.fr-meci__sus { display: flex; justify-content: space-between; gap: 8px; font-size: 12px; font-weight: 600; color: var(--fr-gri); }
+.fr-meci__sus span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.fr-meci__echipe { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-rows: auto auto; gap: 4px 10px; align-items: center; }
+.fr-meci__echipa { grid-column: 1; font-weight: 600; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.fr-meci__scor { grid-column: 2; grid-row: 1 / span 2; font: 700 22px var(--fr-titlu); }
+.fr-meci--live { border-color: var(--fr-rosu); }
+.fr-live { color: var(--fr-rosu); }
+.fr-meci--amanat { opacity: 0.7; }
+.fr-zi { margin: 20px 0 8px; font-size: 15px; }
+.fr-zi:first-child { margin-top: 0; }
+.fr-meciuri-zi { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+.fr-runde { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px; align-items: center; margin-bottom: 18px; text-align: center; }
+.fr-runde > :last-child { justify-self: end; }
+.fr-runde > :first-child { justify-self: start; }
+
+/* Așezarea paginii */
+.fr-layout { display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; padding-top: 24px; padding-bottom: 40px; }
+.fr-layout__principal { flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 24px; }
+.fr-layout__lateral { flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 24px; }
+.fr-card { background: var(--fr-alb); border: 1px solid var(--fr-linie); border-radius: var(--fr-raza); padding: 20px; }
+.fr-card--inchis { background: var(--fr-navy); border-color: var(--fr-navy); color: var(--fr-alb); }
+.fr-card--inchis .fr-titlu-sectiune { color: var(--fr-galben); }
+.fr-card--inchis a { color: var(--fr-alb); }
+.fr-card__mic { margin: 6px 0 12px; font-size: 13px; color: var(--fr-gri); }
+.fr-card--inchis .fr-card__mic { color: #C9D3E3; }
+.fr-gol-mare { text-align: center; padding: 48px 24px; }
+.fr-sectiune { display: flex; flex-direction: column; }
+
+/* Articole */
+.fr-grila { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px; }
+.fr-grila--3 { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.fr-articol { background: var(--fr-alb); border: 1px solid var(--fr-linie); border-radius: var(--fr-raza); overflow: hidden; display: flex; flex-direction: column; }
+.fr-articol__corp { padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 8px; }
+.fr-articol__titlu { margin: 0; font: 700 24px/1.1 var(--fr-titlu); }
+.fr-articol__titlu a { color: var(--fr-text); text-decoration: none; }
+.fr-articol__titlu a:hover { color: var(--fr-verde); }
+.fr-articol__rezumat { margin: 0; font-size: 15px; color: var(--fr-text-2); }
+.fr-articol__meta { margin: 0; font-size: 13px; color: var(--fr-gri); }
+.fr-articol__imagine img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.fr-articol--mare { position: relative; }
+.fr-articol--mare .fr-articol__coperta { display: block; background: var(--fr-navy); aspect-ratio: 16 / 7; }
+.fr-articol--mare .fr-articol__coperta img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.fr-articol--mare .fr-articol__suprapus { position: absolute; left: 0; right: 0; top: 0; aspect-ratio: 16 / 7; display: flex; flex-direction: column; justify-content: flex-end; gap: 12px; padding: 32px; background: linear-gradient(to top, rgba(11, 31, 58, 0.92), rgba(11, 31, 58, 0.15) 75%); }
+.fr-articol--mare.fr-articol--fara-imagine .fr-articol__coperta { display: none; }
+.fr-articol--mare.fr-articol--fara-imagine .fr-articol__suprapus { position: static; aspect-ratio: auto; min-height: 220px; background: var(--fr-navy); }
+.fr-articol--mare .fr-articol__titlu { font-size: 44px; line-height: 1.05; }
+.fr-articol--mare .fr-articol__titlu a { color: var(--fr-alb); }
+.fr-articol--mare .fr-articol__titlu a:hover { color: var(--fr-galben); }
+.fr-articol--mare .fr-articol__rezumat { font-size: 17px; color: var(--fr-text); }
+.fr-articol--mare .fr-articol__corp { padding: 20px 32px 24px; }
+.fr-articol--lista { border: 0; border-radius: 0; background: transparent; }
+.fr-articol--lista .fr-articol__corp { padding: 0; }
+.fr-articol--lista .fr-articol__titlu { font-size: 21px; }
+.fr-lista-articole { display: flex; flex-direction: column; gap: 18px; }
+.fr-lista-articole .fr-articol + .fr-articol { border-top: 1px solid var(--fr-linie); padding-top: 18px; }
+.fr-sectiune .fr-grila--3 .fr-articol--lista, .fr-lista-articole .fr-articol--lista { background: transparent; }
+.fr-sectiune > .fr-grila--3 { background: var(--fr-alb); border: 1px solid var(--fr-linie); border-radius: var(--fr-raza); padding: 20px; }
+
+.fr-eticheta { align-self: flex-start; display: inline-block; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--fr-verde); text-decoration: none; }
+.fr-eticheta--opinie { color: var(--fr-portocaliu); }
+.fr-articol--mare .fr-eticheta { background: var(--fr-galben); color: var(--fr-navy); padding: 4px 10px; border-radius: 4px; }
+
+/* Pastile și file */
+.fr-pastile { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.fr-pastila { display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 22px; border: 1px solid #C9CED6; background: var(--fr-alb); color: var(--fr-text); font: 600 14px var(--fr-corp); text-decoration: none; cursor: pointer; }
+.fr-pastila:hover { background: var(--fr-fundal); color: var(--fr-text); }
+.fr-pastila[aria-selected="true"], .fr-pastila[aria-current] { background: var(--fr-navy); border-color: var(--fr-navy); color: var(--fr-alb); }
+.fr-pastile--link { margin: 16px 0 0; }
+.fr-file ul { list-style: none; margin: 16px 0 0; padding: 0; display: flex; gap: 0 28px; overflow-x: auto; }
+.fr-file a { display: block; padding: 12px 0; font-weight: 600; font-size: 15px; color: var(--fr-gri); text-decoration: none; border-bottom: 3px solid transparent; white-space: nowrap; }
+.fr-file a[aria-current] { color: var(--fr-navy); border-bottom-color: var(--fr-galben); }
+
+/* Clasament */
+.fr-clasamente { padding: 16px 0 14px; }
+.fr-clasamente .fr-pastile, .fr-clasamente .fr-nota, .fr-clasamente .fr-link-sectiune { padding: 0 16px; }
+.fr-clasamente .fr-link-sectiune { display: inline-block; margin-top: 8px; }
+.fr-tabel-cutie { overflow-x: auto; }
+.fr-clasament { width: 100%; border-collapse: collapse; font-size: 14px; }
+.fr-clasament th { font-size: 12px; color: var(--fr-gri); font-weight: 600; text-align: right; padding: 6px 6px; border-bottom: 1px solid var(--fr-linie); white-space: nowrap; }
+.fr-clasament td { text-align: right; padding: 8px 6px; border-bottom: 1px solid var(--fr-linie-2); white-space: nowrap; color: var(--fr-gri); }
+.fr-clasament abbr { text-decoration: none; }
+.fr-clasament .fr-nr { text-align: left; width: 28px; font-weight: 600; }
+.fr-clasamente .fr-clasament th:first-child, .fr-clasamente .fr-clasament td:first-child { padding-left: 16px; }
+.fr-clasamente .fr-clasament th:last-child, .fr-clasamente .fr-clasament td:last-child { padding-right: 16px; }
+.fr-clasament .fr-echipa-col { text-align: left; font-weight: 600; color: var(--fr-text); max-width: 190px; overflow: hidden; text-overflow: ellipsis; }
+.fr-clasament .fr-echipa-col a { color: var(--fr-text); text-decoration: none; }
+.fr-clasament .fr-echipa-col a:hover { color: var(--fr-verde); text-decoration: underline; }
+.fr-clasament .fr-pct { font-weight: 700; color: var(--fr-text); }
+.fr-clasament .fr-forma-col { text-align: left; width: 124px; }
+.fr-clasament .fr-evidentiat td { background: var(--fr-lumina); font-weight: 700; color: var(--fr-text); }
+.fr-forme { display: inline-flex; gap: 3px; vertical-align: middle; }
+.fr-forma { width: 20px; height: 20px; border-radius: 4px; font-size: 11px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; flex: none; }
+.fr-forma--v { background: var(--fr-verde); color: var(--fr-alb); }
+.fr-forma--e { background: var(--fr-egal); color: var(--fr-text); }
+.fr-forma--i { background: var(--fr-rosu); color: var(--fr-alb); }
+
+/* Clasamentele din coloana laterală: mai strânse, ca să încapă forma pe 5 meciuri. */
+.fr-layout__lateral .fr-clasament, .fr-panouri .fr-clasament { font-size: 13px; }
+.fr-layout__lateral .fr-clasament th, .fr-layout__lateral .fr-clasament td, .fr-panouri .fr-clasament th, .fr-panouri .fr-clasament td { padding-left: 4px; padding-right: 4px; }
+.fr-layout__lateral .fr-clasament .fr-echipa-col, .fr-panouri .fr-clasament .fr-echipa-col { max-width: 140px; }
+.fr-layout__lateral .fr-clasament .fr-forma-col, .fr-panouri .fr-clasament .fr-forma-col { width: 98px; }
+.fr-layout__lateral .fr-forme, .fr-panouri .fr-forme { gap: 2px; }
+.fr-layout__lateral .fr-forma, .fr-panouri .fr-forma { width: 18px; height: 18px; font-size: 10.5px; }
+.fr-card--inchis .fr-duel a { text-decoration: none; }
+.fr-card--inchis .fr-duel a:hover { color: var(--fr-galben); }
+
+/* Sponsor */
+.fr-sponsor { border: 1px solid var(--fr-linie); background: var(--fr-alb); border-radius: var(--fr-raza); padding: 18px 20px; text-align: center; font-size: 14px; color: var(--fr-gri); display: flex; flex-direction: column; gap: 4px; }
+.fr-sponsor b { color: var(--fr-text); font-size: 16px; }
+.fr-sponsor--liber { border: 2px dashed #C9CED6; background: transparent; }
+
+/* Antetul paginilor de ligă, club, arhivă */
+.fr-pagina-cap { background: var(--fr-alb); border-bottom: 1px solid var(--fr-linie); padding: 28px 0 0; }
+.fr-pagina-cap > .fr-container > :last-child:not(.fr-file) { margin-bottom: 24px; }
+.fr-pagina-cap__sus { display: inline-block; margin-bottom: 6px; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--fr-verde); text-decoration: none; }
+.fr-pagina-cap__rand { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 24px; }
+.fr-pagina-cap__desc { margin: 8px 0 0; color: var(--fr-text-2); max-width: 720px; }
+.fr-pagina-cap__desc p { margin: 0; }
+.fr-pagina-cap__info { margin: 6px 0 0; color: var(--fr-gri); }
+.fr-cautare-pagina { margin: 16px 0 24px; }
+.fr-club-cap { display: flex; align-items: center; gap: 20px; }
+.fr-sigla { width: 72px; height: 72px; border-radius: 36px; object-fit: contain; background: var(--fr-fundal); flex: none; }
+.fr-sigla--gol { display: inline-flex; align-items: center; justify-content: center; font: 700 34px var(--fr-titlu); color: var(--fr-gri); }
+
+/* Pagina de club */
+.fr-panouri { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; align-items: start; padding-top: 24px; padding-bottom: 40px; }
+.fr-panouri__lat { grid-column: 1 / -1; }
+.fr-forma-lista { list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-direction: column; gap: 8px; font-size: 14px; }
+.fr-forma-lista li { display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; gap: 10px; align-items: center; }
+.fr-forma-lista .fr-forma { width: 24px; height: 24px; font-size: 12px; }
+.fr-duel { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 12px; align-items: center; text-align: center; font-size: 18px; }
+.fr-duel--deschis { align-items: start; text-align: left; font-size: 16px; }
+.fr-duel__ora { font: 700 34px/1 var(--fr-titlu); }
+.fr-dreapta { text-align: right; }
+.fr-marcatori { margin: 6px 0 0; font-size: 13px; color: var(--fr-text-2); line-height: 1.6; }
+.fr-bare { list-style: none; margin: 14px 0 0; padding: 0; }
+.fr-bare li { display: grid; grid-template-columns: minmax(0, 1fr) 120px 24px; gap: 10px; align-items: center; padding: 5px 0; font-size: 14px; }
+.fr-bare li span:first-child { font-weight: 600; }
+.fr-bare b { text-align: right; }
+.fr-bara { height: 8px; border-radius: 4px; background: var(--fr-linie); overflow: hidden; }
+.fr-bara span { display: block; height: 100%; background: var(--fr-verde); border-radius: 4px; }
+.fr-program { list-style: none; margin: 0; padding: 0; font-size: 14px; }
+.fr-program li { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--fr-linie-2); }
+.fr-program li:last-child { border-bottom: 0; }
+.fr-program li span:first-child { color: var(--fr-gri); }
+
+/* Articolul */
+.fr-text { background: var(--fr-alb); border: 1px solid var(--fr-linie); border-radius: var(--fr-raza); padding: 32px; }
+.fr-text__cap { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; }
+.fr-text__titlu { margin: 0; font: 700 48px/1.05 var(--fr-titlu); }
+.fr-text__rezumat { margin: 0; font-size: 20px; line-height: 1.45; color: var(--fr-text-2); }
+.fr-text__meta { margin: 0; font-size: 14px; color: var(--fr-gri); }
+.fr-text__coperta { margin: 0 -32px 24px; }
+.fr-text__coperta img { display: block; width: 100%; }
+.fr-text__coperta figcaption { padding: 8px 32px 0; font-size: 13px; color: var(--fr-gri); }
+.fr-text__continut { font-size: 18px; line-height: 1.65; max-width: 720px; }
+.fr-text__continut > * { margin: 0 0 1.1em; }
+.fr-text__continut h2 { font: 700 30px/1.1 var(--fr-titlu); margin-top: 1.4em; }
+.fr-text__continut h3 { font: 700 24px/1.15 var(--fr-titlu); margin-top: 1.3em; }
+.fr-text__continut blockquote { margin-left: 0; padding: 4px 0 4px 20px; border-left: 4px solid var(--fr-galben); font-size: 20px; color: var(--fr-text-2); }
+.fr-text__continut table { width: 100%; border-collapse: collapse; font-size: 15px; display: block; overflow-x: auto; }
+.fr-text__continut th, .fr-text__continut td { padding: 8px 10px; border-bottom: 1px solid var(--fr-linie); text-align: left; }
+.fr-text__continut img, .fr-text__continut figure { max-width: 100%; }
+.fr-text__continut iframe { max-width: 100%; }
+.fr-text__continut .wp-block-embed__wrapper iframe, .fr-text__continut iframe[src*="youtube"] { width: 100%; aspect-ratio: 16 / 9; height: auto; }
+.fr-text__subsol { margin-top: 28px; display: flex; flex-direction: column; gap: 16px; }
+.fr-text__cluburi { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; }
+.fr-text__etichete { margin: 0; font-size: 14px; color: var(--fr-gri); }
+.fr-text__etichete a { margin-right: 8px; }
+.fr-text > .fr-sectiune, .fr-text > .fr-widget, .fr-text > .fr-comentarii { margin-top: 32px; }
+.fr-autor { display: flex; gap: 14px; align-items: flex-start; padding: 16px; background: var(--fr-fundal); border-radius: 10px; font-size: 14px; }
+.fr-autor img { border-radius: 28px; flex: none; }
+.fr-autor p { margin: 0; }
+.fr-autor__nume { font-weight: 700; margin-bottom: 4px !important; }
+.fr-pagina-simpla { padding-top: 24px; padding-bottom: 40px; max-width: 880px; }
+.fr-scor-404 { margin: 0 0 8px; font: 700 96px/1 var(--fr-titlu); color: var(--fr-galben); }
+.fr-gol-mare .fr-form-cautare { margin: 16px auto; }
+
+/* Aliniere din editor */
+.alignwide { margin-left: -32px; margin-right: -32px; max-width: none; }
+.alignfull { margin-left: -32px; margin-right: -32px; max-width: none; }
+.alignleft { float: left; margin: 0 20px 12px 0; }
+.alignright { float: right; margin: 0 0 12px 20px; }
+.aligncenter { margin-left: auto; margin-right: auto; display: block; }
+.wp-caption-text, figcaption { font-size: 13px; color: var(--fr-gri); }
+
+/* Paginare */
+.pagination .nav-links { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.pagination .page-numbers { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; padding: 0 14px; border-radius: 22px; background: var(--fr-alb); border: 1px solid var(--fr-linie); color: var(--fr-text); text-decoration: none; font-weight: 600; }
+.pagination .page-numbers.current { background: var(--fr-navy); border-color: var(--fr-navy); color: var(--fr-alb); }
+
+/* Comentarii */
+.fr-comentarii__lista { list-style: none; padding: 0; margin: 16px 0; }
+.fr-comentarii__lista .comment-body { padding: 14px 0; border-bottom: 1px solid var(--fr-linie-2); font-size: 15px; }
+.fr-comentarii__lista .children { list-style: none; padding-left: 24px; }
+.fr-comentarii textarea, .fr-comentarii input[type="text"], .fr-comentarii input[type="email"], .fr-comentarii input[type="url"] { width: 100%; padding: 10px 12px; border: 1px solid #C9CED6; border-radius: 8px; font: 16px var(--fr-corp); }
+.fr-comentarii .submit { min-height: 44px; padding: 0 22px; border-radius: 22px; border: 0; background: var(--fr-navy); color: var(--fr-alb); font: 600 15px var(--fr-corp); cursor: pointer; }
+
+/* Widgeturi */
+.fr-widget ul { margin: 0; padding-left: 18px; }
+.fr-widget .fr-titlu-sectiune { margin-bottom: 12px; }
+
+/* Subsol */
+.fr-subsol { background: var(--fr-navy); color: #C9D3E3; font-size: 14px; margin-top: 24px; }
+.fr-subsol__rand { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px 40px; padding-top: 32px; padding-bottom: 32px; }
+.fr-subsol p { margin: 0 0 6px; }
+.fr-subsol a { color: var(--fr-alb); }
+.fr-subsol__nume { font: 700 24px var(--fr-titlu); color: var(--fr-alb); }
+.fr-subsol__mic { font-size: 12px; }
+.fr-meniu-subsol, .fr-sociale { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+
+/* Meniul de jos și panoul cu ligi (telefon) */
+.fr-jos { display: none; }
+.fr-ligi { position: fixed; inset: 0; z-index: 50; background: rgba(11, 31, 58, 0.5); display: flex; align-items: flex-end; justify-content: center; }
+.fr-ligi[hidden] { display: none; }
+.fr-ligi__panou { background: var(--fr-alb); width: 100%; max-width: 560px; max-height: 80vh; overflow-y: auto; border-radius: 16px 16px 0 0; padding: 16px 20px 32px; }
+.fr-ligi__cap { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.fr-ligi__lista, .fr-ligi__lista ul { list-style: none; margin: 0; padding: 0; }
+.fr-ligi__lista ul { padding-left: 16px; }
+.fr-ligi__lista a { display: block; padding: 12px 0; border-bottom: 1px solid var(--fr-linie-2); font-weight: 600; color: var(--fr-text); text-decoration: none; }
+
+@media (max-width: 760px) {
+	body { padding-bottom: 76px; }
+	.fr-container { padding: 0 16px; }
+	.fr-antet__rand { flex-wrap: wrap; min-height: 0; padding-top: 12px; gap: 0 12px; }
+	.fr-logo { flex: 1 1 auto; }
+	.fr-nav { order: 3; flex: 1 1 100%; }
+	.fr-meniu a { padding: 12px 0 10px; }
+	.fr-titlu-mare { font-size: 36px; }
+	.fr-articol--mare .fr-articol__coperta, .fr-articol--mare .fr-articol__suprapus { aspect-ratio: 4 / 3; }
+	.fr-articol--mare .fr-articol__suprapus { padding: 20px; }
+	.fr-articol--mare .fr-articol__titlu { font-size: 32px; }
+	.fr-articol--mare .fr-articol__corp { padding: 16px 20px 20px; }
+	.fr-text { padding: 20px; border-radius: 0; border-left: 0; border-right: 0; margin: 0 -16px; }
+	.fr-text__coperta { margin: 0 -20px 20px; }
+	.fr-text__coperta figcaption { padding: 8px 20px 0; }
+	.fr-text__titlu { font-size: 36px; }
+	.fr-text__continut { font-size: 17px; }
+	.alignwide, .alignfull { margin-left: -20px; margin-right: -20px; }
+	.fr-panouri { grid-template-columns: minmax(0, 1fr); }
+	.fr-clasament .fr-forma-col { display: none; }
+	.fr-clasament--complet td:nth-child(n+3):nth-child(-n+7), .fr-clasament--complet th:nth-child(n+3):nth-child(-n+7) { display: none; }
+	.fr-jos { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; background: var(--fr-alb); border-top: 1px solid var(--fr-linie); padding: 6px 0 calc(10px + env(safe-area-inset-bottom)); }
+	.fr-jos a, .fr-jos button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-height: 48px; background: none; border: 0; font: 600 12px var(--fr-corp); color: var(--fr-gri); text-decoration: none; cursor: pointer; }
+	.fr-jos [aria-current], .fr-jos [aria-expanded="true"] { color: var(--fr-navy); font-weight: 700; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.fr-banda__lista { scroll-behavior: smooth; }
+}
+
+@media print {
+	.fr-antet, .fr-jos, .fr-subsol, .fr-layout__lateral, .fr-comentarii { display: none !important; }
+	.fr-text { border: 0; padding: 0; }
+}
