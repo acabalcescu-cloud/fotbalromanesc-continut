@@ -11,6 +11,7 @@ Articolele și datele pe care site-ul [fotbalromanesc.ro](https://fotbalromanesc
 | Vocea și regulile de scris | `STIL.md` |
 | Pașii rutinelor automate | `INSTRUCTIUNI.md` |
 | Unelte (Google News, citirea articolelor) | `unelte/` |
+| Rutinele automate de pe Mac Studio | `mac/` (vezi `mac/README.md`) |
 
 SuperLiga, Liga 2 și naționalele nu au nevoie de fișiere aici: tema le ia direct de la LiveScore.
 
