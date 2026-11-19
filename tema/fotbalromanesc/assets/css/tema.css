@@ -261,7 +261,74 @@ h1, h2, h3 { line-height: 1.15; }
 	.fr-deschidere, .fr-sectiune-comp__rand { grid-template-columns: minmax(0, 1fr); }
 }
 
-/* Pagina de club */
+/* Pagina de club (model: „Știința în SuperLiga”) */
+.fr-club-erou { background: linear-gradient(120deg, #0B1F3A 0%, #12408F 100%); color: var(--fr-alb); padding: 36px 0 0; }
+.fr-club-erou__rand { display: flex; flex-wrap: wrap; align-items: center; gap: 18px 28px; padding-bottom: 24px; }
+.fr-club-erou__stema { width: 96px; height: 96px; object-fit: contain; flex: none; filter: drop-shadow(0 6px 14px rgba(0, 0, 0, .35)); }
+.fr-club-erou__stema.fr-sigla--gol { background: rgba(255, 255, 255, .12); border-radius: 48px; color: var(--fr-alb); display: inline-flex; align-items: center; justify-content: center; font: 700 44px var(--fr-titlu); }
+.fr-club-erou__rand > div { flex: 1 1 320px; }
+.fr-club-erou__titlu { margin: 0; font: 700 46px/1.02 var(--fr-titlu); text-transform: uppercase; }
+.fr-club-erou__titlu span { color: var(--fr-galben); }
+.fr-club-erou__info { margin: 8px 0 0; color: #D7E1F2; }
+.fr-club-erou .fr-file a { color: #C9D3E3; }
+.fr-club-erou .fr-file a[aria-current] { color: var(--fr-alb); border-bottom-color: var(--fr-galben); }
+.fr-buton--galben { background: var(--fr-galben); border-color: var(--fr-galben); color: var(--fr-navy); }
+.fr-buton--galben:hover { background: #FFCB2E; color: var(--fr-navy); }
+.fr-buton--mic { min-height: 36px; padding: 0 16px; font-size: 13px; }
+.fr-club { display: flex; flex-direction: column; gap: 28px; padding-top: 28px; padding-bottom: 40px; }
+.fr-eticheta-mare { display: inline-block; margin: 0 0 12px; padding: 8px 46px 8px 22px; background: linear-gradient(90deg, var(--fr-navy) 70%, #12408F); color: var(--fr-alb); font: 700 18px var(--fr-titlu); text-transform: uppercase; letter-spacing: .5px; border-radius: 0 22px 22px 0; }
+.fr-cap-sectiune .fr-eticheta-mare { margin-bottom: 0; }
+.fr-cifre { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.fr-cifra { background: var(--fr-alb); border: 1px solid var(--fr-linie); border-radius: var(--fr-raza); padding: 22px 12px; text-align: center; display: flex; flex-direction: column; gap: 6px; }
+.fr-cifra b { font: 700 46px/1 var(--fr-titlu); color: var(--fr-navy); }
+.fr-cifra span { font-size: 14px; font-weight: 600; color: var(--fr-text-2); }
+.fr-ultimele-meciuri { margin: 12px 0 0; font-size: 14px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+.fr-doua { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.fr-meci-mare__sus { margin: 0 0 14px; text-align: center; font-size: 13px; color: var(--fr-gri); font-weight: 600; }
+.fr-meci-mare__rand { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 16px; align-items: start; font-size: 17px; }
+.fr-meci-mare__rand a { color: var(--fr-text); }
+.fr-meci-mare__scor { background: var(--fr-navy); color: var(--fr-alb); border-radius: 10px; padding: 6px 16px; font: 700 34px/1 var(--fr-titlu); }
+.fr-meci-mare__scor--ora { background: #12408F; }
+.fr-centru { text-align: center; margin: 16px 0 0; }
+.fr-randuri-meci { list-style: none; margin: 0; padding: 0; }
+.fr-card.fr-randuri-meci { padding: 4px 20px; }
+.fr-rand-meci { display: grid; grid-template-columns: 96px minmax(0, 1fr) 64px minmax(0, 1fr) 92px; gap: 12px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--fr-linie-2); font-size: 15px; }
+.fr-rand-meci:last-child { border-bottom: 0; }
+.fr-rand-meci__data { font-weight: 700; font-size: 14px; display: flex; flex-direction: column; }
+.fr-rand-meci__data small { font-weight: 400; color: var(--fr-gri); font-size: 12px; }
+.fr-rand-meci__g { text-align: right; }
+.fr-rand-meci__g a, .fr-rand-meci__o a { color: var(--fr-text); text-decoration: none; }
+.fr-rand-meci__g a:hover, .fr-rand-meci__o a:hover { text-decoration: underline; }
+.fr-noi { font-weight: 700; }
+.fr-rand-meci__scor { text-align: center; background: var(--fr-navy); color: var(--fr-alb); border-radius: 8px; padding: 6px 0; font: 700 19px var(--fr-titlu); }
+.fr-rand-meci__scor--v { background: var(--fr-verde); }
+.fr-rand-meci__scor--i { background: var(--fr-rosu); }
+.fr-rand-meci__scor--e { background: #6B7380; }
+.fr-rand-meci__link { text-align: right; }
+.fr-detalii { width: 100%; border-collapse: collapse; font-size: 15px; }
+.fr-detalii th { text-align: left; color: var(--fr-gri); font-weight: 600; padding: 12px 0; border-bottom: 1px solid var(--fr-linie-2); width: 40%; }
+.fr-detalii td { text-align: right; font-weight: 600; padding: 12px 0; border-bottom: 1px solid var(--fr-linie-2); }
+.fr-lot { width: 100%; border-collapse: collapse; font-size: 14px; }
+.fr-lot th { text-align: left; font-size: 12px; color: var(--fr-gri); padding: 8px 6px; border-bottom: 2px solid var(--fr-linie); }
+.fr-lot td { padding: 10px 6px; border-bottom: 1px solid var(--fr-linie-2); }
+.fr-lot__nr { color: var(--fr-rosu); font-weight: 700; width: 48px; }
+.fr-lot__post { margin: 18px 0 4px; font: 700 16px var(--fr-titlu); text-transform: uppercase; }
+.fr-lot__post:first-child { margin-top: 0; }
+.fr-club-text { max-width: 820px; color: var(--fr-text-2); }
+.fr-club-text h2 { margin: 0 0 8px; font: 700 22px var(--fr-titlu); text-transform: uppercase; color: var(--fr-text); }
+.fr-club-text p { margin: 0 0 8px; }
+@media (max-width: 760px) {
+	.fr-club-erou__titlu { font-size: 34px; }
+	.fr-club-erou__stema { width: 72px; height: 72px; }
+	.fr-cifre { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+	.fr-cifra b { font-size: 34px; }
+	.fr-doua { grid-template-columns: minmax(0, 1fr); }
+	.fr-rand-meci { grid-template-columns: 64px minmax(0, 1fr) 50px minmax(0, 1fr); font-size: 14px; }
+	.fr-rand-meci__link { grid-column: 1 / -1; text-align: center; }
+	.fr-rand-meci__link:empty { display: none; }
+}
+
+/* Pagina de club (vechi) */
 .fr-panouri { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; align-items: start; padding-top: 24px; padding-bottom: 40px; }
 .fr-panouri__lat { grid-column: 1 / -1; }
 .fr-forma-lista { list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-direction: column; gap: 8px; font-size: 14px; }

@@ -270,16 +270,28 @@ function fr_icon( $nume ) {
 }
 
 /**
- * Filele unei pagini de ligă sau de club (?fila=…).
+ * Adresa unei file a paginii curente de ligă sau de club: /competitie/liga-2/clasament/, /club/x/meciuri/.
+ */
+function fr_url_fila( $fila, $term = null ) {
+	$term = $term ?: get_queried_object();
+	$baza = get_term_link( $term );
+	if ( is_wp_error( $baza ) ) {
+		return home_url( '/' );
+	}
+	return in_array( $fila, array( 'stiri', 'prezentare', '' ), true ) && 'club' !== $term->taxonomy
+		? $baza
+		: ( 'prezentare' === $fila ? $baza : trailingslashit( $baza ) . $fila . '/' );
+}
+
+/**
+ * Filele unei pagini de ligă sau de club.
  */
 function fr_file( $file, $activa ) {
-	$baza = get_term_link( get_queried_object() );
 	echo '<nav class="fr-file" aria-label="Secțiuni"><ul>';
 	foreach ( $file as $cheie => $nume ) {
-		$url = 'stiri' === $cheie || 'prezentare' === $cheie ? $baza : add_query_arg( 'fila', $cheie, $baza );
 		printf(
 			'<li><a href="%s"%s>%s</a></li>',
-			esc_url( $url ),
+			esc_url( fr_url_fila( $cheie ) ),
 			$cheie === $activa ? ' aria-current="page"' : '',
 			esc_html( $nume )
 		);
@@ -288,7 +300,7 @@ function fr_file( $file, $activa ) {
 }
 
 function fr_fila_curenta( $permise, $implicit ) {
-	$f = isset( $_GET['fila'] ) ? sanitize_key( $_GET['fila'] ) : $implicit; // phpcs:ignore WordPress.Security.NonceVerification
+	$f = get_query_var( 'fila' ) ?: ( isset( $_GET['fila'] ) ? sanitize_key( $_GET['fila'] ) : $implicit ); // phpcs:ignore WordPress.Security.NonceVerification
 	return in_array( $f, $permise, true ) ? $f : $implicit;
 }
 
@@ -301,20 +313,22 @@ function fr_meta_sociale() {
 		return;
 	}
 	$titlu = wp_get_document_title();
-	$desc  = get_bloginfo( 'description' );
+	$desc  = fr_descriere_pagina();
 	$img   = '';
 	$url   = home_url( add_query_arg( array() ) );
 	if ( is_singular() ) {
-		$desc = wp_strip_all_tags( get_the_excerpt() );
 		$img  = get_the_post_thumbnail_url( null, 'fr-mare' );
 		if ( ! $img && is_singular( 'post' ) && function_exists( 'fr_coperta_url' ) ) {
 			$img = fr_coperta_url( get_the_ID(), 'og' ); // coperta generată, pentru previzualizarea pe Facebook
 		}
 		$url  = get_permalink();
-	} elseif ( is_tax() ) {
-		$desc = wp_strip_all_tags( term_description() ) ?: $desc;
+	} elseif ( is_tax( 'club' ) ) {
+		$img = get_term_meta( get_queried_object_id(), 'fr_sigla', true );
 	}
-	printf( '<meta property="og:site_name" content="%s">' . "\n", esc_attr( get_bloginfo( 'name' ) ) );
+	if ( ! $img ) {
+		$img = fr_logo_url();
+	}
+	printf( '<meta property="og:site_name" content="%s">' . "\n" . '<meta property="og:locale" content="ro_RO">' . "\n", esc_attr( get_bloginfo( 'name' ) ) );
 	printf( '<meta property="og:title" content="%s">' . "\n", esc_attr( $titlu ) );
 	printf( '<meta property="og:type" content="%s">' . "\n", is_singular( 'post' ) ? 'article' : 'website' );
 	printf( '<meta property="og:url" content="%s">' . "\n", esc_url( $url ) );
@@ -332,7 +346,8 @@ function fr_meta_sociale() {
 			'datePublished' => get_the_date( 'c' ),
 			'dateModified'  => get_the_modified_date( 'c' ),
 			'author'        => array( '@type' => 'Person', 'name' => get_the_author_meta( 'display_name', get_post_field( 'post_author' ) ) ),
-			'publisher'     => array( '@type' => 'Organization', 'name' => get_bloginfo( 'name' ) ),
+			'publisher'     => array( '@type' => 'NewsMediaOrganization', 'name' => get_bloginfo( 'name' ), 'logo' => array( '@type' => 'ImageObject', 'url' => fr_logo_url() ) ),
+			'inLanguage'    => 'ro-RO',
 			'mainEntityOfPage' => get_permalink(),
 		);
 		if ( $img ) {

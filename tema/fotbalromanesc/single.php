@@ -111,7 +111,7 @@ while ( have_posts() ) :
 			if ( $fr_date && $fr_date['clasament'] ) :
 				?>
 				<section class="fr-card">
-					<?php echo fr_titlu_sectiune( 'Clasament ' . fr_eticheta_competitie( $fr_comp ), add_query_arg( 'fila', 'clasament', get_term_link( $fr_comp ) ), 'Complet' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+					<?php echo fr_titlu_sectiune( 'Clasament ' . fr_eticheta_competitie( $fr_comp ), fr_url_fila( 'clasament', $fr_comp ), 'Complet' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 					<?php echo fr_tabel_clasament( $fr_date, array( 'max' => 10 ) ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 				</section>
 			<?php endif; ?>

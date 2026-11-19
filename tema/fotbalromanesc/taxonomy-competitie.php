@@ -89,7 +89,7 @@ $fr_par   = $fr_t->parent ? get_term( $fr_t->parent, 'competitie' ) : null;
 		}
 		$fr_chei = array_map( 'strval', array_keys( $fr_runde ) );
 		$fr_poz  = array_search( $fr_runda, $fr_chei, true );
-		$fr_baza = add_query_arg( 'fila', 'meciuri', get_term_link( $fr_t ) );
+		$fr_baza = fr_url_fila( 'meciuri', $fr_t );
 		?>
 		<div class="fr-card">
 			<div class="fr-runde">
@@ -130,7 +130,7 @@ $fr_par   = $fr_t->parent ? get_term( $fr_t->parent, 'competitie' ) : null;
 	<aside class="fr-layout__lateral">
 		<?php if ( 'clasament' !== $fr_fila && $fr_date && $fr_date['clasament'] ) : ?>
 			<section class="fr-card">
-				<?php echo fr_titlu_sectiune( 'Clasament', add_query_arg( 'fila', 'clasament', get_term_link( $fr_t ) ), 'Complet' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+				<?php echo fr_titlu_sectiune( 'Clasament', fr_url_fila( 'clasament', $fr_t ), 'Complet' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 				<?php echo fr_tabel_clasament( $fr_date, array( 'max' => 8 ) ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 			</section>
 		<?php endif; ?>

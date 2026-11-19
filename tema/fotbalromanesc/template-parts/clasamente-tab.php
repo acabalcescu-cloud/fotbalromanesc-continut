@@ -28,7 +28,7 @@ $fr_uid = 'fr-cl-' . wp_unique_id();
 	<?php foreach ( $fr_comps as $i => $t ) : ?>
 		<div role="tabpanel" id="<?php echo esc_attr( $fr_uid . '-p' . $i ); ?>" aria-labelledby="<?php echo esc_attr( $fr_uid . '-t' . $i ); ?>"<?php echo 0 === $i ? '' : ' hidden'; ?>>
 			<?php echo fr_tabel_clasament( fr_date_competitie( $t->term_id ), array( 'max' => 10 ) ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
-			<a class="fr-link-sectiune" href="<?php echo esc_url( add_query_arg( 'fila', 'clasament', get_term_link( $t ) ) ); ?>">Clasamentul complet</a>
+			<a class="fr-link-sectiune" href="<?php echo esc_url( fr_url_fila( 'clasament', $t ) ); ?>">Clasamentul complet</a>
 		</div>
 	<?php endforeach; ?>
 </section>

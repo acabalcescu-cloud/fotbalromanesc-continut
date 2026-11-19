@@ -18,6 +18,7 @@ function fr_setari_implicite() {
 		'youtube'      => 'https://www.youtube.com/@fotbalromanesc_ro',
 		'tiktok'       => 'https://www.tiktok.com/@fotbal.romanesc.ro',
 		'email'        => 'contact@fotbalromanesc.ro',
+		'google_verificare' => '',
 		'text_subsol'  => 'Tot fotbalul românesc, de la SuperLiga la Liga 3, de la naționale la românii din străinătate.',
 	);
 }
@@ -81,6 +82,7 @@ function fr_curata_setari( $in ) {
 	$out['sponsor']     = sanitize_text_field( $in['sponsor'] ?? '' );
 	$out['text_subsol'] = sanitize_text_field( $in['text_subsol'] ?? '' );
 	$out['email']       = sanitize_email( $in['email'] ?? '' );
+	$out['google_verificare'] = preg_replace( '/[^A-Za-z0-9_\-]/', '', (string) ( $in['google_verificare'] ?? '' ) );
 	foreach ( array( 'sponsor_url', 'facebook', 'instagram', 'youtube', 'tiktok' ) as $k ) {
 		$out[ $k ] = esc_url_raw( $in[ $k ] ?? '' );
 	}
@@ -99,6 +101,8 @@ function fr_actiune_admin() {
 		fr_reimprospateaza_toate();
 	} elseif ( 'date' === $ce ) {
 		fr_reimprospateaza_toate();
+	} elseif ( 'cluburi' === $ce ) {
+		fr_sincronizeaza_cluburi();
 	} elseif ( 'social' === $ce ) {
 		set_transient( 'fr_mesaj_social', fr_social_salveaza_formular(), 60 );
 	} elseif ( 'cheie' === $ce ) {
@@ -149,6 +153,7 @@ function fr_pagina_setari() {
 				$camp( 'tiktok', 'TikTok', '', 'url' );
 				$camp( 'email', 'Adresa de contact', 'Apare în subsolul site-ului.', 'email' );
 				$camp( 'text_subsol', 'Textul din subsol' );
+				$camp( 'google_verificare', 'Cod Google Search Console', 'Doar codul din eticheta meta de verificare (content="…").' );
 				?>
 			</table>
 			<?php submit_button( 'Salvează' ); ?>
@@ -198,6 +203,14 @@ function fr_pagina_setari() {
 			<?php wp_nonce_field( 'fr_actiune' ); ?>
 			<input type="hidden" name="action" value="fr_actiune"><input type="hidden" name="ce" value="cheie">
 			<?php submit_button( 'Generează o cheie nouă', 'secondary', 'submit', false ); ?>
+		</form>
+
+		<h2>Cluburile</h2>
+		<p>Cluburile se creează singure, o dată pe zi, din clasamentele competițiilor cu date (cu stema). Ultima sincronizare: <strong><?php echo get_option( 'fr_cluburi_sincronizat' ) ? esc_html( wp_date( 'j M Y, H:i', get_option( 'fr_cluburi_sincronizat' ) ) ) : '—'; ?></strong>.</p>
+		<form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>">
+			<?php wp_nonce_field( 'fr_actiune' ); ?>
+			<input type="hidden" name="action" value="fr_actiune"><input type="hidden" name="ce" value="cluburi">
+			<?php submit_button( 'Sincronizează cluburile acum', 'secondary', 'submit', false ); ?>
 		</form>
 
 		<h2>Datele competițiilor</h2>

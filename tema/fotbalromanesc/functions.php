@@ -10,13 +10,15 @@
  * inc/actualizare.php – actualizarea temei din depozit (automată sau la cerere)
  * inc/coperta.php    – coperțile generate pentru Instagram și Facebook
  * inc/social.php     – publicarea automată pe Facebook și Instagram
+ * inc/cluburi.php    – cluburile create din date, stemele și profilurile (stadion, antrenor, lot)
+ * inc/seo.php        – adrese curate, titluri, descrieri, canonical, date structurate, sitemap Google News
  *
  * @package fotbalromanesc
  */
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'FR_VERSIUNE', '1.4.0' );
+define( 'FR_VERSIUNE', '1.5.0' );
 define( 'FR_DIR', get_template_directory() );
 define( 'FR_URI', get_template_directory_uri() );
 
@@ -29,6 +31,8 @@ require FR_DIR . '/inc/sabloane.php';
 require FR_DIR . '/inc/actualizare.php';
 require FR_DIR . '/inc/coperta.php';
 require FR_DIR . '/inc/social.php';
+require FR_DIR . '/inc/cluburi.php';
+require FR_DIR . '/inc/seo.php';
 
 add_action( 'after_setup_theme', 'fr_setup' );
 function fr_setup() {

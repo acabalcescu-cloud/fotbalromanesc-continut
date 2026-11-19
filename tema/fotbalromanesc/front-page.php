@@ -130,7 +130,7 @@ $fr_rezultate = function ( $t, $n = 8 ) {
 			<div class="fr-rezultate">
 				<?php foreach ( $fr_blocuri as list( $t, $rez ) ) : ?>
 					<div class="fr-card fr-rezultate__bloc">
-						<h3 class="fr-rezultate__comp"><a href="<?php echo esc_url( add_query_arg( 'fila', 'meciuri', get_term_link( $t ) ) ); ?>"><?php echo esc_html( fr_eticheta_competitie( $t ) ); ?></a><?php $fr_et = array_values( array_filter( wp_list_pluck( $rez, 'runda' ), 'is_numeric' ) ); ?><span><?php echo esc_html( $fr_et ? 'etapa ' . max( $fr_et ) : $rez[0]['runda'] ); ?></span></h3>
+						<h3 class="fr-rezultate__comp"><a href="<?php echo esc_url( fr_url_fila( 'meciuri', $t ) ); ?>"><?php echo esc_html( fr_eticheta_competitie( $t ) ); ?></a><?php $fr_et = array_values( array_filter( wp_list_pluck( $rez, 'runda' ), 'is_numeric' ) ); ?><span><?php echo esc_html( $fr_et ? 'etapa ' . max( $fr_et ) : $rez[0]['runda'] ); ?></span></h3>
 						<ul>
 							<?php foreach ( $rez as $m ) : ?>
 								<li>
@@ -166,7 +166,7 @@ $fr_rezultate = function ( $t, $n = 8 ) {
 				<?php if ( $fr_d && $fr_d['clasament'] ) : ?>
 					<aside class="fr-card fr-clasament-scurt">
 						<?php echo fr_tabel_clasament( $fr_d, array( 'max' => 6 ) ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
-						<a class="fr-link-sectiune" href="<?php echo esc_url( add_query_arg( 'fila', 'clasament', get_term_link( $fr_t ) ) ); ?>">Clasamentul complet</a>
+						<a class="fr-link-sectiune" href="<?php echo esc_url( fr_url_fila( 'clasament', $fr_t ) ); ?>">Clasamentul complet</a>
 					</aside>
 				<?php endif; ?>
 			</div>
@@ -193,7 +193,7 @@ $fr_rezultate = function ( $t, $n = 8 ) {
 					<article class="fr-card fr-serie">
 						<a class="fr-serie__nume" href="<?php echo esc_url( get_term_link( $s ) ); ?>"><?php echo esc_html( $s->name ); ?></a>
 						<h3 class="fr-serie__titlu"><a href="<?php echo esc_url( get_permalink( $p ) ); ?>"><?php echo esc_html( preg_replace( '/^Liga 3, Seria \d+, runda \d+:\s*/u', '', get_the_title( $p ) ) ); ?></a></h3>
-						<p class="fr-articol__meta"><?php echo esc_html( get_the_date( 'j M', $p ) ); ?> · <a href="<?php echo esc_url( add_query_arg( 'fila', 'clasament', get_term_link( $s ) ) ); ?>">clasament</a></p>
+						<p class="fr-articol__meta"><?php echo esc_html( get_the_date( 'j M', $p ) ); ?> · <a href="<?php echo esc_url( fr_url_fila( 'clasament', $s ) ); ?>">clasament</a></p>
 					</article>
 				<?php endforeach; ?>
 			</div>

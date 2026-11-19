@@ -267,7 +267,13 @@ function fr_date_livescore( $cale ) {
 	}
 
 	$meciuri = array();
+	$sigle   = array();
 	foreach ( $st['Events'] ?? array() as $e ) {
+		foreach ( array( 'T1', 'T2' ) as $k ) {
+			if ( ! empty( $e[ $k ][0]['Nm'] ) && ! empty( $e[ $k ][0]['Img'] ) ) {
+				$sigle[ (string) $e[ $k ][0]['Nm'] ] = (string) $e[ $k ][0]['Img'];
+			}
+		}
 		$ts = fr_ts_livescore( $e['Esd'] ?? '' );
 		if ( ! $ts || empty( $e['T1'][0]['Nm'] ) || empty( $e['T2'][0]['Nm'] ) ) {
 			continue;
@@ -286,7 +292,7 @@ function fr_date_livescore( $cale ) {
 		);
 	}
 	usort( $meciuri, fn( $a, $b ) => strcmp( $a['data'], $b['data'] ) );
-	return array( 'clasament' => $clasament, 'meciuri' => $meciuri, 'sursa' => 'LiveScore' );
+	return array( 'clasament' => $clasament, 'meciuri' => $meciuri, 'sursa' => 'LiveScore', 'sigle' => $sigle );
 }
 
 function fr_ts_livescore( $esd ) {
