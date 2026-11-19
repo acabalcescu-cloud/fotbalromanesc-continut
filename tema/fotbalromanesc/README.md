@@ -67,6 +67,16 @@ Fiecare articol: `id`, `titlu`, `rezumat`, `continut` (HTML), `competitie` (slug
 
 Starea importului: **Aspect › fotbalromanesc** sau `GET /wp-json/fr/v1/import` (administratori). `POST` pe aceeași adresă rulează importul imediat.
 
+## Actualizarea temei
+
+Tema se actualizează singură din depozit (`tema/versiune.txt`, `tema/sha256.txt`, `tema/fotbalromanesc.zip`):
+
+- WordPress vede versiunea nouă la **Panou › Actualizări** și o instalează automat, la verificarea lui obișnuită (de două ori pe zi).
+- `POST /wp-json/fr/v1/tema` cu antetul `X-Fr-Key: <cheia din Aspect › fotbalromanesc>` o instalează imediat. `GET` pe aceeași adresă arată versiunea instalată și pe cea din depozit.
+- Arhiva se instalează doar dacă amprenta SHA-256 e cea din `tema/sha256.txt`.
+
+O versiune nouă înseamnă: `Version` din `style.css` și `FR_VERSIUNE` din `functions.php`, arhiva refăcută, `sha256.txt` și `versiune.txt` actualizate, totul pe `main`.
+
 ## Pentru dezvoltatori
 
 - `inc/date.php` – sursele de date, cache-ul (ultima copie bună rămâne dacă sursa cade), forma și marcatorii. `GET /wp-json/fr/v1/date/<id-competiție>` dă datele unei competiții.

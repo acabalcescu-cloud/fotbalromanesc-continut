@@ -76,6 +76,9 @@ function fr_actiune_admin() {
 		fr_reimprospateaza_toate();
 	} elseif ( 'date' === $ce ) {
 		fr_reimprospateaza_toate();
+	} elseif ( 'cheie' === $ce ) {
+		delete_option( 'fr_cheie_actualizare' );
+		fr_cheie_actualizare();
 	}
 	wp_safe_redirect( admin_url( 'themes.php?page=fotbalromanesc&gata=' . $ce ) );
 	exit;
@@ -144,6 +147,24 @@ function fr_pagina_setari() {
 			<?php wp_nonce_field( 'fr_actiune' ); ?>
 			<input type="hidden" name="action" value="fr_actiune"><input type="hidden" name="ce" value="import">
 			<?php submit_button( 'Importă acum', 'secondary', 'submit', false ); ?>
+		</form>
+
+		<h2>Actualizarea temei</h2>
+		<?php $fr_info = fr_info_tema_depozit(); ?>
+		<p>
+			Versiunea instalată: <strong><?php echo esc_html( fr_versiune_instalata() ); ?></strong>.
+			În depozit: <strong><?php echo esc_html( $fr_info['versiune'] ?? '—' ); ?></strong>.
+			Versiunile noi apar la Panou › Actualizări și se instalează automat.
+		</p>
+		<p>
+			Cheia pentru actualizarea imediată (antetul <code>X-Fr-Key</code> la <code>POST /wp-json/fr/v1/tema</code>):<br>
+			<input type="text" class="regular-text code" readonly value="<?php echo esc_attr( fr_cheie_actualizare() ); ?>" onclick="this.select()">
+		</p>
+		<p class="description">O dai doar prin formularul securizat al lui Claude, nu în chat sau pe email.</p>
+		<form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>">
+			<?php wp_nonce_field( 'fr_actiune' ); ?>
+			<input type="hidden" name="action" value="fr_actiune"><input type="hidden" name="ce" value="cheie">
+			<?php submit_button( 'Generează o cheie nouă', 'secondary', 'submit', false ); ?>
 		</form>
 
 		<h2>Datele competițiilor</h2>

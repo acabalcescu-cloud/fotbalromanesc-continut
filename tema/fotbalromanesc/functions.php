@@ -7,13 +7,14 @@
  * inc/import.php     – importul articolelor din depozitul GitHub, la 15 minute
  * inc/setari.php     – pagina de setări (Aspect › fotbalromanesc)
  * inc/sabloane.php   – bucăți de afișare folosite în șabloane
+ * inc/actualizare.php – actualizarea temei din depozit (automată sau la cerere)
  *
  * @package fotbalromanesc
  */
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'FR_VERSIUNE', '1.0.2' );
+define( 'FR_VERSIUNE', '1.1.0' );
 define( 'FR_DIR', get_template_directory() );
 define( 'FR_URI', get_template_directory_uri() );
 
@@ -23,6 +24,7 @@ require FR_DIR . '/inc/date.php';
 require FR_DIR . '/inc/import.php';
 require FR_DIR . '/inc/setari.php';
 require FR_DIR . '/inc/sabloane.php';
+require FR_DIR . '/inc/actualizare.php';
 
 add_action( 'after_setup_theme', 'fr_setup' );
 function fr_setup() {
