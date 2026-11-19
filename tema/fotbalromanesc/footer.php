@@ -33,6 +33,9 @@ $fr_program = fr_url_program();
 				<?php endif; ?>
 			<?php endforeach; ?>
 			<li><a href="<?php echo esc_url( get_feed_link() ); ?>">RSS</a></li>
+			<?php if ( is_email( fr_setare( 'email' ) ) ) : ?>
+				<li><a href="mailto:<?php echo esc_attr( antispambot( fr_setare( 'email' ) ) ); ?>"><?php echo esc_html( antispambot( fr_setare( 'email' ) ) ); ?></a></li>
+			<?php endif; ?>
 		</ul>
 	</div>
 </footer>
