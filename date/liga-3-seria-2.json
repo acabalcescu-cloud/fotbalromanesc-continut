@@ -1,0 +1,308 @@
+{
+ "actualizat": "2026-11-19 17:14",
+ "surse": [
+  "https://liga2.prosport.ro/liga-3/etapa-13-din-liga-3-primul-meci-al-zilei-s-a-incheiat-altele-20-se-disputa-acum-doar-trei-echipe-mai-sunt-neinvinse-in-acest-sezon-19407567",
+  "https://bzb.ro/stire/corona-se-impune-in-derbyul-c2-si-redevine-lider-a225739",
+  "https://www.monitorulexpres.ro/2026/11/13/liga-3-etapa-13-corona-brasov-sub-presiune-la-medias-meciuri-tari-pentru-sacele-si-kids-tampa-olimpic-zarnesti-dupa-puncte-la-covasna/",
+  "https://mesageruldesibiu.ro/weekend-de-fotbal-la-sibiu-intai-baietii-apoi-fetele-pe-municipal/",
+  "https://ziarulprahova.ro/2026/11/16/victorii-pentru-play-off/",
+  "https://campinatv.ro/News/Article/10b61dc3-96bc-4e85-7f9e-7c162d3526b0_liga-a-3-a-tricolorul-breaza-sepsi-ii-sf-gheorghe-3-2",
+  "https://www.tribuna.ro/acs-medias-pierde-derbiul-cu-corona-la-revenirea-pe-stadionul-gaz-metan-4-000-de-spectatori-in-tribune/",
+  "https://mesageruldesibiu.ro/ramanem-in-zona-de-play-off-inter-sibiu-a-smuls-victoria-in-noroiul-de-la-sacele-iar-mediasul-a-pierdut-derby-ul-cu-corona/",
+  "https://novatv.ro/2026/11/unii-cu-ocaziile-altii-cu-golul-acs-medias-invinsa-de-corona-brasov/"
+ ],
+ "clasament": [
+  {
+   "loc": 1,
+   "echipa": "Corona Brașov",
+   "meciuri": 13,
+   "pct": 30
+  },
+  {
+   "loc": 2,
+   "echipa": "ACS Mediaș",
+   "meciuri": 13,
+   "pct": 29
+  },
+  {
+   "loc": 3,
+   "echipa": "CSO Băicoi",
+   "meciuri": 13,
+   "pct": 28
+  },
+  {
+   "loc": 4,
+   "echipa": "Inter Stars Sibiu",
+   "meciuri": 13,
+   "pct": 27
+  },
+  {
+   "loc": 5,
+   "echipa": "Olimpic Zărnești",
+   "meciuri": 13,
+   "pct": 23
+  },
+  {
+   "loc": 6,
+   "echipa": "ARO Câmpulung",
+   "meciuri": 13,
+   "pct": 20
+  },
+  {
+   "loc": 7,
+   "echipa": "CSM Săcele",
+   "meciuri": 13,
+   "pct": 18
+  },
+  {
+   "loc": 8,
+   "echipa": "Sepsi OSK Sfântu Gheorghe 2",
+   "meciuri": 13,
+   "pct": 16
+  },
+  {
+   "loc": 9,
+   "echipa": "CSO Teleajenul Vălenii de Munte",
+   "meciuri": 13,
+   "pct": 14
+  },
+  {
+   "loc": 10,
+   "echipa": "Kids Tâmpa Brașov",
+   "meciuri": 13,
+   "pct": 9
+  },
+  {
+   "loc": 11,
+   "echipa": "Tricolorul Breaza",
+   "meciuri": 13,
+   "pct": 7
+  },
+  {
+   "loc": 12,
+   "echipa": "Carpați Covasna",
+   "meciuri": 13,
+   "pct": 2
+  }
+ ],
+ "meciuri": [
+  {
+   "id": "s2r13a",
+   "data": "2026-11-13T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "Carpați Covasna",
+   "oaspeti": "Olimpic Zărnești",
+   "scor": [
+    0,
+    3
+   ],
+   "marcatori": {
+    "gazde": [],
+    "oaspeti": [
+     {
+      "nume": "Iustin Grigore",
+      "minut": "25",
+      "tip": ""
+     },
+     {
+      "nume": "Bogdan Marinescu",
+      "minut": "43",
+      "tip": ""
+     },
+     {
+      "nume": "Iustin Grigore",
+      "minut": "52",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2r13b",
+   "data": "2026-11-13T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "ARO Câmpulung",
+   "oaspeti": "CSO Teleajenul Vălenii de Munte",
+   "scor": [
+    3,
+    1
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Andrei Doinea",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Răzvan Dinu",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Răzvan Dinu",
+      "minut": "75",
+      "tip": ""
+     }
+    ],
+    "oaspeti": [
+     {
+      "nume": "Tiberiu Calofir",
+      "minut": "79",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2r13c",
+   "data": "2026-11-13T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "Kids Tâmpa Brașov",
+   "oaspeti": "CSO Băicoi",
+   "scor": [
+    0,
+    2
+   ],
+   "marcatori": {
+    "gazde": [],
+    "oaspeti": [
+     {
+      "nume": "David Brăila",
+      "minut": "41",
+      "tip": ""
+     },
+     {
+      "nume": "Nikolas Ionică",
+      "minut": "47",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2r13d",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "CSM Săcele",
+   "oaspeti": "Inter Stars Sibiu",
+   "scor": [
+    1,
+    2
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Alexandru Ciocâlteu",
+      "minut": "",
+      "tip": "penalty"
+     }
+    ],
+    "oaspeti": [
+     {
+      "nume": "Tudor Neamțiu",
+      "minut": "8",
+      "tip": ""
+     },
+     {
+      "nume": "Alessandro Mihai",
+      "minut": "",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2r13e",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "Tricolorul Breaza",
+   "oaspeti": "Sepsi OSK Sfântu Gheorghe 2",
+   "scor": [
+    3,
+    2
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Adrian Vintilă",
+      "minut": "62",
+      "tip": ""
+     },
+     {
+      "nume": "Mario Dudu",
+      "minut": "73",
+      "tip": ""
+     },
+     {
+      "nume": "Rareș Dogaru",
+      "minut": "76",
+      "tip": ""
+     }
+    ],
+    "oaspeti": [
+     {
+      "nume": "Albert Dumitrescu",
+      "minut": "19",
+      "tip": "autogol"
+     },
+     {
+      "nume": "Rareș Radovan",
+      "minut": "56",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2r13f",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "ACS Mediaș",
+   "oaspeti": "Corona Brașov",
+   "scor": [
+    0,
+    2
+   ],
+   "marcatori": {
+    "gazde": [],
+    "oaspeti": [
+     {
+      "nume": "Bogdan Roșu",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Dan Vasile",
+      "minut": "90+3",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2r14a",
+   "data": "2026-11-20T18:00:00+02:00",
+   "runda": "14",
+   "gazde": "Inter Stars Sibiu",
+   "oaspeti": "Kids Tâmpa Brașov",
+   "scor": null
+  },
+  {
+   "id": "s2r14b",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "CSO Băicoi",
+   "oaspeti": "ACS Mediaș",
+   "scor": null
+  },
+  {
+   "id": "s2r14c",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Olimpic Zărnești",
+   "oaspeti": "Tricolorul Breaza",
+   "scor": null
+  }
+ ]
+}
