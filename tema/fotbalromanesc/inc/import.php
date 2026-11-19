@@ -143,6 +143,9 @@ function fr_importa_articol( $item, $cale ) {
 				'post_content' => wp_kses_post( $item['continut'] ),
 			) );
 			update_post_meta( $exista[0], '_fr_actualizat', $act );
+			if ( isset( $item['hashtaguri'] ) ) {
+				update_post_meta( $exista[0], '_fr_hashtaguri', array_slice( array_map( 'sanitize_text_field', (array) $item['hashtaguri'] ), 0, 15 ) );
+			}
 			return -1 * (int) $exista[0];
 		}
 		return 0;
@@ -156,7 +159,10 @@ function fr_importa_articol( $item, $cale ) {
 		'post_excerpt' => wp_strip_all_tags( $item['rezumat'] ?? '' ),
 		'post_content' => $video ? esc_url_raw( $item['video_url'] ) : wp_kses_post( $item['continut'] ),
 		'tags_input'   => array_map( 'sanitize_text_field', (array) ( $item['etichete'] ?? array() ) ),
-		'meta_input'   => array( '_fr_sursa' => sanitize_text_field( $item['id'] ) ),
+		'meta_input'   => array(
+			'_fr_sursa'      => sanitize_text_field( $item['id'] ),
+			'_fr_hashtaguri' => array_slice( array_map( 'sanitize_text_field', (array) ( $item['hashtaguri'] ?? array() ) ), 0, 15 ),
+		),
 	);
 	if ( ! empty( $item['data_publicare'] ) && strtotime( $item['data_publicare'] ) ) {
 		// O dată din viitor ar programa articolul: o limităm la ora curentă.

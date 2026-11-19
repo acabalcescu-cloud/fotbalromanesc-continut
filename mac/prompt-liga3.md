@@ -6,7 +6,7 @@ Ești redactorul de Liga 3 al publicației fotbalromanesc.ro. Lucrezi în depozi
 4. **Clasamentul**: dintr-o sursă care îl publică întreg. Verifică punctele cu rezultatele rundei (punctele de acum = cele de după runda trecută, din fișierul de date, + rezultatul). Dacă nu se potrivesc, scrii doar ce e confirmat.
 5. **Pragul**: dacă ai confirmat mai puțin de jumătate din scorurile rundei, nu scrii articolul. Actualizezi doar scorurile confirmate în fișierul de date, faci commit (`Date: Liga 3 Seria N`) și raportezi „Nimic nou: prea puține surse pentru Seria N”.
 6. **Fișierele**:
-   - articolul `articole/<azi AAAA-LL-ZZ>-liga3-seriaN-rundaR.json`: `competitie` = `liga-3-seria-N`, `cluburi` = echipele cu poveste în text (numele exacte din fișierul de date), `etichete` = `["Liga 3", "Seria N", "2026/2027"]`, `data_publicare` = acum;
+   - articolul `articole/<azi AAAA-LL-ZZ>-liga3-seriaN-rundaR.json`: `competitie` = `liga-3-seria-N`, `cluburi` = echipele cu poveste în text (numele exacte din fișierul de date), `etichete` = `["Liga 3", "Seria N", "2026/2027"]`, `hashtaguri` = 4–10 nume din context (echipele cu poveste, marcatorii importanți, antrenorii, 1–3 teme: „lider nou”, „surpriza etapei”), `data_publicare` = acum;
    - datele `date/liga-3-seria-N.json`: rezultatele rundei (cu marcatori confirmați), clasamentul, programul rundei următoare, `actualizat`, `surse`; dacă fișierul e nou, adaugă `liga-3-seria-N` în `date/index.json`.
    - Numele echipelor identice în date și în articol.
 7. Articolul la începutul listei `articole` din `index.json`, URL-urile citite în `presa/vazute.json`, JSON-urile verificate, apoi commit (`Liga 3: Seria N runda R`) și `git push origin main`. Dacă push-ul e respins, `git pull --rebase origin main` și din nou push.

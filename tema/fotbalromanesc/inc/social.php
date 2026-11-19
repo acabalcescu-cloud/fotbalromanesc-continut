@@ -116,8 +116,15 @@ function fr_hashtag( $s ) {
 	return strlen( $s ) >= 3 ? '#' . $s : '';
 }
 
+const FR_HASHTAG_SITE = array( '#fotbalromanesc', '#fotbalromania', '#fotbal' );
+
+/**
+ * Hashtag-urile unei postări: ale site-ului, apoi cele din contextul articolului, în ordinea:
+ * 1. „hashtaguri” din JSON-ul articolului (alese de redactor: oameni, echipe, competiție, teme);
+ * 2. competiția (și liga-părinte), 3. cluburile, 4. etichetele. Fără dubluri, cel mult $max.
+ */
 function fr_hashtaguri( $post_id, $max = 15 ) {
-	$out = array( '#fotbalromanesc', '#fotbal' );
+	$out = FR_HASHTAG_SITE;
 	$add = function ( $t ) use ( &$out ) {
 		$h = fr_hashtag( $t );
 		foreach ( $out as $x ) { // fără variante incluse în altele (#seria1 lângă #liga3seria1)
@@ -129,6 +136,9 @@ function fr_hashtaguri( $post_id, $max = 15 ) {
 			$out[] = $h;
 		}
 	};
+	foreach ( (array) get_post_meta( $post_id, '_fr_hashtaguri', true ) as $t ) {
+		$add( $t );
+	}
 	foreach ( (array) get_the_terms( $post_id, 'competitie' ) as $t ) {
 		if ( $t instanceof WP_Term ) {
 			if ( $t->parent ) {
@@ -156,7 +166,7 @@ function fr_hashtaguri( $post_id, $max = 15 ) {
 function fr_text_social( $post_id, $retea ) {
 	$titlu = html_entity_decode( wp_strip_all_tags( get_the_title( $post_id ) ), ENT_QUOTES, 'UTF-8' );
 	$rez   = html_entity_decode( trim( wp_strip_all_tags( get_the_excerpt( $post_id ) ) ), ENT_QUOTES, 'UTF-8' );
-	$tags  = implode( ' ', fr_hashtaguri( $post_id, 'ig' === $retea ? 20 : 8 ) );
+	$tags  = implode( ' ', fr_hashtaguri( $post_id, 'ig' === $retea ? 25 : 12 ) );
 	if ( 'ig' === $retea ) {
 		return $titlu . "\n\n" . $rez . "\n\n📲 Tot articolul pe fotbalromanesc.ro (link în bio).\n\n" . $tags;
 	}
