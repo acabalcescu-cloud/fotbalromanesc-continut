@@ -1,0 +1,212 @@
+{
+ "actualizat": "2026-11-19 18:13",
+ "surse": [
+  "https://jurnalgiurgiuvean.ro/fotbal-liga-a-iii-a-academia-dunarea-giurgiu-castiga-derby-ul-cu-inter-ilfov-si-isi-consolideaza-pozitia-de-lider-in-clasamentul-seriei-a-5-a/",
+  "https://liga2.prosport.ro/liga-3/etapa-13-din-liga-3-primul-meci-al-zilei-s-a-incheiat-altele-20-se-disputa-acum-doar-trei-echipe-mai-sunt-neinvinse-in-acest-sezon-19407567",
+  "https://liga2.prosport.ro/liga-3-clasament",
+  "https://jurnalgiurgiuvean.ro/avancronica-dunarea-giurgiu-se-bate-sambata-acasa-pentru-primul-loc-in-clasament-cu-inter-ilfov/",
+  "https://jurnalgiurgiuvean.ro/fotbal-avancronica-meciului-oxigen-bucuresti-academia-de-fotbal-dunarea-1948/",
+  "https://www.gsp.ro/fotbal/liga-3/fc-voluntari-2-meci-pierdut-fcsb-masa-verde-999306.html",
+  "https://www.digisport.ro/fotbal/liga-1/dinamo-si-a-trimis-transferul-de-350-000-de-euro-in-liga-a-3-a-4606703"
+ ],
+ "clasament": [
+  {
+   "loc": 1,
+   "echipa": "Dunărea Giurgiu",
+   "meciuri": 13,
+   "pct": 29
+  },
+  {
+   "loc": 2,
+   "echipa": "Inter Ilfov",
+   "meciuri": 13,
+   "pct": 26
+  },
+  {
+   "loc": 3,
+   "echipa": "CSM Alexandria",
+   "meciuri": 13,
+   "pct": 25
+  },
+  {
+   "loc": 4,
+   "echipa": "ACS Omega Sport",
+   "meciuri": 13,
+   "pct": 25
+  },
+  {
+   "loc": 5,
+   "echipa": "FCSB 2",
+   "meciuri": 13,
+   "pct": 19
+  },
+  {
+   "loc": 6,
+   "echipa": "Oxigen București",
+   "meciuri": 13,
+   "pct": 16
+  },
+  {
+   "loc": 7,
+   "echipa": "Progresul Mogoșoaia",
+   "meciuri": 13,
+   "pct": 16
+  },
+  {
+   "loc": 8,
+   "echipa": "Dinamo 2",
+   "meciuri": 13,
+   "pct": 15
+  },
+  {
+   "loc": 9,
+   "echipa": "ACS Axi Arena",
+   "meciuri": 13,
+   "pct": 15
+  },
+  {
+   "loc": 10,
+   "echipa": "FC Voluntari 2",
+   "meciuri": 13,
+   "pct": 14
+  },
+  {
+   "loc": 11,
+   "echipa": "Cetatea Turnu Măgurele",
+   "meciuri": 13,
+   "pct": 12
+  },
+  {
+   "loc": 12,
+   "echipa": "Progresul Spartac",
+   "meciuri": 13,
+   "pct": 7
+  }
+ ],
+ "meciuri": [
+  {
+   "id": "s5r13a",
+   "data": "2026-11-13T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "ACS Axi Arena",
+   "oaspeti": "Dinamo 2",
+   "scor": [
+    1,
+    3
+   ]
+  },
+  {
+   "id": "s5r13b",
+   "data": "2026-11-13T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "FCSB 2",
+   "oaspeti": "Cetatea Turnu Măgurele",
+   "scor": [
+    3,
+    2
+   ]
+  },
+  {
+   "id": "s5r13c",
+   "data": "2026-11-13T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "FC Voluntari 2",
+   "oaspeti": "Progresul Mogoșoaia",
+   "scor": [
+    3,
+    2
+   ]
+  },
+  {
+   "id": "s5r13d",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "ACS Omega Sport",
+   "oaspeti": "Oxigen București",
+   "scor": [
+    1,
+    4
+   ]
+  },
+  {
+   "id": "s5r13e",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "Progresul Spartac",
+   "oaspeti": "CSM Alexandria",
+   "scor": [
+    0,
+    4
+   ]
+  },
+  {
+   "id": "s5r13f",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "Dunărea Giurgiu",
+   "oaspeti": "Inter Ilfov",
+   "scor": [
+    1,
+    0
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Iosofache",
+      "minut": "32",
+      "tip": ""
+     }
+    ],
+    "oaspeti": []
+   }
+  },
+  {
+   "id": "s5r14a",
+   "data": "2026-11-20T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Inter Ilfov",
+   "oaspeti": "FCSB 2",
+   "scor": null
+  },
+  {
+   "id": "s5r14b",
+   "data": "2026-11-20T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Dinamo 2",
+   "oaspeti": "FC Voluntari 2",
+   "scor": null
+  },
+  {
+   "id": "s5r14c",
+   "data": "2026-11-20T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "CSM Alexandria",
+   "oaspeti": "ACS Omega Sport",
+   "scor": null
+  },
+  {
+   "id": "s5r14d",
+   "data": "2026-11-20T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Cetatea Turnu Măgurele",
+   "oaspeti": "ACS Axi Arena",
+   "scor": null
+  },
+  {
+   "id": "s5r14e",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Progresul Mogoșoaia",
+   "oaspeti": "Progresul Spartac",
+   "scor": null
+  },
+  {
+   "id": "s5r14f",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Oxigen București",
+   "oaspeti": "Dunărea Giurgiu",
+   "scor": null
+  }
+ ]
+}
