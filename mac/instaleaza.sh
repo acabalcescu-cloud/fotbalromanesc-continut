@@ -2,7 +2,8 @@
 # Instalează pe Mac (launchd) rutinele fotbalromanesc.ro:
 #   - Liga 2: la 10 minute (mac/liga2.py), cronica fiecărui meci la 2 ore după final;
 #   - Liga 3: sâmbătă 19:37, duminică 10:37 și 18:37, luni 10:37 (mac/liga3.py), rezumatul fiecărei serii;
-#   - Știri: zilnic la 20:47 (mac/stiri.py).
+#   - Știri: zilnic la 20:47 (mac/stiri.py);
+#   - Cluburi: zilnic la 04:17 și 14:17 (mac/cluburi.py), profilurile (stadion, antrenor, lot), câte 5 cluburi.
 # Claude pornește doar când verificarea (fără AI) găsește ceva de scris.
 # Rulare, din folderul depozitului:  bash mac/instaleaza.sh
 # Dezinstalare:                       bash mac/instaleaza.sh --sterge
@@ -12,9 +13,10 @@ AGENTI="$HOME/Library/LaunchAgents"
 PLIST_L2="$AGENTI/ro.fotbalromanesc.liga2.plist"
 PLIST_L3="$AGENTI/ro.fotbalromanesc.liga3.plist"
 PLIST_ST="$AGENTI/ro.fotbalromanesc.stiri.plist"
+PLIST_CL="$AGENTI/ro.fotbalromanesc.cluburi.plist"
 
 if [ "$1" = "--sterge" ]; then
-  for p in "$PLIST_L2" "$PLIST_L3" "$PLIST_ST"; do
+  for p in "$PLIST_L2" "$PLIST_L3" "$PLIST_ST" "$PLIST_CL"; do
     launchctl bootout "gui/$(id -u)" "$p" 2>/dev/null || true
     rm -f "$p"
   done
@@ -75,8 +77,10 @@ scrie_plist "$PLIST_L3" ro.fotbalromanesc.liga3 liga3.py \
   "<key>StartCalendarInterval</key><array>$(ora 6 19)$(ora 0 10)$(ora 0 18)$(ora 1 10)</array>" launchd-liga3.log
 scrie_plist "$PLIST_ST" ro.fotbalromanesc.stiri stiri.py \
   '<key>StartCalendarInterval</key><dict><key>Hour</key><integer>20</integer><key>Minute</key><integer>47</integer></dict>' launchd-stiri.log
+scrie_plist "$PLIST_CL" ro.fotbalromanesc.cluburi cluburi.py \
+  '<key>StartCalendarInterval</key><array><dict><key>Hour</key><integer>4</integer><key>Minute</key><integer>17</integer></dict><dict><key>Hour</key><integer>14</integer><key>Minute</key><integer>17</integer></dict></array>' launchd-cluburi.log
 
-for p in "$PLIST_L2" "$PLIST_L3" "$PLIST_ST"; do
+for p in "$PLIST_L2" "$PLIST_L3" "$PLIST_ST" "$PLIST_CL"; do
   launchctl bootout "gui/$(id -u)" "$p" 2>/dev/null || true
   launchctl bootstrap "gui/$(id -u)" "$p"
 done
@@ -86,9 +90,11 @@ echo "Gata."
 echo "Liga 2: verificare la 10 minute; cronica la 2 ore dupa final."
 echo "Liga 3: sambata 19:37, duminica 10:37 si 18:37, luni 10:37."
 echo "Stiri: zilnic la 20:47."
+echo "Cluburi: zilnic la 04:17 si 14:17, cate 5 profiluri (stadion, antrenor, lot)."
 echo
 echo "Teste fara Claude:"
 echo "  python3 mac/liga2.py --doar-lista"
 echo "  python3 mac/liga3.py --doar-lista"
 echo "  python3 mac/stiri.py --doar-lista"
+echo "  python3 mac/cluburi.py --doar-lista"
 echo "Jurnal: cat .stare-mac/jurnal.log"

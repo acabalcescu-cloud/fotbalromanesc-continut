@@ -80,6 +80,34 @@ Pentru fiecare serie 1–8 care a avut rundă vineri sau sâmbătă și nu are �
 
 Google News pentru „Liga 2”, „Liga 3”, „naționala României”, „antrenor demis”, „transfer” + numele cluburilor din Liga 2. Doar subiectele mari (vezi `STIL.md`), confirmate din două surse. `competitie` după subiect.
 
+## Rutina 4 – Profilurile cluburilor (de două ori pe zi, câte 5 cluburi)
+
+Lista vine din `.stare-mac/cluburi-de-facut.json`. Promptul: `mac/prompt-cluburi.md`.
+
+## Profilurile cluburilor
+
+Fișierul `date/cluburi/<slug>.json` (slug-ul paginii clubului de pe site, de exemplu `chindia-targoviste`). Site-ul îl citește singur, în cel mult 12 ore. Toate câmpurile sunt opționale: ce nu e confirmat lipsește.
+
+```json
+{
+  "nume": "Chindia Târgoviște",
+  "oras": "Târgoviște",
+  "fondat": 2010,
+  "culori": "alb-roșu",
+  "site": "https://…",
+  "stadion": { "nume": "…", "capacitate": 0, "inaugurat": 0, "maps": "https://maps.google.com/?q=…" },
+  "antrenor": { "nume": "…", "nationalitate": "România", "varsta": 45 },
+  "lot": [ { "nr": 1, "nume": "…", "post": "portar", "varsta": 24, "nationalitate": "România" } ],
+  "stema": "https://upload.wikimedia.org/…/stema.png",
+  "actualizat": "2026-11-20",
+  "surse": [ "https://…" ]
+}
+```
+
+- `post`: `portar`, `fundas`, `mijlocas` sau `atacant`.
+- `stema`: doar dacă clubul nu are încă stemă pe site (cluburile din Liga 3); PNG sau JPG, adresă directă.
+- Commit: `Cluburi: <nume>, <nume>`.
+
 ## Commit
 
 - Mesaj: `Liga 3: Seria 1 runda 13` / `Liga 2: Chindia – Popesti 4-1` / `Stiri: <subiecte>` / `Date: Liga 3 Seria N`.

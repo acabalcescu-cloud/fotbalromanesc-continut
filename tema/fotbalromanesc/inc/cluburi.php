@@ -9,6 +9,7 @@
  *   "stadion": { "nume": "…", "capacitate": 8400, "inaugurat": 2021, "maps": "https://maps.google.com/?q=…" },
  *   "antrenor": { "nume": "…", "nationalitate": "România", "varsta": 45 },
  *   "lot": [ { "nr": 1, "nume": "…", "post": "portar|fundas|mijlocas|atacant", "varsta": 24, "nationalitate": "România" } ],
+ *   "stema": "https://… .png (opțional, doar dacă clubul nu are stemă)",
  *   "actualizat": "2026-11-20", "surse": [ "https://…" ]
  * }
  *
@@ -106,7 +107,9 @@ function fr_descarca_sigla( $url, $nume ) {
 		update_option( 'fr_sigla_ultima_eroare', $tmp->get_error_message(), false );
 		return '';
 	}
-	$id = media_handle_sideload( array( 'name' => sanitize_title( $nume ) . '-stema.png', 'tmp_name' => $tmp ), 0, 'Stema ' . $nume );
+	$ext = strtolower( pathinfo( (string) wp_parse_url( $url, PHP_URL_PATH ), PATHINFO_EXTENSION ) );
+	$ext = in_array( $ext, array( 'png', 'jpg', 'jpeg', 'webp' ), true ) ? $ext : 'png';
+	$id  = media_handle_sideload( array( 'name' => sanitize_title( $nume ) . '-stema.' . $ext, 'tmp_name' => $tmp ), 0, 'Stema ' . $nume );
 	if ( is_wp_error( $id ) ) {
 		update_option( 'fr_sigla_ultima_eroare', $id->get_error_message(), false );
 		wp_delete_file( $tmp );
@@ -136,6 +139,16 @@ function fr_profil_club( $club ) {
 	}
 	update_option( 'fr_profil_ultim_' . $club->term_id, $r, false );
 	set_transient( $cheie, $r, 12 * HOUR_IN_SECONDS );
+	// Stema din profil (pentru cluburile fără stemă în LiveScore, de exemplu cele din Liga 3), o singură încercare per adresă.
+	$stema = isset( $r['stema'] ) ? (string) $r['stema'] : '';
+	if ( $stema && ! get_term_meta( $club->term_id, 'fr_sigla', true ) && preg_match( '~^https://[^\s]+\.(png|jpe?g|webp)$~i', $stema )
+		&& get_term_meta( $club->term_id, 'fr_stema_incercata', true ) !== $stema ) {
+		update_term_meta( $club->term_id, 'fr_stema_incercata', $stema );
+		$url = fr_descarca_sigla( $stema, $club->name );
+		if ( $url ) {
+			update_term_meta( $club->term_id, 'fr_sigla', $url );
+		}
+	}
 	return $r;
 }
 
