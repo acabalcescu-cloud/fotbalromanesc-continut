@@ -325,21 +325,42 @@ add_action( 'rest_api_init', function () {
 /**
  * Secțiunea din Aspect › fotbalromanesc.
  */
+/**
+ * Variantele de token din textul lipit, de încercat pe rând: tokenurile se afișează pe mai multe rânduri,
+ * iar la copiere pot intra rânduri noi între bucăți sau text în jur (de exemplu „Debug”).
+ */
+function fr_variante_token( $brut ) {
+	$v    = array();
+	$unit = preg_replace( '/\s+/', '', $brut );
+	if ( preg_match( '/EAA[A-Za-z0-9]{40,}/', $unit, $m ) ) {
+		$v[] = $m[0];
+		$v[] = preg_replace( '/Debug$/', '', $m[0] );
+	}
+	if ( preg_match( '/EAA[A-Za-z0-9]{40,}/', $brut, $m ) ) {
+		$v[] = $m[0];
+	}
+	if ( ! $v ) {
+		$v[] = preg_replace( '/[^A-Za-z0-9]/', '', $brut );
+	}
+	return array_values( array_unique( array_filter( $v ) ) );
+}
+
 function fr_social_salveaza_formular() {
 	if ( ! empty( $_POST['fr_deconecteaza'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification
 		fr_social_deconecteaza();
 		return 'Conexiunea cu Facebook și Instagram a fost ștearsă.';
 	}
-	$t = (string) wp_unslash( $_POST['fr_meta_token'] ?? '' ); // phpcs:ignore WordPress.Security.NonceVerification
-	// Un token Meta are doar litere și cifre (EAA…): scoatem spațiile, rândurile noi și orice text lipit în plus.
-	if ( preg_match( '/EAA[A-Za-z0-9]{40,}/', $t, $gasit ) ) {
-		$t = $gasit[0];
-	} else {
-		$t = preg_replace( '/[^A-Za-z0-9]/', '', $t );
-	}
+	$brut = (string) wp_unslash( $_POST['fr_meta_token'] ?? '' ); // phpcs:ignore WordPress.Security.NonceVerification
+	$t    = fr_variante_token( $brut )[0] ?? '';
 	$mesaj = '';
 	if ( '' !== $t ) {
-		$rez = fr_social_descopera( $t );
+		foreach ( fr_variante_token( $brut ) as $varianta ) {
+			$rez = fr_social_descopera( $varianta );
+			$t   = $varianta;
+			if ( ! empty( $rez['pagina'] ) || false === stripos( $rez['mesaj'] ?? '', 'malformed' ) ) {
+				break; // varianta bună sau o eroare care nu ține de forma tokenului
+			}
+		}
 		if ( ! empty( $rez['pagina'] ) ) {
 			update_option( 'fr_meta_token', $rez['token'], false );
 			update_option( 'fr_fb_pagina_id', $rez['pagina'], false );
