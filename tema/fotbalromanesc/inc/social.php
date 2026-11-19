@@ -29,6 +29,27 @@ function fr_social_cont() {
 	);
 }
 
+/**
+ * Pagina e a site-ului doar dacă numele ei conține „fotbal” (ca să nu postăm pe pagina altui site).
+ */
+function fr_pagina_potrivita( $nume ) {
+	return false !== stripos( remove_accents( (string) $nume ), 'fotbal' );
+}
+
+function fr_social_deconecteaza() {
+	foreach ( array( 'fr_meta_token', 'fr_fb_pagina_id', 'fr_fb_pagina_nume', 'fr_ig_id', 'fr_ig_nume', 'fr_fb_activ', 'fr_ig_activ' ) as $o ) {
+		delete_option( $o );
+	}
+}
+
+// 1.2.2: o conexiune la o pagină care nu e a site-ului se șterge (cu tokenul ei).
+add_action( 'init', function () {
+	$nume = get_option( 'fr_fb_pagina_nume', '' );
+	if ( $nume && ! fr_pagina_potrivita( $nume ) ) {
+		fr_social_deconecteaza();
+	}
+} );
+
 function fr_graph( $metoda, $cale, $param = array() ) {
 	$url = FR_GRAPH . ltrim( $cale, '/' );
 	$r   = 'GET' === $metoda
@@ -55,6 +76,9 @@ function fr_social_descopera( $t ) {
 	if ( ! $pagini ) {
 		// Poate e chiar un token de pagină: atunci /me e pagina.
 		$pg = fr_graph( 'GET', 'me', array( 'fields' => 'id,name,instagram_business_account{id,username}', 'access_token' => $t ) );
+		if ( empty( $pg['error'] ) && ! empty( $pg['id'] ) && ! fr_pagina_potrivita( $pg['name'] ?? '' ) ) {
+			return array( 'mesaj' => 'Tokenul e al paginii „' . ( $pg['name'] ?? '' ) . '”, nu al paginii site-ului (numele trebuie să conțină „fotbal”).' );
+		}
 		if ( empty( $pg['error'] ) && ! empty( $pg['id'] ) ) {
 			return array(
 				'token'   => $t,
@@ -66,14 +90,14 @@ function fr_social_descopera( $t ) {
 		}
 		return array( 'mesaj' => 'Tokenul nu vede nicio pagină. La generare bifează permisiunea pages_show_list și pagina site-ului.' );
 	}
-	$aleasa = count( $pagini ) === 1 ? $pagini[0] : null;
+	$aleasa = null;
 	foreach ( $pagini as $p ) {
-		if ( ! $aleasa && false !== stripos( remove_accents( $p['name'] ?? '' ), 'fotbal' ) ) {
+		if ( ! $aleasa && fr_pagina_potrivita( $p['name'] ?? '' ) ) {
 			$aleasa = $p;
 		}
 	}
 	if ( ! $aleasa || empty( $aleasa['access_token'] ) ) {
-		return array( 'mesaj' => 'Tokenul vede mai multe pagini (' . implode( ', ', wp_list_pluck( $pagini, 'name' ) ) . '), dar niciuna nu conține „fotbal” în nume. Generează tokenul doar pentru pagina site-ului.' );
+		return array( 'mesaj' => 'Tokenul vede doar: ' . implode( ', ', wp_list_pluck( $pagini, 'name' ) ) . '. Niciuna nu e pagina site-ului (numele trebuie să conțină „fotbal”). La generarea tokenului bifează pagina fotbalromanesc.ro.' );
 	}
 	return array(
 		'token'   => $aleasa['access_token'],
@@ -192,6 +216,9 @@ function fr_social_ruleaza( $post_id, $retea = '', $din_nou = false ) {
 		return;
 	}
 	$c = fr_social_cont();
+	if ( ! fr_pagina_potrivita( $c['nume'] ) ) {
+		return; // nicio postare pe o pagină care nu e a site-ului
+	}
 	foreach ( array( 'fb' => 'fr_publica_facebook', 'ig' => 'fr_publica_instagram' ) as $r => $fn ) {
 		if ( ( $retea && $retea !== $r ) || ( ! $retea && ! $c[ $r . '_activ' ] ) ) {
 			continue;
@@ -299,6 +326,10 @@ add_action( 'rest_api_init', function () {
  * Secțiunea din Aspect › fotbalromanesc.
  */
 function fr_social_salveaza_formular() {
+	if ( ! empty( $_POST['fr_deconecteaza'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification
+		fr_social_deconecteaza();
+		return 'Conexiunea cu Facebook și Instagram a fost ștearsă.';
+	}
 	$t = trim( sanitize_text_field( wp_unslash( $_POST['fr_meta_token'] ?? '' ) ) ); // phpcs:ignore WordPress.Security.NonceVerification
 	$mesaj = '';
 	if ( '' !== $t ) {
@@ -313,6 +344,9 @@ function fr_social_salveaza_formular() {
 		} else {
 			$mesaj = 'Nu am putut folosi tokenul. ' . ( $rez['mesaj'] ?? '' );
 		}
+	}
+	if ( '' === $t && '' === $mesaj && ! get_option( 'fr_meta_token' ) ) {
+		$mesaj = 'Câmpul pentru token a ajuns gol. Lipește tokenul (începe cu EAA) și salvează din nou.';
 	}
 	update_option( 'fr_fb_activ', ! empty( $_POST['fr_fb_activ'] ) ? 1 : 0, false ); // phpcs:ignore WordPress.Security.NonceVerification
 	update_option( 'fr_ig_activ', ! empty( $_POST['fr_ig_activ'] ) ? 1 : 0, false ); // phpcs:ignore WordPress.Security.NonceVerification
@@ -334,6 +368,9 @@ function fr_social_sectiune() {
 		<p><label><input type="checkbox" name="fr_fb_activ" value="1" <?php checked( $c['fb_activ'] ); ?>> Postează automat articolele noi pe Facebook</label></p>
 		<p><label><input type="checkbox" name="fr_ig_activ" value="1" <?php checked( $c['ig_activ'] ); ?>> Postează automat articolele noi pe Instagram</label></p>
 		<?php submit_button( 'Salvează', 'secondary', 'submit', false ); ?>
+		<?php if ( $c['token'] ) : ?>
+			<label style="margin-left: 12px"><input type="checkbox" name="fr_deconecteaza" value="1"> Deconectează (șterge tokenul)</label>
+		<?php endif; ?>
 	</form>
 	<?php
 	$ultimele = get_posts( array( 'numberposts' => 6 ) );
