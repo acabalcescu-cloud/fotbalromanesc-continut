@@ -1,0 +1,279 @@
+{
+ "nume": "Farul Constanța",
+ "oras": "Constanța",
+ "fondat": 2009,
+ "site": "https://www.farulconstanta.com",
+ "stadion": {
+  "nume": "Stadionul Central-Academia Gheorghe Hagi",
+  "capacitate": 4545,
+  "inaugurat": 2015,
+  "maps": "https://maps.google.com/?q=Stadionul+Central+Academia+Gheorghe+Hagi+Ovidiu"
+ },
+ "antrenor": {
+  "nume": "Ioan Ovidiu Sabău",
+  "nationalitate": "România",
+  "varsta": 58
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Alexandru Buzbuchi",
+   "post": "portar",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "Rafael Munteanu",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 91,
+   "nume": "David Barbu",
+   "post": "portar",
+   "varsta": 18
+  },
+  {
+   "nr": 2,
+   "nume": "David Maftei",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Valentin Țicu",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Gustavo Marins",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "Brazilia"
+  },
+  {
+   "nr": 5,
+   "nume": "Nabil Aberdin",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "Maroc"
+  },
+  {
+   "nr": 11,
+   "nume": "Cristian Ganea",
+   "post": "fundas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 13,
+   "nume": "Ionuț Cercel",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Ionuț Larie",
+   "post": "fundas",
+   "varsta": 39,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Lucas Pellegrini",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "Franța"
+  },
+  {
+   "nr": 22,
+   "nume": "Dan Sîrbu",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 24,
+   "nume": "Sofyane Bouzamoucha",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "Franța"
+  },
+  {
+   "nr": 27,
+   "nume": "Hassane Traoré",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "Burkina Faso"
+  },
+  {
+   "nr": 33,
+   "nume": "João Vitor Kaminski",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "Brazilia"
+  },
+  {
+   "nr": 93,
+   "nume": "Steve Furtado",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "Capul Verde"
+  },
+  {
+   "nr": 6,
+   "nume": "Victor Dican",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Ionuț Vînă",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 18,
+   "nume": "Luca Banu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Eduard Radaslavescu",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Tony Njiké",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "Franța"
+  },
+  {
+   "nr": 70,
+   "nume": "Mattéo Ahlinvi",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "Benin"
+  },
+  {
+   "nr": 77,
+   "nume": "Darius Tripon",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 80,
+   "nume": "Nicolas Popescu",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Denis Alibec",
+   "post": "atacant",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Muhamet Hyseni",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "Kosovo"
+  },
+  {
+   "nr": 10,
+   "nume": "Eddy Sylvestre",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Franța"
+  },
+  {
+   "nr": 19,
+   "nume": "Yann Kitala",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "RD Congo"
+  },
+  {
+   "nr": 25,
+   "nume": "Jakub Vojtus",
+   "post": "atacant",
+   "varsta": 33,
+   "nationalitate": "Slovacia"
+  },
+  {
+   "nr": 28,
+   "nume": "Cristian Sima",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 29,
+   "nume": "Alexandru Goncear",
+   "post": "atacant",
+   "varsta": 17
+  },
+  {
+   "nr": 30,
+   "nume": "Narek Grigoryan",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "Armenia"
+  },
+  {
+   "nr": 71,
+   "nume": "Răzvan Tănasă",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 88,
+   "nume": "David Păcuraru",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 99,
+   "nume": "Răzvan Marincean",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/ro/thumb/d/dd/FC_Farul_Constanta.svg/250px-FC_Farul_Constanta.svg.png",
+ "actualizat": "2026-11-19",
+ "surse": [
+  "https://www.farulconstanta.com/echipa/farul-constanta/jucatori",
+  "https://www.farulconstanta.com/echipa/farul-constanta/staff-tehnic",
+  "https://www.farulconstanta.com/complex-viitorul",
+  "https://www.farulconstanta.com/despre",
+  "https://www.farulconstanta.com/echipa/farul-constanta/jucatori/david-barbu",
+  "https://www.farulconstanta.com/echipa/farul-constanta/jucatori/darius-tripon",
+  "https://www.farulconstanta.com/echipa/farul-constanta/jucatori/alexandru-goncear",
+  "https://www.farulconstanta.com/echipa/farul-constanta/jucatori/joao-victor-kaminski",
+  "https://www.transfermarkt.com/fc-viitorul-constanta/kader/verein/29831/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/fc-viitorul-constanta/mitarbeiter/verein/29831",
+  "https://www.transfermarkt.com/fc-viitorul-constanta/stadion/verein/29831",
+  "https://ro.wikipedia.org/wiki/FCV_Farul_Constanța",
+  "https://ro.wikipedia.org/wiki/Stadionul_Central-Academia_Gheorghe_Hagi"
+ ]
+}

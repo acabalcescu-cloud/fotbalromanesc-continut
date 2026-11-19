@@ -1,0 +1,235 @@
+{
+ "nume": "Universitatea Cluj",
+ "oras": "Cluj-Napoca",
+ "fondat": 1919,
+ "culori": "alb-negru",
+ "site": "https://www.fcucluj.ro",
+ "stadion": {
+  "nume": "Cluj Arena",
+  "capacitate": 30335,
+  "inaugurat": 2011,
+  "maps": "https://maps.google.com/?q=Cluj+Arena+Cluj-Napoca"
+ },
+ "antrenor": {
+  "nume": "Cristiano Bergodi",
+  "nationalitate": "Italia",
+  "varsta": 62
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Ștefan Lefter",
+   "post": "portar",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 93,
+   "nume": "Neofytos Michail",
+   "post": "portar",
+   "varsta": 32,
+   "nationalitate": "Cipru"
+  },
+  {
+   "nr": 99,
+   "nume": "Tudor Coșa",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Denis Moldovan",
+   "post": "portar",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 34,
+   "nume": "Vlad Rafailă",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Iulian Cristea",
+   "post": "fundas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Noah Loosli",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "Elveția"
+  },
+  {
+   "nr": 22,
+   "nume": "Florent Poulolo",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "Martinica"
+  },
+  {
+   "nr": 26,
+   "nume": "Jonathan Cissé",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "Coasta de Fildeș"
+  },
+  {
+   "nr": 23,
+   "nume": "Elio Capradossi",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "Uganda"
+  },
+  {
+   "nr": 59,
+   "nume": "Alin Techereș",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 27,
+   "nume": "Alexandru Chipciu",
+   "post": "fundas",
+   "varsta": 37,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "Friday Adams",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nr": 24,
+   "nume": "Dino Mikanovic",
+   "post": "fundas",
+   "varsta": 32,
+   "nationalitate": "Croația"
+  },
+  {
+   "nr": 2,
+   "nume": "Alin Chinteș",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Dorin Codrea",
+   "post": "mijlocas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 18,
+   "nume": "Pedro Pinho",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nr": 7,
+   "nume": "Mouhamadou Drammeh",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "Gambia"
+  },
+  {
+   "nr": 94,
+   "nume": "Ovidiu Bic",
+   "post": "mijlocas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Luca Szimionaș",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Dan Nistor",
+   "post": "mijlocas",
+   "varsta": 38,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 29,
+   "nume": "Oucasse Mendy",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "Franța"
+  },
+  {
+   "nr": 77,
+   "nume": "Andrei Gheorghiță",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Issouf Macalou",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Coasta de Fildeș"
+  },
+  {
+   "nr": 33,
+   "nume": "Jug Stanojev",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Serbia"
+  },
+  {
+   "nr": 11,
+   "nume": "Marius Ștefănescu",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Jovo Lukić",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Bosnia și Herțegovina"
+  },
+  {
+   "nr": 25,
+   "nume": "Alibek Aliev",
+   "post": "atacant",
+   "varsta": 30,
+   "nationalitate": "Suedia"
+  },
+  {
+   "nr": 96,
+   "nume": "Lukas Pall",
+   "post": "atacant",
+   "varsta": 16,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/ro/thumb/3/3e/U_Cluj.svg/250px-U_Cluj.svg.png",
+ "actualizat": "2026-11-19",
+ "surse": [
+  "https://www.fcucluj.ro/stadion",
+  "https://www.fcucluj.ro/club/istoria-clubului",
+  "https://lpf.ro/cluburi/fc-universitatea-cluj/33",
+  "https://www.transfermarkt.com/fc-universitatea-cluj/kader/verein/6429/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/fc-universitatea-cluj/startseite/verein/6429",
+  "https://www.transfermarkt.com/fc-universitatea-cluj/mitarbeiter/verein/6429",
+  "https://www.transfermarkt.com/cristiano-bergodi/profil/trainer/4790",
+  "https://ro.wikipedia.org/wiki/FC_Universitatea_Cluj"
+ ]
+}

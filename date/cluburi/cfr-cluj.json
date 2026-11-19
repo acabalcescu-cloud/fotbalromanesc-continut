@@ -1,0 +1,286 @@
+{
+ "nume": "CFR Cluj",
+ "oras": "Cluj-Napoca",
+ "fondat": 1907,
+ "culori": "alb-vișiniu",
+ "site": "https://cfr1907.ro",
+ "stadion": {
+  "nume": "Dr. Constantin Rădulescu",
+  "inaugurat": 1973,
+  "maps": "https://maps.google.com/?q=Stadionul+Dr.+Constantin+Radulescu+Cluj-Napoca"
+ },
+ "antrenor": {
+  "nume": "Marius Șumudică",
+  "nationalitate": "România",
+  "varsta": 55
+ },
+ "lot": [
+  {
+   "nr": 31,
+   "nume": "Octavian Vâlceanu",
+   "post": "portar",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 96,
+   "nume": "Árpád Tordai",
+   "post": "portar",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 1,
+   "nume": "Rareș Gal",
+   "post": "portar",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Cristian Ignat",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Iva Gelashvili",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "Georgia"
+  },
+  {
+   "nr": 42,
+   "nume": "Renato Pantalon",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "Croația"
+  },
+  {
+   "nr": 40,
+   "nume": "Leo Saca",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nr": 41,
+   "nume": "Anton Kresic",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "Croația"
+  },
+  {
+   "nr": 4,
+   "nume": "Ilija Masic",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "Bosnia și Herțegovina"
+  },
+  {
+   "nr": 14,
+   "nume": "Simão Rocha",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nr": 45,
+   "nume": "Mário Camora",
+   "post": "fundas",
+   "varsta": 40,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 33,
+   "nume": "Rion Zejnullahu",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "Kosovo"
+  },
+  {
+   "nr": 86,
+   "nume": "Viktor Kun",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Alexandru Țîrlea",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 47,
+   "nume": "Christopher Braun",
+   "post": "fundas",
+   "varsta": 35,
+   "nationalitate": "Germania"
+  },
+  {
+   "nr": 66,
+   "nume": "Cristian Perea",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 18,
+   "nume": "Ervin Omic",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "Austria"
+  },
+  {
+   "nr": 6,
+   "nume": "Ovidiu Perianu",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Alin Fică",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Adrian Păun",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Francisco Barrios",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "Uruguay"
+  },
+  {
+   "nr": 23,
+   "nume": "Amin Ziblim",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "Ghana"
+  },
+  {
+   "nume": "Alex Nădășanu",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Mateo Miclăuș",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Adi Nalic",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "Bosnia și Herțegovina"
+  },
+  {
+   "nr": 26,
+   "nume": "Răzvan Gligor",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 70,
+   "nume": "Denis Crișan",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 77,
+   "nume": "Andres Sfait",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Andrei Cordea",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Lorenzo Biliboc",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 80,
+   "nume": "Cosmin Matei",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 99,
+   "nume": "Jelani Dumas",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "Belgia"
+  },
+  {
+   "nr": 9,
+   "nume": "Stefan Drazic",
+   "post": "atacant",
+   "varsta": 34,
+   "nationalitate": "Serbia"
+  },
+  {
+   "nr": 19,
+   "nume": "Sergiu Buș",
+   "post": "atacant",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 29,
+   "nume": "Billel Omrani",
+   "post": "atacant",
+   "varsta": 33,
+   "nationalitate": "Algeria"
+  },
+  {
+   "nr": 98,
+   "nume": "Nicolae Sula",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "Republica Moldova"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/ro/thumb/c/cc/CFR_Cluj.svg/250px-CFR_Cluj.svg.png",
+ "actualizat": "2026-11-19",
+ "surse": [
+  "https://cfr1907.ro/",
+  "https://lpf.ro/cluburi/fc-cfr-1907-cluj/5",
+  "https://www.transfermarkt.com/cfr-cluj/kader/verein/7769/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/cfr-cluj/startseite/verein/7769",
+  "https://www.transfermarkt.com/cfr-cluj/mitarbeiter/verein/7769",
+  "https://www.transfermarkt.com/cfr-cluj/datenfakten/verein/7769",
+  "https://www.transfermarkt.com/marius-sumudica/profil/trainer/13105",
+  "https://ro.wikipedia.org/wiki/CFR_Cluj",
+  "https://en.wikipedia.org/wiki/CFR_Cluj",
+  "https://en.wikipedia.org/wiki/Stadionul_Dr._Constantin_Rădulescu",
+  "https://www.prosport.ro/fotbal-intern/superliga/unde-va-juca-acasa-cfr-cluj-in-noul-sezon-20464631",
+  "https://www.primasport.ro/sumudica-a-mai-pierdut-un-jucator-la-cfr-cluj-nu-va-mai-reveni-pana-in-iarna-22998563"
+ ]
+}

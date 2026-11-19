@@ -255,6 +255,10 @@ add_action( 'rest_api_init', function () {
 			return current_user_can( 'manage_options' ) || ( '' !== $cheie && hash_equals( fr_cheie_actualizare(), $cheie ) );
 		},
 		'callback'            => function () {
+			// Profilurile se recitesc din depozit la următoarea afișare (de exemplu după un lot de profiluri noi).
+			foreach ( get_terms( array( 'taxonomy' => 'club', 'hide_empty' => false, 'fields' => 'ids' ) ) as $cid ) {
+				delete_transient( 'fr_profil_' . $cid );
+			}
 			$create = fr_sincronizeaza_cluburi( 25 );
 			$total  = 0;
 			$cu     = 0;

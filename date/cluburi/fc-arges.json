@@ -1,0 +1,222 @@
+{
+ "nume": "FC Argeș",
+ "oras": "Pitești",
+ "fondat": 1953,
+ "culori": "alb-violet",
+ "site": "https://argesfc.ro",
+ "stadion": {
+  "nume": "Stadionul Orășenesc (Mioveni)",
+  "capacitate": 10000,
+  "inaugurat": 2000,
+  "maps": "https://maps.google.com/?q=Stadionul+Or%C4%83%C8%99enesc+Mioveni"
+ },
+ "antrenor": {
+  "nume": "Bogdan Andone",
+  "nationalitate": "România",
+  "varsta": 51
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Cătălin Straton",
+   "post": "portar",
+   "varsta": 37,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Matteo Ionuț Șerban",
+   "post": "portar",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 34,
+   "nume": "Cătălin Căbuz",
+   "post": "portar",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 77,
+   "nume": "Igor Nikic",
+   "post": "portar",
+   "varsta": 26,
+   "nationalitate": "Muntenegru"
+  },
+  {
+   "nr": 3,
+   "nume": "Leard Sadriu",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "Kosovo"
+  },
+  {
+   "nr": 6,
+   "nume": "Mario Tudose",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Guilherme Garutti",
+   "post": "fundas",
+   "varsta": 32,
+   "nationalitate": "Brazilia"
+  },
+  {
+   "nr": 23,
+   "nume": "Florin Borța",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 25,
+   "nume": "Tiago Gonçalves",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nr": 26,
+   "nume": "Dorinel Oancea",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 69,
+   "nume": "Oluwatobiloba Alagbe",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nr": 7,
+   "nume": "Michael Idowu",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nr": 11,
+   "nume": "Yanis Pîrvu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Andreas Balasa",
+   "post": "mijlocas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Ionuț Rădescu",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Patrick Dulcea",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Vadim Rață",
+   "post": "mijlocas",
+   "varsta": 33,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nr": 27,
+   "nume": "Rober Sierra",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 29,
+   "nume": "Gabriel Gheorghe",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 80,
+   "nume": "Xian Emmers",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "Belgia"
+  },
+  {
+   "nr": 96,
+   "nume": "Silviu Balaure",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Gabriel Charpentier",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Congo"
+  },
+  {
+   "nr": 17,
+   "nume": "Ricardo Matos",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nr": 18,
+   "nume": "Daniel Sandu",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Claudiu Micovschi",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 92,
+   "nume": "Taylor Luvambo",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Franța"
+  },
+  {
+   "nr": 99,
+   "nume": "Robert Moldoveanu",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/ro/thumb/a/ae/FC_Arges.svg/250px-FC_Arges.svg.png",
+ "actualizat": "2026-11-19",
+ "surse": [
+  "https://argesfc.ro/echipa-mare/",
+  "https://argesfc.ro/about/",
+  "https://argesfc.ro/player/andreas-ciprian-balasa/",
+  "https://argesfc.ro/player/matteo-ionut-serban/",
+  "https://www.transfermarkt.com/acsc-fc-arges/kader/verein/41278/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/acsc-fc-arges/mitarbeiter/verein/41278",
+  "https://www.transfermarkt.com/acsc-fc-arges/stadion/verein/41278",
+  "https://www.transfermarkt.com/acsc-fc-arges/datenfakten/verein/41278",
+  "https://ro.wikipedia.org/wiki/FC_Argeș_Pitești",
+  "https://ro.wikipedia.org/wiki/Stadionul_Orășenesc_(Mioveni)"
+ ]
+}

@@ -1,0 +1,222 @@
+{
+ "nume": "Universitatea Craiova",
+ "oras": "Craiova",
+ "fondat": 1948,
+ "culori": "alb-albastru",
+ "site": "https://www.ucv1948.ro",
+ "stadion": {
+  "nume": "Stadionul Ion Oblemenco",
+  "capacitate": 30944,
+  "inaugurat": 2017,
+  "maps": "https://maps.google.com/?q=Stadionul+Ion+Oblemenco+Craiova"
+ },
+ "antrenor": {
+  "nume": "Filipe Coelho",
+  "nationalitate": "Portugalia",
+  "varsta": 46
+ },
+ "lot": [
+  {
+   "nr": 90,
+   "nume": "Răzvan Sava",
+   "post": "portar",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Laurențiu Popescu",
+   "post": "portar",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 77,
+   "nume": "Pavlo Isenko",
+   "post": "portar",
+   "varsta": 23,
+   "nationalitate": "Ucraina"
+  },
+  {
+   "nr": 1,
+   "nume": "Alexandru Maxim",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Oleksandr Romanchuk",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "Ucraina"
+  },
+  {
+   "nr": 6,
+   "nume": "Vladimir Screciu",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 28,
+   "nume": "Adrian Rus",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 24,
+   "nume": "Nikola Stevanovic",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "Serbia"
+  },
+  {
+   "nr": 5,
+   "nume": "Baptiste Roux",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "Franța"
+  },
+  {
+   "nr": 11,
+   "nume": "Nicușor Bancu",
+   "post": "fundas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 31,
+   "nume": "Ronaldo Webster",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "Jamaica"
+  },
+  {
+   "nr": 8,
+   "nume": "Tudor Băluță",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "João Lameira",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nr": 4,
+   "nume": "Alexandru Crețu",
+   "post": "mijlocas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Alexandru Cicâldău",
+   "post": "mijlocas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Samuel Teles",
+   "post": "mijlocas",
+   "varsta": 29,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nr": 17,
+   "nume": "Carlos Mora",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "Costa Rica"
+  },
+  {
+   "nr": 10,
+   "nume": "Ștefan Baiaram",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Heri Tavares",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "Capul Verde"
+  },
+  {
+   "nr": 29,
+   "nume": "Luca Băsceanu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Alexandru Iamandache",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "David Matei",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "Monday Etim",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nr": 18,
+   "nume": "Mihnea Rădulescu",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Assad Al-Hamlawi",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "Palestina"
+  },
+  {
+   "nr": 22,
+   "nume": "Simon Elisor",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Franța"
+  },
+  {
+   "nr": 7,
+   "nume": "Steven Nsimba",
+   "post": "atacant",
+   "varsta": 30,
+   "nationalitate": "Franța"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/ro/thumb/6/68/CS_Universitatea_Craiova.svg/250px-CS_Universitatea_Craiova.svg.png",
+ "actualizat": "2026-11-19",
+ "surse": [
+  "https://www.ucv1948.ro/clubul",
+  "https://www.ucv1948.ro/stadion",
+  "https://www.ucv1948.ro/istoric",
+  "https://lpf.ro/cluburi/universitatea-craiova/9",
+  "https://www.transfermarkt.com/universitatea-craiova/kader/verein/40812/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/universitatea-craiova/startseite/verein/40812",
+  "https://www.transfermarkt.com/universitatea-craiova/mitarbeiter/verein/40812",
+  "https://www.transfermarkt.com/filipe-coelho/profil/trainer/47408",
+  "https://ro.wikipedia.org/wiki/CS_Universitatea_Craiova_(2013)"
+ ]
+}

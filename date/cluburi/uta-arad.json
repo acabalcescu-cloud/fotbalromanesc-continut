@@ -1,0 +1,227 @@
+{
+ "nume": "UTA Arad",
+ "oras": "Arad",
+ "fondat": 1945,
+ "culori": "roșu-alb",
+ "site": "https://www.uta-arad.ro",
+ "stadion": {
+  "nume": "Arena Francisc Neuman",
+  "capacitate": 11500,
+  "inaugurat": 2020,
+  "maps": "https://maps.google.com/?q=Arena+Francisc+Neuman+Arad"
+ },
+ "antrenor": {
+  "nume": "Adrian Mihalcea",
+  "nationalitate": "România",
+  "varsta": 50
+ },
+ "lot": [
+  {
+   "nr": 33,
+   "nume": "Andrei Gorcea",
+   "post": "portar",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 1,
+   "nume": "Márcio Rosa",
+   "post": "portar",
+   "varsta": 29,
+   "nationalitate": "Capul Verde"
+  },
+  {
+   "nume": "Denis Lungu-Bocean",
+   "post": "portar",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Peter Ouaneh",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "Franța"
+  },
+  {
+   "nr": 60,
+   "nume": "Dmytro Pospelov",
+   "post": "fundas",
+   "varsta": 35,
+   "nationalitate": "Ucraina"
+  },
+  {
+   "nr": 4,
+   "nume": "Alexandru Benga",
+   "post": "fundas",
+   "varsta": 37,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Din Alomerovic",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "Macedonia de Nord"
+  },
+  {
+   "nr": 72,
+   "nume": "Andrea Padula",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Robert Bădescu",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Andrei Dorobanțu",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Roland Sabău",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 26,
+   "nume": "Răzvan Oaidă",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Antoni Ivanov",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "Bulgaria"
+  },
+  {
+   "nr": 14,
+   "nume": "Samuel Gueulette",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "Rwanda"
+  },
+  {
+   "nr": 5,
+   "nume": "Sota Mino",
+   "post": "mijlocas",
+   "varsta": 32,
+   "nationalitate": "Japonia"
+  },
+  {
+   "nr": 16,
+   "nume": "Richard Odada",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "Kenya"
+  },
+  {
+   "nr": 8,
+   "nume": "Alin Roman",
+   "post": "mijlocas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 80,
+   "nume": "Alexi Pitu",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "Germania"
+  },
+  {
+   "nr": 20,
+   "nume": "Denis Țăroi",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Alexandru Matei",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Marinos Tzionis",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "Cipru"
+  },
+  {
+   "nr": 77,
+   "nume": "Jayson Papeau",
+   "post": "atacant",
+   "varsta": 30,
+   "nationalitate": "Franța"
+  },
+  {
+   "nr": 21,
+   "nume": "Andrei Tolcea",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 42,
+   "nume": "Omar El Sawy",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Denis Ile",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Marius Coman",
+   "post": "atacant",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Hakim Abdallah",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "Madagascar"
+  },
+  {
+   "nr": 7,
+   "nume": "Ismet Sinani",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Kosovo"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/UTA_Arad_logo.svg/250px-UTA_Arad_logo.svg.png",
+ "actualizat": "2026-11-19",
+ "surse": [
+  "https://www.uta-arad.ro/casa-noastra",
+  "https://www.uta-arad.ro/echipa/staff",
+  "https://lpf.ro/cluburi/uta-arad/22",
+  "https://www.transfermarkt.com/uta-arad/kader/verein/952/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/uta-arad/startseite/verein/952",
+  "https://www.transfermarkt.com/uta-arad/mitarbeiter/verein/952",
+  "https://www.transfermarkt.com/adrian-mihalcea/profil/trainer/29982",
+  "https://ro.wikipedia.org/wiki/FC_UTA_Arad"
+ ]
+}

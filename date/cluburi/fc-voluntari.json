@@ -1,0 +1,214 @@
+{
+ "nume": "FC Voluntari",
+ "oras": "Voluntari",
+ "fondat": 2010,
+ "site": "https://www.fcvoluntari.ro",
+ "stadion": {
+  "nume": "Stadionul Anghel Iordănescu",
+  "capacitate": 4518,
+  "inaugurat": 2012,
+  "maps": "https://maps.google.com/?q=Stadionul+Anghel+Iord%C4%83nescu+Voluntari"
+ },
+ "antrenor": {
+  "nume": "Florin Pîrvu",
+  "nationalitate": "România",
+  "varsta": 51
+ },
+ "lot": [
+  {
+   "nr": 12,
+   "nume": "Bogdan Ștefan",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Eduard Chioveanu",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 31,
+   "nume": "Metod Jurhar",
+   "post": "portar",
+   "varsta": 28,
+   "nationalitate": "Slovenia"
+  },
+  {
+   "nr": 4,
+   "nume": "Daniel Dumbravanu",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nr": 5,
+   "nume": "Denis Haruț",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Sava-Arangel Cestic",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "Serbia"
+  },
+  {
+   "nr": 17,
+   "nume": "Andrei Pițian",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Alexandru Gîț",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Matej Mamic",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "Croația"
+  },
+  {
+   "nr": 25,
+   "nume": "David Kiki",
+   "post": "fundas",
+   "varsta": 32,
+   "nationalitate": "Benin"
+  },
+  {
+   "nr": 27,
+   "nume": "Radu Crișan",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Alexandru Șuteu",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Ion Gheorghe",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "George Merloi",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Remus Guțea",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Marvin Schieb",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "Germania"
+  },
+  {
+   "nr": 21,
+   "nume": "Robert Petculescu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Nuno Rodrigues",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nr": 28,
+   "nume": "Mario Ștefan",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 40,
+   "nume": "Lovro Cvek",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "Croația"
+  },
+  {
+   "nr": 44,
+   "nume": "Mihael Onișa",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 80,
+   "nume": "Godfried Roemeratoe",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "Curaçao"
+  },
+  {
+   "nr": 7,
+   "nume": "Mihai Roman",
+   "post": "atacant",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Matko Babic",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "Croația"
+  },
+  {
+   "nr": 29,
+   "nume": "Adi Chică-Roșă",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 99,
+   "nume": "Ianis Vencu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/ro/thumb/d/d9/FC_Voluntari.svg/250px-FC_Voluntari.svg.png",
+ "actualizat": "2026-11-19",
+ "surse": [
+  "https://www.fcvoluntari.ro/api/players",
+  "https://www.fcvoluntari.ro/api/stats/summary",
+  "https://www.transfermarkt.com/fc-voluntari/kader/verein/40843/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/fc-voluntari/mitarbeiter/verein/40843",
+  "https://www.transfermarkt.com/fc-voluntari/stadion/verein/40843",
+  "https://www.transfermarkt.com/fc-voluntari/datenfakten/verein/40843",
+  "https://ro.wikipedia.org/wiki/FC_Voluntari",
+  "https://ro.wikipedia.org/wiki/Stadionul_Anghel_Iordănescu",
+  "https://pariurix.com/ponturi/fotbal/liga-1/fc-botosani-voluntari-fc-316996.html"
+ ]
+}

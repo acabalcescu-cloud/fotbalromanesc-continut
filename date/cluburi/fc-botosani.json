@@ -1,0 +1,227 @@
+{
+ "nume": "FC Botoșani",
+ "oras": "Botoșani",
+ "fondat": 2001,
+ "culori": "roșu-alb-albastru",
+ "site": "https://www.fcbotosani.ro",
+ "stadion": {
+  "nume": "Stadionul Municipal Botoșani",
+  "capacitate": 7782,
+  "maps": "https://maps.google.com/?q=Stadionul+Municipal+Boto%C8%99ani"
+ },
+ "antrenor": {
+  "nume": "Marius Croitoru",
+  "nationalitate": "România",
+  "varsta": 46
+ },
+ "lot": [
+  {
+   "nr": 99,
+   "nume": "Giannis Anestis",
+   "post": "portar",
+   "varsta": 35,
+   "nationalitate": "Grecia"
+  },
+  {
+   "nr": 27,
+   "nume": "Ion Gurău",
+   "post": "portar",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 1,
+   "nume": "David Dincă",
+   "post": "portar",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Andrei Miron",
+   "post": "fundas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 94,
+   "nume": "Mamadou Diarra",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "Franța"
+  },
+  {
+   "nr": 23,
+   "nume": "Djibril Diaw",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "Senegal"
+  },
+  {
+   "nr": 18,
+   "nume": "Miguel Muñoz",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 44,
+   "nume": "Rijad Sadiku",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "Bosnia și Herțegovina"
+  },
+  {
+   "nr": 5,
+   "nume": "Răzvan Creț",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Alexandru Țigănașu",
+   "post": "fundas",
+   "varsta": 36,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 73,
+   "nume": "Narcis Ilaș",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Brian Bayeye",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "RD Congo"
+  },
+  {
+   "nr": 3,
+   "nume": "Charles Petro",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "Malawi"
+  },
+  {
+   "nr": 21,
+   "nume": "Lucas de Vega",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "Brazilia"
+  },
+  {
+   "nr": 67,
+   "nume": "Enriko Papa",
+   "post": "mijlocas",
+   "varsta": 33,
+   "nationalitate": "Albania"
+  },
+  {
+   "nr": 37,
+   "nume": "Mihai Bordeianu",
+   "post": "mijlocas",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Roland Idowu",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "Irlanda"
+  },
+  {
+   "nr": 26,
+   "nume": "Hervin Ongenda",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "Franța"
+  },
+  {
+   "nr": 7,
+   "nume": "Sebastian Mailat",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Ștefan Bodișteanu",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nr": 11,
+   "nume": "Zoran Mitrov",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 77,
+   "nume": "Gabriel Gama",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "Brazilia"
+  },
+  {
+   "nr": 41,
+   "nume": "Andrei Dumiter",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Jovan Marković",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Mykola Kovtalyuk",
+   "post": "atacant",
+   "varsta": 31,
+   "nationalitate": "Ucraina"
+  },
+  {
+   "nr": 14,
+   "nume": "George Sorodoc",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 90,
+   "nume": "Mario Preda",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Denis Ștefan",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/ro/thumb/e/e7/FC_Botosani_2022_logo.svg/250px-FC_Botosani_2022_logo.svg.png",
+ "actualizat": "2026-11-19",
+ "surse": [
+  "https://www.transfermarkt.com/fc-botosani/kader/verein/8818/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/fc-botosani/mitarbeiter/verein/8818",
+  "https://www.transfermarkt.com/fc-botosani/stadion/verein/8818",
+  "https://www.transfermarkt.com/fc-botosani/datenfakten/verein/8818",
+  "https://ro.wikipedia.org/wiki/FC_Botoșani",
+  "https://ro.wikipedia.org/wiki/Stadionul_Municipal_Botoșani",
+  "https://agerpres.ro/sport/2026/11/19/fotbal-marius-croitoru-fc-botosani---ne-dorim-sa-castigam-fiecare-meci-si-pe-cel-cu-fc-voluntari--1615050",
+  "https://pariurix.com/ponturi/fotbal/liga-1/fc-botosani-voluntari-fc-316996.html"
+ ]
+}

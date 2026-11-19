@@ -1,0 +1,223 @@
+{
+ "nume": "Corvinul Hunedoara",
+ "oras": "Hunedoara",
+ "fondat": 1921,
+ "site": "https://fccorvinul1921.ro",
+ "stadion": {
+  "nume": "Stadionul Corvinul 1921",
+  "capacitate": 16500,
+  "inaugurat": 1960,
+  "maps": "https://maps.google.com/?q=Stadionul+Corvinul+1921+Hunedoara"
+ },
+ "antrenor": {
+  "nume": "Florin Maxim",
+  "nationalitate": "România",
+  "varsta": 45
+ },
+ "lot": [
+  {
+   "nr": 21,
+   "nume": "Codruț Sandu",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "Adrian Frănculescu",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 33,
+   "nume": "Silviu Drîngă",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Antoniu Manolache",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Mihajlo Ivančević",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "Serbia"
+  },
+  {
+   "nr": 5,
+   "nume": "Mohammad Abualnadi",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "Iordania"
+  },
+  {
+   "nr": 18,
+   "nume": "Florin Ilie",
+   "post": "fundas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Alexandru Neacșa",
+   "post": "fundas",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 13,
+   "nume": "Flavius Iacob",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Dragoș Albu",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Ion Cărăruș",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nr": 97,
+   "nume": "Denis Hrezdac",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Sérgio Ribeiro",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nr": 36,
+   "nume": "Denis Zanc",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Gabriel Apur",
+   "post": "mijlocas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Eduard Cioază",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Andrej Fábry",
+   "post": "mijlocas",
+   "varsta": 29,
+   "nationalitate": "Slovacia"
+  },
+  {
+   "nr": 70,
+   "nume": "Ronaldo Deaconu",
+   "post": "mijlocas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 47,
+   "nume": "Gideon Goodlad",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nr": 11,
+   "nume": "Roger",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "Brazilia"
+  },
+  {
+   "nr": 19,
+   "nume": "Nicolae Pîrvulescu",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 32,
+   "nume": "Ángel Gillard",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "Argentina"
+  },
+  {
+   "nr": 14,
+   "nume": "Muhammed Hayatu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nr": 41,
+   "nume": "Mario Bratu",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 99,
+   "nume": "Emmanuel Yeboah",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "Ghana"
+  },
+  {
+   "nr": 9,
+   "nume": "Renato Espinosa",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "Peru"
+  },
+  {
+   "nr": 29,
+   "nume": "Emmanuel Okoro",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "Nigeria"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/ro/thumb/3/3e/FC_Corvinul_Hunedoara.svg/250px-FC_Corvinul_Hunedoara.svg.png",
+ "actualizat": "2026-11-19",
+ "surse": [
+  "https://fccorvinul1921.ro/stadionul-michael-klein/",
+  "https://fccorvinul1921.ro/echipa/",
+  "https://lpf.ro/cluburi/corvinul-hunedoara/39",
+  "https://www.transfermarkt.com/cs-hunedoara/kader/verein/41061/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/cs-hunedoara/startseite/verein/41061",
+  "https://www.transfermarkt.com/cs-hunedoara/mitarbeiter/verein/41061",
+  "https://www.transfermarkt.com/cs-hunedoara/datenfakten/verein/41061",
+  "https://www.transfermarkt.com/florin-maxim/profil/trainer/75099",
+  "https://ro.wikipedia.org/wiki/FC_Corvinul_Hunedoara",
+  "https://en.wikipedia.org/wiki/CS_Corvinul_Hunedoara",
+  "https://www.flashscore.ro/stiri/fotbal-superliga-corvinul-hunedoara-merge-la-miercurea-ciuc-cu-gandul-la-victorie-ce-a-spus-florin-maxim-la-conferinta/hjmWdOng/"
+ ]
+}

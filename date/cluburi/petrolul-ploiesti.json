@@ -1,0 +1,214 @@
+{
+ "nume": "Petrolul Ploiești",
+ "oras": "Ploiești",
+ "fondat": 1924,
+ "culori": "galben-albastru",
+ "site": "https://fcpetrolul.ro",
+ "stadion": {
+  "nume": "Stadionul Ilie Oană",
+  "capacitate": 15073,
+  "inaugurat": 2011,
+  "maps": "https://maps.google.com/?q=Stadionul+Ilie+Oan%C4%83+Ploie%C8%99ti"
+ },
+ "antrenor": {
+  "nume": "Ricardo Sousa",
+  "nationalitate": "Portugalia",
+  "varsta": 47
+ },
+ "lot": [
+  {
+   "nr": 38,
+   "nume": "Lukas Zima",
+   "post": "portar",
+   "varsta": 32,
+   "nationalitate": "Cehia"
+  },
+  {
+   "nr": 12,
+   "nume": "Ștefan Georgescu",
+   "post": "portar",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 1,
+   "nume": "Ștefan Rădulescu",
+   "post": "portar",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 71,
+   "nume": "Breston Malula",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "RD Congo"
+  },
+  {
+   "nr": 24,
+   "nume": "Adam Zaian",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "Țările de Jos"
+  },
+  {
+   "nr": 4,
+   "nume": "Paul Papp",
+   "post": "fundas",
+   "varsta": 37,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Andres Dumitrescu",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Mark Țuțu",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 66,
+   "nume": "Tiberiu Căpușă",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 29,
+   "nume": "Kilian Ludewig",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "Germania"
+  },
+  {
+   "nume": "Atay Akgün",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "Turcia"
+  },
+  {
+   "nr": 18,
+   "nume": "Calal Hüseynov",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "Azerbaidjan"
+  },
+  {
+   "nr": 20,
+   "nume": "Sergiu Hanca",
+   "post": "mijlocas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 26,
+   "nume": "Liviu Argeșanu",
+   "post": "mijlocas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Alejandro Bran",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "Costa Rica"
+  },
+  {
+   "nr": 80,
+   "nume": "Mario Ioniță",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Lucho Vega",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "Argentina"
+  },
+  {
+   "nr": 21,
+   "nume": "David Paraschiv",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 99,
+   "nume": "Dele Israel",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nr": 19,
+   "nume": "Léo Teixeira",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nr": 7,
+   "nume": "Rodrigo Martins",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nr": 28,
+   "nume": "Marius Costache",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Dan Nlundulu",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Anglia"
+  },
+  {
+   "nr": 11,
+   "nume": "Robert Jerdea",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Rareș Leescu",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 40,
+   "nume": "Rareș Manolache",
+   "post": "atacant",
+   "varsta": 16,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/ro/thumb/e/e0/FC_Petrolul_Ploiesti.svg/250px-FC_Petrolul_Ploiesti.svg.png",
+ "actualizat": "2026-11-19",
+ "surse": [
+  "https://fcpetrolul.ro/despre-noi/stadion/",
+  "https://fcpetrolul.ro/despre-noi/staff/",
+  "https://www.transfermarkt.com/petrolul-ploiesti/kader/verein/9465/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/petrolul-ploiesti/startseite/verein/9465",
+  "https://www.transfermarkt.com/petrolul-ploiesti/mitarbeiter/verein/9465",
+  "https://ro.wikipedia.org/wiki/FC_Petrolul_Ploie%C8%99ti",
+  "https://en.wikipedia.org/wiki/FC_Petrolul_Ploie%C8%99ti",
+  "https://en.wikipedia.org/wiki/Ilie_Oan%C4%83_Stadium",
+  "https://www.flashscore.ro/stiri/fotbal-superliga-ricardo-sousa-antrenor-petrolul-ploiesti/AuiNjgpe/"
+ ]
+}

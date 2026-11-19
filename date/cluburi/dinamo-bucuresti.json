@@ -1,0 +1,218 @@
+{
+ "nume": "Dinamo București",
+ "oras": "București",
+ "fondat": 1948,
+ "culori": "alb-roșu",
+ "site": "https://dinamo1948.ro",
+ "stadion": {
+  "nume": "Arena Națională",
+  "capacitate": 55634,
+  "inaugurat": 2011,
+  "maps": "https://maps.google.com/?q=Arena+Nationala+Bucuresti"
+ },
+ "antrenor": {
+  "nume": "Nuno Campos",
+  "nationalitate": "Portugalia",
+  "varsta": 51
+ },
+ "lot": [
+  {
+   "nr": 36,
+   "nume": "Alaa Bellaarouch",
+   "post": "portar",
+   "varsta": 24,
+   "nationalitate": "Maroc"
+  },
+  {
+   "nr": 73,
+   "nume": "Alexandru Roșca",
+   "post": "portar",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 1,
+   "nume": "Devis Epassy",
+   "post": "portar",
+   "varsta": 33,
+   "nationalitate": "Camerun"
+  },
+  {
+   "nr": 15,
+   "nume": "Nikita Stoinov",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "Israel"
+  },
+  {
+   "nr": 5,
+   "nume": "Imran Fetai",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "Macedonia de Nord"
+  },
+  {
+   "nr": 44,
+   "nume": "Martín Pascual",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 30,
+   "nume": "Matteo Duțu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 31,
+   "nume": "Raul Opruț",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Răzvan Radu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "David Irimia",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Darío Benavides",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 66,
+   "nume": "Ștefan Opriș",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 90,
+   "nume": "Andrei Mărginean",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Cristian Mihai",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Matthias Verreth",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "Belgia"
+  },
+  {
+   "nr": 10,
+   "nume": "Cătălin Cîrjan",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Diogo Pinto",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nr": 7,
+   "nume": "Alexandru Musi",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 29,
+   "nume": "Alberto Soro",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 77,
+   "nume": "Danny Armstrong",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "Scoția"
+  },
+  {
+   "nr": 26,
+   "nume": "Adrian Mazilu",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Ianis Tarbă",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Mamoudou Karamoko",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Franța"
+  },
+  {
+   "nr": 47,
+   "nume": "George Pușcaș",
+   "post": "atacant",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 97,
+   "nume": "Dean Zandbergen",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "Țările de Jos"
+  },
+  {
+   "nr": 18,
+   "nume": "Oliver Hintsa",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "Eritreea"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/FC_Dinamo_Bucure%C8%99ti_-_logo_2026.svg/250px-FC_Dinamo_Bucure%C8%99ti_-_logo_2026.svg.png",
+ "actualizat": "2026-11-19",
+ "surse": [
+  "https://dinamo1948.ro/",
+  "https://lpf.ro/cluburi/dinamo-bucuresti/14",
+  "https://www.transfermarkt.com/fc-dinamo/kader/verein/312/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/fc-dinamo/startseite/verein/312",
+  "https://www.transfermarkt.com/fc-dinamo/mitarbeiter/verein/312",
+  "https://www.transfermarkt.com/fc-dinamo/datenfakten/verein/312",
+  "https://www.transfermarkt.com/nuno-campos/profil/trainer/29593",
+  "https://ro.wikipedia.org/wiki/FC_Dinamo_București",
+  "https://en.wikipedia.org/wiki/FC_Dinamo_București",
+  "https://ro.wikipedia.org/wiki/Arena_Națională",
+  "https://www.sport.ro/liga-1/dinamo-are-un-nou-antrenor-principal-fostul-secund-de-la-as-roma-a-semnat-un-contract-valabil-pana-in-2028.html",
+  "https://www.sport.ro/fotbal-intern/nuno-campos-a-pus-piciorul-in-prag-la-dinamo-inainte-de-mercato-nu-putem-sta-la-mijlocul-clasamentului.html"
+ ]
+}

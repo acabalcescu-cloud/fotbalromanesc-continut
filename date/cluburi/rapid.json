@@ -1,0 +1,263 @@
+{
+ "nume": "Rapid București",
+ "oras": "București",
+ "fondat": 1923,
+ "culori": "alb-vișiniu",
+ "site": "https://www.fcrapid.ro",
+ "stadion": {
+  "nume": "Stadionul Rapid-Giulești",
+  "capacitate": 14047,
+  "inaugurat": 2022,
+  "maps": "https://maps.google.com/?q=Stadionul+Rapid-Giule%C8%99ti+Bucure%C8%99ti"
+ },
+ "antrenor": {
+  "nume": "Daniel Pancu",
+  "nationalitate": "România",
+  "varsta": 49
+ },
+ "lot": [
+  {
+   "nr": 16,
+   "nume": "Marian Aioani",
+   "post": "portar",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 99,
+   "nume": "Bogdan Ungureanu",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 68,
+   "nume": "Răzvan Ducan",
+   "post": "portar",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 70,
+   "nume": "Alex Șimonia",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Lars Kramer",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "Țările de Jos"
+  },
+  {
+   "nr": 18,
+   "nume": "Sheriff Sinyan",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "Gambia"
+  },
+  {
+   "nr": 5,
+   "nume": "Alexandru Pașcanu",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 13,
+   "nume": "Denis Ciobotariu",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Daniel Graovac",
+   "post": "fundas",
+   "varsta": 33,
+   "nationalitate": "Bosnia și Herțegovina"
+  },
+  {
+   "nr": 42,
+   "nume": "Alin Kumer Celik",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "Slovenia"
+  },
+  {
+   "nr": 27,
+   "nume": "Ebenezer Annan",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "Ghana"
+  },
+  {
+   "nr": 66,
+   "nume": "Latif Ouedraogo",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "Burkina Faso"
+  },
+  {
+   "nr": 21,
+   "nume": "Robert Sălceanu",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Cristian Manea",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Răzvan Onea",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Ștefan Senciuc",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Cătălin Vulturar",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Vladan Bubanja",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "Muntenegru"
+  },
+  {
+   "nr": 8,
+   "nume": "Constantin Grameni",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 44,
+   "nume": "Chec Bebel Doumbia",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "Burkina Faso"
+  },
+  {
+   "nr": 79,
+   "nume": "Eric Tape",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "Coasta de Fildeș"
+  },
+  {
+   "nume": "Luka Gojkovic",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "Serbia"
+  },
+  {
+   "nr": 20,
+   "nume": "Andrei Șucu",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Claudiu Petrila",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Mohammed Kamara",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "Liberia"
+  },
+  {
+   "nr": 33,
+   "nume": "Talisson",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "Brazilia"
+  },
+  {
+   "nr": 29,
+   "nume": "Alexandru Dobre",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 80,
+   "nume": "Olimpiu Moruțan",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 55,
+   "nume": "Rareș Pop",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Filip Stojilkovic",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "Elveția"
+  },
+  {
+   "nume": "Antoine Baroan",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "Franța"
+  },
+  {
+   "nr": 90,
+   "nume": "Timotej Jambor",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "Slovacia"
+  },
+  {
+   "nr": 77,
+   "nume": "Jason Kodor",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/ro/thumb/a/a1/FC_Rapid_Bucuresti.svg/250px-FC_Rapid_Bucuresti.svg.png",
+ "actualizat": "2026-11-19",
+ "surse": [
+  "https://www.fcrapid.ro/stadion/",
+  "https://www.fcrapid.ro/echipa-tehnica/",
+  "https://www.transfermarkt.com/fc-rapid-1923/kader/verein/455/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/fc-rapid-1923/startseite/verein/455",
+  "https://www.transfermarkt.com/fc-rapid-1923/mitarbeiter/verein/455",
+  "https://ro.wikipedia.org/wiki/FC_Rapid_Bucure%C8%99ti",
+  "https://ro.wikipedia.org/wiki/Stadionul_Rapid-Giule%C8%99ti",
+  "https://en.wikipedia.org/wiki/FC_Rapid_Bucure%C8%99ti",
+  "https://en.wikipedia.org/wiki/Rapid-Giule%C8%99ti_Stadium",
+  "https://www.sport.ro/liga-1/rapid-a-facut-anuntul-bun-venit.html"
+ ]
+}

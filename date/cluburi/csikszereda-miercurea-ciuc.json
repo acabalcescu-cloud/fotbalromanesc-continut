@@ -1,0 +1,230 @@
+{
+ "nume": "Csíkszereda Miercurea Ciuc",
+ "oras": "Miercurea Ciuc",
+ "fondat": 1904,
+ "culori": "roșu-negru",
+ "site": "https://fkcsikszereda.ro",
+ "stadion": {
+  "nume": "Stadionul Municipal",
+  "capacitate": 2480,
+  "maps": "https://maps.google.com/?q=Stadionul+Municipal+Miercurea+Ciuc"
+ },
+ "antrenor": {
+  "nume": "Valentin Suciu",
+  "nationalitate": "România",
+  "varsta": 46
+ },
+ "lot": [
+  {
+   "nr": 94,
+   "nume": "Eduard Pap",
+   "post": "portar",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 34,
+   "nume": "Mark Karacsony",
+   "post": "portar",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Raul Palmeș",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 24,
+   "nume": "János Hegedűs",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nr": 4,
+   "nume": "Alex Szabó",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nr": 13,
+   "nume": "Attila Csürös",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "György Papp",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Lóránd Pászka",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 29,
+   "nume": "Răzvan Trif",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Máté Ódor",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nr": 11,
+   "nume": "Artúr Horváth",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nr": 53,
+   "nume": "Botond Szondi",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Szilard Veres",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 18,
+   "nume": "Mátyás Tajti",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nr": 10,
+   "nume": "Soufiane Jebari",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 7,
+   "nume": "Dusan Vukovic",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "Muntenegru"
+  },
+  {
+   "nr": 15,
+   "nume": "Ervin Bakos",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Zsolt Magyar",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nr": 55,
+   "nume": "Darius Bota",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 90,
+   "nume": "Szabolcs Nyitra",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 77,
+   "nume": "Albert Stahl",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Lima",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nr": 9,
+   "nume": "Nino Kukovec",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "Slovenia"
+  },
+  {
+   "nr": 79,
+   "nume": "Szabolcs Szalay",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nr": 27,
+   "nume": "Márton Eppel",
+   "post": "atacant",
+   "varsta": 34,
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nr": 17,
+   "nume": "Ádám Czékus",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nr": 14,
+   "nume": "Luca Noveli",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Előd Tóth-Pál",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/ro/thumb/1/12/FK_Csikszereda.svg/250px-FK_Csikszereda.svg.png",
+ "actualizat": "2026-11-19",
+ "surse": [
+  "https://fkcsikszereda.ro/",
+  "https://lpf.ro/cluburi/fk-csikszereda-miercurea-ciuc/37",
+  "https://www.transfermarkt.com/afk-csikszereda-miercurea-ciuc/kader/verein/37255/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/afk-csikszereda-miercurea-ciuc/startseite/verein/37255",
+  "https://www.transfermarkt.com/afk-csikszereda-miercurea-ciuc/mitarbeiter/verein/37255",
+  "https://www.transfermarkt.com/afk-csikszereda-miercurea-ciuc/datenfakten/verein/37255",
+  "https://www.transfermarkt.com/valentin-suciu/profil/trainer/48480",
+  "https://ro.wikipedia.org/wiki/FK_Csíkszereda_Miercurea_Ciuc",
+  "https://en.wikipedia.org/wiki/FK_Csíkszereda_Miercurea_Ciuc",
+  "https://www.flashscore.ro/stiri/fotbal-superliga-oficial-csikszereda-isi-prezinta-noul-antrenor-la-cateva-ore-dupa-despartirea-de-szabo-valentin-suciu-revine/6mM8rTcL/",
+  "https://www.digisport.ro/fotbal/liga-1/valentin-suciu-dupa-ce-csikszereda-a-remizat-cu-vicecampioana-u-cluj-poate-ca-meritam-mai-mult-4591389"
+ ]
+}
