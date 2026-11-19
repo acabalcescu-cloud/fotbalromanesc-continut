@@ -1,0 +1,203 @@
+{
+ "actualizat": "2026-11-19 18:04",
+ "surse": [
+  "https://www.viata-libera.ro/actual/265716-liga-a-iii-a-de-fotbal-branistea,-egalitate-pe-terenul-liderului",
+  "https://www.monitoruldegalati.ro/sport/rocada-in-clasament-in-liga-a-3-a-la-fotbal.html",
+  "https://ctsport.ro/2026/11/16/accidentarile-si-ratarile-au-privat-axiopolis-cernavoda-de-cel-putin-un-punct-la-calarasi/",
+  "https://www.ziuaconstanta.ro/stiri/sport/liga-a-3-a-cs-agigea-in-plutonul-fruntas-dupa-a-treia-victorie-la-rand-edis-abibula-am-facut-efort-si-am-avut-atitudine-galerie-foto-960620.html",
+  "https://www.ziuaconstanta.ro/stiri/sport/galerie-foto-liga-a-3-a-cs-agigea-a-inceput-cu-victorie-returul-sezonului-regular-etapa-a-12-a-rezultate-si-clasament-959703.html",
+  "https://www.independentonline.ro/2026/11/17/Scor-usturator-cu-repetitie-33350"
+ ],
+ "clasament": [
+  {
+   "loc": 1,
+   "echipa": "Agricola Borcea",
+   "meciuri": 13,
+   "pct": 32
+  },
+  {
+   "loc": 2,
+   "echipa": "Progresul Fundulea",
+   "meciuri": 13,
+   "pct": 28
+  },
+  {
+   "loc": 3,
+   "echipa": "Sporting Liești",
+   "meciuri": 13,
+   "pct": 24
+  },
+  {
+   "loc": 4,
+   "echipa": "CS Agigea",
+   "meciuri": 13,
+   "pct": 24
+  },
+  {
+   "loc": 5,
+   "echipa": "Unirea Braniștea",
+   "meciuri": 13,
+   "pct": 23
+  },
+  {
+   "loc": 6,
+   "echipa": "Înainte Modelu",
+   "meciuri": 13,
+   "pct": 22
+  },
+  {
+   "loc": 7,
+   "echipa": "Dunărea Călărași",
+   "meciuri": 13,
+   "pct": 19
+  },
+  {
+   "loc": 8,
+   "echipa": "Axiopolis Cernavodă",
+   "meciuri": 13,
+   "pct": 16
+  },
+  {
+   "loc": 9,
+   "echipa": "Recolta Gheorghe Doja",
+   "meciuri": 13,
+   "pct": 16
+  },
+  {
+   "loc": 10,
+   "echipa": "Gloria Băneasa",
+   "meciuri": 13,
+   "pct": 8
+  },
+  {
+   "loc": 11,
+   "echipa": "Oțelul Galați 2",
+   "meciuri": 13,
+   "pct": 7
+  },
+  {
+   "loc": 12,
+   "echipa": "Portul Constanța",
+   "meciuri": 13,
+   "pct": 5
+  }
+ ],
+ "meciuri": [
+  {
+   "id": "s4r13a",
+   "data": "2026-11-13T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "Înainte Modelu",
+   "oaspeti": "Recolta Gheorghe Doja",
+   "scor": [
+    7,
+    0
+   ]
+  },
+  {
+   "id": "s4r13b",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "Agricola Borcea",
+   "oaspeti": "Unirea Braniștea",
+   "scor": [
+    2,
+    2
+   ],
+   "marcatori": {
+    "gazde": [],
+    "oaspeti": [
+     {
+      "nume": "Sava",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Fadei",
+      "minut": "",
+      "tip": "penalty"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s4r13c",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "Oțelul Galați 2",
+   "oaspeti": "Progresul Fundulea",
+   "scor": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": "s4r13d",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "CS Agigea",
+   "oaspeti": "Gloria Băneasa",
+   "scor": [
+    2,
+    0
+   ]
+  },
+  {
+   "id": "s4r13e",
+   "data": "2026-11-14T14:00:00+02:00",
+   "runda": "13",
+   "gazde": "Portul Constanța",
+   "oaspeti": "Sporting Liești",
+   "scor": [
+    0,
+    5
+   ],
+   "marcatori": {
+    "gazde": [],
+    "oaspeti": [
+     {
+      "nume": "Voinea",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Voinea",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Voinea",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Stan",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Chiriac",
+      "minut": "",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s4r14a",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Sporting Liești",
+   "oaspeti": "CS Agigea",
+   "scor": null
+  },
+  {
+   "id": "s4r14b",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Recolta Gheorghe Doja",
+   "oaspeti": "Dunărea Călărași",
+   "scor": null
+  }
+ ]
+}
