@@ -16,7 +16,7 @@ function fr_setari_implicite() {
 		'facebook'     => '',
 		'instagram'    => '',
 		'tiktok'       => '',
-		'text_subsol'  => 'Tot fotbalul românesc, de la SuperLiga la Liga 3.',
+		'text_subsol'  => 'Tot fotbalul românesc, de la SuperLiga la Liga 3, de la naționale la românii din străinătate.',
 	);
 }
 
@@ -39,6 +39,22 @@ function fr_curata_repo( $v ) {
 	$parti = array_slice( explode( '/', $v ), 0, 2 );
 	$v = implode( '/', $parti );
 	return preg_match( '~^[A-Za-z0-9_.\-]+/[A-Za-z0-9_.\-]+$~', $v ) ? $v : '';
+}
+
+/**
+ * 1.1.1: textul vechi din subsol, dacă n-a fost schimbat de mână, devine textul nou (o singură dată).
+ */
+add_action( 'init', 'fr_migrare_text_subsol' );
+function fr_migrare_text_subsol() {
+	if ( get_option( 'fr_migrare_111' ) ) {
+		return;
+	}
+	$s = get_option( 'fr_setari' );
+	if ( is_array( $s ) && isset( $s['text_subsol'] ) && 'Tot fotbalul românesc, de la SuperLiga la Liga 3.' === $s['text_subsol'] ) {
+		$s['text_subsol'] = fr_setari_implicite()['text_subsol'];
+		update_option( 'fr_setari', $s );
+	}
+	update_option( 'fr_migrare_111', 1, false );
 }
 
 add_action( 'admin_menu', 'fr_meniu_setari' );

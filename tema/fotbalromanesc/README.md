@@ -1,6 +1,6 @@
 # Tema fotbalromanesc
 
-Tema WordPress pentru fotbalromanesc.ro: tot fotbalul românesc, de la SuperLiga la Liga 3 și naționale. E o temă de sine stătătoare (fără temă-părinte) și nu cere module.
+Tema WordPress pentru fotbalromanesc.ro: tot fotbalul românesc, de la SuperLiga la Liga 3, de la naționale la românii din străinătate. E o temă de sine stătătoare (fără temă-părinte) și nu cere module.
 
 ## Instalare
 
