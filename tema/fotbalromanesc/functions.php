@@ -8,13 +8,15 @@
  * inc/setari.php     – pagina de setări (Aspect › fotbalromanesc)
  * inc/sabloane.php   – bucăți de afișare folosite în șabloane
  * inc/actualizare.php – actualizarea temei din depozit (automată sau la cerere)
+ * inc/coperta.php    – coperțile generate pentru Instagram și Facebook
+ * inc/social.php     – publicarea automată pe Facebook și Instagram
  *
  * @package fotbalromanesc
  */
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'FR_VERSIUNE', '1.1.1' );
+define( 'FR_VERSIUNE', '1.2.0' );
 define( 'FR_DIR', get_template_directory() );
 define( 'FR_URI', get_template_directory_uri() );
 
@@ -25,6 +27,8 @@ require FR_DIR . '/inc/import.php';
 require FR_DIR . '/inc/setari.php';
 require FR_DIR . '/inc/sabloane.php';
 require FR_DIR . '/inc/actualizare.php';
+require FR_DIR . '/inc/coperta.php';
+require FR_DIR . '/inc/social.php';
 
 add_action( 'after_setup_theme', 'fr_setup' );
 function fr_setup() {

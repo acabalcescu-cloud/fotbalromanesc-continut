@@ -92,6 +92,8 @@ function fr_actiune_admin() {
 		fr_reimprospateaza_toate();
 	} elseif ( 'date' === $ce ) {
 		fr_reimprospateaza_toate();
+	} elseif ( 'social' === $ce ) {
+		set_transient( 'fr_mesaj_social', fr_social_salveaza_formular(), 60 );
 	} elseif ( 'cheie' === $ce ) {
 		delete_option( 'fr_cheie_actualizare' );
 		fr_cheie_actualizare();
@@ -164,6 +166,12 @@ function fr_pagina_setari() {
 			<input type="hidden" name="action" value="fr_actiune"><input type="hidden" name="ce" value="import">
 			<?php submit_button( 'Importă acum', 'secondary', 'submit', false ); ?>
 		</form>
+
+		<?php $fr_mesaj = get_transient( 'fr_mesaj_social' ); ?>
+		<?php if ( $fr_mesaj ) : delete_transient( 'fr_mesaj_social' ); ?>
+			<div class="notice notice-info"><p><?php echo esc_html( $fr_mesaj ); ?></p></div>
+		<?php endif; ?>
+		<?php fr_social_sectiune(); ?>
 
 		<h2>Actualizarea temei</h2>
 		<?php $fr_info = fr_info_tema_depozit(); ?>

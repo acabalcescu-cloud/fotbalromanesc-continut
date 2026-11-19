@@ -67,6 +67,19 @@ Fiecare articol: `id`, `titlu`, `rezumat`, `continut` (HTML), `competitie` (slug
 
 Starea importului: **Aspect › fotbalromanesc** sau `GET /wp-json/fr/v1/import` (administratori). `POST` pe aceeași adresă rulează importul imediat.
 
+## Facebook și Instagram
+
+Articolele noi se postează automat, la ~2 minute după publicare:
+
+- **Facebook** (pagina): titlul, rezumatul, hashtag-urile și linkul; previzualizarea linkului folosește coperta generată 1200×630.
+- **Instagram** (contul profesional legat de pagină): coperta generată 1080×1350 și descrierea, cu „link în bio”.
+
+Coperțile se generează din titlu și competiție (cu fotografia articolului, dacă există), în `uploads/fr-social/`. Articolele mai vechi de 2 zile nu se postează.
+
+Conectarea: în **Aspect › fotbalromanesc › Facebook și Instagram** lipești un token Meta (de utilizator, cu termen lung, sau de pagină) cu permisiunile `pages_show_list`, `pages_read_engagement`, `pages_manage_posts`, `instagram_basic`, `instagram_content_publish`. Tema găsește singură pagina, tokenul paginii și contul de Instagram. Pentru postare automată bifezi cele două căsuțe.
+
+Verificare: `GET /wp-json/fr/v1/social` (starea, fără token), `GET /wp-json/fr/v1/social/<id>/previzualizare` (imaginile și textele, fără publicare), `POST /wp-json/fr/v1/social/<id>?retea=fb|ig` (postează acum). Toate cer antetul `X-Fr-Key` sau un administrator.
+
 ## Actualizarea temei
 
 Tema se actualizează singură din depozit (`tema/versiune.txt`, `tema/sha256.txt`, `tema/fotbalromanesc.zip`):

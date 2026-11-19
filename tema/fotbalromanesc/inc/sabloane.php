@@ -307,6 +307,9 @@ function fr_meta_sociale() {
 	if ( is_singular() ) {
 		$desc = wp_strip_all_tags( get_the_excerpt() );
 		$img  = get_the_post_thumbnail_url( null, 'fr-mare' );
+		if ( ! $img && is_singular( 'post' ) && function_exists( 'fr_coperta_url' ) ) {
+			$img = fr_coperta_url( get_the_ID(), 'og' ); // coperta generată, pentru previzualizarea pe Facebook
+		}
 		$url  = get_permalink();
 	} elseif ( is_tax() ) {
 		$desc = wp_strip_all_tags( term_description() ) ?: $desc;
