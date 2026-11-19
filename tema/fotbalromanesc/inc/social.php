@@ -45,22 +45,27 @@ function fr_graph( $metoda, $cale, $param = array() ) {
  * Cu un token de utilizator, alege pagina al cărei nume conține „fotbal” (sau singura pagină).
  */
 function fr_social_descopera( $t ) {
-	$eu = fr_graph( 'GET', 'me', array( 'fields' => 'id,name,instagram_business_account{id,username}', 'access_token' => $t ) );
-	if ( ! empty( $eu['error'] ) ) {
-		return array( 'mesaj' => 'Facebook a răspuns: ' . wp_html_excerpt( (string) $eu['error']['message'], 200 ) );
+	$eu = fr_graph( 'GET', 'me', array( 'fields' => 'id,name', 'access_token' => $t ) );
+	if ( ! empty( $eu['error'] ) || empty( $eu['id'] ) ) {
+		return array( 'mesaj' => 'Facebook a răspuns: ' . wp_html_excerpt( (string) ( $eu['error']['message'] ?? 'tokenul nu e valid' ), 200 ) );
 	}
-	// Token de pagină: /me e chiar pagina.
+	// Token de utilizator: paginile lui, cu tokenul fiecăreia și contul de Instagram legat.
 	$conturi = fr_graph( 'GET', 'me/accounts', array( 'fields' => 'id,name,access_token,instagram_business_account{id,username}', 'limit' => '50', 'access_token' => $t ) );
-	if ( empty( $conturi['data'] ) ) {
-		return array(
-			'token'   => $t,
-			'pagina'  => $eu['id'],
-			'nume'    => $eu['name'] ?? '',
-			'ig'      => $eu['instagram_business_account']['id'] ?? '',
-			'ig_nume' => $eu['instagram_business_account']['username'] ?? '',
-		);
+	$pagini  = ( empty( $conturi['error'] ) && ! empty( $conturi['data'] ) ) ? $conturi['data'] : array();
+	if ( ! $pagini ) {
+		// Poate e chiar un token de pagină: atunci /me e pagina.
+		$pg = fr_graph( 'GET', 'me', array( 'fields' => 'id,name,instagram_business_account{id,username}', 'access_token' => $t ) );
+		if ( empty( $pg['error'] ) && ! empty( $pg['id'] ) ) {
+			return array(
+				'token'   => $t,
+				'pagina'  => $pg['id'],
+				'nume'    => $pg['name'] ?? '',
+				'ig'      => $pg['instagram_business_account']['id'] ?? '',
+				'ig_nume' => $pg['instagram_business_account']['username'] ?? '',
+			);
+		}
+		return array( 'mesaj' => 'Tokenul nu vede nicio pagină. La generare bifează permisiunea pages_show_list și pagina site-ului.' );
 	}
-	$pagini = $conturi['data'];
 	$aleasa = count( $pagini ) === 1 ? $pagini[0] : null;
 	foreach ( $pagini as $p ) {
 		if ( ! $aleasa && false !== stripos( remove_accents( $p['name'] ?? '' ), 'fotbal' ) ) {
