@@ -66,6 +66,19 @@ h1, h2, h3 { line-height: 1.15; }
 .fr-form-cautare input[type="search"] { flex: 1 1 auto; min-width: 0; min-height: 44px; padding: 0 16px; border-radius: 22px; border: 1px solid #C9CED6; font: 16px var(--fr-corp); color: var(--fr-text); background: var(--fr-alb); }
 .fr-cautare .fr-buton { background: var(--fr-galben); border-color: var(--fr-galben); color: var(--fr-navy); }
 
+/* Antetul alb, când site-ul are logo (logoul e gândit pe fundal alb) */
+.fr-cu-logo .fr-antet { background: var(--fr-alb); color: var(--fr-text); border-bottom: 1px solid var(--fr-linie); }
+.fr-cu-logo .fr-logo img { max-height: 44px; }
+.fr-cu-logo .fr-meniu a { color: var(--fr-navy); }
+.fr-cu-logo .fr-meniu a:hover { color: #0033CC; }
+.fr-cu-logo .fr-meniu .current-menu-item > a, .fr-cu-logo .fr-meniu .current-menu-ancestor > a, .fr-cu-logo .fr-meniu a[aria-current] { color: #0033CC; border-bottom-color: var(--fr-galben); }
+.fr-cu-logo .fr-antet .fr-buton-icon { color: var(--fr-navy); border-color: #C9CED6; }
+.fr-cu-logo .fr-antet .fr-buton-icon:hover, .fr-cu-logo .fr-antet .fr-buton-icon[aria-expanded="true"] { background: var(--fr-fundal); }
+.fr-cu-logo .fr-cautare { background: var(--fr-fundal); border-top: 1px solid var(--fr-linie); }
+@media (max-width: 760px) {
+	.fr-cu-logo .fr-logo img { max-height: 34px; }
+}
+
 /* Titluri de secțiune */
 .fr-titlu-mare { margin: 0; font: 700 44px/1.05 var(--fr-titlu); }
 .fr-titlu-sectiune { margin: 0; font: 700 22px/1.1 var(--fr-titlu); text-transform: uppercase; letter-spacing: 0.4px; }

@@ -16,7 +16,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'FR_VERSIUNE', '1.2.2' );
+define( 'FR_VERSIUNE', '1.2.3' );
 define( 'FR_DIR', get_template_directory() );
 define( 'FR_URI', get_template_directory_uri() );
 
@@ -92,6 +92,14 @@ function fr_preconnect( $urls, $tip ) {
 	}
 	return $urls;
 }
+
+// Cu logo încărcat (Aspect › Personalizează › Identitatea site-ului), antetul devine alb, ca logoul să se vadă.
+add_filter( 'body_class', function ( $c ) {
+	if ( has_custom_logo() ) {
+		$c[] = 'fr-cu-logo';
+	}
+	return $c;
+} );
 
 add_filter( 'excerpt_length', fn() => 28 );
 add_filter( 'excerpt_more', fn() => '…' );

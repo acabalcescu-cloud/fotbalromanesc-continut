@@ -27,7 +27,7 @@ $fr_program = fr_url_program();
 		) );
 		?>
 		<ul class="fr-sociale">
-			<?php foreach ( array( 'facebook' => 'Facebook', 'instagram' => 'Instagram', 'tiktok' => 'TikTok' ) as $k => $n ) : ?>
+			<?php foreach ( array( 'facebook' => 'Facebook', 'instagram' => 'Instagram', 'youtube' => 'YouTube', 'tiktok' => 'TikTok' ) as $k => $n ) : ?>
 				<?php if ( fr_setare( $k ) ) : ?>
 					<li><a href="<?php echo esc_url( fr_setare( $k ) ); ?>" rel="noopener" target="_blank"><?php echo esc_html( $n ); ?></a></li>
 				<?php endif; ?>

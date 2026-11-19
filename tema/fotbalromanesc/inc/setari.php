@@ -13,9 +13,10 @@ function fr_setari_implicite() {
 		'ramura'       => 'main',
 		'sponsor'      => '',
 		'sponsor_url'  => '',
-		'facebook'     => '',
-		'instagram'    => '',
-		'tiktok'       => '',
+		'facebook'     => 'https://www.facebook.com/FotbalRomanesc.ro',
+		'instagram'    => 'https://www.instagram.com/fotbalromanesc.ro/',
+		'youtube'      => 'https://www.youtube.com/@fotbalromanesc_ro',
+		'tiktok'       => 'https://www.tiktok.com/@fotbal.romanesc.ro',
 		'text_subsol'  => 'Tot fotbalul românesc, de la SuperLiga la Liga 3, de la naționale la românii din străinătate.',
 	);
 }
@@ -24,6 +25,10 @@ function fr_setare( $cheie ) {
 	$s = wp_parse_args( (array) get_option( 'fr_setari', array() ), fr_setari_implicite() );
 	if ( 'repo' === $cheie ) {
 		return fr_curata_repo( $s['repo'] );
+	}
+	// Rețelele: un câmp lăsat gol primește adresa implicită a site-ului.
+	if ( in_array( $cheie, array( 'facebook', 'instagram', 'youtube', 'tiktok' ), true ) && empty( $s[ $cheie ] ) ) {
+		return fr_setari_implicite()[ $cheie ];
 	}
 	return $s[ $cheie ] ?? '';
 }
@@ -74,7 +79,7 @@ function fr_curata_setari( $in ) {
 	$out['ramura']      = preg_replace( '~[^A-Za-z0-9_.\-/]~', '', (string) ( $in['ramura'] ?? 'main' ) ) ?: 'main';
 	$out['sponsor']     = sanitize_text_field( $in['sponsor'] ?? '' );
 	$out['text_subsol'] = sanitize_text_field( $in['text_subsol'] ?? '' );
-	foreach ( array( 'sponsor_url', 'facebook', 'instagram', 'tiktok' ) as $k ) {
+	foreach ( array( 'sponsor_url', 'facebook', 'instagram', 'youtube', 'tiktok' ) as $k ) {
 		$out[ $k ] = esc_url_raw( $in[ $k ] ?? '' );
 	}
 	return $out;
@@ -138,6 +143,7 @@ function fr_pagina_setari() {
 				$camp( 'sponsor_url', 'Adresa sponsorului', '', 'url' );
 				$camp( 'facebook', 'Pagina de Facebook', '', 'url' );
 				$camp( 'instagram', 'Instagram', '', 'url' );
+				$camp( 'youtube', 'YouTube', '', 'url' );
 				$camp( 'tiktok', 'TikTok', '', 'url' );
 				$camp( 'text_subsol', 'Textul din subsol' );
 				?>
