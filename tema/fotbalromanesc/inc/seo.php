@@ -14,7 +14,8 @@ defined( 'ABSPATH' ) || exit;
  */
 function fr_modul_seo_activ() {
 	return ( defined( 'WPSEO_VERSION' ) && class_exists( 'WPSEO_Options' ) && function_exists( 'YoastSEO' ) )
-		|| ( defined( 'RANK_MATH_VERSION' ) && class_exists( 'RankMath' ) )
+		// Rank Math scrie meta-datele prin acțiunea „rank_math/head”; fără ea (neconfigurat), nu scrie nimic.
+		|| ( defined( 'RANK_MATH_VERSION' ) && has_action( 'rank_math/head' ) )
 		|| ( defined( 'SEOPRESS_VERSION' ) && function_exists( 'seopress_init' ) )
 		|| ( defined( 'AIOSEO_VERSION' ) && function_exists( 'aioseo' ) );
 }
