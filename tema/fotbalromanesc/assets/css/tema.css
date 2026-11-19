@@ -219,6 +219,48 @@ h1, h2, h3 { line-height: 1.15; }
 .fr-sigla { width: 72px; height: 72px; border-radius: 36px; object-fit: contain; background: var(--fr-fundal); flex: none; }
 .fr-sigla--gol { display: inline-flex; align-items: center; justify-content: center; font: 700 34px var(--fr-titlu); color: var(--fr-gri); }
 
+/* Prima pagină hibridă */
+.fr-prima { display: flex; flex-direction: column; gap: 36px; padding-top: 24px; padding-bottom: 40px; }
+.fr-deschidere { display: grid; grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr); gap: 24px; align-items: start; }
+.fr-ultimele ol { list-style: none; margin: 14px 0 0; padding: 0; counter-reset: ult; }
+.fr-ultimele li { display: flex; flex-direction: column; gap: 4px; padding: 12px 0 12px 34px; border-top: 1px solid var(--fr-linie-2); position: relative; counter-increment: ult; }
+.fr-ultimele li::before { content: counter(ult); position: absolute; left: 0; top: 10px; font: 700 26px/1 var(--fr-titlu); color: var(--fr-galben); }
+.fr-ultimele__titlu { font: 700 19px/1.15 var(--fr-titlu); color: var(--fr-text); text-decoration: none; }
+.fr-ultimele__titlu:hover { color: var(--fr-verde); }
+.fr-ultimele time { font-size: 12px; color: var(--fr-gri); }
+.fr-ultimele .fr-eticheta { font-size: 11px; }
+.fr-rezultate { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+.fr-rezultate__comp { display: flex; justify-content: space-between; align-items: baseline; margin: 0 0 10px; font: 700 20px var(--fr-titlu); text-transform: uppercase; }
+.fr-rezultate__comp a { color: var(--fr-text); text-decoration: none; }
+.fr-rezultate__comp span { font: 600 12px var(--fr-corp); color: var(--fr-gri); text-transform: none; }
+.fr-rezultate ul { list-style: none; margin: 0; padding: 0; }
+.fr-rezultate li { display: grid; grid-template-columns: minmax(0, 1fr) 52px minmax(0, 1fr); gap: 8px; align-items: center; padding: 7px 0; border-top: 1px solid var(--fr-linie-2); font-size: 14px; font-weight: 600; }
+.fr-rezultat__g { text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.fr-rezultat__o { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.fr-rezultat__s { text-align: center; background: var(--fr-navy); color: var(--fr-alb); border-radius: 6px; padding: 3px 0; font: 700 17px var(--fr-titlu); }
+.fr-sectiune-comp__rand { display: grid; grid-template-columns: minmax(0, 2fr) minmax(300px, 1fr); gap: 24px; align-items: start; }
+.fr-sectiune-comp__rand--plin { grid-template-columns: minmax(0, 1fr); }
+.fr-sectiune-comp__rand .fr-grila--3 { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.fr-sectiune-comp__rand--plin .fr-grila--3 { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.fr-clasament-scurt { padding: 14px 16px; }
+.fr-clasament-scurt .fr-link-sectiune { display: inline-block; margin-top: 8px; }
+.fr-clasament-scurt .fr-clasament { font-size: 13px; }
+.fr-clasament-scurt .fr-clasament th, .fr-clasament-scurt .fr-clasament td { padding-left: 4px; padding-right: 4px; }
+.fr-clasament-scurt .fr-forma { width: 18px; height: 18px; font-size: 10.5px; }
+.fr-clasament-scurt .fr-forme { gap: 2px; }
+.fr-clasament-scurt .fr-clasament .fr-forma-col { width: 98px; }
+.fr-clasament-scurt .fr-clasament .fr-echipa-col { max-width: 140px; }
+.fr-serii { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; }
+.fr-serie { display: flex; flex-direction: column; gap: 8px; border-top: 4px solid var(--fr-galben); }
+.fr-serie__nume { align-self: flex-start; font: 700 14px var(--fr-corp); text-transform: uppercase; letter-spacing: .5px; color: var(--fr-verde); text-decoration: none; }
+.fr-serie__titlu { margin: 0; font: 700 20px/1.15 var(--fr-titlu); }
+.fr-serie__titlu a { color: var(--fr-text); text-decoration: none; }
+.fr-serie__titlu a:hover { color: var(--fr-verde); }
+.fr-serie .fr-articol__meta a { color: var(--fr-gri); }
+@media (max-width: 900px) {
+	.fr-deschidere, .fr-sectiune-comp__rand { grid-template-columns: minmax(0, 1fr); }
+}
+
 /* Pagina de club */
 .fr-panouri { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; align-items: start; padding-top: 24px; padding-bottom: 40px; }
 .fr-panouri__lat { grid-column: 1 / -1; }

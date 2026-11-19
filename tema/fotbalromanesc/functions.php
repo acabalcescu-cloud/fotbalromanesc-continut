@@ -16,7 +16,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'FR_VERSIUNE', '1.3.3' );
+define( 'FR_VERSIUNE', '1.4.0' );
 define( 'FR_DIR', get_template_directory() );
 define( 'FR_URI', get_template_directory_uri() );
 
