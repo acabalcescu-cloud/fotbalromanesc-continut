@@ -1,0 +1,90 @@
+{
+ "actualizat": "2026-11-19 18:35",
+ "surse": [
+  "https://vasiledale.ro/2026/11/16/cronica-etapei-a-13-a-liga-3-seria-8-minaur-zdrobeste-recea-cu-5-0-sanatatea-trece-usor-de-tasnad-crisul-invinge-sighetu-marmatiei/",
+  "https://maramuresonline.ro/csm-sighetu-marmatiei-a-pierdut-cu-3-0-in-deplasare-la-crisul-santandrei-in-liga-a-iii-a/",
+  "https://2mnews.ro/au-rezistat-doar-o-repriza-csm-sighetu-marmatiei-a-pierdut-la-scor-de-forfait-la-santandrei-si-a-coborat-pe-locul-6-in-clasamentul-seriei/",
+  "https://www.ebihoreanul.ro/stiri/doua-victorii-si-un-egal-pentru-echipele-bihorene-in-liga-3-lotus-a-facut-spectacol-iar-crisul-santandrei-a-urcat-pe-podium-206611.html",
+  "https://www.ebihoreanul.ro/stiri/diferenta-s-a-facut-la-ambitie-crisul-santandrei-a-facut-spectacol-si-a-invins-csm-sighetu-marmatiei-cu-3-0-206605.html",
+  "https://www.bihon.ro/sport-local/lotus-baile-felix-a-regasit-drumul-spre-victorie-intr-un-meci-cu-sase-goluri-5462832/",
+  "https://www.bihon.ro/sport-local/cs-bihorul-beius-a-ratat-victoria-pe-final-de-meci-5463624/",
+  "https://www.bihon.ro/sport-local/cu-capitanul-in-prim-plan-crisul-santandrei-a-turat-motoarele-dupa-pauza-5463591/",
+  "https://dnews24.ro/victorie-pentru-lotus-baile-felix-in-fata-transilvaniei-sport-academy/",
+  "https://24news.ro/fotbal-cs-minaur-baia-mare-invinge-la-scor-pe-recea/",
+  "https://www.graiul.ro/2026/11/16/derby-fara-nerv/",
+  "https://dincolodesport.eu/s-a-incheia-meciul-sanatatea-cluj-unirea-tasnad/",
+  "https://informatia-zilei.ro/infrangere-grea-pentru-unirea-tasnad-in-etapa-a-13-a/",
+  "https://graiulsalajului.ro/etapa-a-13-a-a-adus-a-doua-victorie-pe-teren-propriu-pentru-scm-zalau-a-242642"
+ ],
+ "clasament": [
+  { "loc": 1, "echipa": "Minaur Baia Mare", "meciuri": 13, "pct": 32 },
+  { "loc": 2, "echipa": "Sănătatea Cluj", "meciuri": 13, "pct": 28 },
+  { "loc": 3, "echipa": "Crișul Sântandrei", "meciuri": 13, "pct": 24 },
+  { "loc": 4, "echipa": "SCM Zalău", "meciuri": 13, "pct": 22 },
+  { "loc": 5, "echipa": "Academica Recea", "meciuri": 13, "pct": 21 },
+  { "loc": 6, "echipa": "CSM Sighetu Marmației", "meciuri": 13, "pct": 18 },
+  { "loc": 7, "echipa": "Bihorul Beiuș", "meciuri": 13, "pct": 17 },
+  { "loc": 8, "echipa": "Viitorul Cluj", "meciuri": 13, "pct": 16 },
+  { "loc": 9, "echipa": "Lotus Băile Felix", "meciuri": 13, "pct": 16 },
+  { "loc": 10, "echipa": "Unirea Tășnad", "meciuri": 13, "pct": 11 },
+  { "loc": 11, "echipa": "Unirea Dej", "meciuri": 13, "pct": 8 },
+  { "loc": 12, "echipa": "Transilvania Sport Academy", "meciuri": 13, "pct": 2 }
+ ],
+ "meciuri": [
+  { "id": "s8r13a", "data": "2026-11-13T14:00:00+02:00", "runda": "13",
+    "gazde": "Academica Recea", "oaspeti": "Minaur Baia Mare", "scor": [0, 5],
+    "marcatori": { "gazde": [], "oaspeti": [
+      { "nume": "Buziuc", "minut": "18", "tip": "" },
+      { "nume": "Ciubăncan", "minut": "51", "tip": "" },
+      { "nume": "Ciubăncan", "minut": "54", "tip": "" },
+      { "nume": "Toma", "minut": "", "tip": "" },
+      { "nume": "Radu", "minut": "78", "tip": "" } ] } },
+  { "id": "s8r13b", "data": "2026-11-13T14:00:00+02:00", "runda": "13",
+    "gazde": "Sănătatea Cluj", "oaspeti": "Unirea Tășnad", "scor": [5, 0],
+    "marcatori": { "gazde": [
+      { "nume": "Banyoi", "minut": "26", "tip": "" },
+      { "nume": "Sanusi", "minut": "48", "tip": "" },
+      { "nume": "Banyoi", "minut": "61", "tip": "" },
+      { "nume": "Sanusi", "minut": "67", "tip": "" },
+      { "nume": "Goga", "minut": "88", "tip": "" } ], "oaspeti": [] } },
+  { "id": "s8r13c", "data": "2026-11-13T14:00:00+02:00", "runda": "13",
+    "gazde": "Lotus Băile Felix", "oaspeti": "Transilvania Sport Academy", "scor": [5, 1],
+    "marcatori": { "gazde": [
+      { "nume": "M. Hosu", "minut": "9", "tip": "penalty" },
+      { "nume": "Stan", "minut": "", "tip": "" },
+      { "nume": "Bere", "minut": "", "tip": "" },
+      { "nume": "M. Hosu", "minut": "57", "tip": "" },
+      { "nume": "Rogojan", "minut": "", "tip": "" } ], "oaspeti": [
+      { "nume": "Ember", "minut": "", "tip": "" } ] } },
+  { "id": "s8r13d", "data": "2026-11-14T14:00:00+02:00", "runda": "13",
+    "gazde": "Bihorul Beiuș", "oaspeti": "Viitorul Cluj", "scor": [1, 1],
+    "marcatori": { "gazde": [
+      { "nume": "Bercea", "minut": "72", "tip": "" } ], "oaspeti": [
+      { "nume": "Hafiz Aliyu", "minut": "87", "tip": "" } ] } },
+  { "id": "s8r13e", "data": "2026-11-14T14:00:00+02:00", "runda": "13",
+    "gazde": "Crișul Sântandrei", "oaspeti": "CSM Sighetu Marmației", "scor": [3, 0],
+    "marcatori": { "gazde": [
+      { "nume": "Popa", "minut": "48", "tip": "" },
+      { "nume": "Popa", "minut": "", "tip": "penalty" },
+      { "nume": "Cirtea", "minut": "", "tip": "" } ], "oaspeti": [] } },
+  { "id": "s8r13f", "data": "2026-11-14T14:00:00+02:00", "runda": "13",
+    "gazde": "SCM Zalău", "oaspeti": "Unirea Dej", "scor": [4, 0],
+    "marcatori": { "gazde": [
+      { "nume": "Danale", "minut": "16", "tip": "" },
+      { "nume": "Emeriau", "minut": "", "tip": "" },
+      { "nume": "Neag", "minut": "77", "tip": "penalty" },
+      { "nume": "Costea", "minut": "81", "tip": "" } ], "oaspeti": [] } },
+  { "id": "s8r14a", "data": "2026-11-20T14:00:00+02:00", "runda": "14",
+    "gazde": "Viitorul Cluj", "oaspeti": "SCM Zalău", "scor": null },
+  { "id": "s8r14b", "data": "2026-11-20T14:00:00+02:00", "runda": "14",
+    "gazde": "Unirea Dej", "oaspeti": "Academica Recea", "scor": null },
+  { "id": "s8r14c", "data": "2026-11-21T14:00:00+02:00", "runda": "14",
+    "gazde": "Transilvania Sport Academy", "oaspeti": "Bihorul Beiuș", "scor": null },
+  { "id": "s8r14d", "data": "2026-11-21T14:00:00+02:00", "runda": "14",
+    "gazde": "Unirea Tășnad", "oaspeti": "Lotus Băile Felix", "scor": null },
+  { "id": "s8r14e", "data": "2026-11-21T14:00:00+02:00", "runda": "14",
+    "gazde": "CSM Sighetu Marmației", "oaspeti": "Sănătatea Cluj", "scor": null },
+  { "id": "s8r14f", "data": "2026-11-21T14:00:00+02:00", "runda": "14",
+    "gazde": "Minaur Baia Mare", "oaspeti": "Crișul Sântandrei", "scor": null }
+ ]
+}
