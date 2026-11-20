@@ -1,0 +1,236 @@
+{
+ "nume": "CS Dinamo București",
+ "oras": "București",
+ "site": "http://www.csdinamo.eu/",
+ "antrenor": {
+  "nume": "Ionuț Chirilă",
+  "nationalitate": "România",
+  "varsta": 60
+ },
+ "lot": [
+  {
+   "nr": 12,
+   "nume": "Denis Oncescu",
+   "post": "portar",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Rovența",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 90,
+   "nume": "Patrick Marcu",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Ayan Anghel",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Rareș Cernamoriț",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Andrei Avram",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 27,
+   "nume": "Flavius Dumbrăvean",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 26,
+   "nume": "Alecs Stanciu",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Nicolae",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Alin Demci",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Edis Amza",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 25,
+   "nume": "Andrei Rus",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Ionuț Mitran",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Marius Ifrim",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 31,
+   "nume": "Aethan Yohannes",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "Eritreea"
+  },
+  {
+   "nr": 6,
+   "nume": "George Gogescu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 13,
+   "nume": "Denis Rența",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 18,
+   "nume": "Alexandru Ciocan",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 24,
+   "nume": "Mario Tache",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Rareș Sebe",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Stoicea",
+   "post": "mijlocas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Paul Ciupei",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Peter Maapia",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nr": 9,
+   "nume": "George Leață",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Robert Lecca",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Vlad Anghel",
+   "post": "mijlocas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Radu Balca",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Baban",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Eduard Păun",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Luca Tincău",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Tudor",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 29,
+   "nume": "Denis Colibășanu",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-20",
+ "surse": [
+  "https://en.wikipedia.org/wiki/CS_Dinamo_Bucure%C8%99ti_(football)",
+  "https://www.transfermarkt.com/x/kader/verein/102149/saison_id/2026/plus/1",
+  "https://www.digisport.ro/fotbal/liga-a-3-a/ionut-chirila-a-fost-ofertat-4588897",
+  "https://golazo.ro/andrei-nicolescu-ionut-chirila-dinamo-cs-dinamo-superliga-191151"
+ ]
+}

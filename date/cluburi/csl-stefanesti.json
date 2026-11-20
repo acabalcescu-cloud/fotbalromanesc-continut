@@ -1,0 +1,280 @@
+{
+ "nume": "CSL Ștefănești",
+ "oras": "Ștefăneștii de Jos",
+ "site": "https://clubstefanesti.ro/",
+ "stadion": {
+  "nume": "Stadionul Dumitru Mătărău",
+  "maps": "https://maps.google.com/?q=Stadionul+Dumitru+Matarau+Stefanestii+de+Jos"
+ },
+ "antrenor": {
+  "nume": "Mircea Gheorghe"
+ },
+ "lot": [
+  {
+   "nume": "Bogdan Ungureanu",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 1,
+   "nume": "Haralambie Mociu",
+   "post": "portar",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 99,
+   "nume": "Alessandro Lăpădat",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Apenciucesei",
+   "post": "portar",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Christian Coman",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Juan Pătrașcu",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Adrian Nicolae",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Ioniță",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mohamed Bakayoko",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "Ghana"
+  },
+  {
+   "nr": 4,
+   "nume": "Krisztián Dobozi",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nr": 96,
+   "nume": "Ionel Ciortan",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Senciuc",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Darius Grosu",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Roberto Mălăele",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Samuel Zimța",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Adriano Manole",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Ștefan Gheorghe",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 26,
+   "nume": "Ștefan Stavrositu",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Apostol",
+   "post": "mijlocas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Marius Dumitru",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Andrei Bivolaru",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Șucu",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 77,
+   "nume": "Ianys Man",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Valentin Niculae",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Claudiu Bumbănac",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Gabriel Plumbuitu",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 31,
+   "nume": "Andrei Florescu",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 98,
+   "nume": "Remus Bobocea",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mădălin Gheorghe",
+   "post": "atacant",
+   "varsta": 36,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Alexandru Gheorghe",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Grosu",
+   "post": "atacant",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Zaharia",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Sergiu Șerban",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 97,
+   "nume": "David Pătru",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Spînu",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Tudorache",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Matarau",
+   "post": "atacant",
+   "varsta": 15,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 13,
+   "nume": "Ianis Neagu-Gafencu",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Cristian Grancea",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-20",
+ "surse": [
+  "https://en.wikipedia.org/wiki/CSL_%C8%98tef%C4%83ne%C8%99ti",
+  "https://www.transfermarkt.com/x/kader/verein/122344/saison_id/2026/plus/1",
+  "https://100sport.ro/2026/11/09/premiera-istorica-pentru-csl-stefanesti-primul-succes-afara-in-liga-a-ii-a/",
+  "https://liga2.prosport.ro/seria-1/csl-stefanestii-de-jos-a-invins-cetatea-suceava-si-are-procentaj-maxim-pe-teren-propriu-19398076",
+  "https://jurnaluldeilfov.ro/sute-de-suporteri-si-au-sustinut-campionii-csl-stefanesti-si-a-prezentat-oficial-echipa-pentru-liga-a-2-a/"
+ ]
+}

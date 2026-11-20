@@ -1,0 +1,222 @@
+{
+ "nume": "ASA Târgu Mureș",
+ "oras": "Târgu Mureș",
+ "site": "https://asatargumures.com/",
+ "stadion": {
+  "nume": "Stadionul Trans-Sil",
+  "capacitate": 8200,
+  "maps": "https://maps.google.com/?q=Stadionul+Trans-Sil+Targu+Mures"
+ },
+ "antrenor": {
+  "nume": "Mihai Iosif",
+  "nationalitate": "România",
+  "varsta": 52
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Robert Geantă",
+   "post": "portar",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 93,
+   "nume": "Florin Iacob",
+   "post": "portar",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Barabas",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Zsombor Demeter",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Okan Chatziterzoglou",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "Grecia"
+  },
+  {
+   "nr": 23,
+   "nume": "Gabriel Dumitru",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Cosmin Achim",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Gabriel Avram",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Călugăr",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Adrian Horșia",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 98,
+   "nume": "Tudor Oltean",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Adrian Iancu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 13,
+   "nume": "Mihai Dohatcă",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 28,
+   "nume": "Luca Galdea",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Jair Tavares",
+   "post": "mijlocas",
+   "varsta": 32,
+   "nationalitate": "Brazilia"
+  },
+  {
+   "nr": 20,
+   "nume": "Serges Ekollo",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "Camerun"
+  },
+  {
+   "nr": 55,
+   "nume": "Eric Vînău",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Ciprian Biceanu",
+   "post": "mijlocas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 77,
+   "nume": "Rareș Trif",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 24,
+   "nume": "Marius Cioiu",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Fărăgău",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Bence Kocsis",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nr": 80,
+   "nume": "Andrei Moga",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Cosmin Bîrnoi",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Capac",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Óscar Siafa",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "Guineea Ecuatorială"
+  },
+  {
+   "nr": 9,
+   "nume": "Moussa Samake",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "Mali"
+  },
+  {
+   "nume": "Raul Haiduc",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ianis Fărăgău",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-20",
+ "surse": [
+  "https://en.wikipedia.org/wiki/ASA_T%C3%A2rgu_Mure%C8%99_(1962)",
+  "https://www.transfermarkt.com/x/kader/verein/93148/saison_id/2026/plus/1",
+  "https://www.digisport.ro/fotbal/liga-2/mihai-iosif-revine-in-liga-2-4570845",
+  "https://liga2.prosport.ro/seria-1/mihai-iosif-e-noul-antrenor-al-echipei-din-targu-mures-19405466",
+  "https://liga2.prosport.ro/echipe/afc-asa-targu-mures"
+ ]
+}

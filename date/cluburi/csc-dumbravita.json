@@ -1,0 +1,214 @@
+{
+ "nume": "CSC Dumbrăvița",
+ "oras": "Dumbrăvița",
+ "fondat": 2008,
+ "site": "https://cscdumbravita.ro/",
+ "stadion": {
+  "nume": "Stadionul Ștefan Dobay",
+  "maps": "https://maps.google.com/?q=Stadionul+Stefan+Dobay+Dumbravita"
+ },
+ "antrenor": {
+  "nume": "Florin Fabian"
+ },
+ "lot": [
+  {
+   "nr": 99,
+   "nume": "Robert Miklos",
+   "post": "portar",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Paul Toroc",
+   "post": "portar",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "Mihai Enășescu",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Rareș Butnărașu",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 25,
+   "nume": "Bogdan Panaite",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Nicholas Pop",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Alin Șeroni",
+   "post": "fundas",
+   "varsta": 39,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dávid Kovács",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Cosmin Gladun",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Alex Negrea",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Dragoș Datcu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 27,
+   "nume": "Sergiu Popovici",
+   "post": "fundas",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Dennis Krista",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Damien Dussaut",
+   "post": "fundas",
+   "varsta": 32,
+   "nationalitate": "Martinica"
+  },
+  {
+   "nume": "Gabriel Gladun",
+   "post": "fundas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Fabiano Cibi",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Bogdan Vasile",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Răzvan Gunie",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mateo Lăcătuș",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 18,
+   "nume": "Norbert Leczki",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Robert Curescu",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Andrei Burlacu",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 13,
+   "nume": "Cristian Pădurariu",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Dragoș Mucuță",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Alexandru Buțu",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ciprian Dan",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Hitian",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Matteo Paunovici",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-20",
+ "surse": [
+  "https://en.wikipedia.org/wiki/CSC_Dumbr%C4%83vi%C8%9Ba",
+  "https://ro.wikipedia.org/wiki/CSC_Dumbr%C4%83vi%C8%9Ba",
+  "https://www.transfermarkt.com/x/kader/verein/72297/saison_id/2026/plus/1",
+  "https://liga2.prosport.ro/echipe/csc-dumbravita",
+  "https://liga2.prosport.ro/seria-1/csc-dumbravita-spera-la-primul-succes-in-acest-sezon-in-deplasare-la-metaloglobus-19406649"
+ ]
+}
