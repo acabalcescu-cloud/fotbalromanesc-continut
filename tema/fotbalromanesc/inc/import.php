@@ -243,9 +243,64 @@ function fr_import_continut() {
 		}
 	}
 	update_option( 'fr_import_facute', array_slice( $facute, -2000 ), false );
+	$jurnal['fixat'] = fr_aplica_fixarea();
 	update_option( 'fr_import_jurnal', $jurnal, false );
 	return $jurnal;
 }
+
+/**
+ * Știrea zilei fixată automat, după presa/fixat.json din depozit (scris de rutina de știri de pe Mac,
+ * după cât de prezent e subiectul în presa sportivă națională):
+ * { "id": "<id articol>", "subiect": "…", "acoperire": 9, "fixat_la": "2026-11-20 10:00", "pana_la": "2026-11-21 06:00" }
+ * Articolul se fixează în prima pagină și se desprinde singur la „pana_la” (cel mult 24 de ore de la fixare).
+ * Articolele fixate de mână din WordPress rămân neatinse.
+ */
+function fr_aplica_fixarea() {
+	$auto  = (array) get_option( 'fr_fixat_auto', array() ); // [ post_id, pana_la ]
+	$f     = fr_repo_json( 'presa/fixat.json' );
+	$ro    = new DateTimeZone( 'Europe/Bucharest' );
+	$ts    = function ( $s ) use ( $ro ) {
+		try {
+			return $s ? ( new DateTime( (string) $s, $ro ) )->getTimestamp() : 0;
+		} catch ( Exception $e ) {
+			return 0;
+		}
+	};
+	$tinta = 0;
+	$pana  = 0;
+	if ( ! is_wp_error( $f ) && ! empty( $f['id'] ) ) {
+		$de_la = $ts( $f['fixat_la'] ?? '' ) ?: time();
+		$pana  = min( $ts( $f['pana_la'] ?? '' ) ?: $de_la + 20 * HOUR_IN_SECONDS, $de_la + DAY_IN_SECONDS );
+		if ( time() < $pana ) {
+			$p     = get_posts( array( 'post_type' => 'post', 'post_status' => 'publish', 'meta_key' => '_fr_sursa', 'meta_value' => sanitize_text_field( $f['id'] ), 'numberposts' => 1, 'fields' => 'ids' ) );
+			$tinta = $p ? (int) $p[0] : 0;
+		}
+	} elseif ( is_wp_error( $f ) && 'fr_http' !== $f->get_error_code() ) {
+		return 'neschimbat (depozitul nu a răspuns)';
+	}
+	$vechi = (int) ( $auto[0] ?? 0 );
+	if ( $vechi && $vechi !== $tinta ) {
+		unstick_post( $vechi );
+		delete_option( 'fr_fixat_auto' );
+	}
+	if ( $tinta ) {
+		if ( ! is_sticky( $tinta ) ) {
+			stick_post( $tinta );
+		}
+		update_option( 'fr_fixat_auto', array( $tinta, $pana ), true );
+		return get_the_title( $tinta ) . ' (până la ' . wp_date( 'j M H:i', $pana ) . ')';
+	}
+	return $vechi ? 'desprins' : 'nimic fixat';
+}
+
+// Desprinderea la timp, chiar dacă importul nu rulează.
+add_action( 'init', function () {
+	$auto = (array) get_option( 'fr_fixat_auto', array() );
+	if ( ! empty( $auto[0] ) && ! empty( $auto[1] ) && time() >= (int) $auto[1] ) {
+		unstick_post( (int) $auto[0] );
+		delete_option( 'fr_fixat_auto' );
+	}
+} );
 
 /**
  * GET  /wp-json/fr/v1/import – ultima verificare (administratori)

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Știrile mari: de două ori pe zi (09:47 și 20:47), cu știrea zilei din SuperLiga/Naționale. Fără AI, caută în Google News titluri noi din ultimele 24 de ore
+"""Știrile mari: de trei ori pe zi (09:47, 14:47 și 20:47), cu știrea zilei din SuperLiga/Naționale. Fără AI, caută în Google News titluri noi din ultimele 24 de ore
 pe temele urmărite; pornește Claude doar dacă există candidați pe care nu i-am mai văzut.
 
 Rulare manuală:  python3 mac/stiri.py              (verificare + Claude dacă e cazul)

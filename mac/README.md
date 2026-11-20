@@ -6,7 +6,7 @@ Patru verificări automate, fără inteligență artificială. Claude Code porne
 | --- | --- | --- |
 | Liga 2 (`mac/liga2.py`) | la 10 minute | Meciurile terminate de 2–36 de ore fără cronică → câte o cronică pe meci |
 | Liga 3 (`mac/liga3.py`) | sâmbătă 19:37, duminică 10:37 și 18:37, luni 10:37 | Seriile fără rezumat pentru weekendul curent → câte o sesiune pe serie: articolul și `date/liga-3-seria-N.json` |
-| Știri (`mac/stiri.py`) | zilnic la 09:47 și 20:47 | Știrea zilei din SuperLiga/Naționale (sus pe prima pagină) + titluri noi din Google News pe temele mari, doar dacă subiectul e confirmat |
+| Știri (`mac/stiri.py`) | zilnic la 09:47, 14:47 și 20:47 | Știrea zilei din SuperLiga/Naționale, aleasă după câte publicații naționale o acoperă, fixată sus pe prima pagină 20 de ore (`presa/fixat.json`) + titluri noi din Google News pe temele mari, doar dacă subiectul e confirmat |
 | Cluburi (`mac/cluburi.py`) | zilnic la 04:17 și 14:17 | Câte 5 cluburi fără profil (sau cu profil mai vechi de 45 de zile), SuperLiga întâi → `date/cluburi/<slug>.json` (stadion, antrenor, lot) |
 
 Promptul fiecărei rutine e în `mac/prompt-*.md`; regulile de scris sunt în `STIL.md` și `INSTRUCTIUNI.md`.
