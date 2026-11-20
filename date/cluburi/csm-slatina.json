@@ -1,0 +1,199 @@
+{
+ "nume": "CSM Slatina",
+ "oras": "Slatina",
+ "site": "https://www.csmslatina.ro/",
+ "stadion": {
+  "nume": "Stadionul 1 Mai",
+  "capacitate": 10000,
+  "maps": "https://maps.google.com/?q=Stadionul+1+Mai+Slatina"
+ },
+ "antrenor": {
+  "nume": "Adrian Dulcea",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Alexandru Preduț",
+   "post": "portar",
+   "varsta": 25
+  },
+  {
+   "nr": 12,
+   "nume": "Darius Vîlceleanu",
+   "post": "portar",
+   "varsta": 16
+  },
+  {
+   "nr": 90,
+   "nume": "Mihai Răcășan",
+   "post": "portar",
+   "varsta": 19
+  },
+  {
+   "nr": 3,
+   "nume": "Alexandru Ureche",
+   "post": "fundas",
+   "varsta": 20
+  },
+  {
+   "nr": 4,
+   "nume": "Abel Stan",
+   "post": "fundas",
+   "varsta": 22
+  },
+  {
+   "nr": 16,
+   "nume": "Pol Munoz",
+   "post": "fundas",
+   "varsta": 22
+  },
+  {
+   "nr": 20,
+   "nume": "Robert Riza",
+   "post": "fundas",
+   "varsta": 27
+  },
+  {
+   "nr": 26,
+   "nume": "Claudiu Stancu",
+   "post": "fundas",
+   "varsta": 17
+  },
+  {
+   "nr": 28,
+   "nume": "Ionut Andres",
+   "post": "fundas",
+   "varsta": 26
+  },
+  {
+   "nr": 30,
+   "nume": "Daniel Serbanica",
+   "post": "fundas",
+   "varsta": 30
+  },
+  {
+   "nr": 33,
+   "nume": "Mario Baraitaru",
+   "post": "fundas",
+   "varsta": 19
+  },
+  {
+   "nr": 77,
+   "nume": "Constantin Radu",
+   "post": "fundas",
+   "varsta": 29
+  },
+  {
+   "nr": 80,
+   "nume": "Alex Georgescu",
+   "post": "fundas",
+   "varsta": 25
+  },
+  {
+   "nr": 5,
+   "nume": "Alexandru Rauta",
+   "post": "mijlocas",
+   "varsta": 34
+  },
+  {
+   "nr": 6,
+   "nume": "Robert Lăpădătescu",
+   "post": "mijlocas",
+   "varsta": 20
+  },
+  {
+   "nr": 7,
+   "nume": "Ionuț Năstăsie",
+   "post": "mijlocas",
+   "varsta": 34
+  },
+  {
+   "nr": 8,
+   "nume": "Razvan Matis",
+   "post": "mijlocas",
+   "varsta": 25
+  },
+  {
+   "nr": 10,
+   "nume": "Emilian Pacionel",
+   "post": "mijlocas",
+   "varsta": 25
+  },
+  {
+   "nr": 18,
+   "nume": "Stefan Gheoroae",
+   "post": "mijlocas",
+   "varsta": 22
+  },
+  {
+   "nr": 9,
+   "nume": "Alexandru Stan",
+   "post": "atacant",
+   "varsta": 21
+  },
+  {
+   "nr": 14,
+   "nume": "Yanis Sorescu",
+   "post": "atacant",
+   "varsta": 18
+  },
+  {
+   "nr": 17,
+   "nume": "Roland Granja",
+   "post": "atacant",
+   "varsta": 28
+  },
+  {
+   "nr": 19,
+   "nume": "Szilard Magyari",
+   "post": "atacant",
+   "varsta": 28
+  },
+  {
+   "nr": 21,
+   "nume": "Eduard Tolu",
+   "post": "atacant",
+   "varsta": 15
+  },
+  {
+   "nr": 29,
+   "nume": "Calvin Mbanga",
+   "post": "atacant",
+   "varsta": 24
+  },
+  {
+   "nr": 31,
+   "nume": "Rares Velea",
+   "post": "atacant",
+   "varsta": 18
+  },
+  {
+   "nr": 47,
+   "nume": "Alexandru Solcan",
+   "post": "atacant",
+   "varsta": 24
+  },
+  {
+   "nr": 97,
+   "nume": "Antonio Bordusanu",
+   "post": "atacant",
+   "varsta": 22
+  },
+  {
+   "nr": 98,
+   "nume": "Andreas Mihaiu",
+   "post": "atacant",
+   "varsta": 28
+  }
+ ],
+ "actualizat": "2026-11-20",
+ "surse": [
+  "https://www.csmslatina.ro/sectii/fotbal.html",
+  "https://www.csmslatina.ro/data/lot-fotbal.json",
+  "https://en.wikipedia.org/wiki/CSM_Slatina_(football)",
+  "https://ro.wikipedia.org/wiki/CSM_Slatina_(fotbal)",
+  "https://liga2.prosport.ro/seria-1/adrian-dulcea-anuntat-ca-antrenor-principal-la-csm-slatina-19389895",
+  "https://liga2.prosport.ro/echipe/csm-slatina"
+ ]
+}

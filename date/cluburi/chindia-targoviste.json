@@ -1,0 +1,27 @@
+{
+ "nume": "Chindia Târgoviște",
+ "oras": "Târgoviște",
+ "fondat": 2010,
+ "culori": "roș-albastru",
+ "site": "https://www.afcchindiatargoviste.ro/",
+ "stadion": {
+  "nume": "Stadionul Eugen Popescu",
+  "capacitate": 7979,
+  "inaugurat": 2023,
+  "maps": "https://maps.google.com/?q=Stadionul+Eugen+Popescu+Targoviste"
+ },
+ "antrenor": {
+  "nume": "Leo Grozavu",
+  "nationalitate": "România",
+  "varsta": 59
+ },
+ "lot": [],
+ "actualizat": "2026-11-20",
+ "surse": [
+  "https://www.afcchindiatargoviste.ro/",
+  "https://en.wikipedia.org/wiki/AFC_Chindia_T%C3%A2rgovi%C8%99te",
+  "https://ro.wikipedia.org/wiki/AFC_Chindia_T%C3%A2rgovi%C8%99te",
+  "https://www.flashscore.ro/stiri/fotbal-liga-2-casa-pariurilor-cristi-sapunaru-dorit-in-staff-ul-unei-echipe-din-liga-2-au-fost-discutii/GWOuEQeD/",
+  "https://www.fanatik.ro/e-antrenorul-momentului-in-romania-dar-l-a-refuzat-pe-gigi-becali-cand-l-a-vrut-la-fcsb-nu-suntem-compatibili-21583001"
+ ]
+}

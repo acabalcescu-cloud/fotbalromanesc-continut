@@ -1,0 +1,22 @@
+{
+ "nume": "Cetatea Suceava",
+ "oras": "Suceava",
+ "site": "https://cetateasuceava.com/",
+ "stadion": {
+  "nume": "Stadionul Areni",
+  "maps": "https://maps.google.com/?q=Stadionul+Areni+Suceava"
+ },
+ "antrenor": {
+  "nume": "Petre Grigoraș",
+  "nationalitate": "România",
+  "varsta": 61
+ },
+ "lot": [],
+ "actualizat": "2026-11-20",
+ "surse": [
+  "https://en.wikipedia.org/wiki/CSM_Cetatea_Suceava",
+  "https://ro.wikipedia.org/wiki/CSM_Cetatea_Suceava",
+  "https://www.digisport.ro/fotbal/liga-2/scandal-in-liga-2-petre-grigoras-s-a-dus-direct-la-arbitru-dupa-un-moment-cum-rar-se-vede-4577059",
+  "https://www.fanatik.ro/grigoras-e-din-nou-cel-mai-tare-din-oras-dupa-un-parcurs-asemanator-cu-cel-al-lui-pancu-la-cfr-fanii-i-au-pupat-mainile-8-000-de-oameni-la-liga-a-3-a-21476847"
+ ]
+}

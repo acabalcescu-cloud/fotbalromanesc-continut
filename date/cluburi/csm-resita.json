@@ -1,0 +1,26 @@
+{
+ "nume": "CSM Reșița",
+ "oras": "Reșița",
+ "fondat": 1926,
+ "site": "https://csm-resita.com/",
+ "stadion": {
+  "nume": "Stadionul Mircea Chivu",
+  "capacitate": 12500,
+  "inaugurat": 1926,
+  "maps": "https://maps.google.com/?q=Stadionul+Mircea+Chivu+Resita"
+ },
+ "antrenor": {
+  "nume": "Dorinel Munteanu",
+  "nationalitate": "România"
+ },
+ "lot": [],
+ "actualizat": "2026-11-20",
+ "surse": [
+  "https://csm-resita.com/stadion/",
+  "https://csm-resita.com/club/",
+  "https://en.wikipedia.org/wiki/CSM_Re%C8%99i%C8%9Ba",
+  "https://ro.wikipedia.org/wiki/CSM_Re%C8%99i%C8%9Ba",
+  "https://liga2.prosport.ro/seria-1/liga-2-acsm-resita-cs-gloria-bistrita-se-joaca-in-etapa-12-19406023",
+  "https://www.fanatik.ro/dorinel-munteanu-prezentat-oficial-la-csm-resita-21486719"
+ ]
+}

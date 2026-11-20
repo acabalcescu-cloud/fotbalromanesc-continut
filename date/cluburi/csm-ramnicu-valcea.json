@@ -1,0 +1,22 @@
+{
+ "nume": "CSM Râmnicu Vâlcea",
+ "oras": "Râmnicu Vâlcea",
+ "site": "https://scmrmvalcea.ro/",
+ "stadion": {
+  "nume": "Stadionul Municipal",
+  "capacitate": 12000,
+  "maps": "https://maps.google.com/?q=Stadionul+Municipal+Ramnicu+Valcea"
+ },
+ "antrenor": {
+  "nume": "Constantin Schumacher",
+  "nationalitate": "România"
+ },
+ "lot": [],
+ "actualizat": "2026-11-20",
+ "surse": [
+  "https://en.wikipedia.org/wiki/SCM_R%C3%A2mnicu_V%C3%A2lcea",
+  "https://en.wikipedia.org/wiki/R%C3%A2mnicu_V%C3%A2lcea_Municipal_Stadium",
+  "https://ro.soccerway.com/echipa/ramnicu-valcea/jk06IBT2",
+  "https://liga2.prosport.ro/seria-1/liga-2-scm-ramnicu-valcea-intalneste-cs-dinamo-in-etapa-13-19406632"
+ ]
+}
