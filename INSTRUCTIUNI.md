@@ -26,6 +26,7 @@ Toate textele urmează `STIL.md`. Orele sunt în ora României.
 - `competitie`: slugul de pe site: `superliga`, `liga-2`, `liga-3-seria-1` … `liga-3-seria-8`, `nationala-mare`, `nationala-u21`, `nationala-u19`, `nationala-u17`, `nationala-feminin`, `stranierii`, `opinie`.
 - `cluburi`: numele exact ca pe site (cu diacritice). Un club nou se creează singur la import.
 - `hashtaguri`: 4–10 nume scrise normal, din contextul articolului: oamenii despre care e vorba (marcatori, antrenori, cine a făcut declarații), echipele, competiția și 1–3 teme („derby”, „promovare”, „debut”, „lider nou”). Site-ul le transformă în hashtag-uri pentru Facebook și Instagram și adaugă singur pe cele ale site-ului (#fotbalromanesc #fotbalromania #fotbal), competiția și cluburile.
+- `importanta` (opțional, 1–3): cât de mare e subiectul. 3 = știrea zilei (subiectul cel mai important al zilei din SuperLiga sau Naționale), 2 = important, 1 sau lipsă = obișnuit. Pe prima pagină, sus stă articolul din SuperLiga/Naționale din ultimele 36 de ore cu importanța cea mai mare; sub el, cel mai nou din Liga 2 și cel mai nou din Liga 3.
 - `imagine` e opțională (fișierul stă lângă JSON, în `articole/`). `"status": "draft"` = ciornă.
 - `data_publicare` niciodată în viitor.
 - Articolul se adaugă **la începutul** listei `articole` din `index.json` (maximum 300 de intrări).

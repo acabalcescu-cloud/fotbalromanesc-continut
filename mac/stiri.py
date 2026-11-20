@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Știrile mari: o dată pe zi, seara. Fără AI, caută în Google News titluri noi din ultimele 24 de ore
+"""Știrile mari: de două ori pe zi (09:47 și 20:47), cu știrea zilei din SuperLiga/Naționale. Fără AI, caută în Google News titluri noi din ultimele 24 de ore
 pe temele urmărite; pornește Claude doar dacă există candidați pe care nu i-am mai văzut.
 
 Rulare manuală:  python3 mac/stiri.py              (verificare + Claude dacă e cazul)
@@ -17,6 +17,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from comun import DEPOZIT, STARE, blocheaza, curl, git_pull, incarca, jurnal, ruleaza_claude, salveaza
 
 CAUTARI = [
+    'SuperLiga', 'SuperLiga antrenor demis', 'SuperLiga transfer', 'naționala României', 'selecționerul României',
+    'FCSB', 'CFR Cluj', 'Universitatea Craiova', 'Rapid București', 'Dinamo București',
     'Liga 2 fotbal antrenor', 'Liga 2 transfer', 'Liga 3 fotbal antrenor', 'naționala României convocare',
     'naționala de tineret România', 'antrenor demis Liga 2', 'FRF Liga 2 sancțiune',
 ]
@@ -44,7 +46,7 @@ def candidati():
                 continue
             titluri.add(titlu)
             noi.append({'titlu': titlu, 'link': link, 'cautare': q, 'data': data.isoformat()})
-    return noi[:60]
+    return noi[:80]
 
 
 def main():

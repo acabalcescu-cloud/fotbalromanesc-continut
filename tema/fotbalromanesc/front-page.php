@@ -21,19 +21,62 @@ usort( $fr_meciuri, function ( $a, $b ) {
 } );
 $fr_meciuri = array_slice( $fr_meciuri, 0, 16 );
 
-// Deschiderea: articolul fixat (sau cel mai nou) și următoarele 5.
+/**
+ * Cel mai nou articol dintr-una din competițiile date (cu seriile și echipele lor), cu filtre opționale.
+ */
+$fr_cel_mai_nou = function ( $sluguri, $exclus = array(), $extra = array() ) {
+	$ids = array();
+	foreach ( (array) $sluguri as $s ) {
+		$t = get_term_by( 'slug', $s, 'competitie' );
+		if ( $t ) {
+			$ids[] = $t->term_id;
+		}
+	}
+	if ( ! $ids ) {
+		return null;
+	}
+	$q = get_posts( array_merge( array(
+		'numberposts'         => 1,
+		'post__not_in'        => $exclus,
+		'ignore_sticky_posts' => true,
+		'tax_query'           => array( array( 'taxonomy' => 'competitie', 'terms' => $ids, 'include_children' => true ) ),
+	), $extra ) );
+	return $q ? $q[0] : null;
+};
+
+// Știrea zilei: articolul fixat; altfel cel mai important subiect din Naționale sau SuperLiga din ultimele
+// 36 de ore (câmpul „importanta” din articol, apoi cel mai nou); altfel cel mai nou din ele (7 zile); altfel cel mai nou.
 $fr_lipite = get_option( 'sticky_posts' );
 $fr_lead   = null;
 if ( $fr_lipite ) {
 	$q       = get_posts( array( 'post__in' => $fr_lipite, 'numberposts' => 1, 'ignore_sticky_posts' => true ) );
 	$fr_lead = $q ? $q[0] : null;
 }
-$fr_ultimele = get_posts( array( 'numberposts' => 6, 'post__not_in' => $fr_lead ? array( $fr_lead->ID ) : array(), 'ignore_sticky_posts' => true ) );
-if ( ! $fr_lead && $fr_ultimele ) {
-	$fr_lead = array_shift( $fr_ultimele );
+$fr_mari = array( 'nationala', 'superliga' );
+if ( ! $fr_lead ) {
+	$fr_lead = $fr_cel_mai_nou( $fr_mari, array(), array(
+		'date_query' => array( array( 'after' => '36 hours ago' ) ),
+		'meta_query' => array( 'relation' => 'OR', 'imp' => array( 'key' => '_fr_importanta', 'type' => 'NUMERIC' ), array( 'key' => '_fr_importanta', 'compare' => 'NOT EXISTS' ) ),
+		'orderby'    => array( 'imp' => 'DESC', 'date' => 'DESC' ),
+	) ) ?: $fr_cel_mai_nou( $fr_mari, array(), array( 'date_query' => array( array( 'after' => '7 days ago' ) ) ) );
 }
-$fr_ultimele = array_slice( $fr_ultimele, 0, 5 );
-$fr_exclus   = $fr_lead ? array( $fr_lead->ID ) : array();
+if ( ! $fr_lead ) {
+	$q       = get_posts( array( 'numberposts' => 1, 'ignore_sticky_posts' => true ) );
+	$fr_lead = $q ? $q[0] : null;
+}
+$fr_exclus = $fr_lead ? array( $fr_lead->ID ) : array();
+
+// Sub ea, două știri secundare: cea mai nouă din Liga 2 și cea mai nouă din Liga 3.
+$fr_secundare = array();
+foreach ( array( 'liga-2', 'liga-3' ) as $s ) {
+	$p = $fr_cel_mai_nou( $s, $fr_exclus );
+	if ( $p ) {
+		$fr_secundare[] = $p;
+		$fr_exclus[]    = $p->ID;
+	}
+}
+
+$fr_ultimele = get_posts( array( 'numberposts' => 5, 'post__not_in' => $fr_exclus, 'ignore_sticky_posts' => true ) );
 
 /**
  * Ultimele articole dintr-o competiție (cu seriile sau echipele ei).
@@ -93,7 +136,16 @@ $fr_rezultate = function ( $t, $n = 8 ) {
 
 	<!-- Deschiderea -->
 	<section class="fr-deschidere" aria-label="Deschiderea">
-		<div class="fr-deschidere__lead"><?php echo fr_card_articol( $fr_lead, 'mare' ); // phpcs:ignore WordPress.Security.EscapeOutput ?></div>
+		<div class="fr-deschidere__lead">
+			<?php echo fr_card_articol( $fr_lead, 'mare' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+			<?php if ( $fr_secundare ) : ?>
+				<div class="fr-secundare">
+					<?php foreach ( $fr_secundare as $p ) : ?>
+						<?php echo fr_card_articol( $p, 'card' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+					<?php endforeach; ?>
+				</div>
+			<?php endif; ?>
+		</div>
 		<?php if ( $fr_ultimele ) : ?>
 			<aside class="fr-card fr-ultimele" aria-labelledby="fr-ultimele-titlu">
 				<h2 class="fr-titlu-sectiune" id="fr-ultimele-titlu">Ultimele știri</h2>

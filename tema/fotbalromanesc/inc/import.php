@@ -143,6 +143,9 @@ function fr_importa_articol( $item, $cale ) {
 				'post_content' => wp_kses_post( $item['continut'] ),
 			) );
 			update_post_meta( $exista[0], '_fr_actualizat', $act );
+			if ( isset( $item['importanta'] ) ) {
+				update_post_meta( $exista[0], '_fr_importanta', max( 0, min( 3, (int) $item['importanta'] ) ) );
+			}
 			if ( isset( $item['hashtaguri'] ) ) {
 				update_post_meta( $exista[0], '_fr_hashtaguri', array_slice( array_map( 'sanitize_text_field', (array) $item['hashtaguri'] ), 0, 15 ) );
 			}
@@ -161,6 +164,7 @@ function fr_importa_articol( $item, $cale ) {
 		'tags_input'   => array_map( 'sanitize_text_field', (array) ( $item['etichete'] ?? array() ) ),
 		'meta_input'   => array(
 			'_fr_sursa'      => sanitize_text_field( $item['id'] ),
+			'_fr_importanta' => max( 0, min( 3, (int) ( $item['importanta'] ?? 0 ) ) ),
 			'_fr_hashtaguri' => array_slice( array_map( 'sanitize_text_field', (array) ( $item['hashtaguri'] ?? array() ) ), 0, 15 ),
 		),
 	);

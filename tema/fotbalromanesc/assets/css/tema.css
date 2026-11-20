@@ -221,6 +221,9 @@ h1, h2, h3 { line-height: 1.15; }
 
 /* Prima pagină hibridă */
 .fr-prima { display: flex; flex-direction: column; gap: 36px; padding-top: 24px; padding-bottom: 40px; }
+.fr-secundare { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 24px; }
+.fr-secundare .fr-articol { height: 100%; }
+@media (max-width: 760px) { .fr-secundare { grid-template-columns: minmax(0, 1fr); gap: 16px; margin-top: 16px; } }
 .fr-deschidere { display: grid; grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr); gap: 24px; align-items: start; }
 .fr-ultimele ol { list-style: none; margin: 14px 0 0; padding: 0; counter-reset: ult; }
 .fr-ultimele li { display: flex; flex-direction: column; gap: 4px; padding: 12px 0 12px 34px; border-top: 1px solid var(--fr-linie-2); position: relative; counter-increment: ult; }
