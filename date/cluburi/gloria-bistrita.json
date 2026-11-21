@@ -1,0 +1,230 @@
+{
+ "nume": "Gloria Bistrița",
+ "oras": "Bistrița",
+ "site": "https://gloria2018.ro/",
+ "stadion": {
+  "nume": "Stadionul Jean Pădureanu",
+  "capacitate": 7800,
+  "maps": "https://maps.google.com/?q=Stadionul+Jean+Padureanu+Bistrita"
+ },
+ "antrenor": {
+  "nume": "Sebastian Moga",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nr": 22,
+   "nume": "Alexandru Greab",
+   "post": "portar",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Fabio Blaga",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Iosif Berințan",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 1,
+   "nume": "Alexander Frunză",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 27,
+   "nume": "Emmanuel Asibey",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "Ghana"
+  },
+  {
+   "nr": 6,
+   "nume": "Viorel Lică",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Darius Iurașciuc",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Cătălin Șofroni",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Dragoș Rîpeanu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 24,
+   "nume": "Sergiu Pîrvulescu",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Costyn Gheorghe",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Antonio Bradu",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 13,
+   "nume": "Branimir Cavar",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "Croația"
+  },
+  {
+   "nr": 25,
+   "nume": "Levan Osikmashvili",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "Georgia"
+  },
+  {
+   "nume": "Denis Zanc",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 78,
+   "nume": "Onișor Covaci",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Silviu Simion",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 80,
+   "nume": "Patrik Năsăudean",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 59,
+   "nume": "Mehdi Lehaire",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "Belgia"
+  },
+  {
+   "nr": 20,
+   "nume": "Antonio Suciu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Răzvan Mogoș",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Mihai Bara",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cătălin Ciobănică",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 26,
+   "nume": "Ibuchi Chukwu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nr": 9,
+   "nume": "Jimmy King",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nr": 19,
+   "nume": "Arnaud Randrianantenaina",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "Madagascar"
+  },
+  {
+   "nr": 99,
+   "nume": "Darius Grigore",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Marius Lupu",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Emmanuel Mensah",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "Ghana"
+  },
+  {
+   "nume": "Patric Barabaș",
+   "post": "atacant",
+   "varsta": 16,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-21",
+ "surse": [
+  "https://gloria2018.ro/echipa/cs-gloria-2018-bistrita-nasaud-f/echipa/",
+  "https://liga2.prosport.ro/seria-1/sebastian-moga-noul-antrenor-principal-al-cs-gloria-bistrita-19404551",
+  "https://en.wikipedia.org/wiki/CS_Gloria_Bistri%C8%9Ba_(football)",
+  "https://ro.wikipedia.org/wiki/CS_Gloria_Bistri%C8%9Ba_(fotbal)",
+  "https://en.wikipedia.org/wiki/Jean_P%C4%83dureanu_Stadium",
+  "https://www.transfermarkt.com/1-fc-gloria-bistrita/kader/verein/72860/plus/1"
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "nume": "Comunal Șelimbăr",
+ "oras": "Șelimbăr",
+ "site": "https://www.csc1599selimbar.ro/",
+ "stadion": {
+  "nume": "Stadionul Municipal (Sibiu)",
+  "capacitate": 12363,
+  "maps": "https://maps.google.com/?q=Stadionul+Municipal+Sibiu"
+ },
+ "antrenor": {
+  "nume": "Dragoș Militaru",
+  "nationalitate": "România",
+  "varsta": 36
+ },
+ "lot": [
+  {
+   "nr": 11,
+   "nume": "Alexandru Stoian",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Raul Băilă",
+   "post": "portar",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 68,
+   "nume": "Rareș Măluțan",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Deniz Giafer",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Tudor Ivan",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Răzvan Călugăr",
+   "post": "fundas"
+  },
+  {
+   "nr": 6,
+   "nume": "Ciprian Natea",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "Kamil Wiktorski",
+   "post": "fundas",
+   "varsta": 33,
+   "nationalitate": "Polonia"
+  },
+  {
+   "nume": "Lucian Buzan",
+   "post": "fundas"
+  },
+  {
+   "nr": 77,
+   "nume": "Tudor Teclean",
+   "post": "fundas"
+  },
+  {
+   "nr": 8,
+   "nume": "Baba Ayne",
+   "post": "mijlocas"
+  },
+  {
+   "nr": 10,
+   "nume": "Daniel Benzar",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Robert Boboc",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andreas Birbic",
+   "post": "mijlocas"
+  },
+  {
+   "nume": "Eduard Lenghel",
+   "post": "mijlocas"
+  },
+  {
+   "nr": 23,
+   "nume": "Ianis Mihart",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 33,
+   "nume": "Alexandru Luca",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 75,
+   "nume": "Patrick Florea",
+   "post": "mijlocas"
+  },
+  {
+   "nr": 7,
+   "nume": "Petrișor Petrescu",
+   "post": "atacant",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Patrick Vuc",
+   "post": "atacant"
+  },
+  {
+   "nr": 13,
+   "nume": "Cosmin Bucuroiu",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-21",
+ "surse": [
+  "https://www.csc1599selimbar.ro/echipa",
+  "https://www.csc1599selimbar.ro/staff",
+  "https://www.csc1599selimbar.ro/stiri/primele-impresii-ale-antrenorului-nostru-dragos-militaru",
+  "https://liga2.prosport.ro/seria-1/primele-declaratii-ale-lui-dragos-militaru-dupa-instalarea-la-csc-selimbar-19407675",
+  "https://www.flashscore.ro/stiri/fotbal-liga-2-casa-pariurilor-o-echipa-din-liga-2-profita-de-falimentul-lui-fc-hermannstadt-si-va-juca-meciurile-de-acasa-la-sibiu/Kxg7Z7G5/",
+  "https://en.wikipedia.org/wiki/CSC_1599_%C8%98elimb%C4%83r",
+  "https://en.wikipedia.org/wiki/Sibiu_Municipal_Stadium",
+  "https://www.sport.ro/liga-1/stadionul-din-sibiu-a-fost-omologat-cand-se-joaca-primul-meci.html",
+  "https://www.transfermarkt.com/viitorul-selimbar/kader/verein/78257/plus/1"
+ ]
+}

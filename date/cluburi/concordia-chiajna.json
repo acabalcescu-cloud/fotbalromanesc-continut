@@ -1,0 +1,270 @@
+{
+ "nume": "Concordia Chiajna",
+ "oras": "Chiajna",
+ "fondat": 1957,
+ "site": "https://csconcordia.ro/",
+ "stadion": {
+  "nume": "Stadionul Concordia",
+  "maps": "https://maps.google.com/?q=Stadionul+Concordia+Chiajna"
+ },
+ "antrenor": {
+  "nume": "Adrian Scarlatache",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Adrian Briciu",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 26,
+   "nume": "Yanis Stanciu",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "Filip Munteanu",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Andrei",
+   "post": "portar",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Mihai Bălașa",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Luis Pareja",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 6,
+   "nume": "Ionuț Pop",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Iosua Huluba",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 24,
+   "nume": "Darius Fălcușan",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 29,
+   "nume": "Cristian Licsandru",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Dăncuș",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Denis Dumitrașcu",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Mihai Dobrescu",
+   "post": "fundas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ilie Culda",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Florea",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Ian Soler",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 16,
+   "nume": "Álex Gualda",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 15,
+   "nume": "Aurelian Ciuciulete",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 33,
+   "nume": "Darius Ghindovean",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Ousman Marong",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "Gambia"
+  },
+  {
+   "nume": "Sebastian Banu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Ianis Pădureanu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 27,
+   "nume": "Mihai Toma",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Sergio Carrasco",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "Spania"
+  },
+  {
+   "nume": "Santi Samanes",
+   "post": "atacant",
+   "varsta": 31,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 11,
+   "nume": "Alexis Chamorro",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 28,
+   "nume": "George Ganea",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Ștefan Pănoiu",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Robert Ion",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Nicolae Carnat",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Popa",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Alexandru Jipa",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Stoian",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Andreas Chirițoiu",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Raul Rotund",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 25,
+   "nume": "Din Sula",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "Albania"
+  }
+ ],
+ "actualizat": "2026-11-21",
+ "surse": [
+  "https://csconcordia.ro/team/cs-concordia-chiajna/",
+  "https://csconcordia.ro/stadion/",
+  "https://liga2.prosport.ro/echipe/concordia-chiajna",
+  "https://en.wikipedia.org/wiki/CS_Concordia_Chiajna",
+  "https://ro.wikipedia.org/wiki/CS_Concordia_Chiajna",
+  "https://www.sport.ro/liga-2/adrian-scarlatache-la-primul-contract-ca-antrenor-principal.html",
+  "https://www.transfermarkt.com/concordia-chiajna/kader/verein/15945/plus/1"
+ ]
+}

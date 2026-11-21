@@ -1,0 +1,194 @@
+{
+ "nume": "FC Bacău",
+ "oras": "Bacău",
+ "site": "https://fcbacau.ro/",
+ "stadion": {
+  "nume": "Stadionul FC Bacău (Ruși-Ciutea)",
+  "maps": "https://maps.google.com/?q=Baza+Sportiva+FC+Bacau+Rusi-Ciutea"
+ },
+ "antrenor": {
+  "nume": "Costel Enache",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Lucian Anton",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "Maxim Gumenco",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nume": "Luca Chișăreanu",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Edoardo Alloj",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "Italia"
+  },
+  {
+   "nr": 4,
+   "nume": "Luca Agapi",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Bogdan Forizs",
+   "post": "fundas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 13,
+   "nume": "Mario Bordea",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Abel Coajă",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Diego Burlacu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Federico Baciu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Carlos Inglada",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "Spania"
+  },
+  {
+   "nume": "Marko Jurić",
+   "post": "fundas",
+   "varsta": 32,
+   "nationalitate": "Croația"
+  },
+  {
+   "nr": 8,
+   "nume": "Robert Albu",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Gabriel Cîrstean",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 18,
+   "nume": "Codrin Oasenegre",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Baban",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Tomás Lacerda",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nume": "Romario Moise",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Patrick Petre",
+   "post": "mijlocas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cassius Ndoci",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Paul Mitrică",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Daniele Luncașu",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Robert Ciobanu",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Gîrbiță",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Andreas Niță",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Andrei Pavel",
+   "post": "atacant",
+   "varsta": 34,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-21",
+ "surse": [
+  "https://fcbacau.ro/liga-2/echipa/",
+  "https://fcbacau.ro/stadionul-fc-bacau/",
+  "https://liga2.prosport.ro/echipe/fc-bacau",
+  "https://en.wikipedia.org/wiki/ACS_FC_Bac%C4%83u",
+  "https://ro.wikipedia.org/wiki/ACS_FC_Bac%C4%83u"
+ ]
+}

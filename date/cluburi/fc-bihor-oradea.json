@@ -1,0 +1,216 @@
+{
+ "nume": "FC Bihor Oradea",
+ "oras": "Oradea",
+ "site": "https://www.fcbihor.ro/",
+ "stadion": {
+  "nume": "Stadionul Iuliu Bodola",
+  "maps": "https://maps.google.com/?q=Stadionul+Iuliu+Bodola+Oradea"
+ },
+ "antrenor": {
+  "nume": "Erik Lincar",
+  "nationalitate": "România",
+  "varsta": 48
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Iustin Chirilă",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "Edgar Cadar",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 79,
+   "nume": "Mihai Oneț",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Szabolcs Kilyén",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Andrei Gal",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Abel Popa",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Pedro Albino",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nr": 21,
+   "nume": "Paul Antoche",
+   "post": "fundas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 67,
+   "nume": "Mihai Velisar",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 71,
+   "nume": "Sorin Șerban",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 77,
+   "nume": "Peter Gal-Andrezly",
+   "post": "fundas",
+   "varsta": 36,
+   "nationalitate": "Slovacia"
+  },
+  {
+   "nr": 88,
+   "nume": "Eduard Duțu",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Nik Jermol",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "Slovenia"
+  },
+  {
+   "nr": 6,
+   "nume": "Tudor Călin",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Alex Orban",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Alexandru Bota",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Ioan Filip",
+   "post": "mijlocas",
+   "varsta": 37,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Antonio Cruceru",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 25,
+   "nume": "Angelo Cocian",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 28,
+   "nume": "Dragoș Tescan",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 80,
+   "nume": "Florian Haită",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Ioan Hora",
+   "post": "atacant",
+   "varsta": 38,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Nicu Modan",
+   "post": "atacant",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Ilija Bagaric",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Bosnia și Herțegovina"
+  },
+  {
+   "nr": 18,
+   "nume": "Mark Moruț",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 32,
+   "nume": "Alexandru Boiciuc",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nr": 99,
+   "nume": "Jozef Dolny",
+   "post": "atacant",
+   "varsta": 34,
+   "nationalitate": "Slovacia"
+  }
+ ],
+ "actualizat": "2026-11-21",
+ "surse": [
+  "https://www.fcbihor.ro/echipa/staff_tehnic",
+  "https://www.fcbihor.ro/echipa/portari",
+  "https://www.fcbihor.ro/echipa/fundasi",
+  "https://www.fcbihor.ro/echipa/mijlocasi",
+  "https://www.fcbihor.ro/echipa/atacanti",
+  "https://liga2.prosport.ro/echipe/fc-bihor-oradea",
+  "https://en.wikipedia.org/wiki/FC_Bihor_Oradea_(2022)",
+  "https://www.transfermarkt.com/fc-bihor-1902/kader/verein/101331/plus/1"
+ ]
+}
