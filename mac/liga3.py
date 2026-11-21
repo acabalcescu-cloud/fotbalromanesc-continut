@@ -2,7 +2,7 @@
 """Liga 3: rezumatul fiecărei serii după rundă. Rulează sâmbătă seara, duminică și luni dimineața, fără AI.
 
 Runda se joacă vineri și sâmbătă. Pentru fiecare serie 1–8 care nu are încă articol pentru weekendul
-curent (articole/<data>-liga3-seriaN-*.json, cu data vineri…luni), pornește câte o sesiune Claude.
+curent (articole/<data>-liga3-seriaN-rundaR.json, cu data vineri…luni; știrile din serie nu contează), pornește câte o sesiune Claude.
 O serie încercată fără succes se reîncearcă la rularea următoare.
 
 Rulare manuală:  python3 mac/liga3.py                 (toate seriile fără articol)
@@ -27,7 +27,7 @@ def vinerea_rundei():
 def are_articol(serie, vineri):
     for z in range(4):  # vineri, sâmbătă, duminică, luni
         zi = vineri + dt.timedelta(days=z)
-        if glob.glob(os.path.join(DEPOZIT, 'articole', f'{zi:%Y-%m-%d}-liga3-seria{serie}-*.json')):
+        if glob.glob(os.path.join(DEPOZIT, 'articole', f'{zi:%Y-%m-%d}-liga3-seria{serie}-runda*.json')):
             return True
     return False
 
