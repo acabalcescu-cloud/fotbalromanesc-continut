@@ -14,7 +14,7 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from comun import DEPOZIT, STARE, blocheaza, curl, git_pull, incarca, jurnal, ruleaza_claude, salveaza
+from comun import DEPOZIT, STARE, acum, blocheaza, curl, git_pull, incarca, jurnal, ruleaza_claude, salveaza
 
 CAUTARI = [
     'SuperLiga', 'SuperLiga antrenor demis', 'SuperLiga transfer', 'naționala României', 'selecționerul României',
@@ -59,12 +59,23 @@ def main():
         for c in noi:
             print('-', c['titlu'])
         return
-    if not noi:
+    # Știrea zilei se alege și când nu sunt titluri noi, dacă fixarea lipsește sau expiră până la rularea următoare.
+    fixat = incarca(os.path.join(DEPOZIT, 'presa', 'fixat.json'), {})
+    try:
+        pana = dt.datetime.strptime(fixat.get('pana_la', ''), '%Y-%m-%d %H:%M').replace(tzinfo=acum().tzinfo)
+    except (TypeError, ValueError):
+        pana = None
+    de_fixat = pana is None or pana < acum() + dt.timedelta(hours=7)
+    if not noi and not de_fixat:
         jurnal('stiri', 'Nimic nou.')
         return
     salveaza(os.path.join(STARE, 'stiri-candidati.json'), noi)
-    jurnal('stiri', f'{len(noi)} titluri noi, pornesc Claude.')
-    ruleaza_claude('stiri', 'prompt-stiri.md', 'Candidații sunt în `.stare-mac/stiri-candidati.json`.')
+    jurnal('stiri', f'{len(noi)} titluri noi' + (', știrea zilei de ales' if de_fixat else '') + ', pornesc Claude.')
+    context = 'Candidații sunt în `.stare-mac/stiri-candidati.json`.'
+    if de_fixat:
+        context += (' Fixarea din `presa/fixat.json` lipsește sau expiră înainte de rularea următoare: alege acum următoarea știre a zilei'
+                    ' (pasul 3): alt subiect decât cel fixat, cel mai prezent acum în presa națională.')
+    ruleaza_claude('stiri', 'prompt-stiri.md', context)
     vazute = set(incarca(VAZUTE_LOCAL, []))
     vazute.update(c['link'] for c in noi)
     salveaza(VAZUTE_LOCAL, sorted(vazute)[-5000:])
