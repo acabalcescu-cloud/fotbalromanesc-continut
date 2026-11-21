@@ -125,7 +125,7 @@ function fr_competitii_cu_date( $doar_prima = false ) {
 	}
 	$rez = array();
 	foreach ( $termeni as $t ) {
-		$are = get_term_meta( $t->term_id, 'fr_livescore', true ) || get_term_meta( $t->term_id, 'fr_echipa_livescore', true ) || fr_sursa_json( $t );
+		$are = get_term_meta( $t->term_id, 'fr_livescore', true ) || get_term_meta( $t->term_id, 'fr_echipa_livescore', true ) || get_term_meta( $t->term_id, 'fr_superscore', true ) || fr_sursa_json( $t );
 		if ( $are && ( ! $doar_prima || get_term_meta( $t->term_id, 'fr_pe_prima', true ) ) ) {
 			$rez[] = $t;
 		}
@@ -167,8 +167,22 @@ function fr_incarca_date( $term_id ) {
 	$ls   = get_term_meta( $term_id, 'fr_livescore', true );
 	$json = fr_sursa_json( get_term( $term_id, 'competitie' ) );
 	$nat  = get_term_meta( $term_id, 'fr_echipa_livescore', true );
+	$ss   = get_term_meta( $term_id, 'fr_superscore', true );
 	$date = null;
-	if ( $ls ) {
+	if ( $ss ) {
+		// SuperScore: program, scoruri, clasament; marcatorii vin din fișierul nostru, dacă există.
+		$din_json  = $json ? fr_date_din_json( $json ) : null;
+		$preferate = array_values( array_unique( array_merge(
+			array_column( (array) ( $din_json['clasament'] ?? array() ), 'echipa' ),
+			array_map( fn( $c ) => $c->name, (array) get_terms( array( 'taxonomy' => 'club', 'hide_empty' => false, 'meta_key' => 'fr_competitie', 'meta_value' => $term_id ) ) )
+		) ) );
+		$date = fr_date_superscore( $ss, $preferate );
+		if ( $date ) {
+			$date = fr_ss_cu_marcatori( $date, $din_json );
+		} elseif ( $din_json ) {
+			$date = $din_json;
+		}
+	} elseif ( $ls ) {
 		$date = fr_date_livescore( $ls );
 	} elseif ( $nat ) {
 		$meciuri = array_values( (array) get_option( 'fr_nat_' . (int) $term_id, array() ) );

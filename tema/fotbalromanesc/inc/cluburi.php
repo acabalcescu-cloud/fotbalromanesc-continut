@@ -48,13 +48,14 @@ function fr_sincronizeaza_cluburi( $max_sigle = 40 ) {
 			continue; // naționalele nu au cluburi
 		}
 		$d = fr_date_competitie( $t->term_id );
-		if ( is_array( $d ) && 'LiveScore' === ( $d['sursa'] ?? '' ) && ! isset( $d['sigle'] ) ) {
+		if ( is_array( $d ) && in_array( $d['sursa'] ?? '', array( 'LiveScore', 'SuperScore' ), true ) && ! isset( $d['sigle'] ) ) {
 			$d = fr_incarca_date( $t->term_id ); // copie veche, fără steme
 		}
-		if ( ! $d || empty( $d['clasament'] ) ) {
+		if ( ! $d || empty( $d['clasament'] ) || ! empty( $d['fara_cluburi'] ) ) {
 			continue;
 		}
 		$din_livescore = 'LiveScore' === ( $d['sursa'] ?? '' );
+		$cu_sigle      = in_array( $d['sursa'] ?? '', array( 'LiveScore', 'SuperScore' ), true );
 		foreach ( $d['clasament'] as $r ) {
 			$brut = $r['echipa'];
 			$club = fr_club_dupa_nume_date( $brut );
@@ -78,8 +79,9 @@ function fr_sincronizeaza_cluburi( $max_sigle = 40 ) {
 			// Competiția curentă (se schimbă la promovare sau retrogradare).
 			update_term_meta( $club->term_id, 'fr_competitie', $t->term_id );
 			// Stema, o singură dată, descărcată pe site.
-			if ( $din_livescore && $sigle < $max_sigle && ! get_term_meta( $club->term_id, 'fr_sigla', true ) && ! empty( $d['sigle'][ $brut ] ) ) {
-				$url = fr_descarca_sigla( FR_SIGLE_LIVESCORE . ltrim( $d['sigle'][ $brut ], '/' ), $club->name );
+			if ( $cu_sigle && $sigle < $max_sigle && ! get_term_meta( $club->term_id, 'fr_sigla', true ) && ! empty( $d['sigle'][ $brut ] ) ) {
+				$sursa_sigla = (string) $d['sigle'][ $brut ];
+				$url = fr_descarca_sigla( 0 === strpos( $sursa_sigla, 'http' ) ? $sursa_sigla : FR_SIGLE_LIVESCORE . ltrim( $sursa_sigla, '/' ), $club->name );
 				$sigle++;
 				if ( $url ) {
 					update_term_meta( $club->term_id, 'fr_sigla', $url );
@@ -110,6 +112,18 @@ function fr_descarca_sigla( $url, $nume ) {
 	}
 	$ext = strtolower( pathinfo( (string) wp_parse_url( $url, PHP_URL_PATH ), PATHINFO_EXTENSION ) );
 	$ext = in_array( $ext, array( 'png', 'jpg', 'jpeg', 'webp' ), true ) ? $ext : 'png';
+	if ( 'webp' === $ext && function_exists( 'wp_get_image_editor' ) ) {
+		// WebP (SuperScore): îl salvăm ca PNG, ca să meargă peste tot (inclusiv în copertele generate).
+		$ed = wp_get_image_editor( $tmp );
+		if ( ! is_wp_error( $ed ) ) {
+			$png = $ed->save( $tmp . '.png', 'image/png' );
+			if ( ! is_wp_error( $png ) && ! empty( $png['path'] ) ) {
+				wp_delete_file( $tmp );
+				$tmp = $png['path'];
+				$ext = 'png';
+			}
+		}
+	}
 	$id  = media_handle_sideload( array( 'name' => sanitize_title( $nume ) . '-stema.' . $ext, 'tmp_name' => $tmp ), 0, 'Stema ' . $nume );
 	if ( is_wp_error( $id ) ) {
 		update_option( 'fr_sigla_ultima_eroare', $id->get_error_message(), false );

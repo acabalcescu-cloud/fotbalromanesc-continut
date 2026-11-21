@@ -48,6 +48,7 @@ function fr_campuri_competitie() {
 	return array(
 		'fr_ordine'      => array( 'Ordinea în meniu', 'number', 'Numerele mici apar primele.' ),
 		'fr_livescore'   => array( 'Sursa LiveScore', 'text', 'Calea competiției în LiveScore, de exemplu romania/liga-1 sau romania/liga-ii. Gol = fără date automate.' ),
+		'fr_superscore'  => array( 'Sursa SuperScore', 'text', 'Competiția din superscore.live, de exemplu liga-3/i5ry2e11#4 (Liga 3, seria 4) sau romania-cup/nm72ecss. Are prioritate față de LiveScore și de fișierul JSON.' ),
 		'fr_echipa_livescore' => array( 'Echipa în LiveScore (naționale)', 'text', 'Pentru naționale: numele exact al echipei, ex. Romania sau Romania U21. Tema adună meciurile ei din toate competițiile (preliminarii, Liga Națiunilor, amicale).' ),
 		'fr_date_json'   => array( 'Fișier JSON cu date', 'url', 'Pentru competițiile fără LiveScore (Liga 3): adresa unui fișier cu clasamentul și meciurile. Formatul e descris în README.' ),
 		'fr_neoficial'   => array( 'Date neoficiale', 'checkbox', 'Afișează mențiunea „date neoficiale” lângă clasament.' ),
