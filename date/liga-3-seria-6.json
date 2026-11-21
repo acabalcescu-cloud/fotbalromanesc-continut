@@ -1,12 +1,13 @@
 {
- "actualizat": "2026-11-19 18:20",
+ "actualizat": "2026-11-21 20:15",
  "surse": [
-  "https://liga2.prosport.ro/liga-3/etapa-13-din-liga-3-primul-meci-al-zilei-s-a-incheiat-altele-20-se-disputa-acum-doar-trei-echipe-mai-sunt-neinvinse-in-acest-sezon-19407567",
+  "https://liga2.prosport.ro/liga-3/etapa-14-din-liga-3-primul-meci-al-zilei-se-disputa-acum-altele-19-incep-la-ora-1400-doar-doua-echipe-sunt-neinvinse-in-acest-sezon-19407947",
   "https://liga2.prosport.ro/liga-3-clasament",
-  "https://servuspress.ro/minerul-lupeni-scorul-etapei-in-liga-3_352046.html",
-  "https://www.gorjeanul.ro/actualitate/trei-la-rand-pentru-fotbalistii-de-la-csm-targu-jiu-care-au-intors-rezultatul-la-filiasi/",
-  "https://newsflux.ro/oltul-curtisoara-victorie-dupa-o-dubla-spectaculoasa-a-lui-adrian-nita/",
-  "https://www.zvj.ro/articole-74710-Fotbal++Liga+3++Minerul+Lupeni+deschide+balul+la+Bascov.html"
+  "https://www.gorjonline.ro/csm-targu-jiu-remiza-pe-teren-propriu-cu-pausesti-otasau-scor-1-1/",
+  "https://gazetaoltului.ro/sport/1-academica-bals-a-spulberat-petrolul-hartiesti-victorie-cu-7-0/",
+  "https://www.gazetanoua.ro/academica-bals-a-defilat-la-colonesti-7-0-cu-petrolul-hartiesti.html",
+  "https://www.gazetanoua.ro/oltul-curtisoara-infrangere-pe-terenul-celor-de-la-universitatea-craiova-ii.html",
+  "https://newsflux.ro/oltul-curtisoara-infrangere-usturatoare-in-deplasarea-de-la-universitatea-craiova-ii/"
  ],
  "clasament": [
   {
@@ -20,10 +21,10 @@
   {
    "loc": 2,
    "echipa": "CSM Târgu Jiu",
-   "meciuri": 13,
-   "gm": 23,
-   "gp": 12,
-   "pct": 27
+   "meciuri": 14,
+   "gm": 24,
+   "gp": 13,
+   "pct": 28
   },
   {
    "loc": 3,
@@ -35,6 +36,14 @@
   },
   {
    "loc": 4,
+   "echipa": "Universitatea Craiova 2",
+   "meciuri": 14,
+   "gm": 23,
+   "gp": 13,
+   "pct": 23
+  },
+  {
+   "loc": 5,
    "echipa": "Jiul Petroșani",
    "meciuri": 13,
    "gm": 18,
@@ -42,28 +51,20 @@
    "pct": 21
   },
   {
-   "loc": 5,
-   "echipa": "Oltul Curtișoara",
-   "meciuri": 13,
-   "gm": 22,
-   "gp": 22,
-   "pct": 21
-  },
-  {
    "loc": 6,
-   "echipa": "Universitatea Craiova 2",
-   "meciuri": 13,
-   "gm": 19,
-   "gp": 13,
-   "pct": 20
+   "echipa": "Oltul Curtișoara",
+   "meciuri": 14,
+   "gm": 22,
+   "gp": 26,
+   "pct": 21
   },
   {
    "loc": 7,
    "echipa": "FC Păușești Otăsău",
-   "meciuri": 13,
-   "gm": 17,
-   "gp": 17,
-   "pct": 18
+   "meciuri": 14,
+   "gm": 18,
+   "gp": 18,
+   "pct": 19
   },
   {
    "loc": 8,
@@ -83,6 +84,14 @@
   },
   {
    "loc": 10,
+   "echipa": "Academica Balș",
+   "meciuri": 14,
+   "gm": 21,
+   "gp": 18,
+   "pct": 13
+  },
+  {
+   "loc": 11,
    "echipa": "Vulturii Fărcășești",
    "meciuri": 13,
    "gm": 17,
@@ -90,19 +99,11 @@
    "pct": 12
   },
   {
-   "loc": 11,
-   "echipa": "Academica Balș",
-   "meciuri": 13,
-   "gm": 14,
-   "gp": 18,
-   "pct": 10
-  },
-  {
    "loc": 12,
    "echipa": "Petrolul Hârtiești",
-   "meciuri": 13,
+   "meciuri": 14,
    "gm": 6,
-   "gp": 50,
+   "gp": 57,
    "pct": 0
   }
  ],
@@ -305,42 +306,121 @@
    "data": "2026-11-20T14:00:00+02:00",
    "runda": "14",
    "gazde": "Unirea Bascov",
-   "oaspeti": "Minerul Lupeni"
+   "oaspeti": "Minerul Lupeni",
+   "scor": null
   },
   {
    "id": "s6r14b",
    "data": "2026-11-20T14:00:00+02:00",
    "runda": "14",
    "gazde": "Petrolul Hârtiești",
-   "oaspeti": "Academica Balș"
+   "oaspeti": "Academica Balș",
+   "scor": [
+    0,
+    7
+   ],
+   "marcatori": {
+    "gazde": [],
+    "oaspeti": [
+     {
+      "nume": "Uwadiegwu",
+      "minut": "16",
+      "tip": ""
+     },
+     {
+      "nume": "Militaru",
+      "minut": "38",
+      "tip": ""
+     },
+     {
+      "nume": "Catrina",
+      "minut": "53",
+      "tip": ""
+     },
+     {
+      "nume": "Uwadiegwu",
+      "minut": "56",
+      "tip": ""
+     },
+     {
+      "nume": "Uwadiegwu",
+      "minut": "63",
+      "tip": ""
+     },
+     {
+      "nume": "Manea",
+      "minut": "76",
+      "tip": ""
+     },
+     {
+      "nume": "Moise",
+      "minut": "82",
+      "tip": ""
+     }
+    ]
+   }
   },
   {
    "id": "s6r14c",
-   "data": "2026-11-20T14:00:00+02:00",
+   "data": "2026-11-20T17:00:00+02:00",
    "runda": "14",
    "gazde": "CSM Târgu Jiu",
-   "oaspeti": "FC Păușești Otăsău"
+   "oaspeti": "FC Păușești Otăsău",
+   "scor": [
+    1,
+    1
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Lupuleț",
+      "minut": "77",
+      "tip": ""
+     }
+    ],
+    "oaspeti": [
+     {
+      "nume": "Yameogo",
+      "minut": "88",
+      "tip": ""
+     }
+    ]
+   }
   },
   {
    "id": "s6r14d",
    "data": "2026-11-21T14:00:00+02:00",
    "runda": "14",
    "gazde": "Vulturii Fărcășești",
-   "oaspeti": "ACSO Filiași"
+   "oaspeti": "ACSO Filiași",
+   "scor": null
   },
   {
    "id": "s6r14e",
    "data": "2026-11-21T14:00:00+02:00",
    "runda": "14",
    "gazde": "Universitatea Craiova 2",
-   "oaspeti": "Oltul Curtișoara"
+   "oaspeti": "Oltul Curtișoara",
+   "scor": [
+    4,
+    0
+   ]
   },
   {
    "id": "s6r14f",
    "data": "2026-11-21T17:00:00+02:00",
    "runda": "14",
    "gazde": "Jiul Petroșani",
-   "oaspeti": "CS Drobeta Turnu Severin"
+   "oaspeti": "CS Drobeta Turnu Severin",
+   "scor": null
+  },
+  {
+   "id": "s6r15a",
+   "data": "2026-11-27T14:00:00+02:00",
+   "runda": "15",
+   "gazde": "Academica Balș",
+   "oaspeti": "Unirea Bascov",
+   "scor": null
   }
  ]
 }
