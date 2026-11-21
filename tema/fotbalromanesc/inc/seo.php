@@ -310,7 +310,11 @@ add_action( 'init', function () {
 
 add_filter( 'robots_txt', function ( $txt, $public ) {
 	if ( $public ) {
-		$txt .= "\nSitemap: " . home_url( '/wp-sitemap.xml' ) . "\nSitemap: " . home_url( '/news-sitemap.xml' ) . "\n";
+		// WordPress scrie deja linia pentru wp-sitemap.xml; adăugăm doar ce lipsește.
+		if ( false === strpos( $txt, '/wp-sitemap.xml' ) ) {
+			$txt .= "\nSitemap: " . home_url( '/wp-sitemap.xml' );
+		}
+		$txt .= "\nSitemap: " . home_url( '/news-sitemap.xml' ) . "\n";
 	}
 	return $txt;
 }, 10, 2 );
@@ -320,3 +324,10 @@ add_action( 'transition_post_status', function ( $nou, $vechi, $post ) {
 		do_action( 'litespeed_purge', 'fr_news' );
 	}
 }, 10, 3 );
+
+// Sitemap curat: fără conturile de utilizator (ar arăta numele de autentificare) și fără categoriile WordPress nefolosite.
+add_filter( 'wp_sitemaps_add_provider', fn( $p, $nume ) => 'users' === $nume ? false : $p, 10, 2 );
+add_filter( 'wp_sitemaps_taxonomies', function ( $t ) {
+	unset( $t['category'] );
+	return $t;
+} );
