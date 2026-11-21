@@ -278,6 +278,7 @@ add_action( 'rest_api_init', function () {
 			foreach ( get_terms( array( 'taxonomy' => 'club', 'hide_empty' => false, 'fields' => 'ids' ) ) as $cid ) {
 				delete_transient( 'fr_profil_' . $cid );
 			}
+			fr_reimprospateaza_toate(); // datele proaspete întâi, ca numele echipelor să fie cele de pe site
 			$create = fr_sincronizeaza_cluburi( 25 );
 			$total  = 0;
 			$cu     = 0;

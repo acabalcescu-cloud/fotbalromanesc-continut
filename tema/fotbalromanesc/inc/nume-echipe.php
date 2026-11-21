@@ -208,6 +208,26 @@ function fr_uneste_dubluri_cluburi() {
 	}
 	$reale  = array_filter( $toate, fn( $t ) => (bool) get_term_meta( $t->term_id, 'fr_competitie', true ) );
 	$unite  = 0;
+	// Cluburile create cu numele brute din SuperScore („Omega Bucuresti”) se unesc cu cele de pe site („ACS Omega Sport”).
+	if ( defined( 'FR_SS_ALIAS' ) ) {
+		foreach ( FR_SS_ALIAS as $brut => $bun ) {
+			foreach ( array_unique( array( $brut, trim( preg_replace( '/\bII\b/', '2', $brut ) ) ) ) as $n ) {
+				$dublura = get_term_by( 'name', $n, 'club' );
+				$real    = get_term_by( 'name', $bun, 'club' );
+				if ( $dublura && $real && $dublura->term_id !== $real->term_id ) {
+					foreach ( (array) get_objects_in_term( $dublura->term_id, 'club' ) as $pid ) {
+						wp_add_object_terms( (int) $pid, (int) $real->term_id, 'club' );
+					}
+					$comp = get_term_meta( $dublura->term_id, 'fr_competitie', true );
+					if ( $comp ) {
+						update_term_meta( $real->term_id, 'fr_competitie', $comp );
+					}
+					wp_delete_term( $dublura->term_id, 'club' );
+					$unite++;
+				}
+			}
+		}
+	}
 	foreach ( $toate as $t ) {
 		if ( get_term_meta( $t->term_id, 'fr_competitie', true ) ) {
 			continue;
