@@ -1,0 +1,26 @@
+{
+ "nume": "Metaloglobus București",
+ "oras": "București",
+ "fondat": 1936,
+ "site": "https://metaloglobusfc.ro/",
+ "stadion": {
+  "nume": "Clinceni Arena",
+  "capacitate": 4502,
+  "maps": "https://maps.google.com/?q=Clinceni+Arena+Clinceni+Ilfov"
+ },
+ "antrenor": {
+  "nume": "Ianis Zicu",
+  "nationalitate": "România",
+  "varsta": 43
+ },
+ "lot": [],
+ "actualizat": "2026-11-21",
+ "surse": [
+  "https://metaloglobusfc.ro/club/",
+  "https://metaloglobusfc.ro/stadion/",
+  "https://en.wikipedia.org/wiki/FC_Metaloglobus_Bucure%C8%99ti",
+  "https://liga2.prosport.ro/seria-1/meciurile-etapei-a-14-a-din-liga-2-sezonul-2026-2027-19408063",
+  "https://liga2.prosport.ro/seria-1/metaloglobus-si-scm-ramnicu-valcea-inchid-etapa-11-a-ligii-2-19405146",
+  "https://en.wikipedia.org/wiki/Ianis_Zicu"
+ ]
+}

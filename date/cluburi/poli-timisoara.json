@@ -1,0 +1,216 @@
+{
+ "nume": "Poli Timișoara",
+ "oras": "Timișoara",
+ "culori": "alb-violet",
+ "site": "https://www.politehnicatimisoara.com/",
+ "stadion": {
+  "nume": "Stadionul Electrica",
+  "capacitate": 5000,
+  "maps": "https://maps.google.com/?q=Stadionul+Electrica+Timisoara"
+ },
+ "antrenor": {
+  "nume": "Dan Alexa",
+  "nationalitate": "România",
+  "varsta": 47
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Sebastian Micu",
+   "post": "portar",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Luca Andrei Ungureanu",
+   "post": "portar",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Tudor Coșa",
+   "post": "portar",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Casian Rus",
+   "post": "portar",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Cornel Ene",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Pedro Paul",
+   "post": "fundas",
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nume": "András Huszti",
+   "post": "fundas",
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nr": 15,
+   "nume": "Aurel Vlaicu",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Călin Toma",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Ștefan Ștefanovici",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Radu Daniel Ciurel",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Robert Burlacu",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Raul Ailenei",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Stephan Drăghici",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Fabian Marincu",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Ion Vasluian",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 18,
+   "nume": "Andrei Artean",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Romario Benzar",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Raul Geo Gârlonța",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 25,
+   "nume": "Iosif Liviu Rotariu",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 26,
+   "nume": "Eric Adam",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ovidiu Marian Popescu",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alin Țegle",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 28,
+   "nume": "Mihai Dolghi",
+   "post": "mijlocas",
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nr": 29,
+   "nume": "Dan Ștefan Spătaru",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 32,
+   "nume": "Viorel Vîrtej",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Emanuel Dîrlea",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "David Popa",
+   "post": "atacant",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Aurelian Chițu",
+   "post": "atacant",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Vlad Morar",
+   "post": "atacant",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Kevin Appiah Nyarko",
+   "post": "atacant",
+   "nationalitate": "Germania"
+  },
+  {
+   "nume": "Ianis Doană",
+   "post": "atacant",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Alexandru Bonț",
+   "post": "atacant",
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-21",
+ "surse": [
+  "https://www.politehnicatimisoara.com/",
+  "https://www.politehnicatimisoara.com/echipe/stiinta-poli-timisoara",
+  "https://en.wikipedia.org/wiki/SSU_Politehnica_Timi%C8%99oara",
+  "https://en.wikipedia.org/wiki/Electrica_Stadium",
+  "https://www.sport.ro/fotbal-intern/reportaj-timisoara-orasul-care-respira-fotbal-in-aerul-din-liga-3-speranta-renasterii-reaprinsa-pe-malul-begai.html",
+  "https://liga2.prosport.ro/seria-1/meciurile-etapei-a-14-a-din-liga-2-sezonul-2026-2027-19408063",
+  "https://en.wikipedia.org/wiki/Dan_Alexa"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "nume": "Metalul Buzău",
+ "oras": "Buzău",
+ "fondat": 1954,
+ "site": "https://www.metalulbuzau.ro/",
+ "antrenor": {
+  "nume": "Valentin Stan",
+  "nationalitate": "România",
+  "varsta": 47
+ },
+ "lot": [],
+ "actualizat": "2026-11-21",
+ "surse": [
+  "https://en.wikipedia.org/wiki/AFC_Metalul_Buz%C4%83u",
+  "https://opiniabuzau.ro/steaua-a-tras-primul-foc-metalul-a-dat-lovitura-decisiva/",
+  "https://opiniabuzau.ro/metalul-inchide-etapa-cu-steaua-marti-seara-sub-lumina-reflectoarelor/",
+  "https://www.campusbuzau.ro/13-cu-noroc-metalul-a-intors-o-pe-steaua-si-s-a-impus-cu-2-1/",
+  "https://en.wikipedia.org/wiki/Valentin_Stan"
+ ]
+}

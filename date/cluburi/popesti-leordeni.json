@@ -1,0 +1,182 @@
+{
+ "nume": "Popești-Leordeni",
+ "oras": "Popești-Leordeni",
+ "fondat": 2011,
+ "culori": "alb-roșu",
+ "site": "https://scpopestileordeni.com/",
+ "stadion": {
+  "nume": "Clinceni Arena",
+  "capacitate": 4502,
+  "maps": "https://maps.google.com/?q=Clinceni+Arena+Clinceni+Ilfov"
+ },
+ "antrenor": {
+  "nume": "Petre Pașculea"
+ },
+ "lot": [
+  {
+   "nume": "Alexandru Achiriloaie",
+   "post": "portar",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marc Rădulescu",
+   "post": "portar",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Oprea",
+   "post": "portar",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Began",
+   "post": "portar",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Gheorghe",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Nicola",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Bobaru",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Nadolu",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Pătrășcoiu",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicolae Leafu",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicușor Fota",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Duțu",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Adrian Căpraru",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Sin",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Sora",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ayomide Raji",
+   "post": "mijlocas",
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nume": "Bogdan Fîrțînescu",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Balgiu",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Ciobanu",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eric Damașcan",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Leonard Boiangiu",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marius Tudorică",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Neicuțescu",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Patrick Mutu",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Enache",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Mustacă",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Iacob",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Wilfred Njindja",
+   "post": "mijlocas",
+   "nationalitate": "Camerun"
+  },
+  {
+   "nume": "Alexandru Dane",
+   "post": "atacant",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Ion",
+   "post": "atacant",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Quadri Olakunle Taiwo",
+   "post": "atacant",
+   "nationalitate": "Nigeria"
+  }
+ ],
+ "actualizat": "2026-11-21",
+ "surse": [
+  "https://scpopestileordeni.com/",
+  "https://scpopestileordeni.com/categorie-de-jucatori/fotbalisti/",
+  "https://en.wikipedia.org/wiki/SC_Pope%C8%99ti-Leordeni",
+  "https://metaloglobusfc.ro/stadion/",
+  "https://liga2.prosport.ro/seria-1/meciurile-etapei-a-14-a-din-liga-2-sezonul-2026-2027-19408063",
+  "https://liga2.prosport.ro/seria-1/sc-popesti-leordeni-a-castigat-la-bistrita-si-isi-continua-invincibilitatea-in-liga-2-19400754",
+  "https://www.sport.ro/liga-2/pe-cine-a-transferat-pana-acum-sc-popesti-leordeni-nou-promovata-surpriza-din-liga-2.html"
+ ]
+}

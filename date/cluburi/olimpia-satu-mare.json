@@ -1,0 +1,27 @@
+{
+ "nume": "Olimpia Satu Mare",
+ "oras": "Satu Mare",
+ "fondat": 2018,
+ "site": "https://csmolimpia.ro/",
+ "stadion": {
+  "nume": "Stadionul Olimpia – Daniel Prodan",
+  "capacitate": 18000,
+  "inaugurat": 1942,
+  "maps": "https://maps.google.com/?q=Stadionul+Daniel+Prodan+Satu+Mare"
+ },
+ "antrenor": {
+  "nume": "Robert Ilyeș",
+  "nationalitate": "România",
+  "varsta": 52
+ },
+ "lot": [],
+ "actualizat": "2026-11-21",
+ "surse": [
+  "https://en.wikipedia.org/wiki/CSM_Olimpia_Satu_Mare_(football)",
+  "https://en.wikipedia.org/wiki/Daniel_Prodan_Stadium",
+  "https://ro.soccerway.com/stiri/fotbal-liga-2-casa-pariurilor-nou-promovata-in-liga-2-va-avea-un-stadion-demn-de-superliga-romaniei/hpGNStxn",
+  "https://liga2.prosport.ro/seria-1/meciurile-etapei-a-14-a-din-liga-2-sezonul-2026-2027-19408063",
+  "https://www.flashscore.ro/stiri/fotbal-liga-2-casa-pariurilor-oficial-robert-ilyes-este-noul-antrenor-al-olimpiei-satu-mare-misiune-dificila/UFdbnjkQ/",
+  "https://en.wikipedia.org/wiki/R%C3%B3bert_Ily%C3%A9s"
+ ]
+}
