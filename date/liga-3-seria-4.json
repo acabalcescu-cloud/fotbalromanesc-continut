@@ -1,12 +1,14 @@
 {
- "actualizat": "2026-11-19 18:04",
+ "actualizat": "2026-11-21 20:05",
  "surse": [
   "https://www.viata-libera.ro/actual/265716-liga-a-iii-a-de-fotbal-branistea,-egalitate-pe-terenul-liderului",
   "https://www.monitoruldegalati.ro/sport/rocada-in-clasament-in-liga-a-3-a-la-fotbal.html",
   "https://ctsport.ro/2026/11/16/accidentarile-si-ratarile-au-privat-axiopolis-cernavoda-de-cel-putin-un-punct-la-calarasi/",
   "https://www.ziuaconstanta.ro/stiri/sport/liga-a-3-a-cs-agigea-in-plutonul-fruntas-dupa-a-treia-victorie-la-rand-edis-abibula-am-facut-efort-si-am-avut-atitudine-galerie-foto-960620.html",
   "https://www.ziuaconstanta.ro/stiri/sport/galerie-foto-liga-a-3-a-cs-agigea-a-inceput-cu-victorie-returul-sezonului-regular-etapa-a-12-a-rezultate-si-clasament-959703.html",
-  "https://www.independentonline.ro/2026/11/17/Scor-usturator-cu-repetitie-33350"
+  "https://www.independentonline.ro/2026/11/17/Scor-usturator-cu-repetitie-33350",
+  "https://ctsport.ro/2026/11/21/6-goluri-ratari-imense-erori-in-defensiva-si-un-punct-pentru-axiopolis-cernavoda/",
+  "https://liga2.prosport.ro/liga-3/etapa-14-din-liga-3-primul-meci-al-zilei-se-disputa-acum-altele-19-incep-la-ora-1400-doar-doua-echipe-sunt-neinvinse-in-acest-sezon-19407947"
  ],
  "clasament": [
   {
@@ -197,6 +199,77 @@
    "runda": "14",
    "gazde": "Recolta Gheorghe Doja",
    "oaspeti": "Dunărea Călărași",
+   "scor": null
+  },
+  {
+   "id": "s4r14c",
+   "data": "2026-11-20T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Axiopolis Cernavodă",
+   "oaspeti": "Oțelul Galați 2",
+   "scor": [
+    3,
+    3
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Ursache",
+      "minut": "31",
+      "tip": ""
+     },
+     {
+      "nume": "Ursache",
+      "minut": "65",
+      "tip": ""
+     },
+     {
+      "nume": "Grădinaru",
+      "minut": "86",
+      "tip": ""
+     }
+    ],
+    "oaspeti": [
+     {
+      "nume": "Iurea",
+      "minut": "6",
+      "tip": ""
+     },
+     {
+      "nume": "Munteanu",
+      "minut": "29",
+      "tip": ""
+     },
+     {
+      "nume": "Grădinaru",
+      "minut": "42",
+      "tip": "autogol"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s4r14d",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Unirea Braniștea",
+   "oaspeti": "Portul Constanța",
+   "scor": null
+  },
+  {
+   "id": "s4r14e",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Gloria Băneasa",
+   "oaspeti": "Înainte Modelu",
+   "scor": null
+  },
+  {
+   "id": "s4r14f",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Progresul Fundulea",
+   "oaspeti": "Agricola Borcea",
    "scor": null
   }
  ]
