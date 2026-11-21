@@ -184,7 +184,14 @@ function fr_importa_articol( $item, $cale ) {
 		wp_set_object_terms( $post_id, array( $comp ), 'competitie' );
 	}
 	if ( ! empty( $item['cluburi'] ) ) {
-		wp_set_object_terms( $post_id, array_map( 'sanitize_text_field', (array) $item['cluburi'] ), 'club' );
+		// Numele scrise altfel decât pe site („CSC Șelimbăr”) se leagă de clubul existent; doar cele cu adevărat noi creează club.
+		$termeni = array();
+		foreach ( (array) $item['cluburi'] as $n ) {
+			$n         = sanitize_text_field( $n );
+			$c         = fr_gaseste_club( $n );
+			$termeni[] = $c ? (int) $c->term_id : $n;
+		}
+		wp_set_object_terms( $post_id, $termeni, 'club' );
 	}
 	if ( $video ) {
 		set_post_format( $post_id, 'video' );
@@ -213,7 +220,7 @@ function fr_import_continut() {
 	}
 	$facute = (array) get_option( 'fr_import_facute', array() );
 	$cai    = (array) ( $index['articole'] ?? $index['cronici'] ?? array() );
-	foreach ( array_slice( $cai, 0, 200 ) as $cale ) {
+	foreach ( array_slice( $cai, 0, 600 ) as $cale ) {
 		$cale = (string) $cale;
 		if ( in_array( $cale, $facute, true ) ) {
 			continue;

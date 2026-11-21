@@ -130,3 +130,94 @@ function fr_club_dupa_nume_date( $nume ) {
 	$harta = fr_nume_implicite();
 	return isset( $harta[ $nume ], $cache[ $harta[ $nume ] ] ) ? $cache[ $harta[ $nume ] ] : null;
 }
+
+/**
+ * Cheia de comparare a unui nume de club: fără diacritice, fără prefixele juridice (CS, CSM, FC, ACS…) și fără anii din nume.
+ * „CSC Șelimbăr” → [selimbar], „FC Unirea 2004 Slobozia” → [unirea, slobozia].
+ */
+function fr_cuvinte_club( $nume ) {
+	$s = strtolower( remove_accents( (string) $nume ) );
+	$t = preg_split( '/[^a-z0-9]+/', $s, -1, PREG_SPLIT_NO_EMPTY );
+	$p = array( 'cs', 'csc', 'csm', 'csl', 'cso', 'csu', 'fc', 'acs', 'acso', 'asu', 'afc', 'sc', 'cf', 'fk', 'sk', 'as', 'club', 'sportiv' );
+	return array_values( array_filter( $t, fn( $w ) => ! in_array( $w, $p, true ) && ! preg_match( '/^(18|19|20)\d\d$/', $w ) ) );
+}
+
+/**
+ * Clubul existent pentru un nume scris oricum: întâi exact (sau numele din date), apoi după cuvinte.
+ * Potrivire după cuvinte: aceleași cuvinte, sau cuvintele numelui dat se regăsesc toate în numele clubului
+ * („CSC Șelimbăr” → „Comunal Șelimbăr”), dar niciodată invers („FCSB 2” nu devine „FCSB”). Doar dacă potrivirea e unică.
+ *
+ * @param WP_Term[]|null $candidati Cluburile între care se caută (implicit toate).
+ */
+function fr_gaseste_club( $nume, $candidati = null ) {
+	if ( null === $candidati ) {
+		$c = fr_club_dupa_nume_date( $nume );
+		if ( $c ) {
+			return $c;
+		}
+		$candidati = get_terms( array( 'taxonomy' => 'club', 'hide_empty' => false ) );
+		if ( is_wp_error( $candidati ) ) {
+			return null;
+		}
+	}
+	$cuv = fr_cuvinte_club( $nume );
+	if ( ! $cuv ) {
+		return null;
+	}
+	$egale   = array();
+	$incluse = array();
+	$cuprind = array();
+	foreach ( $candidati as $t ) {
+		$ct = fr_cuvinte_club( $t->name );
+		if ( $ct === $cuv ) {
+			$egale[] = $t;
+		} elseif ( ! array_diff( $cuv, $ct ) ) {
+			$incluse[] = $t;
+		} elseif ( $ct && ! array_diff( $ct, $cuv ) ) {
+			// Numele dat are cuvinte în plus („Rapid București” → „Rapid”); nu și echipele secunde („FCSB 2”, „Dinamo II”, „… B”).
+			$plus = array_diff( $cuv, $ct );
+			if ( ! array_filter( $plus, fn( $w ) => preg_match( '/^(\d+|i+|b|u\d+)$/', $w ) ) ) {
+				$cuprind[] = $t;
+			}
+		}
+	}
+	if ( 1 === count( $egale ) ) {
+		return $egale[0];
+	}
+	if ( $egale ) {
+		return null;
+	}
+	if ( 1 === count( $incluse ) ) {
+		return $incluse[0];
+	}
+	return ( ! $incluse && 1 === count( $cuprind ) ) ? $cuprind[0] : null;
+}
+
+/**
+ * Unește cluburile create din articole (fără competiție) cu clubul real echivalent: articolele trec la clubul real,
+ * dublura se șterge. Întoarce câte dubluri au fost unite.
+ */
+function fr_uneste_dubluri_cluburi() {
+	$toate = get_terms( array( 'taxonomy' => 'club', 'hide_empty' => false ) );
+	if ( is_wp_error( $toate ) ) {
+		return 0;
+	}
+	$reale  = array_filter( $toate, fn( $t ) => (bool) get_term_meta( $t->term_id, 'fr_competitie', true ) );
+	$unite  = 0;
+	foreach ( $toate as $t ) {
+		if ( get_term_meta( $t->term_id, 'fr_competitie', true ) ) {
+			continue;
+		}
+		$real = fr_gaseste_club( $t->name, $reale );
+		if ( ! $real || $real->term_id === $t->term_id ) {
+			continue;
+		}
+		$posturi = get_objects_in_term( $t->term_id, 'club' );
+		foreach ( (array) $posturi as $pid ) {
+			wp_add_object_terms( (int) $pid, (int) $real->term_id, 'club' );
+		}
+		wp_delete_term( $t->term_id, 'club' );
+		$unite++;
+	}
+	return $unite;
+}

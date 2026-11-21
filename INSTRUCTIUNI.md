@@ -30,7 +30,7 @@ Toate textele urmează `STIL.md`. Orele sunt în ora României.
 - **Fixarea în prima pagină:** `presa/fixat.json` = `{"id": "<id articol>", "subiect": "…", "acoperire": 9, "publicatii": […], "fixat_la": "2026-11-20 10:00", "pana_la": "2026-11-21 06:00"}`. Site-ul fixează articolul și îl desprinde singur la `pana_la` (cel mult 24 de ore). Subiectul se alege după acoperirea în presa națională: `python3 -I unelte/acoperire.py "<cuvinte cheie>"`.
 - `imagine` e opțională (fișierul stă lângă JSON, în `articole/`). `"status": "draft"` = ciornă.
 - `data_publicare` niciodată în viitor.
-- Articolul se adaugă **la începutul** listei `articole` din `index.json` (maximum 300 de intrări).
+- Articolul se adaugă **la începutul** listei `articole` din `index.json` (maximum 600 de intrări).
 
 ## Formatul datelor unei serii din Liga 3
 

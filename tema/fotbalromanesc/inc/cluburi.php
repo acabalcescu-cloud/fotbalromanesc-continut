@@ -91,6 +91,7 @@ function fr_sincronizeaza_cluburi( $max_sigle = 40 ) {
 	}
 	// Static cache din fr_club_dupa_nume_date nu mai e valabil după creări; nimic altceva de golit.
 	update_option( 'fr_cluburi_sincronizat', time(), false );
+	fr_uneste_dubluri_cluburi();
 	if ( $sigle >= $max_sigle ) {
 		// Au rămas steme de descărcat: încă o tură peste 2 minute.
 		wp_schedule_single_event( time() + 120, 'fr_sincronizare_cluburi' );
