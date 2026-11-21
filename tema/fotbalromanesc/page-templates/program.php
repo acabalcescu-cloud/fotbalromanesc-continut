@@ -19,7 +19,7 @@ $fr_azi   = ( new DateTime( 'today', new DateTimeZone( 'Europe/Bucharest' ) ) )-
 $fr_rez   = array_reverse( fr_meciuri_interval( $fr_lista, $fr_azi - 3 * DAY_IN_SECONDS, time() ) );
 $fr_rez   = array_values( array_filter( $fr_rez, fn( $m ) => 'programat' !== $m['stare'] ) );
 $fr_prog  = fr_meciuri_interval( $fr_lista, $fr_azi, $fr_azi + 8 * DAY_IN_SECONDS );
-$fr_prog  = array_values( array_filter( $fr_prog, fn( $m ) => 'terminat' !== $m['stare'] ) );
+$fr_prog  = array_values( array_filter( $fr_prog, fn( $m ) => ! in_array( $m['stare'], array( 'terminat', 'asteptare' ), true ) ) );
 ?>
 
 <section class="fr-pagina-cap">

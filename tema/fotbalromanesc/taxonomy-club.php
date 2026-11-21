@@ -50,7 +50,7 @@ $fr_rand_meci = function ( $m ) use ( $fr_nume, $fr_rezultat ) {
 	<li class="fr-rand-meci">
 		<span class="fr-rand-meci__data"><?php echo esc_html( fr_data_meci( $m['data'], 'data' ) ); ?><small><?php echo esc_html( is_numeric( $m['runda'] ) ? 'etapa ' . $m['runda'] : $m['runda'] ); ?></small></span>
 		<span class="fr-rand-meci__g<?php echo $m['gazde'] === $fr_nume ? ' fr-noi' : ''; ?>"><?php echo fr_echipa( $m['gazde'] ); // phpcs:ignore WordPress.Security.EscapeOutput ?></span>
-		<span class="fr-rand-meci__scor<?php echo esc_attr( $clasa ); ?>"><?php echo esc_html( $m['scor'] && 'programat' !== $m['stare'] ? $m['scor'][0] . '-' . $m['scor'][1] : fr_data_meci( $m['data'], 'ora' ) ); ?></span>
+		<span class="fr-rand-meci__scor<?php echo esc_attr( $clasa ); ?>"><?php echo esc_html( $m['scor'] && 'programat' !== $m['stare'] ? $m['scor'][0] . '-' . $m['scor'][1] : ( 'asteptare' === $m['stare'] ? '–' : fr_data_meci( $m['data'], 'ora' ) ) ); ?></span>
 		<span class="fr-rand-meci__o<?php echo $m['oaspeti'] === $fr_nume ? ' fr-noi' : ''; ?>"><?php echo fr_echipa( $m['oaspeti'] ); // phpcs:ignore WordPress.Security.EscapeOutput ?></span>
 		<span class="fr-rand-meci__link"><?php if ( $art ) : ?><a class="fr-buton fr-buton--mic" href="<?php echo esc_url( get_permalink( $art ) ); ?>">Cronica</a><?php endif; ?></span>
 	</li>

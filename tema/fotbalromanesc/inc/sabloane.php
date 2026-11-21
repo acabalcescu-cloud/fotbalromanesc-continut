@@ -126,7 +126,7 @@ function fr_tabel_clasament( $date, $opt = array() ) {
  * Cardul unui meci (banda de pe prima pagină, paginile de ligă și de club).
  */
 function fr_card_meci( $m, $cu_competitie = false ) {
-	$scor = $m['scor'] ? (int) $m['scor'][0] . '-' . (int) $m['scor'][1] : fr_data_meci( $m['data'], 'ora' );
+	$scor = $m['scor'] ? (int) $m['scor'][0] . '-' . (int) $m['scor'][1] : ( 'asteptare' === $m['stare'] ? '–' : fr_data_meci( $m['data'], 'ora' ) );
 	$clasa = 'fr-meci fr-meci--' . $m['stare'];
 	ob_start();
 	?>
@@ -139,6 +139,8 @@ function fr_card_meci( $m, $cu_competitie = false ) {
 					echo '<b class="fr-live">LIVE ' . esc_html( $m['minut'] ) . '</b>';
 				} elseif ( 'amanat' === $m['stare'] ) {
 					echo 'Amânat';
+				} elseif ( 'asteptare' === $m['stare'] ) {
+					echo esc_html( fr_data_meci( $m['data'], 'data' ) . ' · rezultat în curând' );
 				} elseif ( 'programat' === $m['stare'] ) {
 					echo esc_html( fr_data_meci( $m['data'], 'data' ) );
 				} else {

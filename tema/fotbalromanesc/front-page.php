@@ -15,8 +15,8 @@ $fr_comp_prima = fr_competitii_cu_date( true );
 $fr_meciuri    = fr_meciuri_interval( $fr_comp_prima, time() - DAY_IN_SECONDS, time() + 7 * DAY_IN_SECONDS );
 // Întâi meciurile în desfășurare și cele care urmează, apoi rezultatele recente.
 usort( $fr_meciuri, function ( $a, $b ) {
-	$ra = array( 'live' => 0, 'programat' => 1, 'terminat' => 2, 'amanat' => 3 )[ $a['stare'] ] ?? 3;
-	$rb = array( 'live' => 0, 'programat' => 1, 'terminat' => 2, 'amanat' => 3 )[ $b['stare'] ] ?? 3;
+	$ra = array( 'live' => 0, 'programat' => 1, 'asteptare' => 2, 'terminat' => 2, 'amanat' => 3 )[ $a['stare'] ] ?? 3;
+	$rb = array( 'live' => 0, 'programat' => 1, 'asteptare' => 2, 'terminat' => 2, 'amanat' => 3 )[ $b['stare'] ] ?? 3;
 	return $ra <=> $rb ?: ( 2 === $ra ? strcmp( $b['data'], $a['data'] ) : strcmp( $a['data'], $b['data'] ) );
 } );
 $fr_meciuri = array_slice( $fr_meciuri, 0, 16 );

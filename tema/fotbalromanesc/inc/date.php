@@ -362,7 +362,7 @@ function fr_date_din_json( $url ) {
 			'gazde'   => sanitize_text_field( $m['gazde'] ),
 			'oaspeti' => sanitize_text_field( $m['oaspeti'] ),
 			'scor'    => $scor,
-			'stare'   => in_array( $m['stare'] ?? '', array( 'terminat', 'programat', 'live', 'amanat' ), true ) ? $m['stare'] : ( $scor ? 'terminat' : 'programat' ),
+			'stare'   => fr_stare_json( $m['stare'] ?? '', $scor, $ts ),
 			'minut'   => '',
 			'marcatori' => isset( $m['marcatori'] ) && is_array( $m['marcatori'] ) ? $m['marcatori'] : null,
 		);
@@ -534,4 +534,18 @@ function fr_rute_date() {
 			'callback'            => fn( $req ) => fr_incarca_date( (int) $req['id'] ) ?: new WP_Error( 'fr_fara_date', 'Sursa nu a răspuns.', array( 'status' => 502 ) ),
 		),
 	) );
+}
+
+/**
+ * Starea unui meci din datele JSON (Liga 3). Un meci fără scor al cărui început a trecut de peste două ore
+ * e „asteptare” (rezultatul nu e încă în date): nu mai stă la program, apare la rezultate cu „în curând”.
+ */
+function fr_stare_json( $stare, $scor, $ts ) {
+	if ( in_array( $stare, array( 'terminat', 'live', 'amanat' ), true ) ) {
+		return $stare;
+	}
+	if ( $scor ) {
+		return 'terminat';
+	}
+	return ( $ts && $ts + 2 * HOUR_IN_SECONDS < time() ) ? 'asteptare' : 'programat';
 }
