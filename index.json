@@ -1,5 +1,12 @@
 {
  "articole": [
+  "articole/2026-11-01-liga3-seria1-bilant-tur.json",
+  "articole/2026-10-22-liga3-seria1-ceahlaul-plan-reorganizare-respins.json",
+  "articole/2026-10-06-liga3-seria1-costel-ilie-antrenor-viitorul-onesti.json",
+  "articole/2026-08-29-liga3-seria1-ceahlaul-daniel-stoica-antrenor.json",
+  "articole/2026-08-19-liga3-seria1-usv-csm-iasi-sporting-liesti-cupa.json",
+  "articole/2026-08-12-liga3-seria1-cupa-romaniei-turul-3.json",
+  "articole/2026-07-29-liga3-seria1-aerostar-bacau-csm-vaslui-cupa.json",
   "articole/2026-11-01-liga3-seria8-bilant-tur.json",
   "articole/2026-10-23-liga3-seria8-crisul-santandrei-gheorghe-ghit-plecare.json",
   "articole/2026-10-12-liga3-seria8-cosmin-bodea-lotus-baile-felix-infarct.json",
@@ -335,5 +342,7 @@
   "articole/2026-11-19-liga3-seria2-runda13.json",
   "articole/2026-11-15-liga3-seria1-runda13.json"
  ],
- "actualizate": []
+ "actualizate": [
+  "articole/2026-10-24-liga3-seria1-runda10.json"
+ ]
 }
