@@ -1,5 +1,19 @@
 {
  "articole": [
+  "articole/2026-09-26-liga3-seria3-runda6.json",
+  "articole/2026-09-26-liga3-seria4-runda6.json",
+  "articole/2026-09-26-liga3-seria5-runda6.json",
+  "articole/2026-09-26-liga3-seria7-runda6.json",
+  "articole/2026-09-26-liga3-seria6-runda6.json",
+  "articole/2026-09-26-liga3-seria8-runda6.json",
+  "articole/2026-09-12-liga3-seria8-runda3.json",
+  "articole/2026-09-12-liga3-seria7-runda3.json",
+  "articole/2026-09-12-liga3-seria6-runda3.json",
+  "articole/2026-09-12-liga3-seria5-runda3.json",
+  "articole/2026-09-12-liga3-seria4-runda3.json",
+  "articole/2026-09-12-liga3-seria3-runda3.json",
+  "articole/2026-09-12-liga3-seria2-runda3.json",
+  "articole/2026-09-12-liga3-seria1-runda3.json",
   "articole/2026-09-19-liga3-seria6-runda4.json",
   "articole/2026-09-19-liga3-seria8-runda4.json",
   "articole/2026-09-19-liga3-seria7-runda4.json",
@@ -349,6 +363,7 @@
   "articole/2026-11-15-liga3-seria1-runda13.json"
  ],
  "actualizate": [
+  "articole/2026-10-03-liga3-seria5-runda7.json",
   "articole/2026-10-24-liga3-seria1-runda10.json"
  ]
 }
