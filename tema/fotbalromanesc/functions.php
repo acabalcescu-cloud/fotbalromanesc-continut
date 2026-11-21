@@ -18,7 +18,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'FR_VERSIUNE', '1.5.11' );
+define( 'FR_VERSIUNE', '1.5.12' );
 define( 'FR_DIR', get_template_directory() );
 define( 'FR_URI', get_template_directory_uri() );
 
@@ -33,6 +33,7 @@ require FR_DIR . '/inc/coperta.php';
 require FR_DIR . '/inc/social.php';
 require FR_DIR . '/inc/cluburi.php';
 require FR_DIR . '/inc/seo.php';
+require FR_DIR . '/inc/video.php';
 
 add_action( 'after_setup_theme', 'fr_setup' );
 function fr_setup() {

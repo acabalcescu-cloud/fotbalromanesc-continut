@@ -86,6 +86,10 @@ Google News pentru „Liga 2”, „Liga 3”, „naționala României”, „an
 
 Lista vine din `.stare-mac/cluburi-de-facut.json`. Promptul: `mac/prompt-cluburi.md`.
 
+## Rezumatele video
+
+`date/video.json` = `{"video": {"<id articol>": [{"id": "<id YouTube>", "titlu": "…", "canal": "FRF TV", "data": "AAAA-LL-ZZ"}]}}`. Site-ul arată secțiunea „Rezumat video” în articol. Le adaugă singură rutina `mac/video.py` (cu `unelte/video.py`), doar de pe canalele oficiale: Superliga România, FRF TV, Prima Sport, Digi Sport, Orange Sport Romania, Casa Pariurilor. Niciodată reîncărcări de pe alte canale.
+
 ## Profilurile cluburilor
 
 Fișierul `date/cluburi/<slug>.json` (slug-ul paginii clubului de pe site, de exemplu `chindia-targoviste`). Site-ul îl citește singur, în cel mult 12 ore. Toate câmpurile sunt opționale: ce nu e confirmat lipsește.

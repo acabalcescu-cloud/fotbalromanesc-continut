@@ -226,7 +226,7 @@ function fr_card_articol( $post = null, $varianta = 'card' ) {
 				<?php if ( 'card' === $varianta ) : ?>
 					<p class="fr-articol__rezumat"><?php echo esc_html( get_the_excerpt( $post ) ); ?></p>
 				<?php endif; ?>
-				<p class="fr-articol__meta"><?php echo esc_html( fr_meta_articol( $post, 'j M Y' ) ); ?></p>
+				<p class="fr-articol__meta"><?php echo apply_filters( 'fr_are_video', false, $post ) ? '<span class="fr-eticheta-video">▶ Video</span> ' : ''; // phpcs:ignore WordPress.Security.EscapeOutput ?><?php echo esc_html( fr_meta_articol( $post, 'j M Y' ) ); ?></p>
 			</div>
 		<?php endif; ?>
 	</article>

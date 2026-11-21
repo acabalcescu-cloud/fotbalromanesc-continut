@@ -1,6 +1,6 @@
 # Rutinele fotbalromanesc.ro pe Mac Studio
 
-Patru verificări automate, fără inteligență artificială. Claude Code pornește doar când găsesc ceva de scris, scrie articolele în depozit și face commit pe `main`. Site-ul le preia singur în cel mult 15 minute.
+Cinci verificări automate, fără inteligență artificială. Claude Code pornește doar când găsesc ceva de scris, scrie articolele în depozit și face commit pe `main`. Site-ul le preia singur în cel mult 15 minute.
 
 | Rutina | Când | Ce face |
 | --- | --- | --- |
@@ -8,6 +8,7 @@ Patru verificări automate, fără inteligență artificială. Claude Code porne
 | Liga 3 (`mac/liga3.py`) | sâmbătă 19:37, duminică 10:37 și 18:37, luni 10:37 | Seriile fără rezumat pentru weekendul curent → câte o sesiune pe serie: articolul și `date/liga-3-seria-N.json` |
 | Știri (`mac/stiri.py`) | zilnic la 09:47, 14:47 și 20:47 | Știrea zilei din SuperLiga/Naționale, aleasă după câte publicații naționale o acoperă, fixată sus pe prima pagină 20 de ore (`presa/fixat.json`) + titluri noi din Google News pe temele mari, doar dacă subiectul e confirmat |
 | Cluburi (`mac/cluburi.py`) | zilnic la 04:17 și 14:17 | Câte 5 cluburi fără profil (sau cu profil mai vechi de 45 de zile), SuperLiga întâi → `date/cluburi/<slug>.json` (stadion, antrenor, lot) |
+| Video (`mac/video.py`) | la 2 ore | Rezumatele video oficiale de pe YouTube (Superliga România, FRF TV, Prima Sport, Digi Sport, Orange Sport, Casa Pariurilor) pentru meciurile din ultimele 6 zile → `date/video.json`; fără AI |
 
 Promptul fiecărei rutine e în `mac/prompt-*.md`; regulile de scris sunt în `STIL.md` și `INSTRUCTIUNI.md`.
 

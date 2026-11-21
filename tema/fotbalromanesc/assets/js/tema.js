@@ -86,3 +86,24 @@
 		} );
 	} );
 } )();
+
+// Rezumatul video: playerul YouTube se încarcă abia la clic.
+( function () {
+	document.querySelectorAll( '.fr-video__cadru[data-yt]' ).forEach( function ( c ) {
+		var b = c.querySelector( '.fr-video__play' );
+		if ( ! b ) {
+			return;
+		}
+		b.addEventListener( 'click', function () {
+			var f = document.createElement( 'iframe' );
+			f.src = 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent( c.getAttribute( 'data-yt' ) ) + '?autoplay=1&rel=0';
+			f.title = b.getAttribute( 'aria-label' ) || 'Rezumat video';
+			f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+			f.allowFullscreen = true;
+			f.referrerPolicy = 'strict-origin-when-cross-origin';
+			c.innerHTML = '';
+			c.appendChild( f );
+			f.focus();
+		} );
+	} );
+} )();
