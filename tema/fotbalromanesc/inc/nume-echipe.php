@@ -172,7 +172,11 @@ function fr_gaseste_club( $nume, $candidati = null ) {
 		if ( $ct === $cuv ) {
 			$egale[] = $t;
 		} elseif ( ! array_diff( $cuv, $ct ) ) {
-			$incluse[] = $t;
+			// Nu și invers pentru echipele secunde: „Sepsi Sfântu Gheorghe” nu e „Sepsi OSK Sfântu Gheorghe 2”.
+			$plus_club = array_diff( $ct, $cuv );
+			if ( ! array_filter( $plus_club, fn( $w ) => preg_match( '/^(\d+|i+|b|u\d+)$/', $w ) ) ) {
+				$incluse[] = $t;
+			}
 		} elseif ( $ct && ! array_diff( $ct, $cuv ) ) {
 			// Numele dat are cuvinte în plus („Rapid București” → „Rapid”); nu și echipele secunde („FCSB 2”, „Dinamo II”, „… B”).
 			$plus = array_diff( $cuv, $ct );

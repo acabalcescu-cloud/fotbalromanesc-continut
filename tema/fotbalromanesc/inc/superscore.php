@@ -19,6 +19,17 @@ const FR_SS_PAGINA  = 'https://superscore.live/ro-RO/fotbal/competitii/';
 const FR_SS_FLUX    = 'https://scorealarm-stats.freetls.fastly.net/v2/soccer/';
 const FR_SS_STEME   = 'https://superscore.live/bucket/media/v2/team/original/';
 
+// Numele din SuperScore care nu se potrivesc singure cu cele de pe site.
+const FR_SS_ALIAS = array(
+	'U Cluj'             => 'Universitatea Cluj',
+	'Cetate Suceava'     => 'Cetatea Suceava',
+	'Omega Bucuresti'    => 'ACS Omega Sport',
+	'ACS Unirea Sintana' => 'Unirea Sântana',
+	'Poli Timisoara II'  => 'Politehnica Timișoara 2',
+	'Nera Bogodinti'     => 'Nera Bogodinț',
+	'Sepsi Sfantu Gheorghe' => 'Sepsi OSK',
+);
+
 /**
  * Competițiile legate implicit (create la activare sau la actualizarea temei, dacă lipsesc).
  */
@@ -110,7 +121,7 @@ function fr_ss_nume( $brut, $preferate = array(), $global = true ) {
 	if ( isset( $cache[ $ck ] ) ) {
 		return $cache[ $ck ];
 	}
-	$n = trim( preg_replace( '/\bII\b/', '2', $brut ) );
+	$n = FR_SS_ALIAS[ $brut ] ?? trim( preg_replace( '/\bII\b/', '2', $brut ) );
 	if ( $preferate ) {
 		$obiecte = array_map( fn( $x ) => (object) array( 'name' => $x, 'term_id' => 0 ), $preferate );
 		$g       = fr_gaseste_club( $n, $obiecte );
@@ -265,3 +276,152 @@ function fr_ss_cu_marcatori( $date, $json ) {
 	unset( $m );
 	return $date;
 }
+
+/* ---------- Loturile echipelor (SuperScore) ---------- */
+
+const FR_SS_LOTURI = array( 'superliga/15c6unv0', 'liga-2/m8gsqjyi', 'liga-3/i5ry2e11' );
+
+/**
+ * Harta nume club de pe site → id echipă SuperScore, din clasamentele SuperLigii, Ligii 2 și Ligii 3. Refăcută zilnic.
+ */
+function fr_ss_harta_echipe( $proaspat = false ) {
+	$h = get_option( 'fr_ss_echipe' );
+	if ( ! $proaspat && is_array( $h ) && $h ) {
+		return $h;
+	}
+	$nou = is_array( $h ) ? $h : array();
+	foreach ( FR_SS_LOTURI as $cale ) {
+		$sezon = fr_ss_sezon( $cale );
+		$cl    = $sezon ? fr_ss_flux( $sezon, 'clasament' ) : null;
+		foreach ( (array) ( $cl['standings_groups'] ?? array() ) as $g ) {
+			foreach ( (array) ( $g['rows_total'] ?? array() ) as $r ) {
+				if ( empty( $r['competitor_id'] ) || empty( $r['competitor_name'] ) ) {
+					continue;
+				}
+				$c = fr_gaseste_club( FR_SS_ALIAS[ $r['competitor_name'] ] ?? preg_replace( '/\bII\b/', '2', $r['competitor_name'] ) );
+				if ( $c ) {
+					$nou[ $c->name ] = $r['competitor_id'];
+				}
+			}
+		}
+	}
+	if ( $nou ) {
+		update_option( 'fr_ss_echipe', $nou, false );
+	}
+	return $nou;
+}
+add_action( 'fr_sincronizare_cluburi', function () {
+	fr_ss_harta_echipe( true );
+}, 20 );
+
+function fr_ss_tara( $cod ) {
+	$t = array(
+		'ROU' => 'România', 'MDA' => 'Republica Moldova', 'CMR' => 'Camerun', 'POR' => 'Portugalia', 'BRA' => 'Brazilia',
+		'ESP' => 'Spania', 'FRA' => 'Franța', 'ITA' => 'Italia', 'SRB' => 'Serbia', 'CRO' => 'Croația', 'BUL' => 'Bulgaria',
+		'HUN' => 'Ungaria', 'NGA' => 'Nigeria', 'GHA' => 'Ghana', 'SEN' => 'Senegal', 'CIV' => 'Coasta de Fildeș',
+		'ARG' => 'Argentina', 'COL' => 'Columbia', 'NED' => 'Olanda', 'BEL' => 'Belgia', 'GER' => 'Germania', 'ALB' => 'Albania',
+		'MKD' => 'Macedonia de Nord', 'BIH' => 'Bosnia și Herțegovina', 'MNE' => 'Muntenegru', 'SVN' => 'Slovenia',
+		'SVK' => 'Slovacia', 'CZE' => 'Cehia', 'POL' => 'Polonia', 'UKR' => 'Ucraina', 'GRE' => 'Grecia', 'CYP' => 'Cipru',
+		'TUR' => 'Turcia', 'ISR' => 'Israel', 'GUI' => 'Guineea', 'MLI' => 'Mali', 'CGO' => 'Congo', 'COD' => 'RD Congo',
+		'GAB' => 'Gabon', 'TOG' => 'Togo', 'BFA' => 'Burkina Faso', 'ANG' => 'Angola', 'CPV' => 'Capul Verde',
+		'GNB' => 'Guineea-Bissau', 'ALG' => 'Algeria', 'MAR' => 'Maroc', 'TUN' => 'Tunisia', 'EGY' => 'Egipt',
+		'URU' => 'Uruguay', 'VEN' => 'Venezuela', 'PAR' => 'Paraguay', 'CHI' => 'Chile', 'PER' => 'Peru', 'ECU' => 'Ecuador',
+		'USA' => 'SUA', 'JPN' => 'Japonia', 'KOR' => 'Coreea de Sud', 'AUT' => 'Austria', 'SUI' => 'Elveția', 'ENG' => 'Anglia',
+		'SCO' => 'Scoția', 'IRL' => 'Irlanda', 'KOS' => 'Kosovo', 'GEO' => 'Georgia', 'ARM' => 'Armenia', 'AZE' => 'Azerbaidjan',
+		'LTU' => 'Lituania', 'LVA' => 'Letonia', 'EST' => 'Estonia', 'FIN' => 'Finlanda', 'SWE' => 'Suedia', 'NOR' => 'Norvegia',
+		'DEN' => 'Danemarca', 'ISL' => 'Islanda', 'BLR' => 'Belarus', 'RUS' => 'Rusia', 'KAZ' => 'Kazahstan', 'MEX' => 'Mexic',
+		'CAN' => 'Canada', 'AUS' => 'Australia', 'GAM' => 'Gambia', 'SLE' => 'Sierra Leone', 'LBR' => 'Liberia', 'BEN' => 'Benin',
+		'NIG' => 'Niger', 'ZAM' => 'Zambia', 'ZIM' => 'Zimbabwe', 'RSA' => 'Africa de Sud', 'KEN' => 'Kenya', 'CUW' => 'Curaçao',
+		'SUR' => 'Surinam', 'HAI' => 'Haiti', 'JAM' => 'Jamaica', 'CRC' => 'Costa Rica', 'PAN' => 'Panama', 'HON' => 'Honduras',
+		'MTN' => 'Mauritania', 'COM' => 'Comore', 'MAD' => 'Madagascar', 'BDI' => 'Burundi', 'RWA' => 'Rwanda', 'UGA' => 'Uganda',
+		'TAN' => 'Tanzania', 'ETH' => 'Etiopia', 'SDN' => 'Sudan', 'LBY' => 'Libia', 'IRN' => 'Iran', 'IRQ' => 'Irak',
+		'SYR' => 'Siria', 'LBN' => 'Liban', 'JOR' => 'Iordania', 'KSA' => 'Arabia Saudită', 'QAT' => 'Qatar', 'UAE' => 'Emiratele Arabe Unite',
+		'CHN' => 'China', 'NZL' => 'Noua Zeelandă', 'LUX' => 'Luxemburg', 'MLT' => 'Malta', 'AND' => 'Andorra', 'WAL' => 'Țara Galilor', 'NIR' => 'Irlanda de Nord',
+	);
+	return $t[ $cod ] ?? $cod;
+}
+
+/**
+ * Lotul unui club din SuperScore, în forma profilului: [ 'lot' => [...], 'antrenor' => [...] ]. 24 de ore în cache.
+ */
+function fr_ss_lot( $club ) {
+	$harta = fr_ss_harta_echipe();
+	$id    = $harta[ $club->name ] ?? '';
+	if ( ! $id ) {
+		return null;
+	}
+	$cheie = 'fr_ss_lot_' . $id;
+	$rez   = get_transient( $cheie );
+	if ( is_array( $rez ) ) {
+		return $rez ?: null;
+	}
+	$j = json_decode( (string) fr_ss_cere( FR_SS_FLUX . 'teams/squad/rosuperscore/ro-RO?team-id=' . rawurlencode( $id ) ), true );
+	if ( ! is_array( $j ) ) {
+		$vechi = get_option( 'fr_ss_lot_ultim_' . $id );
+		set_transient( $cheie, is_array( $vechi ) ? $vechi : array(), 2 * HOUR_IN_SECONDS );
+		return is_array( $vechi ) ? $vechi : null;
+	}
+	$nume = function ( $p ) {
+		foreach ( (array) ( $p['names'] ?? array() ) as $n ) {
+			if ( 1 === (int) ( $n['type'] ?? 0 ) && ! empty( $n['value']['string_value'] ) ) {
+				return $n['value']['string_value'];
+			}
+		}
+		$n = (string) ( $p['name'] ?? '' );
+		return str_contains( $n, ', ' ) ? implode( ' ', array_reverse( explode( ', ', $n, 2 ) ) ) : $n;
+	};
+	$lot = array();
+	foreach ( array( 'goalkeepers' => 'portar', 'defenders' => 'fundas', 'midfielders' => 'mijlocas', 'attackers' => 'atacant' ) as $k => $post ) {
+		foreach ( (array) ( $j[ $k ] ?? array() ) as $x ) {
+			$p = $x['player'] ?? array();
+			$n = $nume( $p );
+			if ( '' === $n ) {
+				continue;
+			}
+			$jucator = array( 'nume' => $n, 'post' => $post );
+			if ( is_numeric( $x['shirt_number'] ?? '' ) ) {
+				$jucator['nr'] = (int) $x['shirt_number'];
+			}
+			if ( ! empty( $p['birth_date']['value'] ) ) {
+				$jucator['varsta'] = ( new DateTime( $p['birth_date']['value'] ) )->diff( new DateTime() )->y;
+			}
+			if ( ! empty( $p['country_code']['value'] ) ) {
+				$jucator['nationalitate'] = fr_ss_tara( $p['country_code']['value'] );
+			}
+			$lot[] = $jucator;
+		}
+	}
+	$rez = array( 'lot' => $lot );
+	if ( ! empty( $j['manager'] ) ) {
+		$rez['antrenor'] = array_filter( array(
+			'nume'          => $nume( $j['manager'] ),
+			'nationalitate' => ! empty( $j['manager']['country_code']['value'] ) ? fr_ss_tara( $j['manager']['country_code']['value'] ) : '',
+		) );
+	}
+	if ( ! $lot ) {
+		$rez = array();
+	}
+	update_option( 'fr_ss_lot_ultim_' . $id, $rez, false );
+	set_transient( $cheie, $rez, DAY_IN_SECONDS );
+	return $rez ?: null;
+}
+
+/**
+ * Profilul complet al clubului: lotul vine din SuperScore (la zi); antrenorul din profilul nostru verificat,
+ * altfel din SuperScore; restul (stadion, oraș, fondare) din profilul nostru.
+ */
+add_filter( 'fr_profil_club', function ( $profil, $club ) {
+	$ss = fr_ss_lot( $club );
+	if ( ! $ss ) {
+		return $profil;
+	}
+	$profil = is_array( $profil ) ? $profil : array();
+	if ( ! empty( $ss['lot'] ) ) {
+		$profil['lot']      = $ss['lot'];
+		$profil['lot_sursa'] = 'SuperScore';
+	}
+	if ( empty( $profil['antrenor']['nume'] ) && ! empty( $ss['antrenor']['nume'] ) ) {
+		$profil['antrenor'] = $ss['antrenor'];
+	}
+	return $profil;
+}, 10, 2 );

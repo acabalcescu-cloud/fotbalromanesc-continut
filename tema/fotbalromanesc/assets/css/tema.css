@@ -56,7 +56,7 @@ h1, h2, h3 { line-height: 1.15; }
 .fr-logo--text:hover { color: var(--fr-alb); }
 .fr-logo img { max-height: 48px; width: auto; display: block; }
 .fr-nav { flex: 1 1 auto; min-width: 0; }
-.fr-meniu { list-style: none; margin: 0; padding: 0; display: flex; gap: 4px 24px; overflow-x: auto; scrollbar-width: none; }
+.fr-meniu { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 0 22px; }
 .fr-meniu::-webkit-scrollbar { display: none; }
 .fr-meniu a { display: block; padding: 24px 0 21px; color: var(--fr-alb); text-decoration: none; font-weight: 600; font-size: 15px; white-space: nowrap; border-bottom: 3px solid transparent; }
 .fr-meniu a:hover { color: var(--fr-galben); }
@@ -447,7 +447,7 @@ h1, h2, h3 { line-height: 1.15; }
 	.fr-antet__rand { flex-wrap: wrap; min-height: 0; padding-top: 12px; gap: 0 12px; }
 	.fr-logo { flex: 1 1 auto; }
 	.fr-nav { order: 3; flex: 1 1 100%; }
-	.fr-meniu { flex-wrap: wrap; overflow: visible; gap: 0 20px; padding-bottom: 4px; }
+	.fr-meniu { flex-wrap: wrap; overflow: visible; gap: 0 20px; padding-bottom: 4px; justify-content: flex-start; }
 	.fr-meniu a { padding: 10px 0 8px; }
 	.fr-titlu-mare { font-size: 36px; }
 	.fr-articol--mare .fr-articol__coperta, .fr-articol--mare .fr-articol__suprapus { aspect-ratio: 4 / 3; }

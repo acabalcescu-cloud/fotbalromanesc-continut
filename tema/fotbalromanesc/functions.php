@@ -18,7 +18,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'FR_VERSIUNE', '1.6.0' );
+define( 'FR_VERSIUNE', '1.6.1' );
 define( 'FR_DIR', get_template_directory() );
 define( 'FR_URI', get_template_directory_uri() );
 
@@ -151,6 +151,10 @@ function fr_meniu_implicit() {
 	if ( is_wp_error( $termeni ) || ! $termeni ) {
 		return;
 	}
+	// Meniul rămâne scurt: Supercupa (un meci pe an) doar în pagina Program; Opinie la final; etichete scurte.
+	$scurt    = array( 'cupa-romaniei' => 'Cupa', 'superliga-feminina' => 'Feminin' );
+	$termeni  = array_values( array_filter( $termeni, fn( $t ) => 'supercupa' !== $t->slug ) );
+	usort( $termeni, fn( $a, $b ) => ( 'opinie' === $a->slug ) <=> ( 'opinie' === $b->slug ) );
 	echo '<ul class="fr-meniu">';
 	foreach ( $termeni as $t ) {
 		$activ = is_tax( 'competitie', $t->term_id ) || ( is_singular( 'post' ) && has_term( $t->term_id, 'competitie' ) );
@@ -159,7 +163,7 @@ function fr_meniu_implicit() {
 			$activ ? ' class="current-menu-item"' : '',
 			esc_url( get_term_link( $t ) ),
 			$activ ? ' aria-current="page"' : '',
-			esc_html( $t->name )
+			esc_html( $scurt[ $t->slug ] ?? $t->name )
 		);
 	}
 	echo '</ul>';

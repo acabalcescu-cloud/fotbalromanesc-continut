@@ -138,6 +138,10 @@ function fr_descarca_sigla( $url, $nume ) {
  * Profilul clubului din depozit (12 ore în cache; ultima copie bună rămâne dacă depozitul nu răspunde).
  */
 function fr_profil_club( $club ) {
+	return apply_filters( 'fr_profil_club', fr_profil_club_depozit( $club ), $club );
+}
+
+function fr_profil_club_depozit( $club ) {
 	if ( ! fr_setare( 'repo' ) ) {
 		return null;
 	}
