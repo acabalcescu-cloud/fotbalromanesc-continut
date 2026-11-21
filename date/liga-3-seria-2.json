@@ -1,87 +1,93 @@
 {
- "actualizat": "2026-11-19 17:14",
+ "actualizat": "2026-11-21 19:45",
  "surse": [
-  "https://liga2.prosport.ro/liga-3/etapa-13-din-liga-3-primul-meci-al-zilei-s-a-incheiat-altele-20-se-disputa-acum-doar-trei-echipe-mai-sunt-neinvinse-in-acest-sezon-19407567",
-  "https://bzb.ro/stire/corona-se-impune-in-derbyul-c2-si-redevine-lider-a225739",
-  "https://www.monitorulexpres.ro/2026/11/13/liga-3-etapa-13-corona-brasov-sub-presiune-la-medias-meciuri-tari-pentru-sacele-si-kids-tampa-olimpic-zarnesti-dupa-puncte-la-covasna/",
-  "https://mesageruldesibiu.ro/weekend-de-fotbal-la-sibiu-intai-baietii-apoi-fetele-pe-municipal/",
-  "https://ziarulprahova.ro/2026/11/16/victorii-pentru-play-off/",
-  "https://campinatv.ro/News/Article/10b61dc3-96bc-4e85-7f9e-7c162d3526b0_liga-a-3-a-tricolorul-breaza-sepsi-ii-sf-gheorghe-3-2",
-  "https://www.tribuna.ro/acs-medias-pierde-derbiul-cu-corona-la-revenirea-pe-stadionul-gaz-metan-4-000-de-spectatori-in-tribune/",
-  "https://mesageruldesibiu.ro/ramanem-in-zona-de-play-off-inter-sibiu-a-smuls-victoria-in-noroiul-de-la-sacele-iar-mediasul-a-pierdut-derby-ul-cu-corona/",
-  "https://novatv.ro/2026/11/unii-cu-ocaziile-altii-cu-golul-acs-medias-invinsa-de-corona-brasov/"
+  "https://mytex.ro/sport/corona-brasov-ramane-liderul-seriei-2-din-liga-3-si-dupa-etapa-a-14-a/",
+  "https://www.monitorulexpres.ro/2026/11/21/liga-3-etapa-14-corona-brasov-victorie-clara-cu-aro-campulung/",
+  "https://evenimentulmuscelean.ro/2026/11/21/aro-campulung-invinsa-categoric-la-brasov-muscelenii-au-cedat-cu-1-4-in-fata-liderului-corona/",
+  "https://newsbv.ro/corona-brasov-fotbal-2/",
+  "https://www.oradesibiu.ro/2026/11/21/esec-drastic-pentru-acs-medias-la-baicoi-echipa-de-pe-tarnava-a-cazut-pe-4/",
+  "https://novatv.ro/2026/11/al-doilea-esec-consecutiv-pentru-acs-mediesenii-au-pierdut-cu-3-0-la-baicoi/",
+  "https://mesageruldesibiu.ro/inter-sibiu-continua-seria-victoriilor-1-0-1-0-cu-kids-tampa-brasov/",
+  "https://www.oradesibiu.ro/2026/11/20/inter-sibiu-victorie-cu-echipa-mai-mica-a-brasovului-un-mijlocas-a-punctat-decisiv-foto/",
+  "https://www.monitorulexpres.ro/2026/11/20/liga-3-etapa-14-kids-tampa-brasov-invinsa-la-sibiu-de-inter-stars/",
+  "https://www.monitorulexpres.ro/2026/11/21/etapa-14-din-liga-3-olimpic-zarnesti-victorie-clara-cu-tricolorul-breaza-zarnestenii-raman-in-cursa-pentru-play-off/",
+  "https://campinatv.ro/News/Article/4da1fa04-f022-4c91-73d2-bdb90e2215b1_liga-a-3-a-olimpic-zarnesti-tricolorul-breaza-3-0",
+  "https://www.radiobrasovfm.ro/sport/stiri-locale/fotbal-csm-sacele-si-kids-tampa-invinse-in-deplasare-id220924.html",
+  "https://www.monitorulexpres.ro/2026/11/20/liga-3-etapa-14-csm-sacele-invinsa-la-sfantu-gheorghe-de-sepsi-osk-ii/",
+  "https://telegrama.ro/article/liga-a-iii-a-etapa-a-xiv-a-locurile-de-play-off-devin-tot-mai-sigure",
+  "https://bzb.ro/stire/corona-si-olimpic-zarnesti-joaca-acasa-in-etapa-a-14-a-a-ligii-3-a225905"
  ],
  "clasament": [
   {
    "loc": 1,
    "echipa": "Corona Brașov",
-   "meciuri": 13,
-   "pct": 30
+   "meciuri": 14,
+   "pct": 33
   },
   {
    "loc": 2,
-   "echipa": "ACS Mediaș",
-   "meciuri": 13,
-   "pct": 29
+   "echipa": "CSO Băicoi",
+   "meciuri": 14,
+   "pct": 31
   },
   {
    "loc": 3,
-   "echipa": "CSO Băicoi",
-   "meciuri": 13,
-   "pct": 28
+   "echipa": "Inter Stars Sibiu",
+   "meciuri": 14,
+   "pct": 30
   },
   {
    "loc": 4,
-   "echipa": "Inter Stars Sibiu",
-   "meciuri": 13,
-   "pct": 27
+   "echipa": "ACS Mediaș",
+   "meciuri": 14,
+   "pct": 29
   },
   {
    "loc": 5,
    "echipa": "Olimpic Zărnești",
-   "meciuri": 13,
-   "pct": 23
+   "meciuri": 14,
+   "pct": 26
   },
   {
    "loc": 6,
    "echipa": "ARO Câmpulung",
-   "meciuri": 13,
+   "meciuri": 14,
    "pct": 20
   },
   {
    "loc": 7,
-   "echipa": "CSM Săcele",
-   "meciuri": 13,
-   "pct": 18
+   "echipa": "Sepsi OSK Sfântu Gheorghe 2",
+   "meciuri": 14,
+   "pct": 19
   },
   {
    "loc": 8,
-   "echipa": "Sepsi OSK Sfântu Gheorghe 2",
-   "meciuri": 13,
-   "pct": 16
+   "echipa": "CSM Săcele",
+   "meciuri": 14,
+   "pct": 18
   },
   {
    "loc": 9,
    "echipa": "CSO Teleajenul Vălenii de Munte",
-   "meciuri": 13,
-   "pct": 14
+   "meciuri": 14,
+   "pct": 17
   },
   {
    "loc": 10,
    "echipa": "Kids Tâmpa Brașov",
-   "meciuri": 13,
+   "meciuri": 14,
    "pct": 9
   },
   {
    "loc": 11,
    "echipa": "Tricolorul Breaza",
-   "meciuri": 13,
+   "meciuri": 14,
    "pct": 7
   },
   {
    "loc": 12,
    "echipa": "Carpați Covasna",
-   "meciuri": 13,
+   "meciuri": 14,
    "pct": 2
   }
  ],
@@ -286,7 +292,20 @@
    "runda": "14",
    "gazde": "Inter Stars Sibiu",
    "oaspeti": "Kids Tâmpa Brașov",
-   "scor": null
+   "scor": [
+    1,
+    0
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Tudor Neamțiu",
+      "minut": "11",
+      "tip": ""
+     }
+    ],
+    "oaspeti": []
+   }
   },
   {
    "id": "s2r14b",
@@ -294,7 +313,30 @@
    "runda": "14",
    "gazde": "CSO Băicoi",
    "oaspeti": "ACS Mediaș",
-   "scor": null
+   "scor": [
+    3,
+    0
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Dumitrașcu",
+      "minut": "51",
+      "tip": "penalty"
+     },
+     {
+      "nume": "Dumitrașcu",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Dumitrașcu",
+      "minut": "",
+      "tip": ""
+     }
+    ],
+    "oaspeti": []
+   }
   },
   {
    "id": "s2r14c",
@@ -302,6 +344,127 @@
    "runda": "14",
    "gazde": "Olimpic Zărnești",
    "oaspeti": "Tricolorul Breaza",
+   "scor": [
+    3,
+    0
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Vlad Berloiu",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Alex Ilie",
+      "minut": "37",
+      "tip": ""
+     },
+     {
+      "nume": "Rareș Coltofean",
+      "minut": "49",
+      "tip": ""
+     }
+    ],
+    "oaspeti": []
+   }
+  },
+  {
+   "id": "s2r14d",
+   "data": "2026-11-20T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Sepsi OSK Sfântu Gheorghe 2",
+   "oaspeti": "CSM Săcele",
+   "scor": [
+    1,
+    0
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Norbert Kocsis",
+      "minut": "73",
+      "tip": ""
+     }
+    ],
+    "oaspeti": []
+   }
+  },
+  {
+   "id": "s2r14e",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "Corona Brașov",
+   "oaspeti": "ARO Câmpulung",
+   "scor": [
+    4,
+    1
+   ],
+   "marcatori": {
+    "gazde": [
+     {
+      "nume": "Andrei Lascu",
+      "minut": "5",
+      "tip": ""
+     },
+     {
+      "nume": "Gicu Grozav",
+      "minut": "61",
+      "tip": ""
+     },
+     {
+      "nume": "Bogdan Rusu",
+      "minut": "85",
+      "tip": ""
+     },
+     {
+      "nume": "Dan Vasile",
+      "minut": "88",
+      "tip": ""
+     }
+    ],
+    "oaspeti": [
+     {
+      "nume": "Constantin Pia",
+      "minut": "53",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2r14f",
+   "data": "2026-11-21T14:00:00+02:00",
+   "runda": "14",
+   "gazde": "CSO Teleajenul Vălenii de Munte",
+   "oaspeti": "Carpați Covasna",
+   "scor": [
+    6,
+    1
+   ]
+  },
+  {
+   "id": "s2r15a",
+   "data": "2026-11-27T14:00:00+02:00",
+   "runda": "15",
+   "gazde": "ARO Câmpulung",
+   "oaspeti": "ACS Mediaș",
+   "scor": null
+  },
+  {
+   "id": "s2r15b",
+   "data": "2026-11-27T18:00:00+02:00",
+   "runda": "15",
+   "gazde": "Inter Stars Sibiu",
+   "oaspeti": "CSO Băicoi",
+   "scor": null
+  },
+  {
+   "id": "s2r15c",
+   "data": "2026-11-28T14:00:00+02:00",
+   "runda": "15",
+   "gazde": "Tricolorul Breaza",
+   "oaspeti": "CSO Teleajenul Vălenii de Munte",
    "scor": null
   }
  ]
