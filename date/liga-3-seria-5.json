@@ -1,6 +1,9 @@
 {
- "actualizat": "2026-11-19 18:13",
+ "actualizat": "2026-11-21 19:58",
  "surse": [
+  "https://liga2.prosport.ro/liga-3/etapa-14-din-liga-3-primul-meci-al-zilei-se-disputa-acum-altele-19-incep-la-ora-1400-doar-doua-echipe-sunt-neinvinse-in-acest-sezon-19407947",
+  "https://www.flashscore.com/football/romania/liga-3-seria-5/",
+  "https://www.flashscore.com/match/football/oxigen-bucuresti-rLu624dC/scm-dunarea-giurgiu-WWvLRjqi/",
   "https://jurnalgiurgiuvean.ro/fotbal-liga-a-iii-a-academia-dunarea-giurgiu-castiga-derby-ul-cu-inter-ilfov-si-isi-consolideaza-pozitia-de-lider-in-clasamentul-seriei-a-5-a/",
   "https://liga2.prosport.ro/liga-3/etapa-13-din-liga-3-primul-meci-al-zilei-s-a-incheiat-altele-20-se-disputa-acum-doar-trei-echipe-mai-sunt-neinvinse-in-acest-sezon-19407567",
   "https://liga2.prosport.ro/liga-3-clasament",
@@ -13,73 +16,73 @@
   {
    "loc": 1,
    "echipa": "Dunărea Giurgiu",
-   "meciuri": 13,
-   "pct": 29
+   "meciuri": 14,
+   "pct": 30
   },
   {
    "loc": 2,
-   "echipa": "Inter Ilfov",
-   "meciuri": 13,
-   "pct": 26
+   "echipa": "ACS Omega Sport",
+   "meciuri": 14,
+   "pct": 28
   },
   {
    "loc": 3,
-   "echipa": "CSM Alexandria",
-   "meciuri": 13,
-   "pct": 25
+   "echipa": "Inter Ilfov",
+   "meciuri": 14,
+   "pct": 27
   },
   {
    "loc": 4,
-   "echipa": "ACS Omega Sport",
-   "meciuri": 13,
+   "echipa": "CSM Alexandria",
+   "meciuri": 14,
    "pct": 25
   },
   {
    "loc": 5,
    "echipa": "FCSB 2",
-   "meciuri": 13,
-   "pct": 19
+   "meciuri": 14,
+   "pct": 20
   },
   {
    "loc": 6,
-   "echipa": "Oxigen București",
-   "meciuri": 13,
-   "pct": 16
+   "echipa": "Progresul Mogoșoaia",
+   "meciuri": 14,
+   "pct": 19
   },
   {
    "loc": 7,
-   "echipa": "Progresul Mogoșoaia",
-   "meciuri": 13,
-   "pct": 16
+   "echipa": "Dinamo 2",
+   "meciuri": 14,
+   "pct": 18
   },
   {
    "loc": 8,
-   "echipa": "Dinamo 2",
-   "meciuri": 13,
-   "pct": 15
+   "echipa": "Oxigen București",
+   "meciuri": 14,
+   "pct": 17
   },
   {
    "loc": 9,
-   "echipa": "ACS Axi Arena",
-   "meciuri": 13,
+   "echipa": "Cetatea Turnu Măgurele",
+   "meciuri": 14,
    "pct": 15
   },
   {
    "loc": 10,
-   "echipa": "FC Voluntari 2",
-   "meciuri": 13,
-   "pct": 14
+   "echipa": "ACS Axi Arena",
+   "meciuri": 14,
+   "pct": 15
   },
   {
    "loc": 11,
-   "echipa": "Cetatea Turnu Măgurele",
-   "meciuri": 13,
-   "pct": 12
+   "echipa": "FC Voluntari 2",
+   "meciuri": 14,
+   "pct": 14
   },
   {
    "loc": 12,
    "echipa": "Progresul Spartac",
-   "meciuri": 13,
+   "meciuri": 14,
    "pct": 7
   }
  ],
@@ -166,7 +169,10 @@
    "runda": "14",
    "gazde": "Inter Ilfov",
    "oaspeti": "FCSB 2",
-   "scor": null
+   "scor": [
+    2,
+    2
+   ]
   },
   {
    "id": "s5r14b",
@@ -174,7 +180,10 @@
    "runda": "14",
    "gazde": "Dinamo 2",
    "oaspeti": "FC Voluntari 2",
-   "scor": null
+   "scor": [
+    1,
+    0
+   ]
   },
   {
    "id": "s5r14c",
@@ -182,7 +191,10 @@
    "runda": "14",
    "gazde": "CSM Alexandria",
    "oaspeti": "ACS Omega Sport",
-   "scor": null
+   "scor": [
+    0,
+    3
+   ]
   },
   {
    "id": "s5r14d",
@@ -190,7 +202,10 @@
    "runda": "14",
    "gazde": "Cetatea Turnu Măgurele",
    "oaspeti": "ACS Axi Arena",
-   "scor": null
+   "scor": [
+    2,
+    0
+   ]
   },
   {
    "id": "s5r14e",
@@ -198,7 +213,10 @@
    "runda": "14",
    "gazde": "Progresul Mogoșoaia",
    "oaspeti": "Progresul Spartac",
-   "scor": null
+   "scor": [
+    1,
+    0
+   ]
   },
   {
    "id": "s5r14f",
@@ -206,6 +224,57 @@
    "runda": "14",
    "gazde": "Oxigen București",
    "oaspeti": "Dunărea Giurgiu",
+   "scor": [
+    1,
+    1
+   ]
+  },
+  {
+   "id": "s5r15a",
+   "data": "2026-11-27T14:00:00+02:00",
+   "runda": "15",
+   "gazde": "ACS Axi Arena",
+   "oaspeti": "Inter Ilfov",
+   "scor": null
+  },
+  {
+   "id": "s5r15b",
+   "data": "2026-11-27T14:00:00+02:00",
+   "runda": "15",
+   "gazde": "Dinamo 2",
+   "oaspeti": "Progresul Mogoșoaia",
+   "scor": null
+  },
+  {
+   "id": "s5r15c",
+   "data": "2026-11-27T14:00:00+02:00",
+   "runda": "15",
+   "gazde": "FCSB 2",
+   "oaspeti": "Oxigen București",
+   "scor": null
+  },
+  {
+   "id": "s5r15d",
+   "data": "2026-11-27T14:00:00+02:00",
+   "runda": "15",
+   "gazde": "FC Voluntari 2",
+   "oaspeti": "Cetatea Turnu Măgurele",
+   "scor": null
+  },
+  {
+   "id": "s5r15e",
+   "data": "2026-11-28T14:00:00+02:00",
+   "runda": "15",
+   "gazde": "Dunărea Giurgiu",
+   "oaspeti": "CSM Alexandria",
+   "scor": null
+  },
+  {
+   "id": "s5r15f",
+   "data": "2026-11-28T14:00:00+02:00",
+   "runda": "15",
+   "gazde": "ACS Omega Sport",
+   "oaspeti": "Progresul Spartac",
    "scor": null
   }
  ]
