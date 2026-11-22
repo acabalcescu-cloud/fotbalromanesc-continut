@@ -185,9 +185,9 @@ $fr_rezultate = function ( $t, $n = 8 ) {
 						<h3 class="fr-rezultate__comp"><a href="<?php echo esc_url( fr_url_fila( 'meciuri', $t ) ); ?>"><?php echo esc_html( fr_eticheta_competitie( $t ) ); ?></a><?php $fr_et = array_values( array_filter( wp_list_pluck( $rez, 'runda' ), 'is_numeric' ) ); ?><span><?php echo esc_html( $fr_et ? 'etapa ' . max( $fr_et ) : $rez[0]['runda'] ); ?></span></h3>
 						<ul>
 							<?php foreach ( $rez as $m ) : ?>
-								<li>
+								<li data-meci="<?php echo esc_attr( $m['id'] ); ?>">
 									<span class="fr-rezultat__g"><?php echo esc_html( fr_nume_echipa( $m['gazde'] ) ); ?></span>
-									<b class="fr-rezultat__s"><?php echo (int) $m['scor'][0] . '-' . (int) $m['scor'][1]; ?></b>
+									<b class="fr-rezultat__s js-scor"><?php echo (int) $m['scor'][0] . '-' . (int) $m['scor'][1]; ?></b>
 									<span class="fr-rezultat__o"><?php echo esc_html( fr_nume_echipa( $m['oaspeti'] ) ); ?></span>
 								</li>
 							<?php endforeach; ?>

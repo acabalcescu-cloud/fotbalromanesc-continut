@@ -130,10 +130,10 @@ function fr_card_meci( $m, $cu_competitie = false ) {
 	$clasa = 'fr-meci fr-meci--' . $m['stare'];
 	ob_start();
 	?>
-	<div class="<?php echo esc_attr( $clasa ); ?>">
+	<div class="<?php echo esc_attr( $clasa ); ?>" data-meci="<?php echo esc_attr( $m['id'] ?? '' ); ?>">
 		<div class="fr-meci__sus">
 			<span><?php echo esc_html( $cu_competitie && ! empty( $m['competitie'] ) ? fr_eticheta_competitie( $m['competitie'] ) : ( is_numeric( $m['runda'] ) ? 'Etapa ' . $m['runda'] : $m['runda'] ) ); ?></span>
-			<span>
+			<span class="js-stare">
 				<?php
 				if ( 'live' === $m['stare'] ) {
 					echo '<b class="fr-live">LIVE ' . esc_html( $m['minut'] ) . '</b>';
@@ -151,7 +151,7 @@ function fr_card_meci( $m, $cu_competitie = false ) {
 		</div>
 		<div class="fr-meci__echipe">
 			<span class="fr-meci__echipa"><?php echo fr_echipa( $m['gazde'], false ); // phpcs:ignore WordPress.Security.EscapeOutput ?></span>
-			<span class="fr-meci__scor"><?php echo esc_html( $scor ); ?></span>
+			<span class="fr-meci__scor js-scor"><?php echo esc_html( $scor ); ?></span>
 			<span class="fr-meci__echipa fr-meci__echipa--oaspeti"><?php echo fr_echipa( $m['oaspeti'], false ); // phpcs:ignore WordPress.Security.EscapeOutput ?></span>
 		</div>
 	</div>

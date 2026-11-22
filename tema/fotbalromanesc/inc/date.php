@@ -111,6 +111,7 @@ function fr_scaneaza_nationale() {
 	foreach ( $colectie as $term_id => $noi ) {
 		$toate = array_merge( (array) get_option( 'fr_nat_' . $term_id, array() ), $noi );
 		$toate = array_filter( $toate, fn( $m ) => $m['data'] >= $limita );
+		$toate = fr_fara_dubluri_meciuri( $toate );
 		update_option( 'fr_nat_' . $term_id, $toate, false );
 	}
 }
@@ -185,7 +186,7 @@ function fr_incarca_date( $term_id ) {
 	} elseif ( $ls ) {
 		$date = fr_date_livescore( $ls );
 	} elseif ( $nat ) {
-		$meciuri = array_values( (array) get_option( 'fr_nat_' . (int) $term_id, array() ) );
+		$meciuri = array_values( fr_fara_dubluri_meciuri( (array) get_option( 'fr_nat_' . (int) $term_id, array() ) ) );
 		if ( ! $meciuri && ! get_option( 'fr_nat_initial_' . (int) $term_id ) ) {
 			// Prima afișare: o scanare imediată, ca pagina să nu fie goală până trece cronul.
 			update_option( 'fr_nat_initial_' . (int) $term_id, 1, false );
@@ -562,4 +563,19 @@ function fr_stare_json( $stare, $scor, $ts ) {
 		return 'terminat';
 	}
 	return ( $ts && $ts + 2 * HOUR_IN_SECONDS < time() ) ? 'asteptare' : 'programat';
+}
+
+/**
+ * Același meci apare uneori cu id-uri diferite (LiveScore îl listează în mai multe zile sau etape):
+ * păstrăm o singură copie pe zi + echipe, pe cea mai recent actualizată (cu scor, dacă are).
+ */
+function fr_fara_dubluri_meciuri( $meciuri ) {
+	$unice = array();
+	foreach ( $meciuri as $m ) {
+		$k = substr( (string) $m['data'], 0, 10 ) . '|' . $m['gazde'] . '|' . $m['oaspeti'];
+		if ( ! isset( $unice[ $k ] ) || ( ! $unice[ $k ]['scor'] && $m['scor'] ) || 'live' === $m['stare'] ) {
+			$unice[ $k ] = $m;
+		}
+	}
+	return $unice;
 }

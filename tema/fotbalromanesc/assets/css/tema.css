@@ -490,3 +490,15 @@ h1, h2, h3 { line-height: 1.15; }
 .fr-video__play:hover .fr-video__icon, .fr-video__play:focus-visible .fr-video__icon { background: #B5121F; }
 .fr-video__sursa { font-size: 14px; color: var(--fr-text-2, #5B6472); margin-top: 8px; }
 .fr-eticheta-video { display: inline-block; font-weight: 700; color: #B5121F; margin-right: 4px; }
+
+/* Programul etapei în bara laterală (doar desktop) */
+.fr-etapa-lateral__lista { list-style: none; margin: 0; padding: 0; }
+.fr-etapa-lateral__zi { font-size: 13px; font-weight: 700; color: var(--fr-text-2); text-transform: uppercase; letter-spacing: .3px; padding: 12px 0 4px; }
+.fr-etapa-lateral__meci { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 4px 10px; align-items: center; padding: 8px 0; border-top: 1px solid var(--fr-linie); font-size: 14px; }
+.fr-etapa-lateral__echipa { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: right; }
+.fr-etapa-lateral__echipa--o { text-align: left; }
+.fr-etapa-lateral__scor { min-width: 46px; text-align: center; background: var(--fr-navy); color: #fff; border-radius: 6px; padding: 2px 6px; font: 700 15px var(--fr-titlu); }
+.fr-etapa-lateral__meci.fr-meci--programat .fr-etapa-lateral__scor, .fr-etapa-lateral__meci.fr-meci--asteptare .fr-etapa-lateral__scor { background: var(--fr-fundal); color: var(--fr-text); }
+.fr-etapa-lateral__meci.fr-meci--live .fr-etapa-lateral__scor { background: var(--fr-rosu); }
+.fr-etapa-lateral__stare { grid-column: 1 / -1; text-align: center; color: var(--fr-rosu); font-weight: 700; font-size: 12px; }
+@media (max-width: 1023px) { .fr-etapa-lateral { display: none; } }

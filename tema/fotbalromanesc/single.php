@@ -116,6 +116,7 @@ while ( have_posts() ) :
 				</section>
 			<?php endif; ?>
 			<?php echo fr_sponsor( $fr_cluburi && ! is_wp_error( $fr_cluburi ) && 1 === count( $fr_cluburi ) ? $fr_cluburi[0] : $fr_comp ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+			<?php echo fr_widget_etapa_pentru( $fr_comp ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 			<?php if ( is_active_sidebar( 'bara-laterala' ) ) : ?>
 				<?php dynamic_sidebar( 'bara-laterala' ); ?>
 			<?php endif; ?>

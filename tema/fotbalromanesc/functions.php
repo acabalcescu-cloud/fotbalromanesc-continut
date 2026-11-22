@@ -18,7 +18,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'FR_VERSIUNE', '1.6.2' );
+define( 'FR_VERSIUNE', '1.6.3' );
 define( 'FR_DIR', get_template_directory() );
 define( 'FR_URI', get_template_directory_uri() );
 
@@ -35,6 +35,7 @@ require FR_DIR . '/inc/cluburi.php';
 require FR_DIR . '/inc/seo.php';
 require FR_DIR . '/inc/video.php';
 require FR_DIR . '/inc/superscore.php';
+require FR_DIR . '/inc/live.php';
 
 add_action( 'after_setup_theme', 'fr_setup' );
 function fr_setup() {
@@ -85,6 +86,7 @@ function fr_resurse() {
 	wp_enqueue_style( 'fr-fonturi', 'https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap', array(), null );
 	wp_enqueue_style( 'fr-tema', FR_URI . '/assets/css/tema.css', array( 'fr-fonturi' ), FR_VERSIUNE );
 	wp_enqueue_script( 'fr-tema', FR_URI . '/assets/js/tema.js', array(), FR_VERSIUNE, array( 'strategy' => 'defer', 'in_footer' => true ) );
+	wp_add_inline_script( 'fr-tema', 'window.frLive=' . wp_json_encode( array( 'url' => rest_url( 'fr/v1/live' ) ) ) . ';', 'before' );
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}

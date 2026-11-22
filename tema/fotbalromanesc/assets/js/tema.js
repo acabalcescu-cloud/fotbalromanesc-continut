@@ -107,3 +107,60 @@
 		} );
 	} );
 } )();
+
+// Scorurile live: la 45 de secunde, cât pagina e vizibilă, actualizăm meciurile marcate cu data-meci.
+( function () {
+	var elemente = document.querySelectorAll( '[data-meci]' );
+	if ( ! elemente.length || ! window.fetch ) {
+		return;
+	}
+	var url = ( window.frLive && window.frLive.url ) || '/wp-json/fr/v1/live';
+	function aplica( date ) {
+		var m = ( date && date.meciuri ) || {};
+		document.querySelectorAll( '[data-meci]' ).forEach( function ( el ) {
+			var d = m[ el.getAttribute( 'data-meci' ) ];
+			if ( ! d ) {
+				return;
+			}
+			var s = el.querySelector( '.js-scor' );
+			if ( s && s.textContent !== d.scor ) {
+				s.textContent = d.scor;
+			}
+			var t = el.querySelector( '.js-stare' );
+			if ( t ) {
+				if ( t.tagName === 'SMALL' ) {
+					t.hidden = d.stare !== 'live';
+					t.textContent = d.stare === 'live' ? d.sus : '';
+				} else {
+					t.innerHTML = '';
+					if ( d.stare === 'live' ) {
+						var b = document.createElement( 'b' );
+						b.className = 'fr-live';
+						b.textContent = d.sus;
+						t.appendChild( b );
+					} else {
+						t.textContent = d.sus;
+					}
+				}
+			}
+			[ 'live', 'programat', 'terminat', 'amanat', 'asteptare' ].forEach( function ( c ) {
+				el.classList.toggle( 'fr-meci--' + c, c === d.stare && ( el.classList.contains( 'fr-meci' ) || el.classList.contains( 'fr-etapa-lateral__meci' ) ) );
+			} );
+		} );
+	}
+	function cere() {
+		if ( document.hidden ) {
+			return;
+		}
+		fetch( url + '?t=' + Date.now(), { credentials: 'omit' } ).then( function ( r ) {
+			return r.ok ? r.json() : null;
+		} ).then( aplica ).catch( function () {} );
+	}
+	cere();
+	setInterval( cere, 45000 );
+	document.addEventListener( 'visibilitychange', function () {
+		if ( ! document.hidden ) {
+			cere();
+		}
+	} );
+} )();
