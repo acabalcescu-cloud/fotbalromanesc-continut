@@ -425,3 +425,31 @@ add_filter( 'fr_profil_club', function ( $profil, $club ) {
 	}
 	return $profil;
 }, 10, 2 );
+
+/**
+ * Stemele la rezoluție mare (200×200, SuperScore) pentru cluburile găsite în SuperScore: înlocuiesc stemele
+ * mici (64×64 de la LiveScore) peste tot pe site și sunt folosite pe coperțile articolelor.
+ * Câte $max pe rulare; dacă rămân, încă o tură peste 2 minute.
+ */
+function fr_ss_steme_hd( $max = 25 ) {
+	$facute = 0;
+	foreach ( fr_ss_harta_echipe() as $nume => $id ) {
+		$club = get_term_by( 'name', $nume, 'club' );
+		if ( ! $club || get_term_meta( $club->term_id, 'fr_sigla_hd', true ) ) {
+			continue;
+		}
+		if ( $facute >= $max ) {
+			wp_schedule_single_event( time() + 120, 'fr_ss_steme_hd_tura' );
+			break;
+		}
+		$url = fr_descarca_sigla( FR_SS_STEME . $id . '.webp', $club->name );
+		update_term_meta( $club->term_id, 'fr_sigla_hd', $url ?: 'lipsa' );
+		if ( $url ) {
+			update_term_meta( $club->term_id, 'fr_sigla', $url );
+		}
+		$facute++;
+	}
+	return $facute;
+}
+add_action( 'fr_ss_steme_hd_tura', 'fr_ss_steme_hd' );
+add_action( 'fr_sincronizare_cluburi', 'fr_ss_steme_hd', 30 );

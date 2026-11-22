@@ -280,6 +280,10 @@ add_action( 'rest_api_init', function () {
 			}
 			fr_reimprospateaza_toate(); // datele proaspete întâi, ca numele echipelor să fie cele de pe site
 			$create = fr_sincronizeaza_cluburi( 25 );
+			if ( function_exists( 'fr_ss_steme_hd' ) ) {
+				fr_ss_harta_echipe( true );
+				fr_ss_steme_hd( 30 );
+			}
 			$total  = 0;
 			$cu     = 0;
 			foreach ( get_terms( array( 'taxonomy' => 'club', 'hide_empty' => false ) ) as $c ) {

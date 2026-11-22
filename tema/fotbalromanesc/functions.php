@@ -18,7 +18,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'FR_VERSIUNE', '1.6.4' );
+define( 'FR_VERSIUNE', '1.6.5' );
 define( 'FR_DIR', get_template_directory() );
 define( 'FR_URI', get_template_directory_uri() );
 
@@ -30,6 +30,7 @@ require FR_DIR . '/inc/setari.php';
 require FR_DIR . '/inc/sabloane.php';
 require FR_DIR . '/inc/actualizare.php';
 require FR_DIR . '/inc/coperta.php';
+require FR_DIR . '/inc/coperta-articol.php';
 require FR_DIR . '/inc/social.php';
 require FR_DIR . '/inc/cluburi.php';
 require FR_DIR . '/inc/seo.php';
