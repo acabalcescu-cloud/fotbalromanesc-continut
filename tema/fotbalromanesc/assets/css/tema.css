@@ -502,3 +502,9 @@ h1, h2, h3 { line-height: 1.15; }
 .fr-etapa-lateral__meci.fr-meci--live .fr-etapa-lateral__scor { background: var(--fr-rosu); }
 .fr-etapa-lateral__stare { grid-column: 1 / -1; text-align: center; color: var(--fr-rosu); font-weight: 700; font-size: 12px; }
 @media (max-width: 1023px) { .fr-etapa-lateral { display: none; } }
+
+/* Etapa curentă pe prima pagină: terminate, live, urmează */
+.fr-rezultate li.fr-rezultate__zi { display: block; border-top: 0; padding: 12px 0 2px; font: 700 12px var(--fr-corp); color: var(--fr-gri); text-transform: uppercase; letter-spacing: .3px; }
+.fr-rezultate li.fr-meci--programat .fr-rezultat__s, .fr-rezultate li.fr-meci--asteptare .fr-rezultat__s { background: var(--fr-fundal); color: var(--fr-text); font-size: 15px; }
+.fr-rezultate li.fr-meci--live .fr-rezultat__s { background: var(--fr-rosu); }
+.fr-rezultat__stare { grid-column: 1 / -1; text-align: center; color: var(--fr-rosu); font-weight: 700; font-size: 12px; }

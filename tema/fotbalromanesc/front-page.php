@@ -96,7 +96,12 @@ $fr_din = function ( $slug, $n ) use ( $fr_exclus ) {
 /**
  * Rezultatele ultimei etape jucate dintr-o competiție cu date (cel mult $n meciuri, cele mai noi primele).
  */
-$fr_rezultate = function ( $t, $n = 8 ) {
+$fr_rezultate = function ( $t, $n = 12 ) {
+	// Etapa completă: terminate (cu scor), live și cele care urmează (cu zi și oră).
+	$e = fr_etapa_curenta( $t );
+	if ( $e ) {
+		return $e[1];
+	}
 	$d = fr_date_competitie( $t->term_id );
 	$terminate = array_values( array_filter( $d['meciuri'] ?? array(), fn( $m ) => 'terminat' === $m['stare'] && $m['scor'] ) );
 	if ( ! $terminate ) {
@@ -176,7 +181,7 @@ $fr_rezultate = function ( $t, $n = 8 ) {
 		?>
 		<section class="fr-sectiune" aria-labelledby="fr-rez-titlu">
 			<div class="fr-cap-sectiune">
-				<h2 class="fr-titlu-sectiune" id="fr-rez-titlu">Rezultatele etapei</h2>
+				<h2 class="fr-titlu-sectiune" id="fr-rez-titlu">Etapa curentă</h2>
 				<a class="fr-link-sectiune" href="<?php echo esc_url( fr_url_program() ); ?>">Toate rezultatele</a>
 			</div>
 			<div class="fr-rezultate">
@@ -184,11 +189,21 @@ $fr_rezultate = function ( $t, $n = 8 ) {
 					<div class="fr-card fr-rezultate__bloc">
 						<h3 class="fr-rezultate__comp"><a href="<?php echo esc_url( fr_url_fila( 'meciuri', $t ) ); ?>"><?php echo esc_html( fr_eticheta_competitie( $t ) ); ?></a><?php $fr_et = array_values( array_filter( wp_list_pluck( $rez, 'runda' ), 'is_numeric' ) ); ?><span><?php echo esc_html( $fr_et ? 'etapa ' . max( $fr_et ) : $rez[0]['runda'] ); ?></span></h3>
 						<ul>
+							<?php $fr_zi = ''; ?>
 							<?php foreach ( $rez as $m ) : ?>
-								<li data-meci="<?php echo esc_attr( $m['id'] ); ?>">
+								<?php
+								$fr_z = fr_data_meci( $m['data'], 'zi' );
+								if ( $fr_z !== $fr_zi ) {
+									$fr_zi = $fr_z;
+									echo '<li class="fr-rezultate__zi">' . esc_html( $fr_z ) . '</li>';
+								}
+								$fr_s = fr_live_stare_meci( $m );
+								?>
+								<li class="fr-meci--<?php echo esc_attr( $m['stare'] ); ?>" data-meci="<?php echo esc_attr( $m['id'] ); ?>">
 									<span class="fr-rezultat__g"><?php echo esc_html( fr_nume_echipa( $m['gazde'] ) ); ?></span>
-									<b class="fr-rezultat__s js-scor"><?php echo (int) $m['scor'][0] . '-' . (int) $m['scor'][1]; ?></b>
+									<b class="fr-rezultat__s js-scor"><?php echo esc_html( $fr_s['scor'] ); ?></b>
 									<span class="fr-rezultat__o"><?php echo esc_html( fr_nume_echipa( $m['oaspeti'] ) ); ?></span>
+									<small class="fr-rezultat__stare js-stare"<?php echo 'live' === $m['stare'] ? '' : ' hidden'; ?>><?php echo 'live' === $m['stare'] ? esc_html( $fr_s['sus'] ) : ''; ?></small>
 								</li>
 							<?php endforeach; ?>
 						</ul>

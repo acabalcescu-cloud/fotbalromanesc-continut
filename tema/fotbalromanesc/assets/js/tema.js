@@ -144,7 +144,7 @@
 				}
 			}
 			[ 'live', 'programat', 'terminat', 'amanat', 'asteptare' ].forEach( function ( c ) {
-				el.classList.toggle( 'fr-meci--' + c, c === d.stare && ( el.classList.contains( 'fr-meci' ) || el.classList.contains( 'fr-etapa-lateral__meci' ) ) );
+				el.classList.toggle( 'fr-meci--' + c, c === d.stare );
 			} );
 		} );
 	}

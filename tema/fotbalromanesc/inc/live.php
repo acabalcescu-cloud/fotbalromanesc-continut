@@ -160,6 +160,17 @@ function fr_etapa_curenta( $term ) {
 		return null;
 	}
 	$etapa = array_values( array_filter( $m, fn( $x ) => (string) $x['runda'] === (string) $runda ) );
+	// Meciurile fără număr de etapă în sursă („Regular Season” la LiveScore) intră în etapa care se joacă în aceleași zile.
+	if ( $etapa ) {
+		$de_la  = strtotime( $etapa[0]['data'] ) - DAY_IN_SECONDS;
+		$pana   = strtotime( end( $etapa )['data'] ) + DAY_IN_SECONDS;
+		foreach ( (array) ( $d['meciuri'] ?? array() ) as $x ) {
+			$ts = strtotime( $x['data'] );
+			if ( ! is_numeric( $x['runda'] ) && $ts >= $de_la && $ts <= $pana ) {
+				$etapa[] = $x;
+			}
+		}
+	}
 	usort( $etapa, fn( $a, $b ) => strcmp( $a['data'], $b['data'] ) );
 	return array( $runda, $etapa );
 }
