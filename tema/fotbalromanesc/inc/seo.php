@@ -41,6 +41,8 @@ function fr_reguli_adrese() {
 		do_action( 'litespeed_purge_url', home_url( '/news-sitemap.xml' ) );
 		do_action( 'litespeed_purge_url', home_url( '/news-sitemap.xml/' ) );
 		do_action( 'litespeed_purge_url', home_url( '/robots.txt' ) );
+		// O versiune nouă a temei schimbă paginile: golim tot cache-ul LiteSpeed.
+		do_action( 'litespeed_purge_all' );
 	}
 }
 
