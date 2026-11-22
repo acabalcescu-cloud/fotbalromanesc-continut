@@ -1,0 +1,205 @@
+{
+ "nume": "CSM Vaslui",
+ "oras": "Vaslui",
+ "stadion": {
+  "nume": "Stadionul Municipal",
+  "maps": "https://maps.google.com/?q=Stadionul+Municipal+Vaslui"
+ },
+ "antrenor": {
+  "nume": "Sorin Sava",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nume": "Claudiu Tomoiagă",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "Andrei Ciolomic",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dragoș Grigore",
+   "post": "fundas",
+   "varsta": 40,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Maxim Focsa",
+   "post": "fundas",
+   "varsta": 34,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nume": "Ionut Baciu",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Sonea",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Pletoianu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Enrichi Finica",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Iustin Neacșu",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Raul Darie",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Șopron",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Munteanu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Viziteu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Chidovăț",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Copoț-Barb",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Burghele",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Călin Nicolau",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Samuel Keuga",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "Camerun"
+  },
+  {
+   "nr": 19,
+   "nume": "Robert Sonea",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Valentin Hagiu",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Francisc Cristea",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dimitrie Toader",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Matei Tănasă",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Claudiu Mocanu",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Gorovei",
+   "post": "atacant",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Hrib",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Rusu",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabby Batchabi",
+   "post": "atacant",
+   "varsta": 32,
+   "nationalitate": "Camerun"
+  },
+  {
+   "nume": "Bogdan Istratie",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Ponea",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/c/ce/CSMVS_logo.png",
+ "actualizat": "2026-11-22",
+ "surse": [
+  "https://www.transfermarkt.com/csm-vaslui/kader/verein/105631/plus/1",
+  "https://www.transfermarkt.com/csm-vaslui/mitarbeiter/verein/105631",
+  "https://en.wikipedia.org/wiki/CSM_Vaslui_(football)",
+  "https://en.wikipedia.org/wiki/Vaslui_Municipal_Stadium",
+  "https://vremeanoua.ro/csm-vaslui-cu-un-picior-in-play-off-cinci-meciuri-pana-la-finalul-anului/"
+ ]
+}

@@ -1,0 +1,197 @@
+{
+ "nume": "Ceahlăul Piatra Neamț",
+ "oras": "Piatra Neamț",
+ "stadion": {
+  "nume": "Stadionul Ceahlăul",
+  "capacitate": 18000,
+  "maps": "https://maps.google.com/?q=Stadionul+Ceahl%C4%83ul+Piatra+Neam%C8%9B"
+ },
+ "antrenor": {
+  "nume": "Daniel Stoica",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nr": 67,
+   "nume": "Alexandru Barna",
+   "post": "portar",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Tanas",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nume": "Giordano Prisecaru",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Ionuț Chiriac",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Larionesi",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Șerban Nițu",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Tudor Anton",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sebastian Nechita",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Florescu",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 34,
+   "nume": "Matei Romănescu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Filip",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Matei Ilioaia",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 98,
+   "nume": "Vlad Munteanu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ovidiu Mahu Moisii",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Savin",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Lăcustă",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Dreve",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 28,
+   "nume": "Andrei Florea",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Alessio State",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Denis Popovici",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Alexandru",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alessandro Bobârnac",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Antonio Agafiței",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Armand Gheorghiu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ioan Lupșa",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Octavian Costan",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Bor",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/d/df/CSM_Ceahlaul_badge.png",
+ "actualizat": "2026-11-22",
+ "surse": [
+  "https://www.transfermarkt.com/csm-ceahlaul-piatra-neamt/kader/verein/8687/plus/1",
+  "https://www.transfermarkt.com/csm-ceahlaul-piatra-neamt/mitarbeiter/verein/8687",
+  "https://en.wikipedia.org/wiki/CSM_Ceahl%C4%83ul_Piatra_Neam%C8%9B",
+  "https://intermediatv.ro/2026/08/28/daniel-stoica-va-antrena-ceahlaul/",
+  "https://mesagerulneamt.ro/2026/11/csm-ceahlaul-piatra-neamt-a-rezistat-doar-18-minute-in-duelul-cu-prima-clasata-in-ierarhia-seriei/",
+  "https://mesagerulneamt.ro/2026/11/l3s1-csm-ceahlaul-piatra-neamt-si-a-consolidat-ultimul-loc-din-clasament-o-faza-controversata-a-fost-sau-nu-gol-in-minutul-52/"
+ ]
+}

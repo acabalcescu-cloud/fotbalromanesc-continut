@@ -1,0 +1,177 @@
+{
+ "nume": "CS Gheorgheni",
+ "oras": "Gheorgheni",
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Bogdan Moga",
+   "post": "portar",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 33,
+   "nume": "Krisztian Nagy",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Catrici",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Botond Gergely",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 44,
+   "nume": "Daniel Vita",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dragos Circa",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Zálan Sütő",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Csongor Simo",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Gellért Csergő",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 77,
+   "nume": "Raul Tămaș",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Andrei Țepeș",
+   "post": "fundas",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Laurențiu Bena",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Kristóf Bontas",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Márvin Albert",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Botond Sebestyén",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Marian Boca",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Szilard Balogh",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 90,
+   "nume": "László Kovács",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Manole",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Patrick Tancau",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "Irlanda"
+  },
+  {
+   "nr": 16,
+   "nume": "Dávid Vajda",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 97,
+   "nume": "Krisztián Jakab",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Botond Kovács",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nume": "János Jánosi",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Norbert László",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://tmssl.akamaized.net/images/wappen/head/113127.png",
+ "actualizat": "2026-11-22",
+ "surse": [
+  "https://www.transfermarkt.com/vsk-gheorgheni/kader/verein/113127/plus/1"
+ ]
+}

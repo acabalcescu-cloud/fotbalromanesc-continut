@@ -1,0 +1,181 @@
+{
+ "nume": "CSM Adjud",
+ "oras": "Adjud",
+ "stadion": {
+  "nume": "Stadionul Municipal",
+  "maps": "https://maps.google.com/?q=Stadionul+Municipal+Adjud"
+ },
+ "antrenor": {
+  "nume": "Cristian Popovici",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nume": "Rareș Iosub",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Ceobanu",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Paizan",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dragoș Ungurenașu",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Israel Adobunu",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nume": "Vlad Mocanu",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Popa",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Feraru",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Ștefănescu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Tilibașa",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sorin Săpunaru",
+   "post": "mijlocas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Pavel",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Charm Desmond",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "Camerun"
+  },
+  {
+   "nume": "Christo Amaechi",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nume": "Denis Humă",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Norbert Antal",
+   "post": "mijlocas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Alin Dascalu",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Butuc",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Băcoiu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Madalin Predoiu",
+   "post": "atacant",
+   "varsta": 38,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Maeschi",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Șchiopu",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Pasăre",
+   "post": "atacant",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Kolade Adeniji",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nume": "Lorian Lupu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Necula",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://tmssl.akamaized.net/images/wappen/head/113377.png",
+ "actualizat": "2026-11-22",
+ "surse": [
+  "https://www.transfermarkt.com/csm-adjud/kader/verein/113377/plus/1",
+  "https://www.transfermarkt.com/csm-adjud/mitarbeiter/verein/113377",
+  "https://www.vrancea24.ro/fotbal-csm-adjud-1946-incepe-returul-la-bacau/",
+  "https://www.vrancea24.ro/fotbal-antrenorul-care-a-salvat-adjudul-de-la-retrogradare-ramane-alaturi-de-echipa-si-in-sezonul-urmator/",
+  "https://www.sport.ro/fotbal-intern/reportaj-liga-3-nervi-mircea-lucescu-si-cristi-popovici.html",
+  "https://sporteden.com/football/venue/12751/stadionul-municipal"
+ ]
+}

@@ -1,0 +1,240 @@
+{
+ "nume": "CSM Pașcani",
+ "oras": "Pașcani",
+ "stadion": {
+  "nume": "Stadionul CFR",
+  "capacitate": 3500,
+  "maps": "https://maps.google.com/?q=Stadionul+CFR+Pa%C8%99cani"
+ },
+ "antrenor": {
+  "nume": "Răzvan Boroeanu",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nume": "Jan Turiță",
+   "post": "portar",
+   "varsta": 36,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Stefan Daniliuc",
+   "post": "portar",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 87,
+   "nume": "Ionut Popa",
+   "post": "portar",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 1,
+   "nume": "George Ursache",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "Răzvan Donea",
+   "post": "portar",
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Danut Tacutanu",
+   "post": "fundas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Paul Ungureanu",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Paul Tancău",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Daniel Anchidin",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Lamine Bah",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "Mali"
+  },
+  {
+   "nume": "Iulian Ciubotaru",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Ilioaia",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Lucian Apostol",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Artiom Garbatiuc",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nume": "Andrei Sandru",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Codruț Cârjă",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Amarii",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Patrick Capracea",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Adelin Istrate",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marian Bodea",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ciprian Popa",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Alexandru Codreanu",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Marian Condac",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Cătălin Aeroaiei",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sebastian Chircioaga",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Andrei Tomac",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nr": 18,
+   "nume": "Dan Nechifor",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Jordan Ngoma",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "Franța"
+  },
+  {
+   "nr": 20,
+   "nume": "Vlăduț Bălășel",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andi Hoțoi",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 99,
+   "nume": "Marius Lupu",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Panciu",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Arone Kaba",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "Franța"
+  },
+  {
+   "nume": "Cosmin Privighitorita",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/9/9f/CSM_Pa%C8%99cani_logo.png",
+ "actualizat": "2026-11-22",
+ "surse": [
+  "https://www.transfermarkt.com/csm-pascani/kader/verein/41284/plus/1",
+  "https://www.transfermarkt.com/csm-pascani/mitarbeiter/verein/41284",
+  "https://en.wikipedia.org/wiki/CSM_Pa%C8%99cani",
+  "https://en.wikipedia.org/wiki/Stadionul_CFR_(Pa%C8%99cani)",
+  "https://newspascani.com/csm-pascani-obtine-prima-victorie-din-campionat-de-la-revenirea-in-liga-a-3-a-video/"
+ ]
+}
