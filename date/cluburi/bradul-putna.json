@@ -1,0 +1,166 @@
+{
+ "nume": "Bradul Putna",
+ "oras": "Putna",
+ "lot": [
+  {
+   "nume": "Matei Cuciureanu",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Butnariu",
+   "post": "portar",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Apetrei",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Plămadă",
+   "post": "fundas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mugurel Florescu",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Antonesei",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ianis Crețu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Dăscălu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Iustin Panciuc",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Petraru",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Ciobanu",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Ciuștea",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Adrian Gheorghiciuc",
+   "post": "mijlocas",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Georgel Hopulele",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Iulian Buliga",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Stefan Mihalciuc",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sebastian Nisioi",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Anton",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Codrin Cărăușu",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Antonio Zaharia",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ioan Anton",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cătălin Coroamă",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Radu Ungurianu",
+   "post": "atacant",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionel Stoian",
+   "post": "atacant",
+   "varsta": 38,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Savin",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Țăran",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-22",
+ "surse": [
+  "https://www.transfermarkt.com/cs-bradul-putna/kader/verein/143709/plus/1"
+ ]
+}

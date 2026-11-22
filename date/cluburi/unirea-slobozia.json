@@ -1,0 +1,212 @@
+{
+ "nume": "Unirea Slobozia",
+ "oras": "Slobozia",
+ "site": "https://afcunireaslobozia.com/",
+ "stadion": {
+  "nume": "Stadionul 1 Mai",
+  "capacitate": 6000,
+  "maps": "https://maps.google.com/?q=Stadionul+1+Mai+Slobozia"
+ },
+ "antrenor": {
+  "nume": "Ilie Poenaru",
+  "nationalitate": "România",
+  "varsta": 50
+ },
+ "lot": [
+  {
+   "nr": 12,
+   "nume": "Denis Rusu",
+   "post": "portar",
+   "varsta": 36,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nume": "Ștefan Ciupercă",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Uțiu",
+   "post": "portar",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 1,
+   "nume": "Hunor Albert",
+   "post": "portar",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Alexandru Stănică",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 13,
+   "nume": "André Serra",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nr": 14,
+   "nume": "Gabriel Lazăr",
+   "post": "fundas",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Gabriel Nedelea",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Bogdan Marian",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Constantin Toma",
+   "post": "fundas",
+   "varsta": 39,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "David Todoran",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Florinel Ibrian",
+   "post": "fundas",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Raul Iancu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Rareș Lazăr",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 29,
+   "nume": "Deimantas Rimpa",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "Lituania"
+  },
+  {
+   "nr": 16,
+   "nume": "Szabolcs Szilágyi",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Robert Ristoiu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Mihăiță Lemnaru",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Bruno Ventura",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nr": 18,
+   "nume": "Viorel Gîrbăcea",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Răzvan Grădinaru",
+   "post": "atacant",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Robert Necșulescu",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 27,
+   "nume": "Lucas Câmpan",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 28,
+   "nume": "Felipe Borges",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "Elveția"
+  },
+  {
+   "nr": 9,
+   "nume": "Gergely Bobál",
+   "post": "atacant",
+   "varsta": 31,
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nr": 23,
+   "nume": "Silviu Tănase",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 33,
+   "nume": "Alexandru Niculae",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-22",
+ "surse": [
+  "https://www.transfermarkt.com/afc-unirea-04-slobozia/kader/verein/29700/plus/1",
+  "https://www.transfermarkt.com/afc-unirea-04-slobozia/mitarbeiter/verein/29700",
+  "https://en.wikipedia.org/wiki/AFC_Unirea_Slobozia",
+  "https://liga2.prosport.ro/seria-1/liga-2-unirea-slobozia-a-invins-cu-2-0-csm-olimpia-satu-mare-19407031",
+  "https://liga2.prosport.ro/seria-1/meciurile-etapei-a-14-a-din-liga-2-sezonul-2026-2027-19408063"
+ ]
+}

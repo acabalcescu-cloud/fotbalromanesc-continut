@@ -1,0 +1,156 @@
+{
+ "nume": "AFC Odorheiu Secuiesc",
+ "oras": "Odorheiu Secuiesc",
+ "stadion": {
+  "nume": "Stadionul Municipal",
+  "capacitate": 5000,
+  "maps": "https://maps.google.com/?q=Stadionul+Municipal+Odorheiu+Secuiesc"
+ },
+ "antrenor": {
+  "nume": "Norbert Demény",
+  "varsta": 48
+ },
+ "stema": "https://upload.wikimedia.org/wikipedia/en/5/57/AFC_Odorheiu_Secuiesc_logo.png",
+ "lot": [
+  {
+   "nume": "Dániel Lukács",
+   "post": "portar",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Michele Antonucci",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Viktor Harkó",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Szabolcs Kovacs",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nume": "Csongor Berkeczi",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Tamás Tordai",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihály Péter",
+   "post": "fundas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Balázs Csiszér",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cătălin Savin",
+   "post": "mijlocas",
+   "varsta": 36,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rajmond Bálint",
+   "post": "mijlocas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Szilárd Kálmán",
+   "post": "mijlocas",
+   "varsta": 29,
+   "nationalitate": "Ungaria"
+  },
+  {
+   "nume": "Kristof Lazar",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Norbert Balázs",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Szilárd Fehér",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Simó Tamás",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ramon Gașpar",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vladimir Badea",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Arthur Györgyi",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Előd Szőcs",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Krisztián Marosi",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Roland Nagy",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Csaba Szilárd",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "Ungaria"
+  }
+ ],
+ "actualizat": "2026-11-22",
+ "surse": [
+  "https://www.transfermarkt.com/afc-odorheiu-secuiesc/kader/verein/37185/plus/1",
+  "https://www.transfermarkt.com/afc-odorheiu-secuiesc/mitarbeiter/verein/37185",
+  "https://en.wikipedia.org/wiki/AFC_Odorheiu_Secuiesc",
+  "https://sport.szekelyhon.ro/labdarugas/putnat-is-megverte-zsinorban-harom-gyozelemnel-jar-a-szekelyudvarhelyi-fc"
+ ]
+}

@@ -1,0 +1,218 @@
+{
+ "nume": "Steaua București",
+ "oras": "București",
+ "fondat": 1947,
+ "site": "https://www.csasteaua.ro/",
+ "stadion": {
+  "nume": "Stadionul Steaua",
+  "capacitate": 31254,
+  "inaugurat": 2021,
+  "maps": "https://maps.google.com/?q=Stadionul+Steaua+Bulevardul+Ghencea+35+Bucuresti"
+ },
+ "antrenor": {
+  "nume": "Daniel Oprița",
+  "nationalitate": "România",
+  "varsta": 45
+ },
+ "lot": [
+  {
+   "nr": 33,
+   "nume": "Máté Simon",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 1,
+   "nume": "Iannis Pletea",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Horia Iancu",
+   "post": "portar",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihnea Boroș",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Ionuț Dinu",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Carlos Daniel Dorado",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 4,
+   "nume": "Dean Beța",
+   "post": "fundas",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "György Papp",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 13,
+   "nume": "Adrian Ilie",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Laurențiu Vlăsceanu",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 26,
+   "nume": "Mihai Adăscăliței",
+   "post": "fundas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Florin Răsdan",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Pîrcălabu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 34,
+   "nume": "Alexandru Albu",
+   "post": "mijlocas",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Ionuț Coadă",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Rotaru",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 27,
+   "nume": "Ștefan Pacionel",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bruno Carvalho",
+   "post": "mijlocas",
+   "varsta": 29,
+   "nationalitate": "Capul Verde"
+  },
+  {
+   "nume": "Ayoub Abou",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "Maroc"
+  },
+  {
+   "nume": "Javi Grillo",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 14,
+   "nume": "Luca Albu",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Carlos González",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 26,
+   "nume": "Ioan Tolea",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Pedro Caldieraro",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "Brazilia"
+  },
+  {
+   "nr": 10,
+   "nume": "Bogdan Chipirliu",
+   "post": "atacant",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dani García",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Spania"
+  },
+  {
+   "nr": 17,
+   "nume": "Mihai Bobaru",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Noveli",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Előd Tóth-Pál",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-22",
+ "surse": [
+  "https://www.transfermarkt.com/csa-steaua/kader/verein/61687/plus/1",
+  "https://www.transfermarkt.com/csa-steaua/mitarbeiter/verein/61687",
+  "https://en.wikipedia.org/wiki/CSA_Steaua_Bucure%C8%99ti_(football)",
+  "https://www.fanatik.ro/daniel-oprita-face-curatenie-generala-la-steaua-in-iarna-vom-aduce-alti-jucatori-21587392",
+  "https://liga2.prosport.ro/seria-1/steaua-invinsa-pentru-prima-data-de-metalul-buzau-19407470"
+ ]
+}

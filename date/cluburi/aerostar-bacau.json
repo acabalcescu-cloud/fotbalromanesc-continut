@@ -1,0 +1,232 @@
+{
+ "nume": "Aerostar Bacău",
+ "oras": "Bacău",
+ "site": "http://cs.aerostar.ro/",
+ "stadion": {
+  "nume": "Stadionul Aerostar",
+  "capacitate": 1500,
+  "inaugurat": 1970,
+  "maps": "https://maps.google.com/?q=Stadionul+Aerostar+Strada+Condorilor+9+Bacau"
+ },
+ "antrenor": {
+  "nume": "Andrei Întuneric",
+  "nationalitate": "România",
+  "varsta": 37
+ },
+ "stema": "https://upload.wikimedia.org/wikipedia/en/8/85/Aerostar_Bacau_logo.png",
+ "lot": [
+  {
+   "nr": 12,
+   "nume": "Vlăduț Negrea",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Benchea",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Ganea",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Laurențiu Țîmpu",
+   "post": "fundas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Marian Prențu",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 18,
+   "nume": "Mario Ganea",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Dragoş Plămadă",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Coroi",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Tudor Antohi",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Luca Budău",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marius Telcean",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Florea",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Marian Pruteanu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Hârjan",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Filip Belciu",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Paulian Banu",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Adrian Olteanu",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Paveluc",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Oancea",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Florea",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Alexandru Băisan",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Tudor Solomon",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 29,
+   "nume": "Ionut Tilibasa",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Andrei Mazilu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Juncu",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Victor David",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Denis Pantelei",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vasile Padovei",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Irinel Patrichi",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Corban",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Cătău",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Teodor Roman",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-22",
+ "surse": [
+  "https://www.transfermarkt.com/aerostar-bacau/kader/verein/13842/plus/1",
+  "https://www.transfermarkt.com/aerostar-bacau/mitarbeiter/verein/13842",
+  "https://en.wikipedia.org/wiki/CS_Aerostar_Bac%C4%83u",
+  "https://en.wikipedia.org/wiki/Aerostar_Stadium",
+  "https://www.desteptarea.ro/aerostar-invinsa-acasa-de-csm-vaslui/",
+  "https://liga2.prosport.ro/liga-3/schimbari-in-stafful-tehnic-al-echipei-aerostar-bacau-19376074"
+ ]
+}
