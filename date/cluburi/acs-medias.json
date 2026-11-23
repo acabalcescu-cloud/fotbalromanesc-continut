@@ -1,0 +1,210 @@
+{
+ "nume": "ACS Mediaș",
+ "oras": "Mediaș",
+ "antrenor": {
+  "nume": "Cosmin Vâtcă",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nume": "Teodor Filipescu",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Oroian",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "David Feșteu",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Radu Crîng",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Alexandru Core",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Benjamin Hanzu",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ianis Faloba",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Pop",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Iulian Mamalaucă",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Manoilă",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Sebastian Birtolon",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 28,
+   "nume": "Rareș Plăiașu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Teofil Banea",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Ianis Frîncu",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 24,
+   "nume": "Cristian Maxim",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sergiu Luca",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Banea",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Paolo Stan",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Avram",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 77,
+   "nume": "Alexandru Negrean",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Eduard Neagu",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Cristian Pajco",
+   "post": "mijlocas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Sergiu Gurei",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Țala",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Raul Hăjmășan",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Azdren Llullaku",
+   "post": "atacant",
+   "varsta": 38,
+   "nationalitate": "Albania"
+  },
+  {
+   "nr": 11,
+   "nume": "Raul Orlandea",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Streinu",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Mihai Nevodar",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/d/d9/ACS_Medias_2022_logo.png",
+ "actualizat": "2026-11-23",
+ "surse": [
+  "https://www.transfermarkt.com/acs-medias-2022/kader/verein/101732/plus/1",
+  "https://www.transfermarkt.com/acs-medias-2022/mitarbeiter/verein/101732",
+  "https://www.oradesibiu.ro/2026/11/21/esec-drastic-pentru-acs-medias-la-baicoi-echipa-de-pe-tarnava-a-cazut-pe-4/",
+  "https://www.oradesibiu.ro/2026/11/10/veste-extraordinara-pentru-acs-medias-echipa-revine-pe-stadionul-gaz-metan-dupa-3-ani-de-seceta/",
+  "https://en.wikipedia.org/wiki/ACS_Media%C8%99"
+ ]
+}

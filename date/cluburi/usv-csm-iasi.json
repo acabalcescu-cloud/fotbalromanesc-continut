@@ -1,0 +1,253 @@
+{
+ "nume": "USV CSM Iași",
+ "oras": "Iași",
+ "antrenor": {
+  "nume": "Cristian Ungureanu",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nume": "Ianos Brînză",
+   "post": "portar",
+   "varsta": 28,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nume": "Rareș Bârlădeanu",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 1,
+   "nume": "Toma Niga",
+   "post": "portar",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Pavel",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Tarcea",
+   "post": "portar",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ruslan Chelari",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nume": "Matei Ciapă",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Andrei Pintilei",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Iulian Curcă",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dimitrie Voion",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Mehedincu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Matei Grigorescu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Alecsandru",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dimitrie Ureche",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Turcu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alin Pencea",
+   "post": "mijlocas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Asofiei",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Tofan",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dumitru Șova",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Sandu",
+   "post": "mijlocas",
+   "varsta": 39,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Izmană",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Buțerchi",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Diego Fărcaș",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Giani Unghianu",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 77,
+   "nume": "Așer Prisăcariu Denis",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Paznicu",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Olaru",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Albert Cuculescu",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Sîrbu",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Albert Grad",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Adrian Viorică",
+   "post": "atacant",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Lambrinoc",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Erik Călin",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Marin",
+   "post": "atacant",
+   "varsta": 38,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Georgică Popovici",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Vlăduț Mocanu",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sebastian Ilieș",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Pitisciuc",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/6/6b/USV_Ia%C8%99i_logo.png",
+ "actualizat": "2026-11-23",
+ "surse": [
+  "https://www.transfermarkt.com/acs-usv-iasi/kader/verein/124184/plus/1",
+  "https://www.transfermarkt.com/acs-usv-iasi/mitarbeiter/verein/124184",
+  "https://liga2.prosport.ro/liga-3/echipa-din-copou-a-invins-la-targu-secuiesc-si-a-urcat-pe-locul-2-in-seria-1-a-ligii-3-19407126",
+  "https://www.dragosgaspar.ro/cu-totul-altceva-kse-tg-secuiesc-cs-usv-csm-iasi-2020-0-3-0-2/",
+  "https://en.wikipedia.org/wiki/ACS_USV_Ia%C8%99i"
+ ]
+}

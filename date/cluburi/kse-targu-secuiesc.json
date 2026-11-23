@@ -1,0 +1,165 @@
+{
+ "nume": "KSE Târgu Secuiesc",
+ "oras": "Târgu Secuiesc",
+ "culori": "alb-albastru",
+ "site": "https://ksetargusecuiesc.com/",
+ "stadion": {
+  "nume": "Stadionul Dr. Sinkovits",
+  "capacitate": 3000,
+  "maps": "https://maps.google.com/?q=Stadionul+Dr.+Sinkovits+T%C3%A2rgu+Secuiesc"
+ },
+ "antrenor": {
+  "nume": "Liviu Negoiță",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nume": "Gabriel Bunduc",
+   "post": "portar",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Minea",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Chiriac",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Raul Rusu",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Budău",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Mitocaru",
+   "post": "fundas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Zalan Fülöp",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Tudor Banciu",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marius Burlacu",
+   "post": "fundas",
+   "varsta": 41,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Neamțu",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Raul Drugă",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Tamás Gajdó",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Almos Bandi",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Valentin Ureche",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dávid Trombitás",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Máté Varga",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Zsolt Dobos",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Róbert Fábián",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Norbert Barta",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Nicoloiu",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Iulian Nechita",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alpár Gergely",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Norbert Varga",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/1/1a/KSE_T%C3%A2rgu_Secuiesc_logo.png",
+ "actualizat": "2026-11-23",
+ "surse": [
+  "https://ksetargusecuiesc.com/",
+  "https://ksetargusecuiesc.com/categorie-de-jucatori/staff-ul-tehnic/",
+  "https://www.transfermarkt.com/acs-kse-tg-secuiesc/kader/verein/60794/plus/1",
+  "https://www.transfermarkt.com/acs-kse-tg-secuiesc/mitarbeiter/verein/60794",
+  "https://www.transfermarkt.com/acs-kse-tg-secuiesc/stadion/verein/60794",
+  "https://en.wikipedia.org/wiki/KSE_T%C3%A2rgu_Secuiesc"
+ ]
+}

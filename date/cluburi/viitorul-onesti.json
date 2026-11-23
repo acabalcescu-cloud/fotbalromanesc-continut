@@ -1,0 +1,159 @@
+{
+ "nume": "Viitorul Onești",
+ "oras": "Onești",
+ "site": "https://viitorulonesti.ro/",
+ "antrenor": {
+  "nume": "Constantin Ilie",
+  "nationalitate": "România",
+  "varsta": 52
+ },
+ "lot": [
+  {
+   "nume": "Alexandru Duta",
+   "post": "portar",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Martin",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 1,
+   "nume": "Ionuț Dubină",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Ianau",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Ardeleanu",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Romanescu",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Radu Ghimbovschi",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Octavian Bejenari",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nume": "Denis Balaban",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Lazăr",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Botezatu",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Chiper",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Roberto Marcu",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Toader",
+   "post": "mijlocas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Rață",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Neculai",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Moței",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Ștefănescu",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Silviu Stoian",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Richardo Mihalache",
+   "post": "atacant",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Moraru",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Roberto Bortoș",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Stoica",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-23",
+ "surse": [
+  "https://www.transfermarkt.com/viitorul-curita/kader/verein/117908/plus/1",
+  "https://unupetrotus.ro/constantin-ilie-este-noul-antrenor-de-la-fc-viitorul-onesti/",
+  "https://liga2.prosport.ro/liga-3/constantin-ilie-a-lasat-o-pe-fc-bacau-2-pentru-viitorul-onesti-19402944",
+  "https://unupetrotus.ro/viitorul-onesti-revine-in-forta-sub-comanda-lui-costel-ilie-egal-spectaculos-2-2-pe-terenul-celor-de-la-targu-secuiesc/",
+  "https://en.wikipedia.org/wiki/FC_Viitorul_One%C8%99ti"
+ ]
+}
