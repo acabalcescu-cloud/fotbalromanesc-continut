@@ -1,0 +1,16 @@
+{
+ "nume": "Carpați Covasna",
+ "oras": "Covasna",
+ "fondat": 2024,
+ "culori": "albastru-negru",
+ "stadion": {
+  "nume": "Stadionul Orășenesc",
+  "maps": "https://maps.google.com/?q=Stadionul+Or%C4%83%C8%99enesc+Covasna"
+ },
+ "lot": [],
+ "actualizat": "2026-11-23",
+ "surse": [
+  "https://www.frf-ajf.ro/covasna/echipe/cscarpati-covasna-2956.html",
+  "https://www.karpatok.ro/noutati/etapa-8-carpati-breaza-2026"
+ ]
+}

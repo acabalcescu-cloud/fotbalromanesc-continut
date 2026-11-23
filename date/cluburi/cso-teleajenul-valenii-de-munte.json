@@ -1,0 +1,24 @@
+{
+ "nume": "CSO Teleajenul Vălenii de Munte",
+ "oras": "Vălenii de Munte",
+ "stadion": {
+  "nume": "Stadionul Orășenesc",
+  "maps": "https://maps.google.com/?q=Stadionul+Or%C4%83%C8%99enesc+V%C4%83lenii+de+Munte"
+ },
+ "antrenor": {
+  "nume": "Carmel Bărbulescu",
+  "nationalitate": "România",
+  "varsta": 57
+ },
+ "lot": [],
+ "actualizat": "2026-11-23",
+ "surse": [
+  "https://aromuscel.ro/2026/11/13/in-sfarsit-victorie-acasa/",
+  "https://telegrama.ro/article/in-cadere-lidera-cso-teleajenul-valenii-de-munte-nu-opreste-seria-esecurilor",
+  "https://telegrama.ro/article/punct-cu-punct-cso-teleajenul-valenii-de-munte-avanseaza-pe-locul-secund",
+  "https://ziarulprahova.ro/2026/07/06/cso-teleajenul-a-semnat-cu-bebe-barbulescu/",
+  "https://www.transfermarkt.com/teleajenul-valenii-de-munte/mitarbeiter/verein/118012",
+  "https://www.frf-ajf.ro/prahova/echipe/cso-teleajenul-vlenii-de-munte-1735.html/competitii",
+  "https://tribuna.com/en/clubs/teleajenul-vm/table/"
+ ]
+}

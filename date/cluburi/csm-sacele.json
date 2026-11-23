@@ -1,0 +1,24 @@
+{
+ "nume": "CSM Săcele",
+ "oras": "Săcele",
+ "stadion": {
+  "nume": "Stadionul Electroprecizia",
+  "maps": "https://maps.google.com/?q=Stadionul+Electroprecizia+S%C4%83cele"
+ },
+ "antrenor": {
+  "nume": "Marian Cristescu",
+  "nationalitate": "România",
+  "varsta": 41
+ },
+ "lot": [],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/a/ab/CSM_S%C4%83cele_logo.png",
+ "actualizat": "2026-11-23",
+ "surse": [
+  "https://www.monitorulexpres.ro/2026/10/26/liga-3-csm-sacele-a-dat-lovitura-la-breaza-trei-victorii-consecutive-pentru-elevii-lui-marian-cristescu/",
+  "https://www.monitorulexpres.ro/2026/05/22/csm-sacele-si-marian-cristescu-vor-continua-colaborarea/",
+  "https://en.wikipedia.org/wiki/CSM_S%C4%83cele",
+  "https://ro.wikipedia.org/wiki/CSM_S%C4%83cele",
+  "https://www.transfermarkt.com/csm-sacele/stadion/verein/111736",
+  "https://www.transfermarkt.com/csm-sacele/kader/verein/111736/plus/1"
+ ]
+}

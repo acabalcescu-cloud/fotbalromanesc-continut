@@ -1,0 +1,171 @@
+{
+ "nume": "ARO Câmpulung",
+ "oras": "Câmpulung",
+ "site": "https://aromuscel.ro/",
+ "antrenor": {
+  "nume": "Alin Popescu",
+  "nationalitate": "România",
+  "varsta": 46
+ },
+ "lot": [
+  {
+   "nume": "Vlad Cîrstea",
+   "post": "portar",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Zăbavă",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Borislav Rotaru",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Doinea",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Davide Bledea",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Burnea",
+   "post": "fundas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Oprescu",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Flavius Stăncescu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Pia",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Mitrache",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Radu Maria",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Takayuki Seto",
+   "post": "mijlocas",
+   "varsta": 40,
+   "nationalitate": "Japonia"
+  },
+  {
+   "nume": "Ionuț Mihăescu",
+   "post": "mijlocas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marian Ghiță",
+   "post": "mijlocas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Georgian Jenaru",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andy Cosma",
+   "post": "mijlocas",
+   "varsta": 15,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Călin Dumitru",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicolas Bornescu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Valentin Coșereanu",
+   "post": "mijlocas",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Dinu",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Neacșu",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Ciurea",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Iordache",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Albert Jarcă",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Găleșeanu",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/e/e5/ACS_ARO_Muscelul_C%C3%A2mpulung_logo.png",
+ "actualizat": "2026-11-23",
+ "surse": [
+  "https://aromuscel.ro/2026/11/13/in-sfarsit-victorie-acasa/",
+  "https://aromuscel.ro/2026/10/19/2-ani-si-21-de-victorii-in-liga-3-cu-alin-popescu-pe-banca-tehnica/",
+  "https://www.transfermarkt.com/aro-muscelul-campulung/kader/verein/102286/plus/1",
+  "https://www.transfermarkt.com/aro-muscelul-campulung/mitarbeiter/verein/102286",
+  "https://en.wikipedia.org/wiki/ARO_Muscelul_C%C3%A2mpulung"
+ ]
+}

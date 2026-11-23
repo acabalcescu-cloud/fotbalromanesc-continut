@@ -1,0 +1,25 @@
+{
+ "nume": "CSO Băicoi",
+ "oras": "Băicoi",
+ "site": "https://csobaicoi.ro/",
+ "stadion": {
+  "nume": "Stadionul Liliești",
+  "maps": "https://maps.google.com/?q=Stadionul+Lilie%C8%99ti+B%C4%83icoi"
+ },
+ "antrenor": {
+  "nume": "Valentin Lazăr",
+  "nationalitate": "România",
+  "varsta": 37
+ },
+ "lot": [],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/e/e1/CSO_B%C4%83icoi_logo.png",
+ "actualizat": "2026-11-23",
+ "surse": [
+  "https://csobaicoi.ro/acs-kids-tampa-brasov-cso-baicoi/",
+  "https://csobaicoi.ro/cso-baicoi-acs-medias/",
+  "https://telegrama.ro/article/din-nou-acasa-vali-lazar-s-a-intors-la-cso-baicoi",
+  "https://www.transfermarkt.com/cso-baicoi/mitarbeiter/verein/118008",
+  "https://www.transfermarkt.com/cso-baicoi/stadion/verein/118008",
+  "https://en.wikipedia.org/wiki/CSO_B%C4%83icoi"
+ ]
+}
