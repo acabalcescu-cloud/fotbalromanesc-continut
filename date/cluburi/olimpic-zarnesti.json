@@ -1,0 +1,181 @@
+{
+ "nume": "Olimpic Zărnești",
+ "oras": "Zărnești",
+ "stadion": {
+  "nume": "Baza Sportivă Zărnești",
+  "maps": "https://maps.google.com/?q=Baza+Sportiv%C4%83+Z%C4%83rne%C8%99ti"
+ },
+ "antrenor": {
+  "nume": "Mihai Stere",
+  "nationalitate": "România",
+  "varsta": 50
+ },
+ "lot": [
+  {
+   "nume": "Vlad Tănasă",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Roșcan",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ioan Șerban",
+   "post": "fundas",
+   "varsta": 43,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Dobre",
+   "post": "fundas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Jinga",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Olteanu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Țintea",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlad Berloiu",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Flavius Clinciu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Ilie",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marian Necșuță",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Colțofean",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ciprian Marcu",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Cantauz",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Necula",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Drăghici",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Diego Alupoaie",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlad Lupu",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Sulică",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicolae Măriean",
+   "post": "atacant",
+   "varsta": 36,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Horea Ilie",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Ghiță",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mădălin Mielușoiu",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Hodorog",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Marinescu",
+   "post": "atacant",
+   "varsta": 37,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Iustin Grigore",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-24",
+ "surse": [
+  "https://evenimentulmuscelean.ro/2026/11/09/aro-campulung-egal-fara-goluri-la-zarnesti-dupa-un-meci-dominat-de-musceleni-cosereanu-a-ratat-un-penalty/",
+  "https://www.monitorulexpres.ro/2026/09/24/antrenorul-momentului-in-liga-3-mihai-stere-e-pe-val-cu-olimpic-zarnesti-si-spera-la-play-off/",
+  "https://blog.visitzarnesti.ro/10-aprilie-zi-de-fotbal-la-zarnesti-meci-traditional-si-meci-play-off-liga-3/",
+  "https://www.transfermarkt.com/acs-olimpic-zarnesti/kader/verein/95321/plus/1",
+  "https://www.transfermarkt.com/acs-olimpic-zarnesti/mitarbeiter/verein/95321",
+  "https://www.transfermarkt.com/acs-olimpic-zarnesti/stadion/verein/95321",
+  "https://en.wikipedia.org/wiki/Mihai_Stere_(footballer,_born_1975)"
+ ]
+}

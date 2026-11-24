@@ -1,0 +1,193 @@
+{
+ "nume": "Kids Tâmpa Brașov",
+ "oras": "Brașov",
+ "stadion": {
+  "nume": "Stadionul ICIM",
+  "maps": "https://maps.google.com/?q=Stadionul+ICIM+Bra%C8%99ov"
+ },
+ "antrenor": {
+  "nume": "Ovidiu Mihai",
+  "nationalitate": "România",
+  "varsta": 33
+ },
+ "lot": [
+  {
+   "nume": "Marco Tudose",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marian Ciubotaru",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Saulea",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Răducioiu",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Adrian Stoian",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Mihăilă",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Petrea",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Paul Ghetu",
+   "post": "fundas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andreas Dărăban",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Szasz",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cătălin Stoica",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Horjea",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Horia Grideanu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Moldovan",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Goșman",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Rojniță",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Paul Baican",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Marinescu",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Constantin Budescu",
+   "post": "mijlocas",
+   "varsta": 37,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Muraru",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Cristian Constantinescu",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Zota",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicolas Antone",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihnea Moroie",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Ene",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Ungureanu",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dragoș Pascu",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Călin Chiper",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-24",
+ "surse": [
+  "https://www.monitorulexpres.ro/2026/10/26/au-spart-ghinionul-la-covasna-prima-victorie-pentru-kids-tampa-brasov-dupa-9-infrangeri-consecutive/",
+  "https://www.monitorulexpres.ro/2026/10/20/kids-tampa-brasov-credit-pentru-antrenorul-ovidiu-mihai/",
+  "https://www.monitorulexpres.ro/2026/11/06/liga-3-reincepe-in-forta-kids-tampa-brasov-csm-sacele-pe-icim-derbi-pentru-corona-la-baicoi-meci-tare-pentru-zarnesti-cu-aro-campulung/",
+  "https://newsbv.ro/corona-brasov-fotbal/",
+  "https://www.transfermarkt.com/acs-kids-tampa-brasov/kader/verein/86161/plus/1",
+  "https://www.transfermarkt.com/acs-kids-tampa-brasov/mitarbeiter/verein/86161"
+ ]
+}

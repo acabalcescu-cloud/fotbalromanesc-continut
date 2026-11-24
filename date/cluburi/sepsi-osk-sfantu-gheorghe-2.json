@@ -1,0 +1,167 @@
+{
+ "nume": "Sepsi OSK Sfântu Gheorghe 2",
+ "oras": "Sfântu Gheorghe",
+ "stadion": {
+  "nume": "Baza Sportivă Sepsi OSK",
+  "maps": "https://maps.google.com/?q=Sepsi+Arena+Sf%C3%A2ntu+Gheorghe"
+ },
+ "antrenor": {
+  "nume": "Sándor Nagy",
+  "nationalitate": "România",
+  "varsta": 54
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Mátyás Bartha",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 33,
+   "nume": "Daniel Mutu",
+   "post": "portar",
+   "varsta": 39,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Tudor Mihăilă",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Krisztián Kóródi",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "David Brădeanu",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 91,
+   "nume": "Mario Giosanu",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Vereguț",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Mitu",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Levente Demeter",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dávid Kolcza",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Nikita Sarpe",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "Moldova"
+  },
+  {
+   "nr": 77,
+   "nume": "Raul Cantauz",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Kristof Pal",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Stancu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlad Toma",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eric Endrődi",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Vlad Truță",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 25,
+   "nume": "Márk Fekete",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 90,
+   "nume": "Norbert Kocsis",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gellért Karácsony",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Zsombor Veress",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Otto Vura",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/ACS_Sepsi_OSK_Sfantu_Gheorghe_logo.svg/250px-ACS_Sepsi_OSK_Sfantu_Gheorghe_logo.svg.png",
+ "actualizat": "2026-11-24",
+ "surse": [
+  "https://www.3szek.ro/load/cikk/184081/a-kovasznai-csapatot-%C2%ADfogadja-a-sepsi-osk-ii-labdarugas-3-liga",
+  "https://www.3szek.ro/load/cikk/183427/sorozatban-harmadszor-maradt-alul-a-sepsi-osk-ii-labdarugas-3-liga",
+  "https://www.monitorulexpres.ro/2026/09/18/etapa-4-liga-3-kids-tampa-brasov-are-o-misiune-dificila-pe-terenul-liderului-sepsi-osk-ii/",
+  "https://www.monitorulexpres.ro/2026/11/20/liga-3-etapa-14-csm-sacele-invinsa-la-sfantu-gheorghe-de-sepsi-osk-ii/",
+  "https://www.transfermarkt.com/sepsi-osk-sfantu-gheorghe-ii/kader/verein/86092/plus/1",
+  "https://www.transfermarkt.com/sepsi-osk-sfantu-gheorghe-ii/mitarbeiter/verein/86092",
+  "https://en.wikipedia.org/wiki/S%C3%A1ndor_Nagy_(footballer,_born_1972)"
+ ]
+}

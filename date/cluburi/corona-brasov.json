@@ -1,0 +1,196 @@
+{
+ "nume": "Corona Brașov",
+ "oras": "Brașov",
+ "site": "https://coronabrasov.ro/",
+ "stadion": {
+  "nume": "Stadionul Carpați",
+  "maps": "https://maps.google.com/?q=Stadionul+Carpa%C8%9Bi+Bra%C8%99ov"
+ },
+ "antrenor": {
+  "nume": "Marian Constantinescu",
+  "nationalitate": "România",
+  "varsta": 45
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Albert Popa",
+   "post": "portar",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Sebastian Ciuperceanu",
+   "post": "portar",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicolae Mihăilă",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Cosmin Stăncuțu",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Andrei Vasu",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Vlad Barnea",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 27,
+   "nume": "Darius Dragomir",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 44,
+   "nume": "Lucian Dumitriu",
+   "post": "fundas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 75,
+   "nume": "Bogdan Cîrstian",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 87,
+   "nume": "Adrian Voicu",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 98,
+   "nume": "Andrei Gavrilă",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Gheorghe Grozav",
+   "post": "mijlocas",
+   "varsta": 36,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Alexandru Mateiu",
+   "post": "mijlocas",
+   "varsta": 36,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Raul Gavîrliță",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Rareș Enceanu",
+   "post": "mijlocas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Vadim Covalciuc",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Mario Matsumoto",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "Japonia"
+  },
+  {
+   "nr": 23,
+   "nume": "Răzvan Iorga",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 97,
+   "nume": "Dan Vasile",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Nicolau",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Bogdan Roșu",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Andrei Lascu",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 26,
+   "nume": "Dragoș Popa",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 90,
+   "nume": "Bogdan Rusu",
+   "post": "atacant",
+   "varsta": 36,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/2/23/ASC_Corona_2010_Brasov.png",
+ "actualizat": "2026-11-24",
+ "surse": [
+  "https://coronabrasov.ro/2026/08/28/csm-corona-brasov-incepe-sezonul-in-superscore-liga-3/",
+  "https://liga2.prosport.ro/liga-3/corona-a-pierdut-la-baicoi-si-a-suferit-primul-esec-in-acest-sezon-de-liga-3-19407081",
+  "https://www.monitorulexpres.ro/2026/11/21/liga-3-etapa-14-corona-brasov-victorie-clara-cu-aro-campulung/",
+  "https://www.monitorulexpres.ro/2026/11/20/liga-3-etapa-14-liga-3-deplasari-grele-pentru-csm-sacele-si-kids-tampa-brasov-corona-si-olimpic-zarnesti-joaca-acasa/",
+  "https://newsbv.ro/corona-brasov-fotbal/",
+  "https://www.transfermarkt.com/csm-corona-brasov/kader/verein/122933/plus/1",
+  "https://www.transfermarkt.com/csm-corona-brasov/mitarbeiter/verein/122933",
+  "https://www.transfermarkt.com/csm-corona-brasov/stadion/verein/122933",
+  "https://en.wikipedia.org/wiki/CSM_Corona_Bra%C8%99ov_(football)",
+  "https://en.wikipedia.org/wiki/Marian_Constantinescu"
+ ]
+}

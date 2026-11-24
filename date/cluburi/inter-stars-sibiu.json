@@ -1,0 +1,185 @@
+{
+ "nume": "Inter Stars Sibiu",
+ "oras": "Sibiu",
+ "fondat": 2020,
+ "stadion": {
+  "nume": "Stadionul Municipal Sibiu",
+  "capacitate": 12363,
+  "inaugurat": 2022,
+  "maps": "https://maps.google.com/?q=Stadionul+Municipal+Sibiu"
+ },
+ "antrenor": {
+  "nume": "Mihai Ianc",
+  "nationalitate": "România",
+  "varsta": 53
+ },
+ "lot": [
+  {
+   "nr": 12,
+   "nume": "Victor Bărbat",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dennis Berța",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Rareș Uțiu",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Ionuț Stoica",
+   "post": "fundas",
+   "varsta": 38,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Robert Stoia",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Ianis Onețiu",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Timotei Mitran",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Patrick Toader",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 24,
+   "nume": "Florin Bejan",
+   "post": "fundas",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Mogoe",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ciprian Dascălu",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Andrei Dâncu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Emanuel Bârză",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Patrick Florea",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Tudor Neamțiu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Sebastian Ritivoi",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Matei Moraru",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Ionuț Bărculeț",
+   "post": "atacant",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Filip Taifas",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Bogdan Rotar",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Jonathan Morhan",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gheorghe Gondiu",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "Moldova"
+  },
+  {
+   "nume": "Adrian Ceban",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/a/a3/FC_Inter_Sibiu_logo.png",
+ "actualizat": "2026-11-24",
+ "surse": [
+  "https://www.oradesibiu.ro/2026/11/14/inter-sibiu-victorie-la-sacele-meciul-s-a-jucat-in-conditii-execrabile-video/",
+  "https://www.oradesibiu.ro/2026/11/06/inter-a-dat-de-pamant-cu-tricolorul-breaza-pe-municipal-sibiul-a-facut-scor-iar-un-jucator-a-facut-tripla/",
+  "https://zilesinopti.ro/2026/08/12/inter-sibiu-va-juca-pe-municipal/",
+  "https://liga2.prosport.ro/liga-3/mihai-ianc-il-inlocuieste-pe-calin-moldovan-19375990",
+  "https://www.transfermarkt.com/inter-stars-2020-sibiu/kader/verein/97775/plus/1",
+  "https://www.transfermarkt.com/inter-stars-2020-sibiu/mitarbeiter/verein/97775",
+  "https://www.transfermarkt.com/inter-stars-2020-sibiu/stadion/verein/97775",
+  "https://en.wikipedia.org/wiki/FC_Inter_Sibiu",
+  "https://en.wikipedia.org/wiki/Sibiu_Municipal_Stadium"
+ ]
+}
