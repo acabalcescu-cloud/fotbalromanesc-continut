@@ -1,0 +1,174 @@
+{
+ "nume": "CS Blejoi",
+ "oras": "Blejoi",
+ "site": "https://www.csblejoi.ro/",
+ "stadion": {
+  "nume": "Stadionul Comunal",
+  "capacitate": 1500,
+  "maps": "https://maps.google.com/?q=Stadionul+Comunal+Blejoi"
+ },
+ "antrenor": {
+  "nume": "Răzvan Vlad",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nume": "Andrei Jercălău",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Paul Cernat",
+   "post": "portar",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Crețu",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Rudacovschi",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Șerban",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Valentin Toroiman",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlăduț Gani",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dragoș Bleahu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Oprea",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Aris Oprea",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ovidiu Costache",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Raul Oprea",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Barbu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Victor Stancovici",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Constantinescu",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlad Tudorache",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Dima",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Iliescu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Augustin Dumitrache",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Dănăilă",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dragoș Gheorghe",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Florea",
+   "post": "atacant",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Lambru",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nikolas Ionică",
+   "post": "atacant",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dennis Dicu",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/d/d7/CS_Blejoi_logo.png",
+ "actualizat": "2026-11-24",
+ "surse": [
+  "https://telegrama.ro/article/remiza-in-noroi-cs-blejoi-a-terminat-la-egalitate-cu-fc-pucioasa",
+  "https://en.wikipedia.org/wiki/CS_Blejoi",
+  "https://www.transfermarkt.com/cs-blejoi-vispesti/kader/verein/37202/plus/1",
+  "https://www.transfermarkt.com/cs-blejoi-vispesti/mitarbeiter/verein/37202"
+ ]
+}

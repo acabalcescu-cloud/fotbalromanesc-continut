@@ -1,0 +1,224 @@
+{
+ "nume": "CS Tunari",
+ "oras": "Tunari",
+ "site": "https://cstunari.ro/",
+ "stadion": {
+  "nume": "Stadionul Central",
+  "capacitate": 1700,
+  "maps": "https://maps.google.com/?q=Stadionul+Central+Tunari+Ilfov"
+ },
+ "lot": [
+  {
+   "nume": "Sebastian Moroz",
+   "post": "portar",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Boris Chivulescu",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Bura-Koț",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Laurențiu Dobrin",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Vieru",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Răuță",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Claudiu Moisie",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alex Trifan",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Pedro Augusto",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "Spania"
+  },
+  {
+   "nume": "Rareș Bălan",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Furtună",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nume": "Dragoș Vlad",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Băcanu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Stamate",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlad Cristea",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Valentin Anghel",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Silvian Matei",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Lucian Ion",
+   "post": "mijlocas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Neluț Roșu",
+   "post": "mijlocas",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Geantă",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Ghețu",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Fabio Fota",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Chitaș",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Fernando Mihai",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Dumitru",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicholas Csampar",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Munteanu",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlad Filip",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Radu Vălușescu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luka Vekič",
+   "post": "atacant",
+   "varsta": 31,
+   "nationalitate": "Slovenia"
+  },
+  {
+   "nume": "Patrick Andreaș",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Adrian Bălan",
+   "post": "atacant",
+   "varsta": 36,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Dițoi",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eric Șomandru",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/7/77/CS_Tunari_logo.png",
+ "actualizat": "2026-11-24",
+ "surse": [
+  "https://liga2.prosport.ro/liga-3/cs-a-tunari-s-a-despartit-de-antrenorul-calin-cojocaru-19403385",
+  "https://en.wikipedia.org/wiki/CS_Tunari",
+  "https://www.transfermarkt.com/cs-tunari/kader/verein/37227/plus/1",
+  "https://www.transfermarkt.com/cs-tunari/mitarbeiter/verein/37227"
+ ]
+}

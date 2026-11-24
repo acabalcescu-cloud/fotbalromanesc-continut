@@ -1,0 +1,155 @@
+{
+ "nume": "CS Păulești",
+ "oras": "Păulești",
+ "stadion": {
+  "nume": "Stadionul Comunal",
+  "maps": "https://maps.google.com/?q=Stadionul+Comunal+P%C4%83ule%C8%99ti+Prahova"
+ },
+ "lot": [
+  {
+   "nume": "Raul Papp",
+   "post": "portar",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Raul Dumitru",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Paris",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Stoian",
+   "post": "fundas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Roy Zahavi",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "Israel"
+  },
+  {
+   "nume": "Carlos Zamfir",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Romário Pires",
+   "post": "mijlocas",
+   "varsta": 37,
+   "nationalitate": "Brazilia"
+  },
+  {
+   "nume": "Antonio Dănilă",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Bechir",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Mihai",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Negreanu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Leonard Preda",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Moisei",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Dan",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Silviu Crican",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Elis Popescu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dedey",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "Brazilia"
+  },
+  {
+   "nume": "Niv Levy",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "Israel"
+  },
+  {
+   "nume": "Mario Iordan",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Păun",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Cotună",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Bobea",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cătălin Comnoiu",
+   "post": "atacant",
+   "varsta": 36,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/b/b4/CS_P%C4%83ule%C8%99ti_logo_2.png",
+ "actualizat": "2026-11-24",
+ "surse": [
+  "https://en.wikipedia.org/wiki/CS_P%C4%83ule%C8%99ti",
+  "https://www.transfermarkt.com/cs-paulesti/kader/verein/50609/plus/1",
+  "https://www.transfermarkt.com/cs-paulesti/mitarbeiter/verein/50609"
+ ]
+}

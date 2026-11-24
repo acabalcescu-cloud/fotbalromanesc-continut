@@ -1,0 +1,175 @@
+{
+ "nume": "CSM Râmnicu Sărat",
+ "oras": "Râmnicu Sărat",
+ "site": "https://csmrmsarat.ro/",
+ "stadion": {
+  "nume": "Stadionul Municipal",
+  "maps": "https://maps.google.com/?q=Stadionul+Municipal+R%C3%A2mnicu+S%C4%83rat"
+ },
+ "lot": [
+  {
+   "nume": "Cristian Andrei",
+   "post": "portar",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Costin Răpeanu",
+   "post": "portar",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Soare",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Lopată",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihăiță Trandafir",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Nedelcu",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dănuț Bătrânu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alex Simion",
+   "post": "fundas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Minea",
+   "post": "mijlocas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Pațurcă",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Ignat",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Fernando Tanasele",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Roman",
+   "post": "mijlocas",
+   "varsta": 39,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Cutitaru",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Tănase",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Calin Paslaru",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Silvian Calota",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marian Codreanu",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionut Leganut",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alessio Mocanu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Claudiu Racovițeanu",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Iasmin Puiu",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Madalin Socol",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Buda",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Ion",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Iulian Marin",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/9/91/CSM_R%C3%A2mnicu_S%C4%83rat_logo.png",
+ "actualizat": "2026-11-24",
+ "surse": [
+  "https://csmrmsarat.ro/",
+  "https://en.wikipedia.org/wiki/CSM_R%C3%A2mnicu_S%C4%83rat",
+  "https://www.transfermarkt.com/csm-olimpia-ramnicu-sarat/kader/verein/27841/plus/1",
+  "https://www.transfermarkt.com/csm-olimpia-ramnicu-sarat/mitarbeiter/verein/27841"
+ ]
+}

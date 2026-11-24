@@ -1,0 +1,146 @@
+{
+ "nume": "Tricolorul Breaza",
+ "oras": "Breaza",
+ "stadion": {
+  "nume": "Stadionul Eugen Șoriceanu",
+  "maps": "https://maps.google.com/?q=Stadionul+Eugen+%C8%98oriceanu+Breaza"
+ },
+ "antrenor": {
+  "nume": "Gabriel Paraschiv",
+  "nationalitate": "România",
+  "varsta": 48
+ },
+ "lot": [
+  {
+   "nume": "Andrei Mînzicu",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dorian Neacșu",
+   "post": "portar",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Tudor Țăranu",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Costin Ioniță",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marius Duricu",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlăduț Burlacu",
+   "post": "fundas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Prodan",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Fabian Barbu",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Radu",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Dudu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Jagă",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Miclea",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Mîrșanu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Viman",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Nedelcu",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ianis Toader",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Șchiopu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Dogaru",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sebastian Bălașa",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Albert Dumitrescu",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/9/9d/Tricolorul_Breaza.png",
+ "actualizat": "2026-11-24",
+ "surse": [
+  "https://liga2.prosport.ro/liga-3/gabriel-paraschiv-revine-ca-antrenor-dupa-o-pauza-de-putin-peste-un-an-19402976",
+  "https://ziarulprahova.ro/2026/10/09/gabriel-paraschiv-a-preluat-breaza/",
+  "https://www.monitorulexpres.ro/2026/10/07/liga-3-egalul-cu-csm-corona-brasov-nu-a-fost-de-ajuns-marius-visan-lasa-banca-tehnica-a-tricolorului-breaza/",
+  "https://telegrama.ro/article/tricolori-batuti-de-budescu-dubla-pentru-costica",
+  "https://en.wikipedia.org/wiki/CSO_Tricolorul_Breaza",
+  "https://www.transfermarkt.com/tricolorul-breaza/kader/verein/43539/plus/1",
+  "https://www.transfermarkt.com/tricolorul-breaza/mitarbeiter/verein/43539"
+ ]
+}
