@@ -508,3 +508,12 @@ h1, h2, h3 { line-height: 1.15; }
 .fr-rezultate li.fr-meci--programat .fr-rezultat__s, .fr-rezultate li.fr-meci--asteptare .fr-rezultat__s { background: var(--fr-fundal); color: var(--fr-text); font-size: 15px; }
 .fr-rezultate li.fr-meci--live .fr-rezultat__s { background: var(--fr-rosu); }
 .fr-rezultat__stare { grid-column: 1 / -1; text-align: center; color: var(--fr-rosu); font-weight: 700; font-size: 12px; }
+
+/* Coperțile generate au deja steme și text: se văd întregi (16:9), iar titlul stă sub ele, nu peste. */
+.fr-articol--mare.fr-articol--coperta-auto .fr-articol__coperta, .fr-articol--coperta-auto .fr-articol__imagine { aspect-ratio: 16 / 9; }
+.fr-articol--coperta-auto .fr-articol__imagine img, .fr-articol--mare.fr-articol--coperta-auto .fr-articol__coperta img { object-fit: contain; background: #010E33; }
+.fr-articol--mare.fr-articol--coperta-auto .fr-articol__suprapus { position: static; aspect-ratio: auto; background: var(--fr-navy); padding: 24px 32px 28px; }
+@media (max-width: 760px) {
+	.fr-articol--mare.fr-articol--coperta-auto .fr-articol__coperta { aspect-ratio: 16 / 9; }
+	.fr-articol--mare.fr-articol--coperta-auto .fr-articol__suprapus { aspect-ratio: auto; padding: 18px 20px 22px; }
+}

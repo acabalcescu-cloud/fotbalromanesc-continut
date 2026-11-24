@@ -205,7 +205,7 @@ function fr_card_articol( $post = null, $varianta = 'card' ) {
 	$are_img = has_post_thumbnail( $post );
 	ob_start();
 	?>
-	<article class="fr-articol fr-articol--<?php echo esc_attr( $varianta ); ?><?php echo $are_img ? '' : ' fr-articol--fara-imagine'; ?>">
+	<article class="fr-articol fr-articol--<?php echo esc_attr( $varianta ); ?><?php echo $are_img ? '' : ' fr-articol--fara-imagine'; ?><?php echo $are_img && get_post_meta( $post->ID, '_fr_coperta_auto', true ) ? ' fr-articol--coperta-auto' : ''; ?>">
 		<?php if ( 'mare' === $varianta ) : ?>
 			<a class="fr-articol__coperta" href="<?php echo esc_url( $link ); ?>" tabindex="-1" aria-hidden="true">
 				<?php echo $are_img ? get_the_post_thumbnail( $post, 'fr-mare', array( 'loading' => 'eager', 'fetchpriority' => 'high' ) ) : ''; // phpcs:ignore WordPress.Security.EscapeOutput ?>
