@@ -172,9 +172,10 @@ $fr_rezultate = function ( $t, $n = 12 ) {
 	<?php
 	$fr_blocuri = array();
 	foreach ( $fr_comp_prima as $t ) {
-		$r = $fr_rezultate( $t );
-		if ( $r ) {
-			$fr_blocuri[] = array( $t, $r );
+		// Doar competițiile cu etape (SuperLiga, Liga 2…); naționalele nu au „etapă curentă”.
+		$fr_e = fr_etapa_curenta( $t );
+		if ( $fr_e ) {
+			$fr_blocuri[] = array( $t, $fr_e[1] );
 		}
 	}
 	if ( $fr_blocuri ) :
