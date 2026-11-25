@@ -1,0 +1,211 @@
+{
+ "nume": "Voința Crevedia",
+ "oras": "Crevedia",
+ "site": "https://vointacrevedia.ro/",
+ "antrenor": {
+  "nume": "Gabriel Manu",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nr": 90,
+   "nume": "Andrei Bucur",
+   "post": "portar",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Hodor",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cezar Simion",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Călin Tudose",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Bunescu",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Răstuf",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Matheo Melencu",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Serafim",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Denis Ciocîrlan",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlad Tătar",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marius Penescu",
+   "post": "mijlocas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihnea Neicu",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Viorel Ștefan",
+   "post": "mijlocas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Rusu",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Iulian Zamfir",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Albert Dima",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Chiru",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cătălin Nica",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Curea",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dorin Burlacu",
+   "post": "mijlocas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Omar Kassabji",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Laurențiu Reghecampf Jr.",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Mario Stancu",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Popescu",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicolas Pena",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Ionescu",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Valentin Ioniță",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Claudiu Dragu",
+   "post": "atacant",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Zătreanu",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Maria",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 88,
+   "nume": "Luca Ilie",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-25",
+ "surse": [
+  "https://vointacrevedia.ro/",
+  "https://telegrama.ro/article/schimbare-de-antrenor-intr-o-serie-prahoveana-gabi-manu-a-preluat-vointa-crevedia",
+  "https://liga2.prosport.ro/liga-3/liga-3-gabriel-manu-e-noul-antrenor-principal-al-echipei-vointa-crevedia-19402577",
+  "https://www.transfermarkt.com/vointa-crevedia/kader/verein/56528/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/vointa-crevedia/mitarbeiter/verein/56528"
+ ]
+}

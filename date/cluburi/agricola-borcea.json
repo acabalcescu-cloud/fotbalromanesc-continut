@@ -1,0 +1,188 @@
+{
+ "nume": "Agricola Borcea",
+ "oras": "Borcea",
+ "culori": "galben-albastru",
+ "site": "https://agricolaborcea.com/",
+ "stadion": {
+  "nume": "Stadionul Comunal",
+  "maps": "https://maps.google.com/?q=Stadionul+Comunal+Borcea+Calarasi"
+ },
+ "antrenor": {
+  "nume": "Marius Bratu",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Sorin Preda",
+   "post": "portar",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Ciorăneanu",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sorin Din",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Zamfir",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 13,
+   "nume": "Sebastian Ghinga",
+   "post": "fundas",
+   "varsta": 39,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 28,
+   "nume": "Denis Ispas",
+   "post": "fundas",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Filip Ilcoș",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Măndiță",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Rafaelle Stroe",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Robert Cătălin",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Minciu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dumitru Frigură",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Vasile",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Robert Ghizdeanu",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Victor Marin",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Costin Matei",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Ghinea",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 25,
+   "nume": "Darius Eftimie",
+   "post": "mijlocas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Mihai",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Cristian Delciu",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Maican",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Athanasios Toarcăș",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Andrei Vasilescu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Roberto Vasile",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Patric Murar",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-25",
+ "surse": [
+  "https://agricolaborcea.com/",
+  "https://agricolaborcea.com/agricola-borcea-pregatita-pentru-duelul-cu-unirea-slobozia-marius-bratu-trebuie-sa-ne-autodepasim/",
+  "https://ro.wikipedia.org/wiki/FC_Agricola_Borcea",
+  "https://www.transfermarkt.com/agricola-borcea/kader/verein/60793/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/agricola-borcea/mitarbeiter/verein/60793",
+  "https://www.sofascore.com/football/team/fc-agricola-borcea/267509"
+ ]
+}

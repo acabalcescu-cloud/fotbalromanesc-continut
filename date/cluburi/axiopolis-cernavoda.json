@@ -1,0 +1,188 @@
+{
+ "nume": "Axiopolis Cernavodă",
+ "oras": "Cernavodă",
+ "culori": "galben-albastru",
+ "site": "https://csaxiopolis.com/",
+ "stadion": {
+  "nume": "Stadionul Ideal",
+  "capacitate": 721,
+  "maps": "https://maps.google.com/?q=Stadionul+Ideal+Cernavoda"
+ },
+ "antrenor": {
+  "nume": "Gheorghe Mina",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nume": "Dănuț Neagu",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Moldoveanu",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Andriescu",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Francesco Stărică",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alin Ștefănescu",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Pîrîu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Rusu",
+   "post": "fundas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Seceleanu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alassane Diaby",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "Franța"
+  },
+  {
+   "nume": "Ianis Popa",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Vieru",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlad Suciu",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Kevin Trofim",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vasile Dobrescu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Bilan",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Tudoran",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Dragomir",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marius Neicu",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Theodor Haas",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ilie Florea",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Trofimov",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ciprian Ciocoiu",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Grigore",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nayati Jidovu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sebastian Manole",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Ursache",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Grădinaru",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/2/27/CSA_Axiopolis_Cernavod%C4%83_logo.png",
+ "actualizat": "2026-11-25",
+ "surse": [
+  "https://csaxiopolis.com/",
+  "https://en.wikipedia.org/wiki/CS_Axiopolis_Cernavod%C4%83",
+  "https://www.transfermarkt.com/axiopolis-cernavoda/kader/verein/59168/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/axiopolis-cernavoda/mitarbeiter/verein/59168",
+  "https://www.ziuaconstanta.ro/stiri/sport/liga-a-3-a-axiopolis-cernavoda-infrangere-dureroasa-gheorghe-mina-ne-gandim-ca-ultimele-trei-meciuri-de-acasa-sa-le-jucam-pe-un-alt-teren-959794.html"
+ ]
+}

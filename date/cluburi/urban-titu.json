@@ -1,0 +1,154 @@
+{
+ "nume": "Urban Titu",
+ "oras": "Titu",
+ "site": "https://urbantitu.com/",
+ "stadion": {
+  "nume": "Stadionul Orășenesc",
+  "capacitate": 1100,
+  "maps": "https://maps.google.com/?q=Stadionul+Orasenesc+Titu"
+ },
+ "antrenor": {
+  "nume": "Adrian Bogoi",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nume": "Andres Brînzea",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Chelaru",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Bortea",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mituț Oprea",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Oprea",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicușor Costache",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Rășcanu",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Valentin Constantinescu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Constantin Dobîndă",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Vasilescu",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ciprian Dicu",
+   "post": "mijlocas",
+   "varsta": 36,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Ungureanu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Claudiu Andrei",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Ivașcu",
+   "post": "mijlocas",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Ardeleanu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Chiriță",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răduț Burcea",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Stoica",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Ionuț Stoica",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Ionică",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Soșa",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/4/47/ACS_Urban_Titu_logo.png",
+ "actualizat": "2026-11-25",
+ "surse": [
+  "https://urbantitu.com/",
+  "https://urbantitu.com/stadion/",
+  "https://en.wikipedia.org/wiki/ACS_Urban_Titu",
+  "https://www.transfermarkt.com/acs-urban-titu/kader/verein/56727/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/acs-urban-titu/mitarbeiter/verein/56727",
+  "https://liga2.prosport.ro/liga-3/adrian-bogoi-este-noul-antrenor-al-echipei-urban-titu-19390975",
+  "https://www.gazetadambovitei.ro/sport/adrian-bogoi-urban-titu-meciul-urmator-speram-sa-luam-punctele-puse-in-joc/",
+  "https://jurnaldb.ro/infrangere-dramatica-pentru-titu/"
+ ]
+}
