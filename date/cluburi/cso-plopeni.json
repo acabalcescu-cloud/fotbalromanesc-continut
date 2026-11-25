@@ -1,0 +1,176 @@
+{
+ "nume": "CSO Plopeni",
+ "oras": "Plopeni",
+ "site": "https://csoplopeni.ro/",
+ "stadion": {
+  "nume": "Stadionul Gheorghe Șilaev",
+  "capacitate": 9000,
+  "maps": "https://maps.google.com/?q=Stadionul+Gheorghe+Silaev+Plopeni"
+ },
+ "antrenor": {
+  "nume": "Pompiliu Stoica",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nume": "Mihai Stan",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sebastian Pârnău",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Irimia",
+   "post": "portar",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Roberto Alecsandru",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eugen Rudaru",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Giuroiu",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Stefan Nita",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Minea",
+   "post": "fundas",
+   "varsta": 39,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Toporan",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Rusu",
+   "post": "mijlocas",
+   "varsta": 37,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Militaru",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Adam",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nini Popescu",
+   "post": "mijlocas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rares Simionescu",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alessio Tudor",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Catalin Vlad",
+   "post": "mijlocas",
+   "varsta": 39,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Ilie",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Enescu",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicolae Zamfir",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marian Moraru",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Raul Bucur",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Ciobanu",
+   "post": "atacant",
+   "varsta": 38,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mădălin Constantin",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Stoica",
+   "post": "atacant",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dimitrie Rufă",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/5/50/CSO_Plopeni_logo.png",
+ "actualizat": "2026-11-25",
+ "surse": [
+  "https://en.wikipedia.org/wiki/CSO_Plopeni",
+  "https://ro.wikipedia.org/wiki/CSO_Plopeni",
+  "https://www.transfermarkt.com/metalul-plopeni/kader/verein/9464/saison_id/2026/plus/1",
+  "https://telegrama.ro/article/rocada-pe-banca-tehnica-a-cso-plopeni-pompiliu-stoica-preia-prima-echipa-daniel-dumitrache-merge-la-juniori",
+  "https://telegrama.ro/article/revirimentul-intarzie-un-nou-esec-pentru-cso-plopeni",
+  "https://www.sofascore.com/football/team/cso-plopeni/55377"
+ ]
+}

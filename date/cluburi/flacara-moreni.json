@@ -1,0 +1,223 @@
+{
+ "nume": "Flacăra Moreni",
+ "oras": "Moreni",
+ "site": "https://flacaramoreni.com/",
+ "stadion": {
+  "nume": "Stadionul Flacăra",
+  "capacitate": 10000,
+  "maps": "https://maps.google.com/?q=Stadionul+Flacara+Moreni"
+ },
+ "antrenor": {
+  "nume": "Cristinel Țermure",
+  "nationalitate": "România",
+  "varsta": 54
+ },
+ "lot": [
+  {
+   "nume": "Răzvan Ghițescu",
+   "post": "portar",
+   "varsta": 38,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Ștefan",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Tănase",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Dinu",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dragos Cernea",
+   "post": "fundas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Lucian Acasandrei",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Ilie",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Raul Neagu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Petruț Crăciun",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlad Dragomir",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Neagu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Brătucu",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Radu Simion",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Narcis Marina",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marian Nita",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionut Angheluta",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Petre",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Adrian Terec",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Cristea",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Ghebos",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Adrian Godinac",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Dragnea",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ianis Oprișan",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionatan Dogănoiu",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Chiriac",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Zaharia",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Enache",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Catalin Ene",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Oancea",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Claudiu Niculaescu",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Iliescu",
+   "post": "atacant",
+   "varsta": 39,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Lițoiu",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Dina",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/3/30/CSM_Flac%C4%83ra_Moreni_logo2.png",
+ "actualizat": "2026-11-25",
+ "surse": [
+  "https://en.wikipedia.org/wiki/CSM_Flac%C4%83ra_Moreni",
+  "https://www.transfermarkt.com/as-flacara-moreni/kader/verein/32290/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/as-flacara-moreni/mitarbeiter/verein/32290",
+  "https://liga2.prosport.ro/liga-3/liga-3-flacara-moreni-e-principala-favorita-la-promovarea-in-liga-2-19408140"
+ ]
+}

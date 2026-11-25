@@ -1,0 +1,18 @@
+{
+ "nume": "Petrolul Berca",
+ "oras": "Berca",
+ "culori": "galben-albastru",
+ "stadion": {
+  "nume": "Stadionul Petrolul",
+  "capacitate": 2000,
+  "maps": "https://maps.google.com/?q=Stadionul+Petrolul+Berca"
+ },
+ "actualizat": "2026-11-25",
+ "surse": [
+  "https://www.frf-ajf.ro/buzau/echipe/fc-petrolul-berca-2286.html",
+  "https://en.wikipedia.org/wiki/FC_Petrolul_Berca",
+  "https://www.transfermarkt.com/petrolul-berca-2019-/mitarbeiter/verein/98484",
+  "https://www.campusbuzau.ro/petrolul-berca-inca-o-victorie-cu-draganesti/",
+  "https://www.campusbuzau.ro/weekend-bun-pentru-divizionarele-buzoiene-victorii-pentru-berca-si-olimpia/"
+ ]
+}

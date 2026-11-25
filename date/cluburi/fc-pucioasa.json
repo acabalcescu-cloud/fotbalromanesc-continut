@@ -1,0 +1,189 @@
+{
+ "nume": "FC Pucioasa",
+ "oras": "Pucioasa",
+ "site": "https://asfcpucioasa.com/",
+ "stadion": {
+  "nume": "Stadionul Dumitru Tică Popescu",
+  "capacitate": 1000,
+  "maps": "https://maps.google.com/?q=Stadionul+Dumitru+Tica+Popescu+Pucioasa"
+ },
+ "antrenor": {
+  "nume": "Marian Vătavu",
+  "nationalitate": "România",
+  "varsta": 44
+ },
+ "lot": [
+  {
+   "nume": "Flavius Budoiu",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ianis Ștefan",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Matias Dragomir",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Iustin Cristea",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Niță",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Dinu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Valcan",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Vîlcan",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Albu",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marius Sirbuletu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Vama",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Prundaru",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Coman",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Raul Bădicioiu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Cristea",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Tiberiu Calofir",
+   "post": "mijlocas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Tinel Marin",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Pătulea",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Iustin Banu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Augustin Petolea",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sorin Cristea",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Cherchez",
+   "post": "mijlocas",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Victor Pîrva",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Octavian Mocanu",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Flavius Nicolae",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Satmari",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Tintar",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/c/c9/FC_Pucioasa_logo.png",
+ "actualizat": "2026-11-25",
+ "surse": [
+  "https://asfcpucioasa.com/",
+  "https://asfcpucioasa.com/fc-pucioasa-obtine-un-punct-in-deplasarea-de-la-corbeanca/",
+  "https://en.wikipedia.org/wiki/FC_Pucioasa",
+  "https://www.transfermarkt.com/fc-pucioasa/kader/verein/74318/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/fc-pucioasa/mitarbeiter/verein/74318",
+  "https://liga2.prosport.ro/liga-3/marian-vatavu-noul-antrenor-principal-al-fc-pucioasa-19359392"
+ ]
+}

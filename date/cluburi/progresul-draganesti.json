@@ -1,0 +1,19 @@
+{
+ "nume": "Progresul Drăgănești",
+ "oras": "Drăgănești",
+ "stadion": {
+  "nume": "Stadionul Tineretului (Mizil)",
+  "maps": "https://maps.google.com/?q=Stadionul+Tineretului+Mizil"
+ },
+ "antrenor": {
+  "nume": "Fadi Haddad",
+  "nationalitate": "Iordania",
+  "varsta": 44
+ },
+ "actualizat": "2026-11-25",
+ "surse": [
+  "https://liga2.prosport.ro/liga-3/iordanianul-cu-care-valentin-sinescu-a-lucrat-la-cs-paulesti-ii-ia-locul-la-progresul-draganesti-19406858",
+  "https://telegrama.ro/article/progresul-draganesti-are-antrenor-fadi-haddad-revine-in-prahova",
+  "https://prahovabusiness.ro/fotbalprahovean/mai-devreme-la-mizil-progresul-draganesti-cs-tunari-se-joaca-vineri/"
+ ]
+}
