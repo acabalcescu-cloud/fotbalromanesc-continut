@@ -1,0 +1,192 @@
+{
+ "nume": "CS Agigea",
+ "oras": "Agigea",
+ "fondat": 2023,
+ "culori": "albastru-negru",
+ "site": "https://csagigea.com/",
+ "stadion": {
+  "nume": "Stadionul Central",
+  "maps": "https://maps.google.com/?q=Stadionul+Central+Agigea+Constanta"
+ },
+ "antrenor": {
+  "nume": "Ionel Melenco"
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Ionuț Șonel",
+   "post": "portar",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 33,
+   "nume": "Emil Țăndurel",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "Bogdan Oarză",
+   "post": "portar",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Ștefan Pisăru",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Andrei Șonel",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 29,
+   "nume": "Bogdan Vișan",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Gheorghe Andrescu",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Stelian Paris",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Ferdy Abibula",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 98,
+   "nume": "Robert Rențea",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Aurelian Nechita",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Dragoș Nedelcu",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Adrian Benciu",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 99,
+   "nume": "Marius Anton",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 25,
+   "nume": "Marius Fotescu",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "George Dămășaru",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Adrian Bică-Bădan",
+   "post": "mijlocas",
+   "varsta": 37,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 18,
+   "nume": "Edis Abibula",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Costin Ilie",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Cezar Beșleagă",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Ionuț Nichifor",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 26,
+   "nume": "Alexandru Cîniparu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Emil Licu",
+   "post": "atacant",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Filip Căpitanu",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Darius Paraschiv",
+   "post": "atacant",
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://csagigea.com/wp-content/uploads/2025/09/logo_cs_agigea-e1760006194511.png",
+ "actualizat": "2026-11-26",
+ "surse": [
+  "https://csagigea.com/",
+  "https://csagigea.com/istorie/",
+  "https://csagigea.com/stadion/",
+  "https://csagigea.com/categorie-de-jucatori/fotbalisti/",
+  "https://csagigea.com/categorie-de-jucatori/staff-ul-tehnic/",
+  "https://csagigea.com/3-victorii-consecutive-pentru-cs-agigea-ionel-melenco-cand-echipa-munceste-pana-la-capat-vine-si-rasplata/",
+  "https://www.ziuaconstanta.ro/stiri/sport/liga-a-3-a-cs-agigea-in-plutonul-fruntas-dupa-a-treia-victorie-la-rand-edis-abibula-am-facut-efort-si-am-avut-atitudine-galerie-foto-960620.html",
+  "https://www.jurnaldeconstanta.ro/batalia-judeteana-din-liga-a-iii-a-se-incheie-la-egalitate-intre-gloria-baneasa-si-cs-agigea/",
+  "https://www.transfermarkt.com/clubul-sportiv-agigea-2023/kader/verein/135731/saison_id/2026/plus/1"
+ ]
+}

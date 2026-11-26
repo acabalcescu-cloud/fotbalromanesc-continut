@@ -1,0 +1,218 @@
+{
+ "nume": "Gloria Băneasa",
+ "oras": "Băneasa",
+ "culori": "roșu-alb",
+ "site": "https://gloriabaneasa.com/",
+ "stadion": {
+  "nume": "Stadionul Comunal",
+  "maps": "https://maps.google.com/?q=Stadionul+Comunal+B%C4%83neasa+Constan%C8%9Ba"
+ },
+ "antrenor": {
+  "nume": "Daniel Novac"
+ },
+ "lot": [
+  {
+   "nume": "Iulian Răduță",
+   "post": "portar",
+   "varsta": 40,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Costache",
+   "post": "portar",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Dragomir",
+   "post": "portar",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Măchiță",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Leca",
+   "post": "fundas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Croitoru",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Bogdan",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Armindo Almeida",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "Portugalia"
+  },
+  {
+   "nume": "Matei Giba",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Panțîru",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Ene",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Georgian Mitea",
+   "post": "fundas",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Andreescu",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Iulian Burlacu",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sebastian Stan",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihail Petre",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cătălin Sajin",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nume": "Frederik Fynbo",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "Danemarca"
+  },
+  {
+   "nume": "Marc Tiomela",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "Camerun"
+  },
+  {
+   "nume": "David Tudor",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marius Banu",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Macașoi",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Antonio Bugeac",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Emanuel Ciocianu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alin Dobre",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Paul Dimideschi",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Dușmanu",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Christian Irobiso",
+   "post": "atacant",
+   "varsta": 33,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nume": "Vlad Tudor",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihail Dobre",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Emil Bratu",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Ion",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://gloriabaneasa.com/wp-content/uploads/2023/01/CS-Gloria-Baneasa-logo.png",
+ "actualizat": "2026-11-26",
+ "surse": [
+  "https://gloriabaneasa.com/",
+  "https://gloriabaneasa.com/istorie/",
+  "https://gloriabaneasa.com/stadion/",
+  "https://gloriabaneasa.com/categorie-de-jucatori/staff-ul-tehnic/",
+  "https://gloriabaneasa.com/infrangere-in-deplasarea-de-la-agigea/",
+  "https://www.ziuaconstanta.ro/stiri/sport/liga-a-3-a-christian-irobiso-fost-jucator-in-superliga-a-debutat-la-gloria-baneasa-ce-spune-antrenorul-daniel-novac-despre-meciul-cu-unirea-branistea-958324.html",
+  "https://www.transfermarkt.com/gloria-baneasa/kader/verein/95789/saison_id/2026/plus/1"
+ ]
+}

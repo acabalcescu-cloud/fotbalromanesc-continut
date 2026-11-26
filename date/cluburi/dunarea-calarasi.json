@@ -1,0 +1,209 @@
+{
+ "nume": "Dunărea Călărași",
+ "oras": "Călărași",
+ "fondat": 1962,
+ "culori": "galben-albastru",
+ "site": "https://afcdunarea.com/",
+ "stadion": {
+  "nume": "Stadionul Ion Comșa",
+  "inaugurat": 1962,
+  "maps": "https://maps.google.com/?q=Stadionul+Ion+Com%C8%99a+C%C4%83l%C4%83ra%C8%99i"
+ },
+ "antrenor": {
+  "nume": "Daniel Mogoșanu",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Adrian Mușat",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 99,
+   "nume": "Vlad Frumuzache",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "Rafael Grigore",
+   "post": "portar",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Georgian Burlacu",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 32,
+   "nume": "Răzvan Țurcan",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Mario Aioanei",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 24,
+   "nume": "Nicușor Câinaru",
+   "post": "fundas",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Raul Cornei",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Raul Oprea",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Luca Oprea",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 18,
+   "nume": "Marco Gheorghe",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Rareș Toader",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Eugeniu Gliga",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Claudiu Pleșa",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Ionuț Pelivan",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Robert Avram",
+   "post": "mijlocas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Andrei Vîlea",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Adrian Dinu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Denis Pleșa",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "David Micu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Florin Bălan",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 25,
+   "nume": "Daniel Constantin",
+   "post": "atacant",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Gabriel Băceanu",
+   "post": "atacant",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 28,
+   "nume": "Mario Mitroiu",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Ionuț Țone",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Bogdan Miu",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/1/1b/FC_Dunarea_Clarasi_logo.png",
+ "actualizat": "2026-11-26",
+ "surse": [
+  "https://afcdunarea.com/",
+  "https://afcdunarea.com/stadion/",
+  "https://afcdunarea.com/categorie-de-jucatori/fotbalisti/",
+  "https://afcdunarea.com/categorie-de-jucatori/staff-ul-tehnic/",
+  "https://stilfmradio.ro/daniel-mogosanu-noul-antrenor-al-dunarii-calarasi-am-vazut-o-echipa-tanara-cu-atitudine-si-spirit-de-grup/",
+  "https://www.infomuntenia.ro/daniel-mogosanu-noul-antrenor-principal-al-echipei-dunarea-calarasi/2026/11",
+  "https://ro.wikipedia.org/wiki/FC_Dun%C4%83rea_C%C4%83l%C4%83ra%C8%99i",
+  "https://en.wikipedia.org/wiki/FC_Dun%C4%83rea_C%C4%83l%C4%83ra%C8%99i",
+  "https://en.wikipedia.org/wiki/Ion_Com%C8%99a_Stadium",
+  "https://www.transfermarkt.com/dunarea-calarasi/kader/verein/37239/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/dunarea-calarasi/mitarbeiter/verein/37239"
+ ]
+}
