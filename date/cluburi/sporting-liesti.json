@@ -1,0 +1,186 @@
+{
+ "nume": "Sporting Liești",
+ "oras": "Liești",
+ "fondat": 2000,
+ "stadion": {
+  "nume": "Stadionul Comunal",
+  "capacitate": 2500,
+  "maps": "https://maps.google.com/?q=Stadionul+Comunal+Liesti+Galati"
+ },
+ "antrenor": {
+  "nume": "Cătălin Savu"
+ },
+ "lot": [
+  {
+   "nume": "Giulio Munteanu",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Antonio Dogaru",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Brăneț",
+   "post": "portar",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Claudiu Maftei",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Băluță",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Paul Popa",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Crihana",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Tudor Năstase",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Antonio Tentiuc",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Podașcă",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Dima",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Coman",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionut Chiriac",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Munchiu",
+   "post": "mijlocas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Florea",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Iacob",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Stan",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Bercaru",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Raul Nistor",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gicu Iordache",
+   "post": "atacant",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Boerescu",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Budeșteanu",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Petrișor Voinea",
+   "post": "atacant",
+   "varsta": 36,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Trandafir",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Viorel Costea",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Adrian Grigoraș",
+   "post": "atacant",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Costin",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/d/de/CS_Sporting_Lie%C8%99ti_logo.png",
+ "actualizat": "2026-11-26",
+ "surse": [
+  "https://en.wikipedia.org/wiki/CS_Sporting_Lie%C8%99ti",
+  "https://www.transfermarkt.com/sporting-liesti/startseite/verein/41292",
+  "https://www.transfermarkt.com/sporting-liesti/kader/verein/41292/saison_id/2026/plus/1",
+  "https://www.monitoruldegalati.ro/sport/liga-a-3-a-la-fotbal-branistenii-si-au-luat-revansa-cu-liestenii-si-au-urcat-pe-locul-3.html",
+  "https://www.viata-libera.ro/eveniment/265716-liga-a-iii-a-de-fotbal-branistea,-egalitate-pe-terenul-liderului"
+ ]
+}

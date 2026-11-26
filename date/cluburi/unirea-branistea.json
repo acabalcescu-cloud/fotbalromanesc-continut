@@ -1,0 +1,185 @@
+{
+ "nume": "Unirea Braniștea",
+ "oras": "Braniștea",
+ "antrenor": {
+  "nume": "Sorin Frunză"
+ },
+ "lot": [
+  {
+   "nume": "Valentin Toader",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Cilighidreanu",
+   "post": "portar",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Moraru",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marius Moroianu",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marius Manea",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Vasile",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Aron",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Prince Nwoye",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nume": "Alin Drăgan",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dan Panait",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Pădure",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ovidiu Aron",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefăniță Sava",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Radu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Cireș",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Dragomir",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Pavel",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Toma",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Stefan Dorneanu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Buleandra",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Docuz",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Aurelian Marcu",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Mocanu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Marc Cireș",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alberto Bujor",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Duțu",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mădălin Grădinaru",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Fadei",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-26",
+ "surse": [
+  "https://www.monitoruldegalati.ro/sport/liga-a-3-a-la-fotbal-branistenii-si-au-luat-revansa-cu-liestenii-si-au-urcat-pe-locul-3.html",
+  "https://www.monitoruldegalati.ro/sport/rezultate-previzibile-in-esalonul-trei-liestenii-si-branistenii-au-terminat-turul-pe-locuri-de-play-off-satelitul-otelului-se-pozitioneaza-pe-locul-11.html",
+  "https://www.sport.ro/fotbal-intern/fostul-campion-al-romaniei-cu-unirea-urziceni-isi-incepe-cariera-de-antrenor-principal.html",
+  "https://www.transfermarkt.com/cs-unirea-branistea/kader/verein/95809/saison_id/2026/plus/1"
+ ]
+}

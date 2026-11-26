@@ -1,0 +1,175 @@
+{
+ "nume": "Recolta Gheorghe Doja",
+ "oras": "Gheorghe Doja",
+ "fondat": 2002,
+ "culori": "roșu-galben",
+ "site": "https://acsrecoltagheorghedoja.com/",
+ "stadion": {
+  "nume": "Stadionul Comunal",
+  "maps": "https://maps.google.com/?q=Stadionul+Comunal+Gheorghe+Doja+Ialomita"
+ },
+ "antrenor": {
+  "nume": "Mirel Condei"
+ },
+ "lot": [
+  {
+   "nr": 33,
+   "nume": "Adrian Ghiță",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Bratu",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Radu",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Cristian Culda",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 25,
+   "nume": "Dragos Barabas",
+   "post": "fundas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 13,
+   "nume": "Ionut Ene",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Petre",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Orlando Ghita",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Cosmin Istrate",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Burlacu",
+   "post": "mijlocas",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Chiriță",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Andrei Comsa",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionut Alexe",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Bădescu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sabin Leciu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Munteanu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Ionuț Drăgan",
+   "post": "mijlocas",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Costi Nae",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Tonț",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Iancu",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Dorin Radu",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Costin Anton",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Andrei Țărău",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://acsrecoltagheorghedoja.com/wp-content/uploads/2023/01/logo_recolta_gheorghe_doja-1.png",
+ "actualizat": "2026-11-26",
+ "surse": [
+  "https://acsrecoltagheorghedoja.com/",
+  "https://acsrecoltagheorghedoja.com/stadion/",
+  "https://acsrecoltagheorghedoja.com/istorie/",
+  "https://acsrecoltagheorghedoja.com/revenim-de-la-0-1-si-ne-impunem-cu-3-1-contra-dunarii-calarasi-mirel-condei-un-joc-solid-facut-de-noi-o-victorie-importanta/",
+  "https://en.wikipedia.org/wiki/ACS_Recolta_Gheorghe_Doja",
+  "https://www.transfermarkt.com/acs-recolta-gheorghe-doja/startseite/verein/86159",
+  "https://www.transfermarkt.com/acs-recolta-gheorghe-doja/kader/verein/86159/saison_id/2026/plus/1"
+ ]
+}

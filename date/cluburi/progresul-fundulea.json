@@ -1,0 +1,210 @@
+{
+ "nume": "Progresul Fundulea",
+ "oras": "Fundulea",
+ "fondat": 2002,
+ "site": "https://progresulfundulea.ro/",
+ "stadion": {
+  "nume": "Stadionul Orășenesc",
+  "capacitate": 500,
+  "maps": "https://maps.google.com/?q=Stadionul+Orasenesc+Fundulea+Calarasi"
+ },
+ "antrenor": {
+  "nume": "Costin Lazăr"
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Dragoș Lupescu",
+   "post": "portar",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Matei Burlacu",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Manole",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Stănici",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Matei Ene",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Alexe",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Vasiluta",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Ștefan Copăceanu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Costin Dragomir",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Gagiu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Petruț Târțău",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Simion",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Burlacu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Mutu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Marian Ion",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Împungeroua",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Voicu",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Ștefan Coman",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Codruț Călin",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Spiridon",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Olteanu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mattia Coroiu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Cosmin Ioniță",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Laurențiu Gulie",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Burcea",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Rafael Licu",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Burnaz",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Octavian Nedelcu",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Dorobanțu",
+   "post": "atacant",
+   "varsta": 33,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/9/93/AFC_Progresul_Fundulea_logo.png",
+ "actualizat": "2026-11-26",
+ "surse": [
+  "https://en.wikipedia.org/wiki/AFC_Progresul_Fundulea",
+  "https://www.transfermarkt.com/progresul-fundulea/startseite/verein/111911",
+  "https://www.transfermarkt.com/progresul-fundulea/kader/verein/111911/saison_id/2026/plus/1",
+  "https://www.infomuntenia.ro/fotbal-remiza-pentru-dunarea-calarasi-pe-terenul-de-la-fundulea/2026/11",
+  "https://sptfm.ro/audio-costin-lazar-explica-de-ce-antreneaza-la-liga-3-asa-trebuie-sa-inceapa-toti-nu-sa-iei-direct-cireasa-de-pe-tort/",
+  "https://goool.ro/meci/sporting-liesti-progresul-fundulea-10-10-2026/"
+ ]
+}

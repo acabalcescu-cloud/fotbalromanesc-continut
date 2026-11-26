@@ -1,0 +1,189 @@
+{
+ "nume": "Înainte Modelu",
+ "oras": "Modelu",
+ "fondat": 2009,
+ "site": "https://acsinaintemodelu.ro/",
+ "stadion": {
+  "nume": "Stadionul Vasile Enache",
+  "maps": "https://maps.google.com/?q=Stadionul+Vasile+Enache+Modelu+Calarasi"
+ },
+ "antrenor": {
+  "nume": "Virgil Nițoi"
+ },
+ "lot": [
+  {
+   "nume": "Ștefan Fara",
+   "post": "portar",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Valentin Velcea",
+   "post": "portar",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mădălin Guță",
+   "post": "portar",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Matei",
+   "post": "fundas",
+   "varsta": 37,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florentin Tiber",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Stoian",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicusor Găman",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Yunus Fatai",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nume": "Mario Mateiu",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Daniel Gheorghe",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Panait",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Petre",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mahmoud Abdulghani",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "Siria"
+  },
+  {
+   "nume": "Adrian Geolea",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Țuluca",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Lupașcu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Oancea",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sebastian Răileanu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Raul Marincea",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Velcea",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dragoș Grigore",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Yanis Preda",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cătălin Măgureanu",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 75,
+   "nume": "Mahamadou N'diaye",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "Franța"
+  },
+  {
+   "nume": "Cristian Chiriță",
+   "post": "atacant",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Adrian Miu",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Zeciu",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/b/be/ACS_%C3%8Enainte_Modelu_logo.png",
+ "actualizat": "2026-11-26",
+ "surse": [
+  "https://acsinaintemodelu.ro/index.php/istoric/",
+  "https://acsinaintemodelu.ro/index.php/stadionul-vasile-enache/",
+  "https://acsinaintemodelu.ro/index.php/2026/11/13/virgil-nitoi-am-incredere-in-baieti-ca-ne-indeplinim-obiectivul-calificarea-in-play-off/",
+  "https://en.wikipedia.org/wiki/ACS_%C3%8Enainte_Modelu",
+  "https://www.transfermarkt.com/inainte-modelu/startseite/verein/11324",
+  "https://www.transfermarkt.com/inainte-modelu/kader/verein/11324/saison_id/2026/plus/1"
+ ]
+}
