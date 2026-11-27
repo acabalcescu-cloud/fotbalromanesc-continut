@@ -1,0 +1,16 @@
+{
+ "nume": "FCSB 2",
+ "oras": "București",
+ "antrenor": {
+  "nume": "Lucian Filip",
+  "nationalitate": "România",
+  "varsta": 36
+ },
+ "stema": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Fcsb-logo.svg/250px-Fcsb-logo.svg.png",
+ "actualizat": "2026-11-27",
+ "surse": [
+  "https://liga2.prosport.ro/liga-3/liga-3-fcsb-2-are-un-nou-antrenor-principal-lucian-filip-19407514",
+  "https://sportpesurse.ro/lucian-filip-preia-echipa-a-doua-a-fcsb-dupa-schimbarile-din-stafful-primei-formatii/",
+  "https://en.wikipedia.org/wiki/FCSB"
+ ]
+}

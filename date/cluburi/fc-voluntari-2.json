@@ -1,0 +1,123 @@
+{
+ "nume": "FC Voluntari 2",
+ "oras": "Voluntari",
+ "lot": [
+  {
+   "nume": "Daniel Paraschiv",
+   "post": "portar",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Matei Licșor",
+   "post": "portar",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Oktay Ozkara",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sebastian Ignat",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicholas Tudor",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Laurențiu Hagiu",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Pavel",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Yusuf Suleiman",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nume": "Raul Ilie",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Radu Zamfir",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Dragomir",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Vlad",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Mihai Nedelcu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionut Bătănași",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ianis Malama",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dragoș Manolache",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Ianis Vencu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Roberto Bejenaru",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/FC_Voluntari.svg/250px-FC_Voluntari.svg.png",
+ "actualizat": "2026-11-27",
+ "surse": [
+  "https://www.transfermarkt.com/fc-voluntari-ii/kader/verein/63867/plus/1",
+  "https://en.wikipedia.org/wiki/FC_Voluntari",
+  "https://ilfovsport.ro/2026/10/20/fc-voluntari-2-a-oprit-liderul-laurentiu-hagiu-s-a-intors-cu-banderola/"
+ ]
+}

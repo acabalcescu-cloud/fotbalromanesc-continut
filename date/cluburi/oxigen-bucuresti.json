@@ -1,0 +1,103 @@
+{
+ "nume": "Oxigen București",
+ "oras": "București",
+ "fondat": 2026,
+ "lot": [
+  {
+   "nume": "David Dumitru",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Antonio Vlad",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Popa",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Antonio Marin",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Silvester",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ianis Croitoru",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Riccardo Grigorescu",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Budea",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Patrick Budurea",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Cristea",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Dumitru",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ianis Răduță",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Yanis Ion",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sabin Alexe",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Ilie",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-27",
+ "surse": [
+  "https://www.flashscore.ro/stiri/fotbal-superliga-marius-baciu-si-a-gasit-imediat-echipa-dupa-plecarea-de-la-fcsb-a-refuzat-o-oferta-din-franta/pCxWlQbB/",
+  "https://www.fanatik.ro/marius-baciu-se-intoarce-la-juniori-primarul-din-sectorul-3-l-a-convins-dupa-despartirea-de-fcsb-21549508",
+  "https://www.transfermarkt.com/oxigen-bucuresti/kader/verein/145276/plus/1"
+ ]
+}

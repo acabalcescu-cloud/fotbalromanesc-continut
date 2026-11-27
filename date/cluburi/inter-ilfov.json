@@ -1,0 +1,218 @@
+{
+ "nume": "Inter Ilfov",
+ "oras": "Clinceni",
+ "site": "https://interilfov.com/",
+ "stadion": {
+  "nume": "Stadionul Clinceni",
+  "capacitate": 4500,
+  "maps": "https://maps.google.com/?q=Stadionul+Clinceni"
+ },
+ "antrenor": {
+  "nume": "Valentin Bădoi",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Paul Ganea",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alberto Câșlariu",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Octavian Oancea",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Florea",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Paliu",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Marchidan",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Dalcea",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlad Lazăr",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Dmytro Bokyi",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "Ucraina"
+  },
+  {
+   "nr": 6,
+   "nume": "Alexandru Marin",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Dragoș Vlaicu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Mihai Țicu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Simionescu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Simion",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Carlos Spătaru",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Matei Mereanu",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Feraru",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Oancea",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Ceaușu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Mehedințu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Robert Mănică",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Mateescu",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Manuel Cristea",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Petre Pantale",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Dumitrescu",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Potecea",
+   "post": "atacant",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Florescu",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Cătălin Țîră",
+   "post": "atacant",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Robert Barbu",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 18,
+   "nume": "Kazeem Fatai",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "Nigeria"
+  }
+ ],
+ "stema": "https://interilfov.com/wp-content/uploads/2025/11/ACS-Inter-Ilfov-logo.png",
+ "actualizat": "2026-11-27",
+ "surse": [
+  "https://interilfov.com/",
+  "https://interilfov.com/istorie/",
+  "https://en.wikipedia.org/wiki/ACS_Inter_Ilfov",
+  "https://liga2.prosport.ro/liga-3/valentin-badoi-e-noul-antrenor-principal-la-acs-inter-ilfov-19393017",
+  "https://ilfovsport.ro/2026/11/27/liga-a-iii-a-etapa-a-xvi-a-pe-drumul-catre-vacanta/",
+  "https://www.transfermarkt.com/acs-inter-ilfov/startseite/verein/113007",
+  "https://www.transfermarkt.com/acs-inter-ilfov/kader/verein/113007/plus/1"
+ ]
+}

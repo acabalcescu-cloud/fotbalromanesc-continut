@@ -1,0 +1,232 @@
+{
+ "nume": "Dunărea Giurgiu",
+ "oras": "Giurgiu",
+ "culori": "alb-albastru",
+ "stadion": {
+  "nume": "Stadionul Marin Anastasovici",
+  "capacitate": 8500,
+  "maps": "https://maps.google.com/?q=Stadionul+Marin+Anastasovici+Giurgiu"
+ },
+ "antrenor": {
+  "nume": "Alexandru Popa",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nume": "Octavian Stanciu",
+   "post": "portar",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Amadou Camara",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "Guineea"
+  },
+  {
+   "nume": "Luca Urucu",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Hasancan Erdoğan",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Anghel",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Valentin Pasăre",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marinel Blaga",
+   "post": "fundas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ismail Benkhelifa",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "Algeria"
+  },
+  {
+   "nume": "Albert Cocoru",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Ilie",
+   "post": "fundas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Stoican",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Marcu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Georgian Coș",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Andrei Lobonț",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Irimia",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Grigore",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Dinu",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Anghel",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Coman",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sorin Mănăilă",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Antonio Iosofache",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlad Serbanescu",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Tony Constantin",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Micu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Marin",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Căvescu",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Erick Preda",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Chauncy Freeman",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "Liberia"
+  },
+  {
+   "nume": "Răzvan Mizdrescu",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Badea",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlăduț Pleșca",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Băiașu",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Bucur",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alin Florescu",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/3/33/CSM_Dun%C4%83rea_Giurgiu_logo.png",
+ "actualizat": "2026-11-27",
+ "surse": [
+  "https://en.wikipedia.org/wiki/SCM_Dun%C4%83rea_Giurgiu",
+  "https://ro.wikipedia.org/wiki/SCM_Dun%C4%83rea_Giurgiu",
+  "https://en.wikipedia.org/wiki/Marin_Anastasovici_Stadium",
+  "https://liga2.prosport.ro/liga-3/noul-antrenor-principal-de-la-dunarea-giurgiu-vine-de-la-adversara-din-campionat-progresul-spartac-19393086",
+  "https://obiectivgiurgiu.ro/liga-3-academia-de-fotbal-dunarea-1948-la-prima-victorie-in-actualul-campionat/",
+  "https://giurgiu-news.ro/probleme-la-dunarea-giurgiu-interdictie-la-transferuri-din-cauza-unor-nereguli-la-echipa-u16/",
+  "https://www.transfermarkt.com/dunarea-2020-giurgiu/kader/verein/102599/plus/1"
+ ]
+}
