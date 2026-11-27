@@ -1,0 +1,125 @@
+{
+ "nume": "Dinamo 2",
+ "oras": "București",
+ "site": "https://dinamo1948.ro/",
+ "antrenor": {
+  "nume": "Adrian Ropotan",
+  "nationalitate": "România",
+  "varsta": 40
+ },
+ "lot": [
+  {
+   "nume": "Mario Din-Licaciu",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 33,
+   "nume": "Costin Ungureanu",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Tudor Alistar",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Luca Fudulache",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Cristian Oancea",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Ianys Neculai",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Tabuncic",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nume": "Matteo N'Giuwu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Godwin Udosen",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nr": 10,
+   "nume": "Darius Gavrilă",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 98,
+   "nume": "Eduard Ilincaș",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Ionică",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 77,
+   "nume": "Traian Ciubotaru",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 99,
+   "nume": "Adrian Sârbu",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario David",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Savu",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/FC_Dinamo_Bucure%C8%99ti_-_logo_2026.svg/250px-FC_Dinamo_Bucure%C8%99ti_-_logo_2026.svg.png",
+ "actualizat": "2026-11-27",
+ "surse": [
+  "https://golazo.ro/adrian-ropotan-dinamo-dinamo-2-antrenor-177155",
+  "https://www.sport.ro/liga-1/fostul-campion-cu-dinamo-numit-antrenor-principal-la-echipa-secunda-a-cainilor-dupa-ce-a-castigat-titlul.html",
+  "https://www.fanatik.ro/dinamo-2-fcsb-2-se-joaca-acum-ce-formatii-de-start-au-aliniat-cele-doua-echipe-21583170",
+  "https://www.transfermarkt.com/fc-dinamo-ii/kader/verein/15947/plus/1"
+ ]
+}

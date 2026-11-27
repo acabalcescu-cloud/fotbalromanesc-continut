@@ -1,0 +1,227 @@
+{
+ "nume": "Cetatea Turnu Măgurele",
+ "oras": "Turnu Măgurele",
+ "site": "https://cetateaturnumagurele.com/",
+ "stadion": {
+  "nume": "Stadionul Municipal Turnu Măgurele",
+  "capacitate": 2000,
+  "maps": "https://maps.google.com/?q=Stadionul+Municipal+Turnu+Magurele"
+ },
+ "antrenor": {
+  "nume": "Leonard Strizu",
+  "nationalitate": "România",
+  "varsta": 59
+ },
+ "lot": [
+  {
+   "nume": "Denis Ciobanu",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Ghiță",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlad Georgescu",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Tăbărană",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marco Andone",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Constantin",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alin Fieraru",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Jonathan Igoh",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nume": "John Igoh",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nume": "Florinel Mitrea",
+   "post": "fundas",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cătălin Defta",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Gudilă",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Călin",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Dobre",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Măgărea",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ianis Nițu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Olteanu",
+   "post": "mijlocas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dennis Matei",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Carlos Bolohan",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Popa",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dragoș Pălii",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Lupu",
+   "post": "mijlocas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Alexandru Ciocăneală",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Manole",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alex Mitru",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlad Papa",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Covas",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nume": "Ionuț Bînta",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrés Contreras",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "Venezuela"
+  },
+  {
+   "nume": "Alexandru Badulescu",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Christo Bolohan",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eros Quintana",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "Statele Unite"
+  },
+  {
+   "nume": "Bogdan Tănase",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://cetateaturnumagurele.com/wp-content/uploads/2023/01/logo_cetatea_turnu_magurele-300x300.png",
+ "actualizat": "2026-11-27",
+ "surse": [
+  "https://cetateaturnumagurele.com/leonard-strizu-este-noul-antrenor-principal-al-cetatii-turnu-magurele/",
+  "https://liga2.prosport.ro/liga-3/cetatea-turnu-magurele-schimba-antrenorul-dupa-ce-a-ajuns-in-subsolul-ligii-3-19407133",
+  "https://cetateaturnumagurele.com/victorie-pe-teren-propriu-cetatea-turnu-magurele-se-impune-cu-2-0-in-fata-celor-de-la-axi-arena/",
+  "https://en.wikipedia.org/wiki/CSM_Cetatea_Turnu_M%C4%83gurele",
+  "https://en.wikipedia.org/wiki/Turnu_M%C4%83gurele_Municipal_Stadium",
+  "https://www.transfermarkt.com/dunarea-turris-t-magurele/startseite/verein/97081",
+  "https://www.transfermarkt.com/dunarea-turris-t-magurele/kader/verein/97081/plus/1"
+ ]
+}

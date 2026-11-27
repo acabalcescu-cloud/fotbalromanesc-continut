@@ -1,0 +1,177 @@
+{
+ "nume": "ACS Axi Arena",
+ "oras": "Adunații-Copăceni",
+ "fondat": 2020,
+ "site": "https://acsaxiarena.com/",
+ "stadion": {
+  "nume": "Baza Sportivă Mihăilești",
+  "capacitate": 500,
+  "inaugurat": 2025,
+  "maps": "https://maps.google.com/?q=Baza+Sportiva+Mihailesti+Giurgiu"
+ },
+ "antrenor": {
+  "nume": "Ștefan Crăciun",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nume": "Florin Stanca",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Valentin Meciu",
+   "post": "portar",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Ioja Năstase",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 1,
+   "nume": "Andrei Oprică",
+   "post": "portar",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Valentin Năstase",
+   "post": "fundas",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dumitru Radacina",
+   "post": "fundas",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Claudiu Radovici",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Onaci",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Zamfir",
+   "post": "fundas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Magellan Talipouo",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "Camerun"
+  },
+  {
+   "nr": 57,
+   "nume": "Lassana Ngantcheu",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "Camerun"
+  },
+  {
+   "nume": "Gabriel Bragă",
+   "post": "mijlocas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Lungu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Neculăiță",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Scumpu",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Chately Imounga",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "Camerun"
+  },
+  {
+   "nume": "Leonard Măncilă",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rafael Coman",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Auraș Bălan",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Albert Cornicioiu",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlăduț Stanciu",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Tengher",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Alin Calotă",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 53,
+   "nume": "Raoul Banu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://acsaxiarena.com/wp-content/uploads/2023/01/logo_axi_arena.png",
+ "actualizat": "2026-11-27",
+ "surse": [
+  "https://acsaxiarena.com/",
+  "https://acsaxiarena.com/stadion/",
+  "https://acsaxiarena.com/acs-axi-arena-progresul-mogosoaia-2-0-dubla-lui-magellan-aduce-victoria-la-mihailesti/",
+  "https://liga2.prosport.ro/liga-3/liga-3-acs-axi-arena-are-un-antrenor-nou-si-a-facut-multe-schimbari-de-lot-19397896",
+  "https://en.wikipedia.org/wiki/ACS_AXI_Arena_Aduna%C8%9Bii-Cop%C4%83ceni",
+  "https://www.transfermarkt.com/axi-adunatii-copaceni/startseite/verein/128570",
+  "https://www.transfermarkt.com/axi-adunatii-copaceni/kader/verein/128570/plus/1"
+ ]
+}

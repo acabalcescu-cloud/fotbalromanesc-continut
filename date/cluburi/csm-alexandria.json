@@ -1,0 +1,235 @@
+{
+ "nume": "CSM Alexandria",
+ "oras": "Alexandria",
+ "fondat": 1948,
+ "site": "https://csmalexandria.ro/",
+ "stadion": {
+  "nume": "Stadionul Municipal Turnu Măgurele",
+  "capacitate": 2000,
+  "maps": "https://maps.google.com/?q=Stadionul+Municipal+Turnu+Magurele"
+ },
+ "lot": [
+  {
+   "nr": 12,
+   "nume": "Iosif Cristică",
+   "post": "portar",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Silviu Mircea",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sebastian Firulescu",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Alexe",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mirel Zmeu",
+   "post": "portar",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 32,
+   "nume": "Alexandru Berci",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Savu",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Petruș Pintilie",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Lupoaica",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Sîrbu",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Vancea",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marian Dragomir",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dragoș Chircu",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Șindilă",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Sîrbu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Marian Cristea",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marius Radu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Costea",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Mitrică",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alex Militaru",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andi Neaga",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Raul Tomuță",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Frederico Cîrpici",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Chiriceanu",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Neaga",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Diaconu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Grosu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alin Cocoș",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Atanase",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Neagu",
+   "post": "atacant",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Matei Andrei",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Dan-Lucian Burlacu",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nume": "Albert Vancea",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Albeanu",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Ivan",
+   "post": "atacant",
+   "varsta": 16,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://csmalexandria.ro/wp-content/uploads/2024/03/logo_csm.png",
+ "actualizat": "2026-11-27",
+ "surse": [
+  "https://en.wikipedia.org/wiki/CSM_Alexandria",
+  "https://en.wikipedia.org/wiki/Turnu_M%C4%83gurele_Municipal_Stadium",
+  "https://www.transfermarkt.com/csm-alexandria/startseite/verein/37245",
+  "https://www.transfermarkt.com/csm-alexandria/kader/verein/37245/plus/1",
+  "https://csmalexandria.ro/"
+ ]
+}
