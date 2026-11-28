@@ -1,0 +1,195 @@
+{
+ "nume": "CSM Târgu Jiu",
+ "oras": "Târgu Jiu",
+ "site": "https://csmtargujiu.ro",
+ "stadion": {
+  "nume": "Stadionul Municipal „Constantina Diță”",
+  "capacitate": 12518,
+  "inaugurat": 2019,
+  "maps": "https://maps.google.com/?q=Stadionul+Municipal+Constantina+Dita+Targu+Jiu"
+ },
+ "antrenor": {
+  "nume": "Mario Găman",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Alexandru Oprița",
+   "post": "portar",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Șocu",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Lazăr",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Elton",
+   "post": "fundas",
+   "varsta": 37,
+   "nationalitate": "Brazilia"
+  },
+  {
+   "nume": "Bogdan Brășfăleanu",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Miculicean",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Stăpan",
+   "post": "fundas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Lăpădat",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlăduț Țigu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 98,
+   "nume": "Fabian Bărănescu",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Teodor Chirițoiu",
+   "post": "fundas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Șantia",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Lucian Marina",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Brînzan",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicholas Geană",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Adelin Pîrcălabu",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Giuliano Ganțolea",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Albert Filip",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marian Habet",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Tudor Pătrășcoiu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Lupulescu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marius Miruță",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Albert Voinea",
+   "post": "atacant",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Dodoi",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Bubuioc",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Bebeto Lupuleț",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Bucur",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/ro/a/a5/CSM_T%C3%A2rgu_Jiu_Logo.png",
+ "actualizat": "2026-11-28",
+ "surse": [
+  "https://csmtargujiu.ro/csm-targu-jiu-remiza-pe-teren-propriu-cu-pausesti-otasau-scor-1-1/",
+  "https://radioinfinit.ro/2026/11/19/csm-targu-jiu-vrea-al-patrulea-succes-la-rand-in-fata-propriilor-suporteri-cu-fc-pausesti-otasau/",
+  "https://www.transfermarkt.com/csm-targu-jiu/kader/verein/121464/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/csm-targu-jiu/mitarbeiter/verein/121464",
+  "https://en.wikipedia.org/wiki/CSM_T%C3%A2rgu_Jiu_(football)",
+  "https://en.wikipedia.org/wiki/Constantina_Di%C8%9B%C4%83-Tomescu_Stadium"
+ ]
+}

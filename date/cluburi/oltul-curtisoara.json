@@ -1,0 +1,197 @@
+{
+ "nume": "Oltul Curtișoara",
+ "oras": "Curtișoara",
+ "fondat": 2013,
+ "site": "https://oltulcurtisoara.com/",
+ "stadion": {
+  "nume": "Stadionul Tineretului",
+  "capacitate": 500,
+  "maps": "https://maps.google.com/?q=Stadionul+Tineretului+Curtisoara"
+ },
+ "antrenor": {
+  "nume": "Dan Ignat",
+  "nationalitate": "România",
+  "varsta": 40
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Marius Stănciulescu",
+   "post": "portar",
+   "varsta": 39,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 55,
+   "nume": "Victor Turianu",
+   "post": "portar",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Ștefan",
+   "post": "fundas",
+   "varsta": 41,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Flavio Zamfir",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Martin",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nume": "Cristian Stancu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Băjan",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Dinu",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nikolas Tulitu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Dorinel Ungureanu",
+   "post": "mijlocas",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Viorel Vilcica",
+   "post": "mijlocas",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Zanfir",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Radu Tudorașcu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Todosî",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "Republica Moldova"
+  },
+  {
+   "nume": "Emmanuel Mza",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nume": "Marius Șofaru",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Vozaru",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 29,
+   "nume": "Claudiu Negoescu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Adrian Niță",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Beniamin Enache",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mădălin Cojocaru",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Alexe",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihăiță Șerban",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Marius Jianu",
+   "post": "atacant",
+   "varsta": 37,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Tudorașcu",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Mihai Vărzaru",
+   "post": "atacant",
+   "varsta": 39,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Liviu Bărbulescu",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/7/77/ACS_Oltul_Curti%C8%99oara_logo.png",
+ "actualizat": "2026-11-28",
+ "surse": [
+  "https://gazetaoltului.ro/sport/dan-ignat-dupa-infrangerea-oltului-curtisoara-la-targu-jiu-am-fost-foarte-naivi/",
+  "https://oltulcurtisoara.com/oltul-curtisoara-infrangere-cu-universitatea-craiova-ii-dan-ignat-trebuie-sa-invatam-din-aceste-greseli/",
+  "https://www.transfermarkt.com/acs-oltul-curtisoara/kader/verein/107353/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/acs-oltul-curtisoara/startseite/verein/107353",
+  "https://en.wikipedia.org/wiki/ACS_Oltul_Curti%C8%99oara",
+  "https://en.wikipedia.org/wiki/Dan_Ignat"
+ ]
+}

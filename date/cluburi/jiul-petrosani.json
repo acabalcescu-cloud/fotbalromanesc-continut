@@ -1,0 +1,185 @@
+{
+ "nume": "Jiul Petroșani",
+ "oras": "Petroșani",
+ "fondat": 1919,
+ "culori": "alb-negru",
+ "site": "https://csmjiulpetrosani.ro/",
+ "stadion": {
+  "nume": "Stadionul Petre Libardi",
+  "capacitate": 15500,
+  "inaugurat": 1982,
+  "maps": "https://maps.google.com/?q=Stadionul+Petre+Libardi+Petrosani"
+ },
+ "antrenor": {
+  "nume": "Sorin Bălu",
+  "nationalitate": "România"
+ },
+ "lot": [
+  {
+   "nr": 1,
+   "nume": "Adelin Iliescu",
+   "post": "portar",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "Alexandru Krupenschi",
+   "post": "portar",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Cosmin Dobre",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Alexandru Giurică",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Andrei Dinu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 16,
+   "nume": "Robert Călin",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Mathias Hondorocu",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Denis Polgar",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Andrei Gogescu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 13,
+   "nume": "Daniel Vreja",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Răzvan Morariu",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Remus Sandu",
+   "post": "mijlocas",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Răzvan Covaci",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Andrei Viașu",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Luca Păcuraru",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Dragoș Popa",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Fabio Trip",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Mario Tout",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Vlăduț Buțurcă",
+   "post": "atacant",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Gabriel Fulga",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Luis Nițu",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Alexandru Mihăilă",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/9/99/Jiul_Petrosani.png",
+ "actualizat": "2026-11-28",
+ "surse": [
+  "https://csmjiulpetrosani.ro/2026/11/21/un-punct-castigat-cu-munca-atitudine-si-caracter/",
+  "https://csmjiulpetrosani.ro/2026/11/21/petrosaniul-se-pregateste-de-fotbal/",
+  "https://www.transfermarkt.com/csm-jiul-petrosani/kader/verein/9830/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/csm-jiul-petrosani/mitarbeiter/verein/9830",
+  "https://en.wikipedia.org/wiki/CSM_Jiul_Petro%C8%99ani",
+  "https://ro.wikipedia.org/wiki/CSM_Jiul_Petro%C8%99ani",
+  "https://en.wikipedia.org/wiki/Petre_Libardi_Stadium",
+  "https://liga2.prosport.ro/liga-3/jiul-petrosani-are-un-nou-antrenor-sorin-balu-19357283"
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "nume": "Minerul Lupeni",
+ "oras": "Lupeni",
+ "fondat": 1920,
+ "culori": "roșu-negru",
+ "site": "https://minerullupeni.com/",
+ "stadion": {
+  "nume": "Stadionul „Minerul”",
+  "capacitate": 3000,
+  "maps": "https://maps.google.com/?q=Stadionul+Minerul+Lupeni"
+ },
+ "antrenor": {
+  "nume": "Ionuț Moșteanu",
+  "nationalitate": "România",
+  "varsta": 51
+ },
+ "lot": [
+  {
+   "nume": "Relu Stoian",
+   "post": "portar",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 52,
+   "nume": "Obed Ankrah",
+   "post": "portar",
+   "varsta": 23,
+   "nationalitate": "Ghana"
+  },
+  {
+   "nume": "Aurelian Păun",
+   "post": "portar",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Răzvan Dulap",
+   "post": "fundas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Cătălin Alexe",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Kevin Ventes",
+   "post": "fundas",
+   "varsta": 25,
+   "nationalitate": "Columbia"
+  },
+  {
+   "nr": 4,
+   "nume": "Vlăduț Popa",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Mario Pancu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 47,
+   "nume": "Raul Pârvu",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 25,
+   "nume": "Julius Offorzor",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nr": 23,
+   "nume": "Eduard Chifor",
+   "post": "fundas",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 28,
+   "nume": "David Buloi",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "François Yabré",
+   "post": "fundas",
+   "varsta": 35,
+   "nationalitate": "Burkina Faso"
+  },
+  {
+   "nr": 80,
+   "nume": "Adrian Bedea",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 10,
+   "nume": "Octavian Ursu",
+   "post": "mijlocas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 17,
+   "nume": "Robert Eshun",
+   "post": "mijlocas",
+   "nationalitate": "Ghana"
+  },
+  {
+   "nr": 20,
+   "nume": "Moses Baidoo",
+   "post": "atacant",
+   "nationalitate": "Ghana"
+  },
+  {
+   "nr": 11,
+   "nume": "Aron Tanți",
+   "post": "atacant",
+   "nationalitate": "România"
+  },
+  {
+   "nr": 43,
+   "nume": "Kusi Pandrous",
+   "post": "atacant",
+   "nationalitate": "Ghana"
+  },
+  {
+   "nr": 11,
+   "nume": "Andreas Birbic",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 30,
+   "nume": "Camal Moubagna",
+   "post": "mijlocas",
+   "nationalitate": "Camerun"
+  },
+  {
+   "nr": 77,
+   "nume": "Eric Bărbat",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 55,
+   "nume": "Daniel Creciunesc",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 41,
+   "nume": "Gabriel Zamura",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Erwin Tiganj",
+   "post": "atacant",
+   "varsta": 27,
+   "nationalitate": "Slovenia"
+  }
+ ],
+ "stema": "https://upload.wikimedia.org/wikipedia/en/8/81/Sigla_CS_Minerul_Lupeni.png",
+ "actualizat": "2026-11-28",
+ "surse": [
+  "https://minerullupeni.com/",
+  "https://minerullupeni.com/categorie-de-jucatori/fotbalisti/",
+  "https://minerullupeni.com/categorie-de-jucatori/staff-ul-tehnic/",
+  "https://minerullupeni.com/jucator/ionut-mosteanu/",
+  "https://minerullupeni.com/stadion/",
+  "https://minerullupeni.com/istorie/",
+  "https://www.transfermarkt.com/viitorul-minerul-lupeni/kader/verein/111687/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/viitorul-minerul-lupeni/mitarbeiter/verein/111687",
+  "https://en.wikipedia.org/wiki/ACS_Minerul_Lupeni",
+  "https://en.wikipedia.org/wiki/Ionu%C8%9B_Mo%C8%99teanu_(football_manager)"
+ ]
+}

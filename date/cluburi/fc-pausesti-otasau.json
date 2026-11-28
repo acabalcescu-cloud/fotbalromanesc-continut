@@ -1,0 +1,213 @@
+{
+ "nume": "FC Păușești Otăsău",
+ "oras": "Păușești-Otăsău",
+ "stadion": {
+  "nume": "Stadionul Comunal Pietrari",
+  "maps": "https://maps.google.com/?q=Pietrari+Valcea+stadion"
+ },
+ "antrenor": {
+  "nume": "Sorin Bucuroaia",
+  "nationalitate": "România",
+  "varsta": 48
+ },
+ "lot": [
+  {
+   "nume": "Rareș Sporea",
+   "post": "portar",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Mutuligă",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Popa",
+   "post": "portar",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cătălin Pîrvulescu",
+   "post": "fundas",
+   "varsta": 35,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mădălin Nițu",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Adelin Dumitru",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Lăzărescu",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Matei",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Uță",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Ionut Moldovan",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicolae Roșianu",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Boțocan",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "George Matei",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Predescu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicolas Zăvoianu",
+   "post": "fundas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Lucian Iordache",
+   "post": "mijlocas",
+   "varsta": 38,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Vlad Ciortan",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florian Duca",
+   "post": "mijlocas",
+   "varsta": 32,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Federico Bloțu",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Radu Bîrzan",
+   "post": "mijlocas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Iordache",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Prince Tabnore",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "Ghana"
+  },
+  {
+   "nume": "Marin Fistogeanu",
+   "post": "mijlocas",
+   "varsta": 41,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Vîrlan",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Vlad Ghiță",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Blaise Yaméogo",
+   "post": "atacant",
+   "varsta": 32,
+   "nationalitate": "Burkina Faso"
+  },
+  {
+   "nume": "Valentin Matei",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Popolan",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Preda",
+   "post": "atacant",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Duca",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Bogdan Geangălă",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  }
+ ],
+ "actualizat": "2026-11-28",
+ "surse": [
+  "https://arenavalceana.ro/fcpo-infrunta-vulturii-in-liga-3-cu-farcasesti-penultimul-meci-acasa-din-2026/",
+  "https://liga2.prosport.ro/liga-3/fc-pausesti-otasau-s-a-despartit-de-antrenorul-mihai-lungan-19402940",
+  "https://www.sport.ro/fotbal-intern/fostul-antrenor-de-la-fcsb-a-semnat-cu-noua-sa-echipa-bun-venit.html",
+  "https://en.wikipedia.org/wiki/Sorin_Bucuroaia",
+  "https://www.transfermarkt.com/fc-pausesti-otasau/kader/verein/132597/saison_id/2026/plus/1",
+  "https://www.transfermarkt.com/fc-pausesti-otasau/startseite/verein/132597"
+ ]
+}
