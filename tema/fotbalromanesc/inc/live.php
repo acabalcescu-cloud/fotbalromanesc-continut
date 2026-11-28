@@ -224,3 +224,52 @@ function fr_widget_etapa_pentru( $term = null ) {
 	}
 	return $t ? fr_widget_etapa( $t ) : '';
 }
+
+
+/* ---------- 5. Rezultatul la 2 ore după start ---------- */
+
+/**
+ * La fiecare reîmprospătare: pentru fiecare meci programat în următoarele 8 zile, o verificare la ora de start + 2 ore
+ * (o singură programare pe competiție și oră de start).
+ */
+add_action( 'fr_reimprospateaza_date', 'fr_programeaza_rezultate', 98 );
+function fr_programeaza_rezultate() {
+	$acum = time();
+	foreach ( fr_competitii_cu_date() as $t ) {
+		$d = get_option( 'fr_date_' . $t->term_id );
+		$ore = array();
+		foreach ( (array) ( $d['meciuri'] ?? array() ) as $m ) {
+			$ts = strtotime( $m['data'] );
+			if ( 'programat' === $m['stare'] && $ts > $acum - HOUR_IN_SECONDS && $ts < $acum + 8 * DAY_IN_SECONDS ) {
+				$ore[ $ts + 2 * HOUR_IN_SECONDS ] = true;
+			}
+		}
+		foreach ( array_keys( $ore ) as $cand ) {
+			$args = array( (int) $t->term_id, (int) $cand );
+			if ( ! wp_next_scheduled( 'fr_rezultat_meci', $args ) ) {
+				wp_schedule_single_event( $cand, 'fr_rezultat_meci', $args );
+			}
+		}
+	}
+}
+
+/**
+ * Verificarea: reîncarcă datele competiției; dacă un meci început de peste 2 ore tot n-are scor,
+ * reîncearcă la 15 minute, cel mult 12 ore de la ora de start.
+ */
+add_action( 'fr_rezultat_meci', 'fr_verifica_rezultat', 10, 2 );
+function fr_verifica_rezultat( $term_id, $cand ) {
+	$d = fr_incarca_date( (int) $term_id );
+	fr_live_goleste_daca_s_a_schimbat();
+	$start = (int) $cand - 2 * HOUR_IN_SECONDS;
+	$lipsa = false;
+	foreach ( (array) ( $d['meciuri'] ?? array() ) as $m ) {
+		$ts = strtotime( $m['data'] );
+		if ( $ts >= $start - 30 * MINUTE_IN_SECONDS && $ts <= $start + 30 * MINUTE_IN_SECONDS && ! $m['scor'] && 'amanat' !== $m['stare'] ) {
+			$lipsa = true;
+		}
+	}
+	if ( $lipsa && time() < $start + 12 * HOUR_IN_SECONDS ) {
+		wp_schedule_single_event( time() + 15 * MINUTE_IN_SECONDS, 'fr_rezultat_meci', array( (int) $term_id, (int) $cand + 1 ) );
+	}
+}

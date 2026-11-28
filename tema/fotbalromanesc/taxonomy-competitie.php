@@ -75,9 +75,10 @@ $fr_par   = $fr_t->parent ? get_term( $fr_t->parent, 'competitie' ) : null;
 		}
 		$fr_runda = isset( $_GET['runda'] ) ? sanitize_text_field( wp_unslash( $_GET['runda'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification
 		if ( ! isset( $fr_runde[ $fr_runda ] ) ) {
-			// Etapa meciului care urmează (sau se joacă acum); după ultimul meci al sezonului, ultima etapă.
-			$fr_runda = '';
-			foreach ( $fr_date['meciuri'] as $m ) {
+			// Etapa curentă: live; altfel cea care începe în cel mult 4 zile; altfel ultima jucată (cu rezultatele).
+			$fr_ec    = fr_etapa_curenta( $fr_t );
+			$fr_runda = $fr_ec && isset( $fr_runde[ (string) $fr_ec[0] ] ) ? (string) $fr_ec[0] : '';
+			foreach ( '' === $fr_runda ? $fr_date['meciuri'] : array() as $m ) {
 				if ( 'live' === $m['stare'] || ( 'programat' === $m['stare'] && strtotime( $m['data'] ) >= time() - 3 * HOUR_IN_SECONDS ) ) {
 					$fr_runda = (string) $m['runda'];
 					break;
