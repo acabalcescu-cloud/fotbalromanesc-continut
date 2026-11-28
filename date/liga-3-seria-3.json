@@ -1,146 +1,146 @@
 {
- "actualizat": "2026-11-21 19:50",
+ "actualizat": "2026-11-28 19:55",
  "surse": [
-  "https://liga2.prosport.ro/liga-3/etapa-14-din-liga-3-primul-meci-al-zilei-se-disputa-acum-altele-19-incep-la-ora-1400-doar-doua-echipe-sunt-neinvinse-in-acest-sezon-19407947",
-  "https://dbonline.ro/flacara-moreni-continua-sa-fie-de-neoprit-in-campionat-a-zecea-victorie-consecutiva-si-o-noua-demonstratie-de-forta-4-1-cu-vointa-crevedia/",
-  "https://liga2.prosport.ro/liga-3/liga-3-flacara-moreni-e-principala-favorita-la-promovarea-in-liga-2-19408140",
-  "https://telegrama.ro/article/remiza-in-noroi-cs-blejoi-a-terminat-la-egalitate-cu-fc-pucioasa",
-  "https://telegrama.ro/article/progresul-draganesti-se-apropie-de-play-off-scor-de-forfait-cu-csm-ramnicu-sarat",
-  "https://telegrama.ro/article/alb-pe-teren-neutru-cso-plopeni-a-plecat-cu-un-punct-de-la-balotesti",
-  "https://telegrama.ro/article/liga-a-iii-a-etapa-a-xiv-a-locurile-de-play-off-devin-tot-mai-sigure"
+  "https://superscore.live/ro-RO/fotbal/competitii/liga-3/i5ry2e11",
+  "https://liga2.prosport.ro/liga-3/etapa-15-din-liga-3-25-de-meciuri-sunt-programate-astazi-dintre-lideri-doar-cs-drobeta-si-minaur-baia-mare-intra-la-joc-vineri-19408836",
+  "https://dbonline.ro/urban-titu-spulberata-de-arsenal-tunari-pe-teren-propriu-intr-un-meci-de-cosmar/",
+  "https://telegrama.ro/article/cadou-pe-tabela-de-marcaj-lambru-a-adus-un-punct-blejoiului",
+  "https://telegrama.ro/article/liga-a-iii-a-etapa-a-xv-a-cso-baicoi-joaca-in-nocturna",
+  "https://opiniabuzau.ro/petrolul-taxata-de-la-11-metri-buzoienii-arata-cu-degetul-spre-arbitraj-dupa-esecul-de-la-tunari/",
+  "https://liga2.prosport.ro/liga-3/inca-un-meci-din-liga-3-decis-la-masa-verde-19408687"
  ],
  "clasament": [
   {
    "loc": 1,
    "echipa": "Flacăra Moreni",
-   "meciuri": 14,
+   "meciuri": 15,
    "v": 13,
-   "e": 1,
+   "e": 2,
    "i": 0,
-   "gm": 53,
-   "gp": 10,
-   "pct": 40
+   "gm": 55,
+   "gp": 12,
+   "pct": 41
   },
   {
    "loc": 2,
    "echipa": "CS Tunari",
-   "meciuri": 13,
-   "v": 10,
+   "meciuri": 15,
+   "v": 12,
    "e": 2,
    "i": 1,
-   "gm": 39,
-   "gp": 14,
-   "pct": 32
+   "gm": 49,
+   "gp": 15,
+   "pct": 38
   },
   {
    "loc": 3,
-   "echipa": "CS Blejoi",
-   "meciuri": 14,
-   "v": 7,
-   "e": 3,
-   "i": 4,
-   "gm": 25,
-   "gp": 21,
-   "pct": 24
+   "echipa": "Petrolul Berca",
+   "meciuri": 15,
+   "v": 8,
+   "e": 2,
+   "i": 5,
+   "gm": 39,
+   "gp": 35,
+   "pct": 26
   },
   {
    "loc": 4,
-   "echipa": "Petrolul Berca",
-   "meciuri": 13,
+   "echipa": "CS Blejoi",
+   "meciuri": 15,
    "v": 7,
-   "e": 2,
+   "e": 4,
    "i": 4,
-   "gm": 36,
-   "gp": 31,
-   "pct": 23
+   "gm": 26,
+   "gp": 22,
+   "pct": 25
   },
   {
    "loc": 5,
    "echipa": "Voința Crevedia",
-   "meciuri": 14,
-   "v": 6,
+   "meciuri": 15,
+   "v": 7,
    "e": 1,
    "i": 7,
-   "gm": 30,
-   "gp": 31,
-   "pct": 19
+   "gm": 33,
+   "gp": 32,
+   "pct": 22
   },
   {
    "loc": 6,
    "echipa": "Progresul Drăgănești",
-   "meciuri": 14,
-   "v": 5,
+   "meciuri": 15,
+   "v": 6,
    "e": 4,
    "i": 5,
-   "gm": 24,
+   "gm": 28,
    "gp": 29,
-   "pct": 19
+   "pct": 22
   },
   {
    "loc": 7,
    "echipa": "Urban Titu",
-   "meciuri": 13,
-   "v": 4,
+   "meciuri": 15,
+   "v": 5,
    "e": 3,
-   "i": 6,
-   "gm": 17,
-   "gp": 25,
-   "pct": 15
+   "i": 7,
+   "gm": 20,
+   "gp": 32,
+   "pct": 18
   },
   {
    "loc": 8,
    "echipa": "FC Pucioasa",
-   "meciuri": 14,
+   "meciuri": 15,
    "v": 3,
    "e": 5,
-   "i": 6,
-   "gm": 17,
-   "gp": 22,
+   "i": 7,
+   "gm": 18,
+   "gp": 25,
    "pct": 14
   },
   {
    "loc": 9,
    "echipa": "CSM Râmnicu Sărat",
-   "meciuri": 14,
+   "meciuri": 15,
    "v": 3,
-   "e": 4,
+   "e": 5,
    "i": 7,
-   "gm": 20,
-   "gp": 40,
-   "pct": 13
+   "gm": 21,
+   "gp": 41,
+   "pct": 14
   },
   {
    "loc": 10,
    "echipa": "CSO Plopeni",
-   "meciuri": 14,
+   "meciuri": 15,
    "v": 3,
    "e": 3,
-   "i": 8,
+   "i": 9,
    "gm": 14,
-   "gp": 28,
+   "gp": 32,
    "pct": 12
   },
   {
    "loc": 11,
    "echipa": "Viitorul Corbeanca",
-   "meciuri": 14,
+   "meciuri": 15,
    "v": 1,
    "e": 7,
-   "i": 6,
-   "gm": 9,
-   "gp": 17,
+   "i": 7,
+   "gm": 10,
+   "gp": 19,
    "pct": 10
   },
   {
    "loc": 12,
    "echipa": "CS Păulești",
-   "meciuri": 13,
+   "meciuri": 15,
    "v": 1,
-   "e": 3,
-   "i": 9,
-   "gm": 10,
-   "gp": 26,
-   "pct": 6
+   "e": 4,
+   "i": 10,
+   "gm": 12,
+   "gp": 31,
+   "pct": 7
   }
  ],
  "meciuri": [
@@ -428,7 +428,10 @@
    "runda": "14",
    "gazde": "CS Păulești",
    "oaspeti": "Urban Titu",
-   "scor": null
+   "scor": [
+    0,
+    3
+   ]
   },
   {
    "id": "s3r14f",
@@ -436,22 +439,173 @@
    "runda": "14",
    "gazde": "CS Tunari",
    "oaspeti": "Petrolul Berca",
-   "scor": null
+   "scor": [
+    3,
+    1
+   ]
   },
   {
    "id": "s3r15a",
    "data": "2026-11-27T14:00:00+02:00",
    "runda": "15",
-   "gazde": "CSM Râmnicu Sărat",
-   "oaspeti": "CS Blejoi",
-   "scor": null
+   "gazde": "Urban Titu",
+   "oaspeti": "CS Tunari",
+   "scor": [
+    0,
+    7
+   ],
+   "marcatori": {
+    "gazde": [],
+    "oaspeti": [
+     {
+      "nume": "Alexandru Munteanu",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Alexandru Munteanu",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Alexandru Munteanu",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Silvian Matei",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Eric Somandru",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Vasile Chitaș",
+      "minut": "",
+      "tip": ""
+     },
+     {
+      "nume": "Neluț Roșu",
+      "minut": "",
+      "tip": ""
+     }
+    ]
+   }
   },
   {
    "id": "s3r15b",
+   "data": "2026-11-27T14:00:00+02:00",
+   "runda": "15",
+   "gazde": "CSM Râmnicu Sărat",
+   "oaspeti": "CS Blejoi",
+   "scor": [
+    1,
+    1
+   ],
+   "marcatori": {
+    "gazde": [],
+    "oaspeti": [
+     {
+      "nume": "Cosmin Lambru",
+      "minut": "",
+      "tip": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "s3r15c",
+   "data": "2026-11-28T14:00:00+02:00",
+   "runda": "15",
+   "gazde": "FC Pucioasa",
+   "oaspeti": "Voința Crevedia",
+   "scor": [
+    1,
+    3
+   ]
+  },
+  {
+   "id": "s3r15d",
    "data": "2026-11-28T14:00:00+02:00",
    "runda": "15",
    "gazde": "CSO Plopeni",
    "oaspeti": "Progresul Drăgănești",
+   "scor": [
+    0,
+    4
+   ]
+  },
+  {
+   "id": "s3r15e",
+   "data": "2026-11-28T14:00:00+02:00",
+   "runda": "15",
+   "gazde": "Petrolul Berca",
+   "oaspeti": "Viitorul Corbeanca",
+   "scor": [
+    2,
+    1
+   ]
+  },
+  {
+   "id": "s3r15f",
+   "data": "2026-11-28T14:00:00+02:00",
+   "runda": "15",
+   "gazde": "CS Păulești",
+   "oaspeti": "Flacăra Moreni",
+   "scor": [
+    2,
+    2
+   ]
+  },
+  {
+   "id": "s3r16a",
+   "data": "2026-12-04T14:00:00+02:00",
+   "runda": "16",
+   "gazde": "Flacăra Moreni",
+   "oaspeti": "FC Pucioasa",
+   "scor": null
+  },
+  {
+   "id": "s3r16b",
+   "data": "2026-12-04T14:00:00+02:00",
+   "runda": "16",
+   "gazde": "Viitorul Corbeanca",
+   "oaspeti": "Urban Titu",
+   "scor": null
+  },
+  {
+   "id": "s3r16c",
+   "data": "2026-12-04T14:00:00+02:00",
+   "runda": "16",
+   "gazde": "CS Blejoi",
+   "oaspeti": "CSO Plopeni",
+   "scor": null
+  },
+  {
+   "id": "s3r16d",
+   "data": "2026-12-05T14:00:00+02:00",
+   "runda": "16",
+   "gazde": "Progresul Drăgănești",
+   "oaspeti": "Petrolul Berca",
+   "scor": null
+  },
+  {
+   "id": "s3r16e",
+   "data": "2026-12-05T14:00:00+02:00",
+   "runda": "16",
+   "gazde": "Voința Crevedia",
+   "oaspeti": "CSM Râmnicu Sărat",
+   "scor": null
+  },
+  {
+   "id": "s3r16f",
+   "data": "2026-12-05T14:00:00+02:00",
+   "runda": "16",
+   "gazde": "CS Tunari",
+   "oaspeti": "CS Păulești",
    "scor": null
   }
  ]
