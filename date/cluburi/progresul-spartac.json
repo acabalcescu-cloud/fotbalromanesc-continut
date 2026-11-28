@@ -1,0 +1,229 @@
+{
+ "nume": "Progresul Spartac",
+ "oras": "București",
+ "fondat": 2014,
+ "site": "https://progresulspartac.ro/",
+ "stadion": {
+  "nume": "Stadionul Progresul Spartac",
+  "maps": "https://maps.google.com/?q=Intrarea+Vrabiei+30+Bucuresti"
+ },
+ "antrenor": {
+  "nume": "Andrei Erimia"
+ },
+ "lot": [
+  {
+   "nume": "Matei Vlaicu",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Silion",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 12,
+   "nume": "Mihai Ciontoș",
+   "post": "portar",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Eduard Radu",
+   "post": "fundas",
+   "varsta": 27,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Antonio Salameh",
+   "post": "fundas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Petre Marinescu",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Arhire",
+   "post": "fundas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 7,
+   "nume": "Deian Geană",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Tiberiu Cazacu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Dumitrescu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Matei Drăgan",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Băcanu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gabriel Pisău",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Giovanni Petcu",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 6,
+   "nume": "Răzvan Stângă",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 21,
+   "nume": "Alexandru Străchinescu",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 27,
+   "nume": "Claudiu Dinache",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 99,
+   "nume": "Vlad Istrate",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Dumitriu",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Nicolas Pângă",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Stanciu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Luca Niculae",
+   "post": "mijlocas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 18,
+   "nume": "Nicolas Tong",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Andrei Ohaci",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Antonio Preda",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 9,
+   "nume": "Ciprian Stanciu",
+   "post": "atacant",
+   "varsta": 36,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Andrei Popescu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 19,
+   "nume": "Ionuț Costea",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Patrick Aron",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Mirea",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Coşeru",
+   "post": "atacant",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 27,
+   "nume": "Robert Belibrov",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://progresulspartac.com/wp-content/uploads/2017/11/cropped-progresul-spartac-bucuresti-194421.png",
+ "actualizat": "2026-11-28",
+ "surse": [
+  "https://progresulspartac.ro/",
+  "https://ro.wikipedia.org/wiki/AFC_Progresul_1944_Spartac",
+  "https://liga2.prosport.ro/cupa-romaniei/play-off-cupa-romaniei-progresul-spartac-a-invins-cil-blaj-19397693",
+  "https://liga2.prosport.ro/cupa-romaniei/progresul-spartac-petrolul-se-joaca-in-etapa-2-a-grupei-b-din-cupa-romaniei-19405153",
+  "https://www.transfermarkt.com/progresul-spartac/kader/verein/60790/plus/1"
+ ]
+}

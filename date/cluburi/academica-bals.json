@@ -1,0 +1,145 @@
+{
+ "nume": "Academica Balș",
+ "oras": "Balș",
+ "culori": "roșu-alb",
+ "site": "https://academicabals.com/",
+ "stadion": {
+  "nume": "Stadionul „Parc”",
+  "maps": "https://maps.google.com/?q=Stadionul+Parc+Bals"
+ },
+ "antrenor": {
+  "nume": "Daniel Oprescu"
+ },
+ "lot": [
+  {
+   "nume": "Luca Chisăreanu",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Matei Vancea",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Florea",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marcus Păcurar",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 5,
+   "nume": "Robert Gherghe",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Codrin Nica",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Claudiu Moșteanu",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Călin Jurj",
+   "post": "fundas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ovidiu Popescu",
+   "post": "mijlocas",
+   "varsta": 33,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Marian Șerban",
+   "post": "mijlocas",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ștefan Ustinescu",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Gianluca Pîrvu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Militaru",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "David Dobre",
+   "post": "mijlocas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alin Manea",
+   "post": "mijlocas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Stoica",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Catrina",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuţ Alexa",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Moise",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Blessed Uwadiegwu",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "Nigeria"
+  }
+ ],
+ "stema": "https://academicabals.com/wp-content/uploads/2023/01/logo_academica_bals.png",
+ "actualizat": "2026-11-28",
+ "surse": [
+  "https://academicabals.com/",
+  "https://academicabals.com/jucator/dan-oprescu/",
+  "https://www.stirideolt.ro/2026/10/30/academica-bals-actiune-pentru-combaterea-rasismului-inaintea-meciului-cu-cs-drobeta/",
+  "https://100sport.ro/2026/08/25/din-nou-catre-play-off-academica-bals-are-companie-selecta/",
+  "https://www.transfermarkt.com/academica-bals/kader/verein/133846/plus/1"
+ ]
+}

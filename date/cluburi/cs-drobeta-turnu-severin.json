@@ -1,0 +1,204 @@
+{
+ "nume": "CS Drobeta Turnu Severin",
+ "oras": "Drobeta-Turnu Severin",
+ "stadion": {
+  "nume": "Stadionul Municipal",
+  "capacitate": 20054,
+  "maps": "https://maps.google.com/?q=Stadionul+Municipal+Drobeta-Turnu+Severin"
+ },
+ "lot": [
+  {
+   "nume": "Mario Ibinceanu",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sebastian Bolfă",
+   "post": "portar",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 1,
+   "nume": "Ianis Țogoe",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Biosan",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 2,
+   "nume": "Mubarik Abdul Kadiri",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "Ghana"
+  },
+  {
+   "nume": "Aurel Clement",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 3,
+   "nume": "Rareș Fotin",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 15,
+   "nume": "Adam Abdullah",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "Ghana"
+  },
+  {
+   "nr": 13,
+   "nume": "Denis Benga",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Ureche",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 4,
+   "nume": "Adrian Malacu",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 23,
+   "nume": "Denis Dragu",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 44,
+   "nume": "Bismark Mensah",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "Ghana"
+  },
+  {
+   "nume": "Raoul Faur",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Brucă",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 8,
+   "nume": "Luca Screciu",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 41,
+   "nume": "Eric Tibu",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "Ghana"
+  },
+  {
+   "nume": "Denis Ploștinaru",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 88,
+   "nume": "Luca Păsat",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Novăcescu",
+   "post": "mijlocas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 11,
+   "nume": "Cătălin Tronea",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eugen Toader",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 28,
+   "nume": "Robert Nartey",
+   "post": "mijlocas",
+   "varsta": 19,
+   "nationalitate": "Ghana"
+  },
+  {
+   "nr": 7,
+   "nume": "Constantin Ciolacu",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 77,
+   "nume": "Dragoș Găină",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Adrian Gîdea",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 14,
+   "nume": "Elias Zime",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "Nigeria"
+  },
+  {
+   "nr": 45,
+   "nume": "Kedzie Junior",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "Ghana"
+  }
+ ],
+ "stema": "https://tmssl.akamaized.net/images/wappen/head/134543.png",
+ "actualizat": "2026-11-28",
+ "surse": [
+  "https://liga2.prosport.ro/liga-3/cs-drobeta-lider-in-liga-3-dupa-prima-etapa-a-noului-sezon-19398913",
+  "https://www.transfermarkt.com/cs-drobeta/stadion/verein/134543",
+  "https://en.wikipedia.org/wiki/FC_Drobeta-Turnu_Severin",
+  "https://www.transfermarkt.com/cs-drobeta/kader/verein/134543/plus/1"
+ ]
+}

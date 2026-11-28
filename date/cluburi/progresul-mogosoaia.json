@@ -1,0 +1,197 @@
+{
+ "nume": "Progresul Mogoșoaia",
+ "oras": "Mogoșoaia",
+ "fondat": 2022,
+ "antrenor": {
+  "nume": "Emil Ursu",
+  "nationalitate": "România",
+  "varsta": 62
+ },
+ "lot": [
+  {
+   "nume": "Andrei Butușină",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Duță",
+   "post": "portar",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Văduva",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 77,
+   "nume": "Eduard Tudosie",
+   "post": "portar",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mihai Badea",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Barfă",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Berbecaru",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Toni Slavu",
+   "post": "fundas",
+   "varsta": 40,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Banu",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Radu Catrina",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Darius Coțofană",
+   "post": "fundas",
+   "varsta": 17,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Petre",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionuț Strepede",
+   "post": "fundas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Mihalcea",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Tache",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Claudiu Mavrodin",
+   "post": "mijlocas",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Săftoiu",
+   "post": "mijlocas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Onțel",
+   "post": "mijlocas",
+   "varsta": 28,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Valentin Borcea",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cătălin Ion",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Rareș Raicu",
+   "post": "mijlocas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Răducanu",
+   "post": "atacant",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Micu",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Bobea",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Andrei Luțu",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Liviu Godin",
+   "post": "atacant",
+   "varsta": 26,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Dinu",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Iordan",
+   "post": "atacant",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cristian Gheorghe",
+   "post": "atacant",
+   "varsta": 21,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://tmssl.akamaized.net/images/wappen/head/135972.png",
+ "actualizat": "2026-11-28",
+ "surse": [
+  "https://liga2.prosport.ro/liga-3/progresul-mogosoaia-l-a-numit-antrenor-pe-emil-ursu-19393041",
+  "https://www.martorincomod.ro/progresul-mogosoaia-l-a-desemnat-pe-emil-ursu-noul-antrenor-al-echipei/",
+  "https://www.fanatik.ro/rapid-progresul-mogosoaia-amical-la-stefanesti-andrei-sucu-este-titular-in-echipa-lui-pancu-21593214",
+  "https://en.wikipedia.org/wiki/Emil_Ursu",
+  "https://en.wikipedia.org/wiki/CS_Progresul_Mogo%C8%99oaia",
+  "https://www.transfermarkt.com/progresul-mogosoaia/kader/verein/135972/plus/1"
+ ]
+}

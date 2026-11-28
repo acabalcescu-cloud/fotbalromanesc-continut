@@ -1,0 +1,258 @@
+{
+ "nume": "ACSO Filiași",
+ "oras": "Filiași",
+ "site": "https://acsofiliasi.com/",
+ "stadion": {
+  "nume": "Stadionul Orășenesc",
+  "capacitate": 1360,
+  "inaugurat": 2019,
+  "maps": "https://maps.google.com/?q=Stadionul+Orasenesc+Filiasi"
+ },
+ "antrenor": {
+  "nume": "Dragoș Bon"
+ },
+ "lot": [
+  {
+   "nume": "Yanis Găgeatu",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Pena",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Costin",
+   "post": "portar",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 22,
+   "nume": "Andrei Păuna",
+   "post": "portar",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Dina",
+   "post": "fundas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Bălașa",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Bogdan Bușe",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Narcis Neacșu",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mario Balaci",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ionel Sîrbu",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ahmad Salaheldin",
+   "post": "fundas",
+   "varsta": 20,
+   "nationalitate": "Egipt"
+  },
+  {
+   "nume": "Lorenzo Teau",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Danut Scuturoiu",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Eduard Cîrstea",
+   "post": "fundas",
+   "varsta": 19,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alberto Țică",
+   "post": "fundas",
+   "varsta": 18,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Cosmin Calu",
+   "post": "fundas",
+   "varsta": 34,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Ion Dogaru",
+   "post": "fundas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Raul Crăciun",
+   "post": "fundas",
+   "varsta": 21,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Denis Guță",
+   "post": "mijlocas",
+   "varsta": 24,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Armășelu",
+   "post": "mijlocas",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 24,
+   "nume": "David Croitoru",
+   "post": "mijlocas",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florentin Obrocea",
+   "post": "mijlocas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Mirel Neaţă",
+   "post": "mijlocas",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Florin Cioablă",
+   "post": "mijlocas",
+   "varsta": 30,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Daniel Rogoveanu",
+   "post": "mijlocas",
+   "varsta": 31,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Oprea",
+   "post": "mijlocas",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Purcaru",
+   "post": "mijlocas",
+   "varsta": 16,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Aurelian Petrache",
+   "post": "atacant",
+   "varsta": 25,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Răzvan Rotea",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Moses Baidoo",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "Ghana"
+  },
+  {
+   "nume": "Hanson Boakai",
+   "post": "atacant",
+   "varsta": 30,
+   "nationalitate": "Canada"
+  },
+  {
+   "nume": "Robert Petre",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Alexandru Raicea",
+   "post": "atacant",
+   "varsta": 29,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Adrian Buțurcă",
+   "post": "atacant",
+   "varsta": 22,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Robert Eshun",
+   "post": "atacant",
+   "varsta": 28,
+   "nationalitate": "Ghana"
+  },
+  {
+   "nume": "Dragoș Popa",
+   "post": "atacant",
+   "varsta": 23,
+   "nationalitate": "România"
+  },
+  {
+   "nume": "Sorin Popa",
+   "post": "atacant",
+   "varsta": 20,
+   "nationalitate": "România"
+  },
+  {
+   "nr": 20,
+   "nume": "Marco Papură",
+   "post": "atacant",
+   "varsta": 18,
+   "nationalitate": "România"
+  }
+ ],
+ "stema": "https://acsofiliasi.com/wp-content/uploads/2023/01/logo_acso_filiasi.png",
+ "actualizat": "2026-11-28",
+ "surse": [
+  "https://acsofiliasi.com/stadion/",
+  "https://acsofiliasi.com/dragos-bon-este-noul-nostru-antrenor-principal-florin-spinu-revine-la-acso-filiasi/",
+  "https://acsofiliasi.com/",
+  "https://jurnaldecraiova.ro/acso-filiasi-csm-targu-jiu-1-3-liga-3/",
+  "https://www.transfermarkt.com/acso-filiasi/stadion/verein/56358",
+  "https://en.wikipedia.org/wiki/CSO_Filia%C8%99i",
+  "https://www.transfermarkt.com/acso-filiasi/kader/verein/56358/plus/1"
+ ]
+}
